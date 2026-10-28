@@ -1764,16 +1764,8 @@
        },
        "icon": "cart",
        "photo": {
-        "src": "rome/via-vittoria",
-        "place": "Via Vittoria",
-        "area": true,
-        "credit": {
-         "title": "Via Vittoria - panoramio.jpg",
-         "author": "Dora Dragoni",
-         "license": "CC BY 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Via_Vittoria_-_panoramio.jpg"
-        }
+        "src": "img/venue-carrefour-express",
+        "own": true
        }
       },
       {
