@@ -353,7 +353,7 @@
     if (!ph) return null;
     var base = ph.own ? ph.src : ASSETS + ph.src, c = ph.credit || {};
     var alt = ph.own ? name : ph.area ? t("areaAlt", { place: ph.place, name: name }) : (ph.place || name);
-    var kids = [h("img", { src: base + "-sm.webp", srcset: base + "-sm.webp 640w, " + base + ".webp 1200w",
+    var kids = [h("img", { src: base + "-sm.webp", srcset: base + "-sm.webp " + (ph.own ? "800w, " : "640w, ") + base + ".webp " + (ph.own ? "1400w" : "1200w"),
       sizes: "(min-width: 820px) 560px, 92vw", width: "640", height: "427", loading: "lazy", decoding: "async", alt: alt,
       style: ph.pos && /^[\d.% a-z]+$/.test(ph.pos) ? "object-position:" + ph.pos : null })];
     if (ph.area) kids.push(h("span", { class: "ph-tag" }, [icon("pin"), h("span", { text: t("areaPhoto") + " · " }), h("bdi", { text: ph.place })]));
