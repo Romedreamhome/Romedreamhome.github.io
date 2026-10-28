@@ -176,23 +176,23 @@
     {
      "type": "text",
      "text": {
+      "en": "You can arrive **at any time**, even late at night: just **call us** when you are at the street door.",
+      "it": "Potete arrivare **a qualsiasi ora**, anche a tarda notte: basta **chiamarci** quando siete davanti al portone.",
+      "fr": "Vous pouvez arriver **à toute heure**, même tard le soir : il suffit de **nous appeler** une fois devant la porte de l’immeuble.",
+      "es": "Puede llegar **a cualquier hora**, incluso de madrugada: solo tiene que **llamarnos** cuando esté delante del portal.",
+      "de": "Sie können **jederzeit** anreisen, auch spät in der Nacht: **Rufen Sie uns einfach an**, wenn Sie vor der Haustür stehen.",
+      "ar": "يمكنكم الوصول **في أي وقت**، حتى في ساعة متأخرة من الليل: يكفي أن **تتصلوا بنا** عندما تكونون أمام باب المبنى."
+     }
+    },
+    {
+     "type": "text",
+     "text": {
       "en": "Please respect the check-in times. If you would like to arrive earlier, no problem at all: you can **drop off your luggage from 11:00** and take the keys, then **come back at 15:00** when the apartment will be ready.",
       "it": "Vi preghiamo di rispettare gli orari di check-in. Se desiderate arrivare prima, nessun problema: potete **lasciare i bagagli a partire dalle 11:00** e ritirare le chiavi, per poi **tornare alle 15:00**, quando l’appartamento sarà pronto.",
       "fr": "Merci de respecter les horaires d’arrivée. Si vous souhaitez arriver plus tôt, aucun problème : vous pouvez **déposer vos bagages à partir de 11h00** et récupérer les clés, puis **revenir à 15h00**, lorsque l’appartement sera prêt.",
       "es": "Le rogamos que respete los horarios de check-in. Si desea llegar antes, no hay ningún problema: puede **dejar su equipaje a partir de las 11:00** y recoger las llaves, y luego **volver a las 15:00**, cuando el apartamento esté listo.",
       "de": "Bitte halten Sie die Check-in-Zeiten ein. Wenn Sie früher ankommen möchten, ist das kein Problem: Sie können Ihr **Gepäck ab 11:00 Uhr abstellen** und die Schlüssel abholen und dann **um 15:00 Uhr zurückkommen**, wenn die Wohnung bereit ist.",
       "ar": "يُرجى الالتزام بمواعيد تسجيل الوصول. إذا رغبتم في الوصول مبكراً فلا مشكلة إطلاقاً: يمكنكم **ترك أمتعتكم ابتداءً من الساعة 11:00** واستلام المفاتيح، ثم **العودة في الساعة 15:00** عندما تكون الشقة جاهزة."
-     }
-    },
-    {
-     "type": "text",
-     "text": {
-      "en": "Feel free to **contact us**, we will do our best to accommodate you.",
-      "it": "Non esitate a **contattarci**: faremo del nostro meglio per venirvi incontro.",
-      "fr": "N’hésitez pas à **nous contacter**, nous ferons de notre mieux pour vous satisfaire.",
-      "es": "No dude en **contactarnos**, haremos todo lo posible por atenderle.",
-      "de": "**Kontaktieren Sie uns** gerne – wir tun unser Bestes, um Ihnen entgegenzukommen.",
-      "ar": "لا تترددوا في **التواصل معنا**، وسنبذل قصارى جهدنا لتلبية طلباتكم."
      }
     },
     {
@@ -222,36 +222,44 @@
      "type": "steps",
      "items": [
       {
-       "en": "When you arrive, **send us a message**, and we will open the door remotely.",
-       "it": "Quando arrivate, **inviateci un messaggio** e vi apriremo il portone a distanza.",
-       "fr": "À votre arrivée, **envoyez-nous un message** et nous vous ouvrirons la porte à distance.",
-       "es": "Cuando llegue, **envíenos un mensaje** y le abriremos la puerta a distancia.",
-       "de": "**Schicken Sie uns bei Ihrer Ankunft eine Nachricht**, und wir öffnen Ihnen die Tür aus der Ferne.",
-       "ar": "عند وصولكم، **أرسلوا لنا رسالة** وسنفتح لكم الباب عن بُعد."
+       "en": "At **Via del Babuino 169**, **call us**: we open the **street door** remotely right away.",
+       "it": "Arrivati in **Via del Babuino 169**, **chiamateci**: vi apriamo subito il **portone** a distanza.",
+       "fr": "Arrivés au **Via del Babuino 169**, **appelez-nous** : nous ouvrons aussitôt la **porte de l’immeuble** à distance.",
+       "es": "Al llegar a **Via del Babuino 169**, **llámenos**: le abrimos enseguida el **portal** a distancia.",
+       "de": "In der **Via del Babuino 169** angekommen, **rufen Sie uns an**: Wir öffnen die **Haustür** sofort aus der Ferne.",
+       "ar": "عند وصولكم إلى **Via del Babuino 169**، **اتصلوا بنا**: سنفتح لكم **باب المبنى** عن بُعد فوراً."
       },
       {
-       "en": "Go up to the **second floor**.",
-       "it": "Salite al **secondo piano**.",
-       "fr": "Montez au **deuxième étage**.",
-       "es": "Suba a la **segunda planta**.",
-       "de": "Gehen Sie in den **zweiten Stock**.",
-       "ar": "اصعدوا إلى **الطابق الثاني**."
+       "en": "Take the elevator or the stairs to the **2nd floor** – two floors above street level, **elevator button 2**.",
+       "it": "Salite con l’ascensore o a piedi al **2° piano** – due piani sopra il livello della strada, **pulsante 2 dell’ascensore**.",
+       "fr": "Montez en ascenseur ou par l’escalier au **2e étage** – deux étages au-dessus de la rue, **bouton 2 de l’ascenseur**.",
+       "es": "Suba en ascensor o por la escalera a la **2ª planta** – dos pisos por encima de la calle, **botón 2 del ascensor**.",
+       "de": "Fahren Sie mit dem Aufzug oder gehen Sie zu Fuß in den **2. Stock** – zwei Etagen über Straßenniveau, **Aufzugsknopf 2**.",
+       "ar": "اصعدوا بالمصعد أو عبر الدرج إلى **الطابق الثاني** – طابقان فوق مستوى الشارع، **زر المصعد 2**."
       },
       {
-       "en": "The apartment door will be **immediately on your left**.",
-       "it": "La porta dell’appartamento sarà **subito alla vostra sinistra**.",
-       "fr": "La porte de l’appartement se trouve **immédiatement sur votre gauche**.",
-       "es": "La puerta del apartamento estará **justo a su izquierda**.",
-       "de": "Die Wohnungstür befindet sich **direkt auf Ihrer linken Seite**.",
-       "ar": "سيكون باب الشقة **على يساركم مباشرةً**."
+       "en": "The apartment door is **immediately on your left**.",
+       "it": "La porta dell’appartamento è **subito sulla sinistra**.",
+       "fr": "La porte de l’appartement est **immédiatement sur votre gauche**.",
+       "es": "La puerta del apartamento está **justo a su izquierda**.",
+       "de": "Die Wohnungstür befindet sich **direkt links** von Ihnen.",
+       "ar": "باب الشقة **على يساركم مباشرةً**."
       },
       {
-       "en": "**The keys will be in the lockbox.**",
-       "it": "**Le chiavi saranno nella cassetta di sicurezza (lockbox).**",
-       "fr": "**Les clés se trouvent dans la boîte à clés.**",
-       "es": "**Las llaves estarán en la caja de seguridad.**",
-       "de": "**Die Schlüssel befinden sich im Schlüsselsafe.**",
-       "ar": "**ستجدون المفاتيح في صندوق المفاتيح.**"
+       "en": "The **lockbox is on the apartment door**: enter the code **9321**, open it and **take the keys**.",
+       "it": "La **cassetta è sulla porta di casa**: inserite il codice **9321**, apritela e **prendete le chiavi**.",
+       "fr": "La **boîte à clés est sur la porte de l’appartement** : saisissez le code **9321**, ouvrez-la et **prenez les clés**.",
+       "es": "La **caja de llaves está en la puerta del apartamento**: introduzca el código **9321**, ábrala y **coja las llaves**.",
+       "de": "Der **Schlüsselsafe hängt an der Wohnungstür**: Geben Sie den Code **9321** ein, öffnen Sie ihn und **nehmen Sie die Schlüssel**.",
+       "ar": "**صندوق المفاتيح موجود على باب الشقة**: أدخلوا الرمز **9321**، افتحوه و**خذوا المفاتيح**."
+      },
+      {
+       "en": "Go inside and **close the door** behind you. **Welcome!**",
+       "it": "Entrate e **chiudete la porta** alle vostre spalle. **Benvenuti!**",
+       "fr": "Entrez et **refermez la porte** derrière vous. **Bienvenue !**",
+       "es": "Entre y **cierre la puerta** detrás de usted. **¡Bienvenidos!**",
+       "de": "Treten Sie ein und **schließen Sie die Tür** hinter sich. **Willkommen!**",
+       "ar": "ادخلوا و**أغلقوا الباب** خلفكم. **أهلاً وسهلاً!**"
       }
      ]
     },
@@ -261,94 +269,128 @@
     {
      "type": "code",
      "label": {
-      "en": "Lockbox code",
-      "it": "Codice della cassetta",
-      "fr": "Code de la boîte à clés",
-      "es": "Código de la caja",
-      "de": "Code des Schlüsselsafes",
-      "ar": "رمز صندوق المفاتيح"
+      "en": "Lockbox code · on the apartment door",
+      "it": "Codice cassetta · sulla porta di casa",
+      "fr": "Code de la boîte à clés · sur la porte",
+      "es": "Código de la caja · en la puerta",
+      "de": "Schlüsselsafe-Code · an der Wohnungstür",
+      "ar": "رمز صندوق المفاتيح · على باب الشقة"
      },
      "value": "9321",
      "icon": "lock"
     },
     {
      "type": "notice",
-     "tone": "important",
-     "icon": "bulb",
-     "title": {
-      "en": "Important",
-      "it": "Importante",
-      "fr": "Important",
-      "es": "Importante",
-      "de": "Wichtig",
-      "ar": "هام"
-     },
-     "text": {
-      "en": "The apartment’s lighting system is similar to that found in hotels, so every time you open the door, **the lights turn off automatically**. To turn them back on, **close the door and simply press the button**.",
-      "it": "L’impianto di illuminazione dell’appartamento è simile a quello degli hotel: ogni volta che aprite la porta, **le luci si spengono automaticamente**. Per riaccenderle, **chiudete la porta e premete semplicemente il pulsante**.",
-      "fr": "Le système d’éclairage de l’appartement est semblable à celui des hôtels : chaque fois que vous ouvrez la porte, **les lumières s’éteignent automatiquement**. Pour les rallumer, **fermez la porte et appuyez simplement sur le bouton**.",
-      "es": "El sistema de iluminación del apartamento es similar al de los hoteles: cada vez que abre la puerta, **las luces se apagan automáticamente**. Para volver a encenderlas, **cierre la puerta y simplemente pulse el botón**.",
-      "de": "Das Lichtsystem der Wohnung ähnelt dem in Hotels: Jedes Mal, wenn Sie die Tür öffnen, **gehen die Lichter automatisch aus**. Um sie wieder einzuschalten, **schließen Sie die Tür und drücken Sie einfach den Schalter**.",
-      "ar": "نظام الإضاءة في الشقة مشابه لما هو موجود في الفنادق، لذا في كل مرة تفتحون فيها الباب **تنطفئ الأضواء تلقائياً**. لإعادة تشغيلها، **أغلقوا الباب واضغطوا على الزر** ببساطة."
-     }
-    },
-    {
-     "type": "notice",
      "tone": "warning",
      "icon": "elevator",
      "title": {
-      "en": "Elevator",
-      "it": "Ascensore",
-      "fr": "Ascenseur",
-      "es": "Ascensor",
-      "de": "Aufzug",
-      "ar": "المصعد"
+      "en": "Elevator & lights",
+      "it": "Ascensore e luci",
+      "fr": "Ascenseur et lumières",
+      "es": "Ascensor y luces",
+      "de": "Aufzug & Licht",
+      "ar": "المصعد والإضاءة"
      },
      "text": {
-      "en": "Please make sure you **close the elevator door properly**, otherwise it will stop working. There are elderly people living in the building who need to use it. Please be respectful of the other residents.",
-      "it": "Assicuratevi di **chiudere bene la porta dell’ascensore**, altrimenti smetterà di funzionare. Nel palazzo vivono persone anziane che hanno bisogno di utilizzarlo. Vi preghiamo di rispettare gli altri residenti.",
-      "fr": "Veillez à **bien refermer la porte de l’ascenseur**, sinon il cessera de fonctionner. Des personnes âgées vivent dans l’immeuble et ont besoin de l’utiliser. Merci de respecter les autres résidents.",
-      "es": "Asegúrese de **cerrar bien la puerta del ascensor**; de lo contrario, dejará de funcionar. En el edificio viven personas mayores que necesitan utilizarlo. Le rogamos que respete a los demás residentes.",
-      "de": "Bitte **schließen Sie die Aufzugstür sorgfältig**, sonst funktioniert der Aufzug nicht mehr. Im Haus wohnen ältere Menschen, die auf ihn angewiesen sind. Bitte nehmen Sie Rücksicht auf die anderen Bewohner.",
-      "ar": "يُرجى التأكد من **إغلاق باب المصعد بإحكام**، وإلا سيتوقف عن العمل. يعيش في المبنى أشخاص مسنّون يحتاجون إلى استخدامه. يُرجى احترام السكان الآخرين."
+      "en": "Old-style elevator with **two doors**: always close **BOTH doors** (outer and inner), otherwise the elevator **stops working for everyone**, including the elderly residents. The apartment’s lighting system is similar to that found in hotels, so every time you open the door, **the lights turn off automatically**. To turn them back on, **close the door and simply press the button**.",
+      "it": "Ascensore d’epoca con **due porte**: chiudete sempre **ENTRAMBE le porte** (esterna e interna), altrimenti l’ascensore **si blocca per tutti**, compresi i residenti anziani. L’impianto di illuminazione dell’appartamento è simile a quello degli hotel: ogni volta che aprite la porta, **le luci si spengono automaticamente**. Per riaccenderle, **chiudete la porta e premete semplicemente il pulsante**.",
+      "fr": "Ascenseur ancien à **deux portes** : refermez toujours **LES DEUX portes** (extérieure et intérieure), sinon l’ascenseur **ne fonctionne plus pour personne**, y compris pour les résidents âgés. Le système d’éclairage de l’appartement est semblable à celui des hôtels : chaque fois que vous ouvrez la porte, **les lumières s’éteignent automatiquement**. Pour les rallumer, **fermez la porte et appuyez simplement sur le bouton**.",
+      "es": "Ascensor antiguo con **dos puertas**: cierre siempre **AMBAS puertas** (exterior e interior); de lo contrario, el ascensor **deja de funcionar para todos**, incluidos los residentes mayores. El sistema de iluminación del apartamento es similar al de los hoteles: cada vez que abre la puerta, **las luces se apagan automáticamente**. Para volver a encenderlas, **cierre la puerta y simplemente pulse el botón**.",
+      "de": "Historischer Aufzug mit **zwei Türen**: Schließen Sie immer **BEIDE Türen** (außen und innen), sonst **funktioniert der Aufzug für niemanden mehr** – auch nicht für die älteren Bewohner. Das Lichtsystem der Wohnung ähnelt dem in Hotels: Jedes Mal, wenn Sie die Tür öffnen, **gehen die Lichter automatisch aus**. Um sie wieder einzuschalten, **schließen Sie die Tür und drücken Sie einfach den Schalter**.",
+      "ar": "مصعد قديم **ببابين**: أغلقوا دائماً **البابين كليهما** (الخارجي والداخلي)، وإلا **سيتوقف المصعد عن العمل للجميع**، بمن فيهم السكان المسنّون. نظام الإضاءة في الشقة مشابه لما هو موجود في الفنادق، لذا في كل مرة تفتحون فيها الباب **تنطفئ الأضواء تلقائياً**. لإعادة تشغيلها، **أغلقوا الباب واضغطوا على الزر** ببساطة."
      }
     },
     {
      "type": "tax",
      "text": {
-      "en": "In case of self check-in, the tourist tax of **€6 per person per night** must be **paid at check-out**. You can leave the fee on the table **in cash**.",
-      "it": "In caso di self check-in, la tassa di soggiorno di **6 € a persona a notte** deve essere **pagata al check-out**. Potete lasciare l’importo **in contanti** sul tavolo.",
-      "fr": "En cas de self check-in, la taxe de séjour de **6 € par personne et par nuit** doit être **réglée au départ**. Vous pouvez laisser le montant **en espèces** sur la table.",
-      "es": "En caso de self check-in, la tasa turística de **6 € por persona y noche** debe abonarse **al hacer el check-out**. Puede dejar el importe **en efectivo** sobre la mesa.",
-      "de": "Beim Self-Check-in ist die Kurtaxe von **6 € pro Person und Nacht** **beim Check-out zu zahlen**. Sie können den Betrag **in bar** auf dem Tisch hinterlassen.",
-      "ar": "في حال تسجيل الوصول الذاتي، تُدفع ضريبة السياحة البالغة **6 يورو للشخص الواحد في الليلة** **عند المغادرة**. يمكنكم ترك المبلغ **نقدًا** على الطاولة."
+      "en": "Rome **tourist tax**: **€6 per person per night**. Please leave it **in cash** on the table before you leave.",
+      "it": "**Tassa di soggiorno** di Roma: **6 € a persona a notte**. Lasciatela **in contanti** sul tavolo prima di partire.",
+      "fr": "**Taxe de séjour** de Rome : **6 € par personne et par nuit**. Merci de la laisser **en espèces** sur la table avant votre départ.",
+      "es": "**Tasa turística** de Roma: **6 € por persona y noche**. Déjela **en efectivo** sobre la mesa antes de marcharse.",
+      "de": "Römische **Kurtaxe**: **6 € pro Person und Nacht**. Bitte lassen Sie sie vor der Abreise **in bar** auf dem Tisch.",
+      "ar": "**ضريبة السياحة** في روما: **6 يورو للشخص في الليلة**. يُرجى تركها **نقدًا** على الطاولة قبل المغادرة."
      }
     },
     {
-     "type": "notice",
-     "tone": "info",
-     "icon": "key",
-     "text": {
-      "en": "**The keys must be placed in the lockbox outside the door.**",
-      "it": "**Le chiavi devono essere riposte nella cassetta di sicurezza fuori dalla porta.**",
-      "fr": "**Les clés doivent être remises dans la boîte à clés située à l’extérieur de la porte.**",
-      "es": "**Las llaves deben dejarse en la caja de seguridad situada fuera de la puerta.**",
-      "de": "**Die Schlüssel müssen in den Schlüsselsafe vor der Tür gelegt werden.**",
-      "ar": "**يجب وضع المفاتيح في صندوق المفاتيح الموجود خارج الباب.**"
-     }
-    },
-    {
-     "type": "notice",
-     "tone": "info",
-     "icon": "elevator",
-     "text": {
-      "en": "Please remember to **close the elevator doors**, as a courtesy to all other residents.",
-      "it": "Ricordatevi di **chiudere le porte dell’ascensore**, per cortesia verso tutti gli altri residenti.",
-      "fr": "Pensez à **refermer les portes de l’ascenseur**, par courtoisie envers tous les autres résidents.",
-      "es": "Recuerde **cerrar las puertas del ascensor**, por cortesía hacia los demás residentes.",
-      "de": "Bitte denken Sie daran, **die Aufzugstüren zu schließen** – aus Rücksicht auf alle anderen Bewohner.",
-      "ar": "يُرجى تذكّر **إغلاق أبواب المصعد**، احتراماً لجميع السكان الآخرين."
-     }
+     "type": "problems",
+     "items": [
+      {
+       "icon": "door",
+       "q": {
+        "en": "The street door doesn’t open?",
+        "it": "Il portone non si apre?",
+        "fr": "La porte de l’immeuble ne s’ouvre pas ?",
+        "es": "¿El portal no se abre?",
+        "de": "Die Haustür geht nicht auf?",
+        "ar": "باب المبنى لا يُفتح؟"
+       },
+       "a": {
+        "en": "**Call us** again: we open it **remotely**.",
+        "it": "**Richiamateci**: lo apriamo **a distanza**.",
+        "fr": "**Rappelez-nous** : nous l’ouvrons **à distance**.",
+        "es": "**Vuelva a llamarnos**: lo abrimos **a distancia**.",
+        "de": "**Rufen Sie uns erneut an**: Wir öffnen sie **aus der Ferne**.",
+        "ar": "**اتصلوا بنا مجدداً**: سنفتحه **عن بُعد**."
+       }
+      },
+      {
+       "icon": "lock",
+       "q": {
+        "en": "The lockbox won’t open?",
+        "it": "La cassetta non si apre?",
+        "fr": "La boîte à clés ne s’ouvre pas ?",
+        "es": "¿La caja de llaves no se abre?",
+        "de": "Der Schlüsselsafe geht nicht auf?",
+        "ar": "صندوق المفاتيح لا يُفتح؟"
+       },
+       "a": {
+        "en": "Check that **each digit** is set to **9321**, then try again. Still closed? **Call us**.",
+        "it": "Controllate che **ogni cifra** sia su **9321** e riprovate. Ancora chiusa? **Chiamateci**.",
+        "fr": "Vérifiez que **chaque chiffre** est bien sur **9321**, puis réessayez. Toujours fermée ? **Appelez-nous**.",
+        "es": "Compruebe que **cada dígito** esté en **9321** e inténtelo de nuevo. ¿Sigue cerrada? **Llámenos**.",
+        "de": "Prüfen Sie, ob **jede Ziffer** auf **9321** steht, und versuchen Sie es erneut. Immer noch zu? **Rufen Sie uns an**.",
+        "ar": "تأكّدوا من أن **كل رقم** مضبوط على **9321** ثم حاولوا مجدداً. ما زال مغلقاً؟ **اتصلوا بنا**."
+       }
+      },
+      {
+       "icon": "clock",
+       "q": {
+        "en": "Arriving late?",
+        "it": "Arrivate tardi?",
+        "fr": "Vous arrivez tard ?",
+        "es": "¿Llega tarde?",
+        "de": "Späte Ankunft?",
+        "ar": "ستصلون متأخرين؟"
+       },
+       "a": {
+        "en": "**No time limit**: just **call us** at the door.",
+        "it": "**Nessun limite di orario**: basta **chiamarci** davanti al portone.",
+        "fr": "**Aucune limite d’horaire** : il suffit de **nous appeler** devant la porte.",
+        "es": "**Sin límite de horario**: solo tiene que **llamarnos** desde el portal.",
+        "de": "**Keine Zeitbegrenzung**: **Rufen Sie uns** einfach an der Tür **an**.",
+        "ar": "**لا يوجد حدّ زمني**: يكفي أن **تتصلوا بنا** عند الباب."
+       }
+      },
+      {
+       "icon": "wifi",
+       "q": {
+        "en": "No Wi-Fi?",
+        "it": "Il Wi-Fi non funziona?",
+        "fr": "Pas de Wi-Fi ?",
+        "es": "¿No hay Wi-Fi?",
+        "de": "Kein WLAN?",
+        "ar": "لا يوجد واي فاي؟"
+       },
+       "a": {
+        "en": "**Message us** and we will help you right away.",
+        "it": "**Scriveteci** e vi aiutiamo subito.",
+        "fr": "**Écrivez-nous** et nous vous aiderons tout de suite.",
+        "es": "**Escríbanos** y le ayudaremos enseguida.",
+        "de": "**Schreiben Sie uns**, wir helfen Ihnen sofort.",
+        "ar": "**راسلونا** وسنساعدكم فوراً."
+       }
+      }
+     ]
     },
     {
      "type": "closing",
@@ -629,6 +671,46 @@
        ]
       }
      ]
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "From Flaminio metro on foot",
+      "it": "Dalla metro Flaminio a piedi",
+      "fr": "Du métro Flaminio à pied",
+      "es": "Desde el metro Flaminio a pie",
+      "de": "Von der Metro Flaminio zu Fuß",
+      "ar": "من مترو فلامينيو سيراً على الأقدام"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Exit **Flaminio** station and walk through the **Porta del Popolo** arch.",
+       "it": "Uscite dalla stazione **Flaminio** e passate sotto l’arco di **Porta del Popolo**.",
+       "fr": "Sortez de la station **Flaminio** et passez sous l’arche de la **Porta del Popolo**.",
+       "es": "Salga de la estación **Flaminio** y pase bajo el arco de la **Porta del Popolo**.",
+       "de": "Verlassen Sie die Station **Flaminio** und gehen Sie durch den Bogen der **Porta del Popolo**.",
+       "ar": "اخرجوا من محطة **فلامينيو** ومرّوا تحت قوس **بورتا ديل بوبولو**."
+      },
+      {
+       "en": "Cross **Piazza del Popolo** towards the **twin churches**.",
+       "it": "Attraversate **Piazza del Popolo** verso le **chiese gemelle**.",
+       "fr": "Traversez la **Piazza del Popolo** vers les **églises jumelles**.",
+       "es": "Cruce la **Piazza del Popolo** hacia las **iglesias gemelas**.",
+       "de": "Überqueren Sie die **Piazza del Popolo** in Richtung der **Zwillingskirchen**.",
+       "ar": "اعبروا **ساحة ديل بوبولو** باتجاه **الكنيستين التوأمين**."
+      },
+      {
+       "en": "Take **Via del Babuino**, the street on the **left of the twin churches**, and look for number **169**.",
+       "it": "Prendete **Via del Babuino**, la strada a **sinistra delle chiese gemelle**, e cercate il numero **169**.",
+       "fr": "Prenez la **Via del Babuino**, la rue **à gauche des églises jumelles**, et cherchez le numéro **169**.",
+       "es": "Tome **Via del Babuino**, la calle a la **izquierda de las iglesias gemelas**, y busque el número **169**.",
+       "de": "Nehmen Sie die **Via del Babuino**, die Straße **links der Zwillingskirchen**, und suchen Sie die Nummer **169**.",
+       "ar": "ادخلوا **شارع ديل بابوينو**، الشارع الواقع **على يسار الكنيستين التوأمين**، وابحثوا عن الرقم **169**."
+      }
+     ]
     }
    ]
   },
@@ -701,6 +783,30 @@
        }
       }
      ]
+    },
+    {
+     "type": "problems",
+     "items": [
+      {
+       "icon": "wifi",
+       "q": {
+        "en": "No Wi-Fi?",
+        "it": "Il Wi-Fi non funziona?",
+        "fr": "Pas de Wi-Fi ?",
+        "es": "¿No hay Wi-Fi?",
+        "de": "Kein WLAN?",
+        "ar": "لا يوجد واي فاي؟"
+       },
+       "a": {
+        "en": "**Message us** and we will help you right away.",
+        "it": "**Scriveteci** e vi aiutiamo subito.",
+        "fr": "**Écrivez-nous** et nous vous aiderons tout de suite.",
+        "es": "**Escríbanos** y le ayudaremos enseguida.",
+        "de": "**Schreiben Sie uns**, wir helfen Ihnen sofort.",
+        "ar": "**راسلونا** وسنساعدكم فوراً."
+       }
+      }
+     ]
     }
    ]
   },
@@ -719,17 +825,28 @@
     {
      "type": "lead",
      "text": {
-      "en": "We thank you for respecting the **house rules**.",
-      "it": "Vi ringraziamo per il rispetto delle **regole della casa**.",
-      "fr": "Nous vous remercions de respecter le **règlement intérieur**.",
-      "es": "Le agradecemos que respete las **normas de la casa**.",
-      "de": "Wir danken Ihnen, dass Sie die **Hausregeln** einhalten.",
-      "ar": "نشكركم على احترام **قواعد المنزل**."
+      "en": "The apartment is in a **historic residential building** (palazzo d’epoca) where **families live**. Thank you for respecting the **house rules**.",
+      "it": "L’appartamento si trova in un **palazzo d’epoca residenziale**, dove **vivono famiglie**. Grazie per il rispetto delle **regole della casa**.",
+      "fr": "L’appartement se trouve dans un **immeuble résidentiel historique** (palazzo d’epoca) où **vivent des familles**. Merci de respecter le **règlement intérieur**.",
+      "es": "El apartamento está en un **edificio residencial histórico** (palazzo d’epoca) donde **viven familias**. Gracias por respetar las **normas de la casa**.",
+      "de": "Die Wohnung liegt in einem **historischen Wohnhaus** (Palazzo d’epoca), in dem **Familien wohnen**. Danke, dass Sie die **Hausregeln** einhalten.",
+      "ar": "تقع الشقة في **مبنى سكني تاريخي** (palazzo d’epoca) **تسكنه عائلات**. نشكركم على احترام **قواعد المنزل**."
      }
     },
     {
      "type": "rules",
      "items": [
+      {
+       "icon": "column",
+       "text": {
+        "en": "This is a **historic residential building**: keep **quiet** on the stairs and in the **common areas**, out of respect for the residents.",
+        "it": "È un **palazzo d’epoca residenziale**: mantenete il **silenzio** sulle scale e negli **spazi comuni**, per rispetto dei residenti.",
+        "fr": "C’est un **immeuble résidentiel historique** : restez **silencieux** dans l’escalier et les **parties communes**, par respect pour les résidents.",
+        "es": "Es un **edificio residencial histórico**: guarde **silencio** en la escalera y en las **zonas comunes**, por respeto a los vecinos.",
+        "de": "Dies ist ein **historisches Wohnhaus**: Bitte seien Sie im Treppenhaus und in den **Gemeinschaftsbereichen** **leise** – aus Rücksicht auf die Bewohner.",
+        "ar": "هذا **مبنى سكني تاريخي**: التزموا **الهدوء** على الدرج وفي **الأماكن المشتركة** احتراماً للسكان."
+       }
+      },
       {
        "icon": "nosmoke",
        "text": {
@@ -2030,103 +2147,168 @@
     {
      "type": "checklist",
      "title": {
-      "en": "Before leaving",
-      "it": "Prima di partire",
-      "fr": "Avant de partir",
-      "es": "Antes de salir",
-      "de": "Vor der Abreise",
-      "ar": "قبل المغادرة"
+      "en": "Before leaving – in this order",
+      "it": "Prima di partire – in quest’ordine",
+      "fr": "Avant de partir – dans cet ordre",
+      "es": "Antes de salir – en este orden",
+      "de": "Vor der Abreise – in dieser Reihenfolge",
+      "ar": "قبل المغادرة – بهذا الترتيب"
      },
      "items": [
       {
-       "icon": "luggage",
+       "icon": "clock",
        "title": {
-        "en": "Packing your things",
-        "it": "Preparate i bagagli",
-        "fr": "Faites vos bagages",
-        "es": "Prepare sus cosas",
-        "de": "Sachen packen",
-        "ar": "حزم أغراضكم"
+        "en": "Leave by 10:00",
+        "it": "Uscite entro le 10:00",
+        "fr": "Départ avant 10h00",
+        "es": "Salida antes de las 10:00",
+        "de": "Abreise bis 10:00 Uhr",
+        "ar": "المغادرة قبل 10:00"
        },
        "text": {
-        "en": "Make sure you **haven’t forgotten anything**.",
-        "it": "Assicuratevi di **non aver dimenticato nulla**.",
-        "fr": "Assurez-vous de **n’avoir rien oublié**.",
-        "es": "Asegúrese de **no haber olvidado nada**.",
-        "de": "Vergewissern Sie sich, dass Sie **nichts vergessen** haben.",
-        "ar": "تأكّدوا من أنكم **لم تنسوا شيئاً**."
+        "en": "Check-out is by **10:00**. Make sure you **haven’t forgotten anything**.",
+        "it": "Il check-out è entro le **10:00**. Controllate di **non aver dimenticato nulla**.",
+        "fr": "Le départ se fait avant **10h00**. Vérifiez que vous **n’avez rien oublié**.",
+        "es": "El check-out es antes de las **10:00**. Compruebe que **no ha olvidado nada**.",
+        "de": "Check-out ist bis **10:00 Uhr**. Prüfen Sie, dass Sie **nichts vergessen** haben.",
+        "ar": "موعد المغادرة قبل **10:00**. تأكّدوا من أنكم **لم تنسوا شيئاً**."
        }
       },
       {
        "icon": "power",
        "title": {
-        "en": "Check devices",
-        "it": "Controllate gli apparecchi",
-        "fr": "Vérifiez les appareils",
-        "es": "Revise los aparatos",
-        "de": "Geräte prüfen",
-        "ar": "تحقّقوا من الأجهزة"
+        "en": "Lights and devices off",
+        "it": "Luci e apparecchi spenti",
+        "fr": "Lumières et appareils éteints",
+        "es": "Luces y aparatos apagados",
+        "de": "Licht und Geräte aus",
+        "ar": "إطفاء الأضواء والأجهزة"
        },
        "text": {
-        "en": "**Turn off lights and electrical devices.**",
-        "it": "**Spegnete luci e apparecchi elettrici.**",
-        "fr": "**Éteignez les lumières et les appareils électriques.**",
-        "es": "**Apague las luces y los aparatos eléctricos.**",
-        "de": "**Schalten Sie Licht und Elektrogeräte aus.**",
-        "ar": "**أطفئوا الأضواء والأجهزة الكهربائية.**"
+        "en": "**Turn off** all lights and electrical devices.",
+        "it": "**Spegnete** tutte le luci e gli apparecchi elettrici.",
+        "fr": "**Éteignez** toutes les lumières et les appareils électriques.",
+        "es": "**Apague** todas las luces y los aparatos eléctricos.",
+        "de": "**Schalten Sie** alle Lichter und Elektrogeräte **aus**.",
+        "ar": "**أطفئوا** جميع الأضواء والأجهزة الكهربائية."
        }
       },
       {
-       "icon": "lock",
+       "icon": "house",
        "title": {
-        "en": "Close doors and windows",
-        "it": "Chiudete porte e finestre",
-        "fr": "Fermez portes et fenêtres",
-        "es": "Cierre puertas y ventanas",
-        "de": "Türen und Fenster schließen",
-        "ar": "أغلقوا الأبواب والنوافذ"
+        "en": "Windows closed",
+        "it": "Finestre chiuse",
+        "fr": "Fenêtres fermées",
+        "es": "Ventanas cerradas",
+        "de": "Fenster geschlossen",
+        "ar": "النوافذ مغلقة"
        },
        "text": {
-        "en": "**Secure the property** before you leave.",
-        "it": "**Mettete in sicurezza l’appartamento** prima di uscire.",
-        "fr": "**Sécurisez le logement** avant de partir.",
-        "es": "**Deje la vivienda bien cerrada** antes de salir.",
-        "de": "**Sichern Sie die Wohnung**, bevor Sie gehen.",
-        "ar": "**أمّنوا المسكن** قبل مغادرتكم."
+        "en": "**Close all the windows.**",
+        "it": "**Chiudete tutte le finestre.**",
+        "fr": "**Fermez toutes les fenêtres.**",
+        "es": "**Cierre todas las ventanas.**",
+        "de": "**Schließen Sie alle Fenster.**",
+        "ar": "**أغلقوا جميع النوافذ.**"
+       }
+      },
+      {
+       "icon": "euro",
+       "title": {
+        "en": "Tourist tax",
+        "it": "Tassa di soggiorno",
+        "fr": "Taxe de séjour",
+        "es": "Tasa turística",
+        "de": "Kurtaxe",
+        "ar": "ضريبة السياحة"
+       },
+       "text": {
+        "en": "Leave it **in cash on the table** (€6 per person per night).",
+        "it": "Lasciatela **in contanti sul tavolo** (6 € a persona a notte).",
+        "fr": "Laissez-la **en espèces sur la table** (6 € par personne et par nuit).",
+        "es": "Déjela **en efectivo sobre la mesa** (6 € por persona y noche).",
+        "de": "Lassen Sie sie **in bar auf dem Tisch** (6 € pro Person und Nacht).",
+        "ar": "اتركوها **نقدًا على الطاولة** (6 يورو للشخص في الليلة)."
+       }
+      },
+      {
+       "icon": "door",
+       "title": {
+        "en": "Close the door",
+        "it": "Chiudete la porta",
+        "fr": "Fermez la porte",
+        "es": "Cierre la puerta",
+        "de": "Tür schließen",
+        "ar": "أغلقوا الباب"
+       },
+       "text": {
+        "en": "Go out and **close the apartment door**.",
+        "it": "Uscite e **chiudete la porta di casa**.",
+        "fr": "Sortez et **fermez la porte de l’appartement**.",
+        "es": "Salga y **cierre la puerta del apartamento**.",
+        "de": "Gehen Sie hinaus und **schließen Sie die Wohnungstür**.",
+        "ar": "اخرجوا و**أغلقوا باب الشقة**."
        }
       },
       {
        "icon": "key",
        "title": {
-        "en": "Drop off the keys",
-        "it": "Riconsegnate le chiavi",
-        "fr": "Déposez les clés",
-        "es": "Deje las llaves",
-        "de": "Schlüssel abgeben",
-        "ar": "سلّموا المفاتيح"
+        "en": "Keys in the lockbox",
+        "it": "Chiavi nella cassetta",
+        "fr": "Clés dans la boîte",
+        "es": "Llaves en la caja",
+        "de": "Schlüssel in den Safe",
+        "ar": "المفاتيح في الصندوق"
        },
        "text": {
-        "en": "**Place them in the secure box.**",
-        "it": "**Riponetele nella cassetta di sicurezza.**",
-        "fr": "**Placez-les dans la boîte sécurisée.**",
-        "es": "**Déjelas en la caja de seguridad.**",
-        "de": "**Legen Sie sie in den Schlüsselsafe.**",
-        "ar": "**ضعوها في الصندوق الآمن.**"
+        "en": "Put the keys back in the **lockbox on the door** and close it.",
+        "it": "Rimettete le chiavi nella **cassetta sulla porta** e chiudetela.",
+        "fr": "Remettez les clés dans la **boîte à clés sur la porte** et refermez-la.",
+        "es": "Vuelva a dejar las llaves en la **caja de la puerta** y ciérrela.",
+        "de": "Legen Sie die Schlüssel zurück in den **Schlüsselsafe an der Tür** und schließen Sie ihn.",
+        "ar": "أعيدوا المفاتيح إلى **الصندوق الموجود على الباب** وأغلقوه."
+       }
+      },
+      {
+       "icon": "rotate",
+       "title": {
+        "en": "Scramble the code",
+        "it": "Mescolate il codice",
+        "fr": "Brouillez le code",
+        "es": "Mezcle el código",
+        "de": "Code verstellen",
+        "ar": "غيّروا أرقام الرمز"
+       },
+       "text": {
+        "en": "**Scramble the code** on the lockbox, **otherwise it stays open**.",
+        "it": "**Mescolate le cifre** della cassetta, **altrimenti resta aperta**.",
+        "fr": "**Brouillez les chiffres** de la boîte, **sinon elle reste ouverte**.",
+        "es": "**Mezcle los dígitos** de la caja; **de lo contrario, se queda abierta**.",
+        "de": "**Verstellen Sie die Ziffern** am Safe, **sonst bleibt er offen**.",
+        "ar": "**غيّروا أرقام** الصندوق، **وإلا سيبقى مفتوحاً**."
        }
       }
      ]
     },
     {
      "type": "notice",
-     "tone": "info",
-     "icon": "euro",
+     "tone": "important",
+     "icon": "key",
+     "title": {
+      "en": "Important",
+      "it": "Importante",
+      "fr": "Important",
+      "es": "Importante",
+      "de": "Wichtig",
+      "ar": "مهم"
+     },
      "text": {
-      "en": "In case of self check-in, the tourist tax of **€6 per person per night** must be paid at check-out. You can leave the fee on the table **in cash**.",
-      "it": "In caso di self check-in, la tassa di soggiorno di **6 € a persona a notte** deve essere pagata al check-out. Potete lasciare l’importo **in contanti** sul tavolo.",
-      "fr": "En cas de self check-in, la taxe de séjour de **6 € par personne et par nuit** doit être réglée au départ. Vous pouvez laisser le montant **en espèces** sur la table.",
-      "es": "En caso de self check-in, la tasa turística de **6 € por persona y noche** debe abonarse al hacer el check-out. Puede dejar el importe **en efectivo** sobre la mesa.",
-      "de": "Beim Self-Check-in ist die Kurtaxe von **6 € pro Person und Nacht** beim Check-out zu zahlen. Sie können den Betrag **in bar** auf dem Tisch hinterlassen.",
-      "ar": "في حال تسجيل الوصول الذاتي، تُدفع ضريبة السياحة البالغة **6 يورو للشخص الواحد في الليلة** عند المغادرة. يمكنكم ترك المبلغ **نقدًا** على الطاولة."
+      "en": "After putting the keys in the lockbox, always **scramble the code**: otherwise the box **stays open**.",
+      "it": "Dopo aver messo le chiavi nella cassetta, **mescolate sempre il codice**: altrimenti la cassetta **resta aperta**.",
+      "fr": "Après avoir remis les clés dans la boîte, **brouillez toujours le code** : sinon la boîte **reste ouverte**.",
+      "es": "Después de dejar las llaves en la caja, **mezcle siempre el código**: de lo contrario, la caja **se queda abierta**.",
+      "de": "Nachdem Sie die Schlüssel in den Safe gelegt haben, **verstellen Sie immer den Code**: sonst **bleibt der Safe offen**.",
+      "ar": "بعد وضع المفاتيح في الصندوق، **غيّروا أرقام الرمز دائماً**: وإلا **سيبقى الصندوق مفتوحاً**."
      }
     },
     {
@@ -2178,5 +2360,49 @@
     }
    ]
   }
- ]
+ ],
+ "arrival": {
+  "steps": [
+   {
+    "en": "At **Via del Babuino 169**, **call us**: we open the **street door** remotely right away.",
+    "it": "Arrivati in **Via del Babuino 169**, **chiamateci**: vi apriamo subito il **portone** a distanza.",
+    "fr": "Arrivés au **Via del Babuino 169**, **appelez-nous** : nous ouvrons aussitôt la **porte de l’immeuble** à distance.",
+    "es": "Al llegar a **Via del Babuino 169**, **llámenos**: le abrimos enseguida el **portal** a distancia.",
+    "de": "In der **Via del Babuino 169** angekommen, **rufen Sie uns an**: Wir öffnen die **Haustür** sofort aus der Ferne.",
+    "ar": "عند وصولكم إلى **Via del Babuino 169**، **اتصلوا بنا**: سنفتح لكم **باب المبنى** عن بُعد فوراً."
+   },
+   {
+    "en": "Take the elevator or the stairs to the **2nd floor** – two floors above street level, **elevator button 2**.",
+    "it": "Salite con l’ascensore o a piedi al **2° piano** – due piani sopra il livello della strada, **pulsante 2 dell’ascensore**.",
+    "fr": "Montez en ascenseur ou par l’escalier au **2e étage** – deux étages au-dessus de la rue, **bouton 2 de l’ascenseur**.",
+    "es": "Suba en ascensor o por la escalera a la **2ª planta** – dos pisos por encima de la calle, **botón 2 del ascensor**.",
+    "de": "Fahren Sie mit dem Aufzug oder gehen Sie zu Fuß in den **2. Stock** – zwei Etagen über Straßenniveau, **Aufzugsknopf 2**.",
+    "ar": "اصعدوا بالمصعد أو عبر الدرج إلى **الطابق الثاني** – طابقان فوق مستوى الشارع، **زر المصعد 2**."
+   },
+   {
+    "en": "The apartment door is **immediately on your left**.",
+    "it": "La porta dell’appartamento è **subito sulla sinistra**.",
+    "fr": "La porte de l’appartement est **immédiatement sur votre gauche**.",
+    "es": "La puerta del apartamento está **justo a su izquierda**.",
+    "de": "Die Wohnungstür befindet sich **direkt links** von Ihnen.",
+    "ar": "باب الشقة **على يساركم مباشرةً**."
+   },
+   {
+    "en": "The **lockbox is on the apartment door**: enter the code **9321**, open it and **take the keys**.",
+    "it": "La **cassetta è sulla porta di casa**: inserite il codice **9321**, apritela e **prendete le chiavi**.",
+    "fr": "La **boîte à clés est sur la porte de l’appartement** : saisissez le code **9321**, ouvrez-la et **prenez les clés**.",
+    "es": "La **caja de llaves está en la puerta del apartamento**: introduzca el código **9321**, ábrala y **coja las llaves**.",
+    "de": "Der **Schlüsselsafe hängt an der Wohnungstür**: Geben Sie den Code **9321** ein, öffnen Sie ihn und **nehmen Sie die Schlüssel**.",
+    "ar": "**صندوق المفاتيح موجود على باب الشقة**: أدخلوا الرمز **9321**، افتحوه و**خذوا المفاتيح**."
+   },
+   {
+    "en": "Go inside and **close the door** behind you. **Welcome!**",
+    "it": "Entrate e **chiudete la porta** alle vostre spalle. **Benvenuti!**",
+    "fr": "Entrez et **refermez la porte** derrière vous. **Bienvenue !**",
+    "es": "Entre y **cierre la puerta** detrás de usted. **¡Bienvenidos!**",
+    "de": "Treten Sie ein und **schließen Sie die Tür** hinter sich. **Willkommen!**",
+    "ar": "ادخلوا و**أغلقوا الباب** خلفكم. **أهلاً وسهلاً!**"
+   }
+  ]
+ }
 }

@@ -192,8 +192,8 @@
   };
   R.arrival = function () {
     return h("div", { class: "actions center" }, [
-      btn(t("arrived"), "whatsapp", waUrl(t("arrivedMsg", { address: D.address.line1 })), { cls: "btn-primary btn-wide" }),
-      btn(t("callHost", { name: D.host.name }), "phone", telUrl(D.host.tel), { cls: "btn-ghost" })
+      supCall(null, "btn-primary btn-wide"),
+      supWa(t("arrived"), t("arrivedMsg", { address: D.address.line1 }), "btn-ghost")
     ]);
   };
   R.code = function (b) {
@@ -230,12 +230,50 @@
     ]);
     upd(); return el;
   };
+  /* customer-service contact (falls back to the host) */
+  function sup() { return D.support || D.host; }
+  function supCall(label, cls) { return btn(label || t("callUsDoor"), "phone", telUrl(sup().tel), { cls: cls || "btn-primary" }); }
+  function supWa(label, msg, cls) { var a = btn(label || t("whatsapp"), "whatsapp", waUrl(msg), { cls: cls || "btn-ghost" }); return a; }
+  function taxiBtn(cls) {
+    var b = btn(t("taxiBtn"), "taxi", null, { cls: cls || "btn-ghost" });
+    b.addEventListener("click", showTaxiCard);
+    return b;
+  }
+  function showTaxiCard() {
+    var old = document.getElementById("taxi-card"); if (old) old.remove();
+    var close = h("button", { type: "button", class: "btn btn-primary sh-ok", text: t("close") });
+    var m = /(\d{5})/.exec(D.address.maps || ""), cap = m ? m[1] + " Roma" : "Roma";
+    var dlg = h("dialog", { id: "taxi-card", class: "save-help taxi-card", "aria-label": t("taxiBtn") }, [
+      h("div", { class: "sh-panel", dir: "ltr", lang: "it" }, [
+        icon("taxi", "sh-top"),
+        h("p", { class: "tx-ask", text: "Per favore, mi porti a:" }),
+        h("p", { class: "tx-addr", text: D.address.line1 }),
+        h("p", { class: "tx-city", text: cap }),
+        h("p", { class: "sh-sub", dir: root.dir, lang: state.lang, text: t("taxiHint") }),
+        close
+      ])
+    ]);
+    close.addEventListener("click", function () { dlg.close(); });
+    dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener("close", function () { dlg.remove(); });
+    (document.getElementById("sheet").open ? document.getElementById("sheet") : document.body).appendChild(dlg);
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", "");
+  }
+  R.problems = function (b) {
+    return h("section", { class: "problems" }, [
+      h("div", { class: "pb-head" }, [icon("alert", "pb-ico"), h("div", null, [h("h4", { text: t("problemsTitle") }), h("p", { class: "pb-sub", text: t("problemsSub") })])]),
+      h("ul", { class: "pb-list" }, b.items.map(function (it) {
+        return h("li", null, [icon(it.icon || "info", "pb-i"), h("div", null, [h("p", { class: "pb-q", text: tx(it.q) }), h("p", { class: "pb-a", text: tx(it.a) })])]);
+      })),
+      h("div", { class: "actions center" }, [supCall(t("call") + " · " + sup().phone), supWa(t("whatsapp"))])
+    ]);
+  };
   R.address = function () {
     var q = D.address.maps || fullAddress();
     return h("div", { class: "addr-card" }, [
       icon("pin", "addr-ico"),
       h("p", { class: "addr-lines" }, [h("strong", { text: D.address.line1 }), h("span", { text: tx(D.address.line2) })]),
-      h("div", { class: "actions" }, [btn(t("openMaps"), "map", mapsUrl(q), { cls: "btn-primary" }), btn(t("directions"), "nav", dirUrl(q)), (function () { var c = copyBtn(fullAddress(), t("address"), t("copyAddress")); c.classList.add("btn"); return c; })()])
+      h("div", { class: "actions" }, [btn(t("openMaps"), "map", mapsUrl(q), { cls: "btn-primary" }), btn(t("directions"), "nav", dirUrl(q)), taxiBtn("btn"), (function () { var c = copyBtn(fullAddress(), t("address"), t("copyAddress")); c.classList.add("btn"); return c; })()])
     ]);
   };
   R.tabs = function (b, sid) {
@@ -469,6 +507,29 @@
     var old = document.getElementById("save-app"); if (old) old.remove();
     var sb = saveBtn("save-app"); sb.id = "save-app"; times.parentNode.insertBefore(sb, times.nextSibling);
   }
+  function renderArrivalHome() {
+    var old = document.getElementById("arrival-home"); if (old) old.remove();
+    if (!D.arrival || !D.arrival.steps) return;
+    var code = h("button", { type: "button", class: "ah-code", "aria-label": t("copy") + " " + t("quickCode") + " " + D.lockboxCode }, [
+      h("span", { class: "ah-code-l" }, [icon("lock"), h("span", { text: t("quickCode") })]),
+      h("span", { class: "ah-code-v" }, ltr(D.lockboxCode.split("").join(" "))),
+      h("span", { class: "ah-code-h" }, [icon("copy", "i-copy"), icon("check", "i-check"), h("span", { text: t("tapToCopy") })])
+    ]);
+    code.addEventListener("click", function () { copy(D.lockboxCode, t("quickCode"), code); });
+    var save = h("p", { class: "ah-save" }, [icon("save-phone"), h("span", { text: t("saveBeforeTrip") })]);
+    save.classList.add("js-save"); if (isStandalone()) save.hidden = true;
+    save.setAttribute("role", "button"); save.tabIndex = 0;
+    save.addEventListener("click", saveToPhone);
+    save.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); saveToPhone(); } });
+    var sec = h("section", { id: "arrival-home", class: "arrival-home", "aria-labelledby": "ah-title" }, [
+      h("div", { class: "ah-head" }, [h("span", { class: "ah-arch" }, icon("key")), h("div", null, [h("h2", { id: "ah-title", text: t("arrivalTitle") }), h("p", { class: "ah-sub", text: t("arrivalSub") })])]),
+      code,
+      h("ol", { class: "steps ah-steps" }, D.arrival.steps.map(function (s, i) { return h("li", null, [h("span", { class: "step-n", "aria-hidden": "true", text: String(i + 1) }), h("p", { text: tx(s) })]); })),
+      h("div", { class: "actions center ah-actions" }, [supCall(null, "btn-primary btn-wide"), supWa(t("whatsapp")), taxiBtn()]),
+      save
+    ]);
+    var q = document.getElementById("quick"); q.parentNode.insertBefore(sec, q);
+  }
   function renderQuick() {
     var q = document.getElementById("quick");
     q.innerHTML = "";
@@ -568,7 +629,7 @@
     buildLang(document.getElementById("lang-sheet"));
   }
   function renderAll() {
-    renderChrome(); renderHero(); renderQuick(); renderGallery(); renderGrid(); renderFooter(); observeReveal();
+    renderChrome(); renderHero(); renderArrivalHome(); renderQuick(); renderGallery(); renderGrid(); renderFooter(); observeReveal();
   }
 
   /* ---------- sheet (section dialog) ---------- */
@@ -578,7 +639,7 @@
     var s = D.sections[i];
     document.getElementById("sheet-title").textContent = tx(s.title);
     var body = document.getElementById("sheet-body");
-    body.innerHTML = "";
+    body.innerHTML = ""; body.setAttribute("data-sec", s.id);
     body.appendChild(h("header", { class: "s-hero" }, [h("span", { class: "s-num", text: ROMAN[i] }), h("span", { class: "s-arch" }, icon(s.icon)), h("h2", { id: "sheet-h", text: tx(s.title) }), h("span", { class: "s-orn", "aria-hidden": "true" })]));
     var content = h("div", { class: "s-content" });
     (s.blocks || []).forEach(function (b) { var fn = R[b.type]; if (fn) { var el = fn(b, s.id); if (el) content.appendChild(el); } });
