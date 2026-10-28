@@ -27,7 +27,7 @@
       var v = attrs[k];
       if (v == null || v === false) return;
       if (k === "class") el.className = v;
-      else if (k === "text") el.textContent = v;
+      else if (k === "text") { if (String(v).indexOf("**") > -1) el.appendChild(rich(v)); else el.textContent = v; }
       else if (k === "html") el.innerHTML = v;
       else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), v);
       else el.setAttribute(k, v === true ? "" : v);
@@ -38,6 +38,17 @@
     });
     return el;
   }
+  /* Inline emphasis: **bold** in content strings -> <strong>. Text nodes only, so content stays escaped. */
+  function rich(str) {
+    var frag = document.createDocumentFragment();
+    String(str).split(/\*\*(.+?)\*\*/).forEach(function (part, i) {
+      if (!part) return;
+      if (i % 2) { var b = document.createElement("strong"); b.textContent = part; frag.appendChild(b); }
+      else frag.appendChild(document.createTextNode(part));
+    });
+    return frag;
+  }
+  function plain(str) { return String(str || "").replace(/\*\*/g, ""); }
   function icon(name, cls) {
     var s = h("span", { class: "ico " + (cls || ""), "aria-hidden": "true" });
     s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">' + (ICONS[name] || ICONS.info || "") + "</svg>";
@@ -281,12 +292,12 @@
   /* ---------- Rome photos (freely licensed, credited) ---------- */
   function photoArch(ph, name, cls) {
     if (!ph) return null;
-    var base = ASSETS + ph.src, c = ph.credit || {};
-    var alt = ph.area ? t("areaAlt", { place: ph.place, name: name }) : (ph.place || name);
+    var base = ph.own ? ph.src : ASSETS + ph.src, c = ph.credit || {};
+    var alt = ph.own ? name : ph.area ? t("areaAlt", { place: ph.place, name: name }) : (ph.place || name);
     var kids = [h("img", { src: base + "-sm.webp", srcset: base + "-sm.webp 640w, " + base + ".webp 1200w",
       sizes: "(min-width: 820px) 560px, 92vw", width: "640", height: "427", loading: "lazy", decoding: "async", alt: alt })];
     if (ph.area) kids.push(h("span", { class: "ph-tag" }, [icon("pin"), h("span", { text: t("areaPhoto") + " · " }), h("bdi", { text: ph.place })]));
-    kids.push(h("figcaption", { class: "ph-cr" }, ext(h("a", { href: c.source, title: c.title, dir: "ltr" },
+    if (!ph.own && c.source) kids.push(h("figcaption", { class: "ph-cr" }, ext(h("a", { href: c.source, title: c.title, dir: "ltr" },
       "© " + c.author + " · " + c.license))));
     return h("figure", { class: "ph-arch " + (cls || "") + (ph.area ? " is-area" : "") }, kids);
   }

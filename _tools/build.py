@@ -69,9 +69,12 @@ def check(data, folder):
                 ph = it.get("photo")
                 if not ph:
                     continue
+                base = os.path.join(ROOT, folder) if ph.get("own") else os.path.join(ROOT, "assets")
                 for suf in ("-sm.webp", ".webp"):
-                    if not os.path.exists(os.path.join(ROOT, "assets", ph["src"] + suf)):
-                        problems.append(f"shared photo missing: assets/{ph['src']}{suf}")
+                    if not os.path.exists(os.path.join(base, ph["src"] + suf)):
+                        problems.append(f"photo missing: {ph['src']}{suf}")
+                if ph.get("own"):
+                    continue  # user-supplied photo: no credit needed
                 miss = [k for k in ("author", "license", "licenseUrl", "source") if not (ph.get("credit") or {}).get(k)]
                 if miss:
                     problems.append(f"photo {ph['src']}: credit lacks {', '.join(miss)}")

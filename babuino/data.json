@@ -171,12 +171,12 @@
     {
      "type": "text",
      "text": {
-      "en": "Please respect the check-in times. If you would like to arrive earlier, no problem at all: you can drop off your luggage from 11:00 and take the keys, then come back at 15:00 when the apartment will be ready.",
-      "it": "Vi preghiamo di rispettare gli orari di check-in. Se desiderate arrivare prima, nessun problema: potete lasciare i bagagli a partire dalle 11:00 e ritirare le chiavi, per poi tornare alle 15:00, quando l’appartamento sarà pronto.",
-      "fr": "Merci de respecter les horaires d’arrivée. Si vous souhaitez arriver plus tôt, aucun problème : vous pouvez déposer vos bagages à partir de 11h00 et récupérer les clés, puis revenir à 15h00, lorsque l’appartement sera prêt.",
-      "es": "Le rogamos que respete los horarios de check-in. Si desea llegar antes, no hay ningún problema: puede dejar su equipaje a partir de las 11:00 y recoger las llaves, y luego volver a las 15:00, cuando el apartamento esté listo.",
-      "de": "Bitte halten Sie die Check-in-Zeiten ein. Wenn Sie früher ankommen möchten, ist das kein Problem: Sie können Ihr Gepäck ab 11:00 Uhr abstellen und die Schlüssel abholen und dann um 15:00 Uhr zurückkommen, wenn die Wohnung bereit ist.",
-      "ar": "يُرجى الالتزام بمواعيد تسجيل الوصول. إذا رغبتم في الوصول مبكراً فلا مشكلة إطلاقاً: يمكنكم ترك أمتعتكم ابتداءً من الساعة 11:00 واستلام المفاتيح، ثم العودة في الساعة 15:00 عندما تكون الشقة جاهزة."
+      "en": "Please respect the check-in times. If you would like to arrive earlier, no problem at all: you can **drop off your luggage from 11:00** and take the keys, then **come back at 15:00** when the apartment will be ready.",
+      "it": "Vi preghiamo di rispettare gli orari di check-in. Se desiderate arrivare prima, nessun problema: potete **lasciare i bagagli a partire dalle 11:00** e ritirare le chiavi, per poi **tornare alle 15:00**, quando l’appartamento sarà pronto.",
+      "fr": "Merci de respecter les horaires d’arrivée. Si vous souhaitez arriver plus tôt, aucun problème : vous pouvez **déposer vos bagages à partir de 11h00** et récupérer les clés, puis **revenir à 15h00**, lorsque l’appartement sera prêt.",
+      "es": "Le rogamos que respete los horarios de check-in. Si desea llegar antes, no hay ningún problema: puede **dejar su equipaje a partir de las 11:00** y recoger las llaves, y luego **volver a las 15:00**, cuando el apartamento esté listo.",
+      "de": "Bitte halten Sie die Check-in-Zeiten ein. Wenn Sie früher ankommen möchten, ist das kein Problem: Sie können Ihr **Gepäck ab 11:00 Uhr abstellen** und die Schlüssel abholen und dann **um 15:00 Uhr zurückkommen**, wenn die Wohnung bereit ist.",
+      "ar": "يُرجى الالتزام بمواعيد تسجيل الوصول. إذا رغبتم في الوصول مبكراً فلا مشكلة إطلاقاً: يمكنكم **ترك أمتعتكم ابتداءً من الساعة 11:00** واستلام المفاتيح، ثم **العودة في الساعة 15:00** عندما تكون الشقة جاهزة."
      }
     },
     {
@@ -217,36 +217,36 @@
      "type": "steps",
      "items": [
       {
-       "en": "When you arrive, send us a message, and we will open the door remotely.",
-       "it": "Quando arrivate, inviateci un messaggio e vi apriremo il portone a distanza.",
-       "fr": "À votre arrivée, envoyez-nous un message et nous vous ouvrirons la porte à distance.",
-       "es": "Cuando llegue, envíenos un mensaje y le abriremos la puerta a distancia.",
-       "de": "Schicken Sie uns bei Ihrer Ankunft eine Nachricht, und wir öffnen Ihnen die Tür aus der Ferne.",
-       "ar": "عند وصولكم، أرسلوا لنا رسالة وسنفتح لكم الباب عن بُعد."
+       "en": "When you arrive, **send us a message**, and we will open the door remotely.",
+       "it": "Quando arrivate, **inviateci un messaggio** e vi apriremo il portone a distanza.",
+       "fr": "À votre arrivée, **envoyez-nous un message** et nous vous ouvrirons la porte à distance.",
+       "es": "Cuando llegue, **envíenos un mensaje** y le abriremos la puerta a distancia.",
+       "de": "**Schicken Sie uns bei Ihrer Ankunft eine Nachricht**, und wir öffnen Ihnen die Tür aus der Ferne.",
+       "ar": "عند وصولكم، **أرسلوا لنا رسالة** وسنفتح لكم الباب عن بُعد."
       },
       {
-       "en": "Go up to the second floor.",
-       "it": "Salite al secondo piano.",
-       "fr": "Montez au deuxième étage.",
-       "es": "Suba a la segunda planta.",
-       "de": "Gehen Sie in den zweiten Stock.",
-       "ar": "اصعدوا إلى الطابق الثاني."
+       "en": "Go up to the **second floor**.",
+       "it": "Salite al **secondo piano**.",
+       "fr": "Montez au **deuxième étage**.",
+       "es": "Suba a la **segunda planta**.",
+       "de": "Gehen Sie in den **zweiten Stock**.",
+       "ar": "اصعدوا إلى **الطابق الثاني**."
       },
       {
-       "en": "The apartment door will be immediately on your left.",
-       "it": "La porta dell’appartamento sarà subito alla vostra sinistra.",
-       "fr": "La porte de l’appartement se trouve immédiatement sur votre gauche.",
-       "es": "La puerta del apartamento estará justo a su izquierda.",
-       "de": "Die Wohnungstür befindet sich direkt auf Ihrer linken Seite.",
-       "ar": "سيكون باب الشقة على يساركم مباشرةً."
+       "en": "The apartment door will be **immediately on your left**.",
+       "it": "La porta dell’appartamento sarà **subito alla vostra sinistra**.",
+       "fr": "La porte de l’appartement se trouve **immédiatement sur votre gauche**.",
+       "es": "La puerta del apartamento estará **justo a su izquierda**.",
+       "de": "Die Wohnungstür befindet sich **direkt auf Ihrer linken Seite**.",
+       "ar": "سيكون باب الشقة **على يساركم مباشرةً**."
       },
       {
-       "en": "The keys will be in the lockbox.",
-       "it": "Le chiavi saranno nella cassetta di sicurezza (lockbox).",
-       "fr": "Les clés se trouvent dans la boîte à clés.",
-       "es": "Las llaves estarán en la caja de seguridad.",
-       "de": "Die Schlüssel befinden sich im Schlüsselsafe.",
-       "ar": "ستجدون المفاتيح في صندوق المفاتيح."
+       "en": "**The keys will be in the lockbox.**",
+       "it": "**Le chiavi saranno nella cassetta di sicurezza (lockbox).**",
+       "fr": "**Les clés se trouvent dans la boîte à clés.**",
+       "es": "**Las llaves estarán en la caja de seguridad.**",
+       "de": "**Die Schlüssel befinden sich im Schlüsselsafe.**",
+       "ar": "**ستجدون المفاتيح في صندوق المفاتيح.**"
       }
      ]
     },
@@ -279,12 +279,12 @@
       "ar": "هام"
      },
      "text": {
-      "en": "The apartment’s lighting system is similar to that found in hotels, so every time you open the door, the lights turn off automatically. To turn them back on, close the door and simply press the button.",
-      "it": "L’impianto di illuminazione dell’appartamento è simile a quello degli hotel: ogni volta che aprite la porta, le luci si spengono automaticamente. Per riaccenderle, chiudete la porta e premete semplicemente il pulsante.",
-      "fr": "Le système d’éclairage de l’appartement est semblable à celui des hôtels : chaque fois que vous ouvrez la porte, les lumières s’éteignent automatiquement. Pour les rallumer, fermez la porte et appuyez simplement sur le bouton.",
-      "es": "El sistema de iluminación del apartamento es similar al de los hoteles: cada vez que abre la puerta, las luces se apagan automáticamente. Para volver a encenderlas, cierre la puerta y simplemente pulse el botón.",
-      "de": "Das Lichtsystem der Wohnung ähnelt dem in Hotels: Jedes Mal, wenn Sie die Tür öffnen, gehen die Lichter automatisch aus. Um sie wieder einzuschalten, schließen Sie die Tür und drücken Sie einfach den Schalter.",
-      "ar": "نظام الإضاءة في الشقة مشابه لما هو موجود في الفنادق، لذا في كل مرة تفتحون فيها الباب تنطفئ الأضواء تلقائياً. لإعادة تشغيلها، أغلقوا الباب واضغطوا على الزر ببساطة."
+      "en": "The apartment’s lighting system is similar to that found in hotels, so every time you open the door, **the lights turn off automatically**. To turn them back on, **close the door and simply press the button**.",
+      "it": "L’impianto di illuminazione dell’appartamento è simile a quello degli hotel: ogni volta che aprite la porta, **le luci si spengono automaticamente**. Per riaccenderle, **chiudete la porta e premete semplicemente il pulsante**.",
+      "fr": "Le système d’éclairage de l’appartement est semblable à celui des hôtels : chaque fois que vous ouvrez la porte, **les lumières s’éteignent automatiquement**. Pour les rallumer, **fermez la porte et appuyez simplement sur le bouton**.",
+      "es": "El sistema de iluminación del apartamento es similar al de los hoteles: cada vez que abre la puerta, **las luces se apagan automáticamente**. Para volver a encenderlas, **cierre la puerta y simplemente pulse el botón**.",
+      "de": "Das Lichtsystem der Wohnung ähnelt dem in Hotels: Jedes Mal, wenn Sie die Tür öffnen, **gehen die Lichter automatisch aus**. Um sie wieder einzuschalten, **schließen Sie die Tür und drücken Sie einfach den Schalter**.",
+      "ar": "نظام الإضاءة في الشقة مشابه لما هو موجود في الفنادق، لذا في كل مرة تفتحون فيها الباب **تنطفئ الأضواء تلقائياً**. لإعادة تشغيلها، **أغلقوا الباب واضغطوا على الزر** ببساطة."
      }
     },
     {
@@ -300,23 +300,23 @@
       "ar": "المصعد"
      },
      "text": {
-      "en": "Please make sure you close the elevator door properly, otherwise it will stop working. There are elderly people living in the building who need to use it. Please be respectful of the other residents.",
-      "it": "Assicuratevi di chiudere bene la porta dell’ascensore, altrimenti smetterà di funzionare. Nel palazzo vivono persone anziane che hanno bisogno di utilizzarlo. Vi preghiamo di rispettare gli altri residenti.",
-      "fr": "Veillez à bien refermer la porte de l’ascenseur, sinon il cessera de fonctionner. Des personnes âgées vivent dans l’immeuble et ont besoin de l’utiliser. Merci de respecter les autres résidents.",
-      "es": "Asegúrese de cerrar bien la puerta del ascensor; de lo contrario, dejará de funcionar. En el edificio viven personas mayores que necesitan utilizarlo. Le rogamos que respete a los demás residentes.",
-      "de": "Bitte schließen Sie die Aufzugstür sorgfältig, sonst funktioniert der Aufzug nicht mehr. Im Haus wohnen ältere Menschen, die auf ihn angewiesen sind. Bitte nehmen Sie Rücksicht auf die anderen Bewohner.",
-      "ar": "يُرجى التأكد من إغلاق باب المصعد بإحكام، وإلا سيتوقف عن العمل. يعيش في المبنى أشخاص مسنّون يحتاجون إلى استخدامه. يُرجى احترام السكان الآخرين."
+      "en": "Please make sure you **close the elevator door properly**, otherwise it will stop working. There are elderly people living in the building who need to use it. Please be respectful of the other residents.",
+      "it": "Assicuratevi di **chiudere bene la porta dell’ascensore**, altrimenti smetterà di funzionare. Nel palazzo vivono persone anziane che hanno bisogno di utilizzarlo. Vi preghiamo di rispettare gli altri residenti.",
+      "fr": "Veillez à **bien refermer la porte de l’ascenseur**, sinon il cessera de fonctionner. Des personnes âgées vivent dans l’immeuble et ont besoin de l’utiliser. Merci de respecter les autres résidents.",
+      "es": "Asegúrese de **cerrar bien la puerta del ascensor**; de lo contrario, dejará de funcionar. En el edificio viven personas mayores que necesitan utilizarlo. Le rogamos que respete a los demás residentes.",
+      "de": "Bitte **schließen Sie die Aufzugstür sorgfältig**, sonst funktioniert der Aufzug nicht mehr. Im Haus wohnen ältere Menschen, die auf ihn angewiesen sind. Bitte nehmen Sie Rücksicht auf die anderen Bewohner.",
+      "ar": "يُرجى التأكد من **إغلاق باب المصعد بإحكام**، وإلا سيتوقف عن العمل. يعيش في المبنى أشخاص مسنّون يحتاجون إلى استخدامه. يُرجى احترام السكان الآخرين."
      }
     },
     {
      "type": "tax",
      "text": {
-      "en": "In case of self check-in, the tourist tax of €6 per person per night must be paid at check-out. You can leave the fee on the table.",
-      "it": "In caso di self check-in, la tassa di soggiorno di 6 € a persona a notte deve essere pagata al check-out. Potete lasciare l’importo sul tavolo.",
-      "fr": "En cas de self check-in, la taxe de séjour de 6 € par personne et par nuit doit être réglée au départ. Vous pouvez laisser le montant sur la table.",
-      "es": "En caso de self check-in, la tasa turística de 6 € por persona y noche debe abonarse al hacer el check-out. Puede dejar el importe sobre la mesa.",
-      "de": "Beim Self-Check-in ist die Kurtaxe von 6 € pro Person und Nacht beim Check-out zu zahlen. Sie können den Betrag auf dem Tisch hinterlassen.",
-      "ar": "في حال تسجيل الوصول الذاتي، تُدفع ضريبة السياحة البالغة 6 يورو للشخص الواحد في الليلة عند المغادرة. يمكنكم ترك المبلغ على الطاولة."
+      "en": "In case of self check-in, the tourist tax of **€6 per person per night** must be **paid at check-out**. You can leave the fee **on the table**.",
+      "it": "In caso di self check-in, la tassa di soggiorno di **6 € a persona a notte** deve essere **pagata al check-out**. Potete lasciare l’importo **sul tavolo**.",
+      "fr": "En cas de self check-in, la taxe de séjour de **6 € par personne et par nuit** doit être **réglée au départ**. Vous pouvez laisser le montant **sur la table**.",
+      "es": "En caso de self check-in, la tasa turística de **6 € por persona y noche** debe abonarse **al hacer el check-out**. Puede dejar el importe **sobre la mesa**.",
+      "de": "Beim Self-Check-in ist die Kurtaxe von **6 € pro Person und Nacht** **beim Check-out zu zahlen**. Sie können den Betrag **auf dem Tisch** hinterlassen.",
+      "ar": "في حال تسجيل الوصول الذاتي، تُدفع ضريبة السياحة البالغة **6 يورو للشخص الواحد في الليلة** **عند المغادرة**. يمكنكم ترك المبلغ **على الطاولة**."
      }
     },
     {
@@ -324,12 +324,12 @@
      "tone": "info",
      "icon": "key",
      "text": {
-      "en": "The keys must be placed in the lockbox outside the door.",
-      "it": "Le chiavi devono essere riposte nella cassetta di sicurezza fuori dalla porta.",
-      "fr": "Les clés doivent être remises dans la boîte à clés située à l’extérieur de la porte.",
-      "es": "Las llaves deben dejarse en la caja de seguridad situada fuera de la puerta.",
-      "de": "Die Schlüssel müssen in den Schlüsselsafe vor der Tür gelegt werden.",
-      "ar": "يجب وضع المفاتيح في صندوق المفاتيح الموجود خارج الباب."
+      "en": "**The keys must be placed in the lockbox outside the door.**",
+      "it": "**Le chiavi devono essere riposte nella cassetta di sicurezza fuori dalla porta.**",
+      "fr": "**Les clés doivent être remises dans la boîte à clés située à l’extérieur de la porte.**",
+      "es": "**Las llaves deben dejarse en la caja de seguridad situada fuera de la puerta.**",
+      "de": "**Die Schlüssel müssen in den Schlüsselsafe vor der Tür gelegt werden.**",
+      "ar": "**يجب وضع المفاتيح في صندوق المفاتيح الموجود خارج الباب.**"
      }
     },
     {
@@ -337,12 +337,12 @@
      "tone": "info",
      "icon": "elevator",
      "text": {
-      "en": "Please remember to close the elevator doors, as a courtesy to all other residents.",
-      "it": "Ricordatevi di chiudere le porte dell’ascensore, per cortesia verso tutti gli altri residenti.",
-      "fr": "Pensez à refermer les portes de l’ascenseur, par courtoisie envers tous les autres résidents.",
-      "es": "Recuerde cerrar las puertas del ascensor, por cortesía hacia los demás residentes.",
-      "de": "Bitte denken Sie daran, die Aufzugstüren zu schließen – aus Rücksicht auf alle anderen Bewohner.",
-      "ar": "يُرجى تذكّر إغلاق أبواب المصعد، احتراماً لجميع السكان الآخرين."
+      "en": "Please remember to **close the elevator doors**, as a courtesy to all other residents.",
+      "it": "Ricordatevi di **chiudere le porte dell’ascensore**, per cortesia verso tutti gli altri residenti.",
+      "fr": "Pensez à **refermer les portes de l’ascenseur**, par courtoisie envers tous les autres résidents.",
+      "es": "Recuerde **cerrar las puertas del ascensor**, por cortesía hacia los demás residentes.",
+      "de": "Bitte denken Sie daran, **die Aufzugstüren zu schließen** – aus Rücksicht auf alle anderen Bewohner.",
+      "ar": "يُرجى تذكّر **إغلاق أبواب المصعد**، احتراماً لجميع السكان الآخرين."
      }
     },
     {
@@ -452,12 +452,12 @@
           "ar": "استقلوا حافلة تيرافيجن إلى روما تيرميني (حوالي 50 دقيقة)، ثم خط المترو A باتجاه باتيستيني حتى محطة فلامينيو."
          },
          "price": {
-          "en": "Total price: around €7.50",
-          "it": "Prezzo totale: circa 7,50 €",
-          "fr": "Prix total : environ 7,50 €",
-          "es": "Precio total: unos 7,50 €",
-          "de": "Gesamtpreis: ca. 7,50 €",
-          "ar": "السعر الإجمالي: حوالي 7.50 يورو"
+          "en": "Total price: from about €5.50 (Terravision bus from €4 + €1.50 metro).",
+          "it": "Prezzo totale: da circa 5,50 € (bus Terravision da 4 € + 1,50 € metro).",
+          "fr": "Prix total : à partir d’environ 5,50 € (bus Terravision dès 4 € + 1,50 € le métro).",
+          "es": "Precio total: desde unos 5,50 € (autobús Terravision desde 4 € + 1,50 € el metro).",
+          "de": "Gesamtpreis: ab ca. 5,50 € (Terravision-Bus ab 4 € + 1,50 € Metro).",
+          "ar": "السعر الإجمالي: ابتداءً من حوالي 5.50 يورو (حافلة تيرافيجن ابتداءً من 4 يورو + 1.50 يورو للمترو)."
          }
         },
         {
@@ -471,12 +471,12 @@
           "ar": "سيارة أجرة"
          },
          "text": {
-          "en": "Official taxis charge between €48 and €55 from Fiumicino to the city centre.",
-          "it": "I taxi ufficiali applicano una tariffa tra 48 € e 55 € da Fiumicino al centro città.",
-          "fr": "Les taxis officiels facturent entre 48 € et 55 € de Fiumicino au centre-ville.",
-          "es": "Los taxis oficiales cobran entre 48 € y 55 € desde Fiumicino hasta el centro de la ciudad.",
-          "de": "Offizielle Taxis verlangen von Fiumicino ins Stadtzentrum zwischen 48 € und 55 €.",
-          "ar": "تتقاضى سيارات الأجرة الرسمية ما بين 48 و55 يورو من فيوميتشينو إلى وسط المدينة."
+          "en": "Official white taxis charge a fixed fare of €55 from Fiumicino to the city centre (inside the Aurelian Walls), luggage included.",
+          "it": "I taxi ufficiali bianchi applicano una tariffa fissa di 55 € da Fiumicino al centro città (entro le Mura Aureliane), bagagli inclusi.",
+          "fr": "Les taxis officiels blancs appliquent un tarif fixe de 55 € de Fiumicino au centre-ville (à l’intérieur du mur d’Aurélien), bagages compris.",
+          "es": "Los taxis oficiales blancos aplican una tarifa fija de 55 € desde Fiumicino hasta el centro de la ciudad (dentro de las Murallas Aurelianas), equipaje incluido.",
+          "de": "Offizielle weiße Taxis berechnen von Fiumicino ins Stadtzentrum (innerhalb der Aurelianischen Mauer) einen Festpreis von 55 €, Gepäck inklusive.",
+          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء تعرفة ثابتة قدرها 55 يورو من فيوميتشينو إلى وسط المدينة (داخل الأسوار الأوريليانية)، شاملة الأمتعة."
          },
          "warn": {
           "en": "Please note: during busy periods, there may be long lines at the airport taxi station.",
@@ -566,12 +566,12 @@
           "ar": "استقلوا حافلة تيرافيجن مباشرةً إلى روما تيرميني (حوالي 40–50 دقيقة). ثم خط المترو A باتجاه باتيستيني حتى محطة فلامينيو."
          },
          "price": {
-          "en": "Total price: about €6.50 (€5 bus + €1.50 metro).",
-          "it": "Prezzo totale: circa 6,50 € (5 € bus + 1,50 € metro).",
-          "fr": "Prix total : environ 6,50 € (5 € le bus + 1,50 € le métro).",
-          "es": "Precio total: unos 6,50 € (5 € el autobús + 1,50 € el metro).",
-          "de": "Gesamtpreis: ca. 6,50 € (5 € Bus + 1,50 € Metro).",
-          "ar": "السعر الإجمالي: حوالي 6.50 يورو (5 يورو للحافلة + 1.50 يورو للمترو)."
+          "en": "Total price: about €8 (Terravision bus from €6.50 + €1.50 metro).",
+          "it": "Prezzo totale: circa 8 € (bus Terravision da 6,50 € + 1,50 € metro).",
+          "fr": "Prix total : environ 8 € (bus Terravision dès 6,50 € + 1,50 € le métro).",
+          "es": "Precio total: unos 8 € (autobús Terravision desde 6,50 € + 1,50 € el metro).",
+          "de": "Gesamtpreis: ca. 8 € (Terravision-Bus ab 6,50 € + 1,50 € Metro).",
+          "ar": "السعر الإجمالي: حوالي 8 يورو (حافلة تيرافيجن ابتداءً من 6.50 يورو + 1.50 يورو للمترو)."
          }
         },
         {
@@ -585,12 +585,12 @@
           "ar": "سيارة أجرة"
          },
          "text": {
-          "en": "Official taxis from Ciampino have a fixed fare of €35–40 to the centre of Rome.",
-          "it": "I taxi ufficiali da Ciampino hanno una tariffa fissa di 35–40 € per il centro di Roma.",
-          "fr": "Les taxis officiels au départ de Ciampino appliquent un tarif fixe de 35 à 40 € jusqu’au centre de Rome.",
-          "es": "Los taxis oficiales desde Ciampino tienen una tarifa fija de 35–40 € hasta el centro de Roma.",
-          "de": "Offizielle Taxis ab Ciampino haben einen Festpreis von 35–40 € ins Zentrum von Rom.",
-          "ar": "لسيارات الأجرة الرسمية من تشامبينو تعرفة ثابتة تتراوح بين 35 و40 يورو إلى وسط روما."
+          "en": "Official white taxis from Ciampino charge a fixed fare of €40 to the centre of Rome (inside the Aurelian Walls), luggage included.",
+          "it": "I taxi ufficiali bianchi da Ciampino applicano una tariffa fissa di 40 € per il centro di Roma (entro le Mura Aureliane), bagagli inclusi.",
+          "fr": "Les taxis officiels blancs au départ de Ciampino appliquent un tarif fixe de 40 € jusqu’au centre de Rome (à l’intérieur du mur d’Aurélien), bagages compris.",
+          "es": "Los taxis oficiales blancos desde Ciampino aplican una tarifa fija de 40 € hasta el centro de Roma (dentro de las Murallas Aurelianas), equipaje incluido.",
+          "de": "Offizielle weiße Taxis ab Ciampino berechnen ins Zentrum von Rom (innerhalb der Aurelianischen Mauer) einen Festpreis von 40 €, Gepäck inklusive.",
+          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء من تشامبينو تعرفة ثابتة قدرها 40 يورو إلى وسط روما (داخل الأسوار الأوريليانية)، شاملة الأمتعة."
          },
          "warn": {
           "en": "Please note: during busy times, there may be long queues at the airport taxi rank.",
@@ -1246,15 +1246,15 @@
         "ar": "تناولوا الغداء في الهواء الطلق في فيلا بورغيزي أو على تلة جانيكولو."
        },
        "photo": {
-        "src": "rome/gianicolo",
-        "place": "Gianicolo",
+        "src": "rome/villa-borghese-pines",
+        "place": "Villa Borghese",
         "area": false,
         "credit": {
-         "title": "Roma Gianicolo (52380663708).jpg",
+         "title": "Roma I pini di Villa Borghese (52348438966).jpg",
          "author": "Jorge Franganillo",
          "license": "CC BY 2.0",
          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Roma_Gianicolo_(52380663708).jpg"
+         "source": "https://commons.wikimedia.org/wiki/File:Roma_I_pini_di_Villa_Borghese_(52348438966).jpg"
         }
        }
       },
@@ -1350,14 +1350,14 @@
       },
       {
        "name": {
-        "en": "Gas station",
-        "it": "Distributore di benzina",
-        "fr": "Station-service",
-        "es": "Gasolinera",
-        "de": "Tankstelle",
-        "ar": "محطة وقود"
+        "en": "Gas station – IP",
+        "it": "Distributore di benzina – IP",
+        "fr": "Station-service – IP",
+        "es": "Gasolinera – IP",
+        "de": "Tankstelle – IP",
+        "ar": "محطة وقود – IP"
        },
-       "address": "Via Ferdinando di Savoia, Roma",
+       "address": "Via Ferdinando di Savoia 3, 00196 Roma RM",
        "text": {
         "en": "The station is located 400 meters away.",
         "it": "Il distributore si trova a 400 metri.",
@@ -1366,7 +1366,16 @@
         "de": "Die Tankstelle befindet sich 400 Meter entfernt.",
         "ar": "تقع المحطة على بُعد 400 متر."
        },
-       "icon": "fuel"
+       "icon": "fuel",
+       "maps": "IP, Via Ferdinando di Savoia 3, 00196 Roma RM, Italy",
+       "hours": {
+        "en": "Self-service, open 24 hours",
+        "it": "Self-service, aperto 24 ore su 24",
+        "fr": "Libre-service, ouvert 24 h/24",
+        "es": "Autoservicio, abierto 24 horas",
+        "de": "Selbstbedienung, rund um die Uhr geöffnet",
+        "ar": "خدمة ذاتية، مفتوحة على مدار 24 ساعة"
+       }
       },
       {
        "name": {
@@ -1452,16 +1461,8 @@
        "web": "www.deromamor.com",
        "icon": "croissant",
        "photo": {
-        "src": "rome/via-poli",
-        "place": "Via Poli",
-        "area": true,
-        "credit": {
-         "title": "Via Poli - fontana di Trevi - panoramio.jpg",
-         "author": "Dora Dragoni",
-         "license": "CC BY 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Via_Poli_-_fontana_di_Trevi_-_panoramio.jpg"
-        }
+        "src": "img/venue-deroma",
+        "own": true
        }
       },
       {
@@ -1486,16 +1487,8 @@
        "phone": "+39 06 6785595",
        "icon": "croissant",
        "photo": {
-        "src": "rome/via-della-panetteria",
-        "place": "Via della Panetteria",
-        "area": true,
-        "credit": {
-         "title": "Trevi - via della panetteria - portale del Quirinale (Flaminio Ponzio) 00970.JPG",
-         "author": "Lalupa",
-         "license": "CC BY-SA 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Trevi_-_via_della_panetteria_-_portale_del_Quirinale_(Flaminio_Ponzio)_00970.JPG"
-        }
+        "src": "img/venue-la-panetteria",
+        "own": true
        }
       },
       {
@@ -1521,16 +1514,8 @@
        "web": "www.emporiosanteustachio.com",
        "icon": "croissant",
        "photo": {
-        "src": "rome/via-della-maddalena",
-        "place": "Via della Maddalena",
-        "area": true,
-        "credit": {
-         "title": "S Eustachio - v d Maddalena 1020622.JPG",
-         "author": "Lalupa",
-         "license": "CC BY-SA 4.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-         "source": "https://commons.wikimedia.org/wiki/File:S_Eustachio_-_v_d_Maddalena_1020622.JPG"
-        }
+        "src": "img/venue-emporio-santeustachio",
+        "own": true
        }
       }
      ]
@@ -1571,17 +1556,10 @@
        "web": "www.ciampini.com",
        "icon": "coffee",
        "photo": {
-        "src": "rome/san-lorenzo-in-lucina",
-        "place": "Piazza di San Lorenzo in Lucina",
-        "area": true,
-        "credit": {
-         "title": "Pza San Lorenzo in Lucina - panoramio.jpg",
-         "author": "Dora Dragoni",
-         "license": "CC BY 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Pza_San_Lorenzo_in_Lucina_-_panoramio.jpg"
-        }
-       }
+        "src": "img/venue-ciampini",
+        "own": true
+       },
+       "phone": "+39 06 6876606"
       }
      ]
     }
@@ -1615,12 +1593,12 @@
      "tone": "info",
      "icon": "phone",
      "text": {
-      "en": "We suggest reserving these restaurants in advance. If you have any issues, just let us know, we’ll call for you.",
-      "it": "Vi consigliamo di prenotare questi ristoranti in anticipo. In caso di difficoltà, fatecelo sapere: chiameremo noi per voi.",
-      "fr": "Nous vous conseillons de réserver ces restaurants à l’avance. En cas de difficulté, prévenez-nous : nous appellerons pour vous.",
-      "es": "Le recomendamos reservar estos restaurantes con antelación. Si tiene algún problema, avísenos y llamaremos por usted.",
-      "de": "Wir empfehlen, diese Restaurants im Voraus zu reservieren. Falls es Schwierigkeiten gibt, sagen Sie uns Bescheid – wir rufen für Sie an.",
-      "ar": "ننصحكم بالحجز المسبق في هذه المطاعم. إذا واجهتم أي مشكلة، أخبرونا فقط وسنتصل نيابةً عنكم."
+      "en": "We suggest **reserving these restaurants in advance**. If you have any issues, just let us know, we’ll call for you.",
+      "it": "Vi consigliamo di **prenotare questi ristoranti in anticipo**. In caso di difficoltà, fatecelo sapere: chiameremo noi per voi.",
+      "fr": "Nous vous conseillons de **réserver ces restaurants à l’avance**. En cas de difficulté, prévenez-nous : nous appellerons pour vous.",
+      "es": "Le recomendamos **reservar estos restaurantes con antelación**. Si tiene algún problema, avísenos y llamaremos por usted.",
+      "de": "Wir empfehlen, **diese Restaurants im Voraus zu reservieren**. Falls es Schwierigkeiten gibt, sagen Sie uns Bescheid – wir rufen für Sie an.",
+      "ar": "ننصحكم **بالحجز المسبق** في هذه المطاعم. إذا واجهتم أي مشكلة، أخبرونا فقط وسنتصل نيابةً عنكم."
      }
     },
     {
@@ -1641,16 +1619,8 @@
        "web": "www.chiantiosteriatoscana.it",
        "icon": "wine",
        "photo": {
-        "src": "rome/via-del-lavatore",
-        "place": "Via del Lavatore",
-        "area": true,
-        "credit": {
-         "title": "Via del Lavatore al Quirinale - Il mercato 0511-01.JPG",
-         "author": "Lalupa",
-         "license": "Public domain",
-         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Via_del_Lavatore_al_Quirinale_-_Il_mercato_0511-01.JPG",
-         "source": "https://commons.wikimedia.org/wiki/File:Via_del_Lavatore_al_Quirinale_-_Il_mercato_0511-01.JPG"
-        }
+        "src": "img/venue-il-chianti",
+        "own": true
        }
       },
       {
@@ -1824,12 +1794,12 @@
         "ar": "13 دقيقة سيرًا على الأقدام"
        },
        "hours": {
-        "en": "Open Monday to Sunday from 7 a.m. to midnight.",
-        "it": "Aperto dal lunedì alla domenica dalle 7:00 a mezzanotte.",
-        "fr": "Ouvert du lundi au dimanche de 7h00 à minuit.",
-        "es": "Abierto de lunes a domingo de 7:00 a medianoche.",
-        "de": "Montag bis Sonntag von 7:00 Uhr bis Mitternacht geöffnet.",
-        "ar": "مفتوح من الإثنين إلى الأحد من الساعة 7 صباحاً حتى منتصف الليل."
+        "en": "Mon–Sat 7:00 AM – midnight · Sun 8:00 AM – midnight",
+        "it": "Lun–sab 7:00 – 24:00 · Dom 8:00 – 24:00",
+        "fr": "Lun–sam 7h00 – minuit · Dim 8h00 – minuit",
+        "es": "Lun–sáb 7:00 – 24:00 · Dom 8:00 – 24:00",
+        "de": "Mo–Sa 7:00 – 24:00 Uhr · So 8:00 – 24:00 Uhr",
+        "ar": "الإثنين–السبت 7:00 – 24:00 · الأحد 8:00 – 24:00"
        },
        "icon": "cart",
        "photo": {
@@ -1945,8 +1915,8 @@
       },
       {
        "name": "Mercato Trionfale",
-       "address": "Mercato Trionfale, Roma",
-       "maps": "Mercato Trionfale, Roma",
+       "address": "Via Andrea Doria 41, 00192 Roma RM",
+       "maps": "Mercato Trionfale, Via Andrea Doria 41, 00192 Roma RM, Italy",
        "text": {
         "en": "One of Rome’s largest and most authentic food markets, located near the Vatican.",
         "it": "Uno dei mercati alimentari più grandi e autentici di Roma, vicino al Vaticano.",
@@ -1956,12 +1926,12 @@
         "ar": "أحد أكبر أسواق الطعام وأكثرها أصالة في روما، بالقرب من الفاتيكان."
        },
        "hours": {
-        "en": "Mon–Thu & Sat: 7:00 AM – 2:00 PM · Tue & Fri: 7:00 AM – 7:00 PM",
-        "it": "Lun–gio e sab: 7:00 – 14:00 · Mar e ven: 7:00 – 19:00",
-        "fr": "Lun–jeu et sam : 7h00 – 14h00 · Mar et ven : 7h00 – 19h00",
-        "es": "Lun–jue y sáb: 7:00 – 14:00 · Mar y vie: 7:00 – 19:00",
-        "de": "Mo–Do & Sa: 7:00 – 14:00 Uhr · Di & Fr: 7:00 – 19:00 Uhr",
-        "ar": "الإثنين–الخميس والسبت: 7:00 – 14:00 · الثلاثاء والجمعة: 7:00 – 19:00"
+        "en": "Mon–Thu & Sat: 7:00 AM – 2:00 PM · Fri: 7:00 AM – 7:00 PM · Sun: closed",
+        "it": "Lun–gio e sab: 7:00 – 14:00 · Ven: 7:00 – 19:00 · Dom: chiuso",
+        "fr": "Lun–jeu et sam : 7h00 – 14h00 · Ven : 7h00 – 19h00 · Dim : fermé",
+        "es": "Lun–jue y sáb: 7:00 – 14:00 · Vie: 7:00 – 19:00 · Dom: cerrado",
+        "de": "Mo–Do & Sa: 7:00 – 14:00 Uhr · Fr: 7:00 – 19:00 Uhr · So: geschlossen",
+        "ar": "الإثنين–الخميس والسبت: 7:00 – 14:00 · الجمعة: 7:00 – 19:00 · الأحد: مغلق"
        },
        "icon": "basket"
       }
@@ -2144,12 +2114,12 @@
         "ar": "تحقّقوا من الأجهزة"
        },
        "text": {
-        "en": "Turn off lights and electrical devices.",
-        "it": "Spegnete luci e apparecchi elettrici.",
-        "fr": "Éteignez les lumières et les appareils électriques.",
-        "es": "Apague las luces y los aparatos eléctricos.",
-        "de": "Schalten Sie Licht und Elektrogeräte aus.",
-        "ar": "أطفئوا الأضواء والأجهزة الكهربائية."
+        "en": "**Turn off lights and electrical devices.**",
+        "it": "**Spegnete luci e apparecchi elettrici.**",
+        "fr": "**Éteignez les lumières et les appareils électriques.**",
+        "es": "**Apague las luces y los aparatos eléctricos.**",
+        "de": "**Schalten Sie Licht und Elektrogeräte aus.**",
+        "ar": "**أطفئوا الأضواء والأجهزة الكهربائية.**"
        }
       },
       {
@@ -2163,12 +2133,12 @@
         "ar": "أغلقوا الأبواب والنوافذ"
        },
        "text": {
-        "en": "Secure the property before you leave.",
-        "it": "Mettete in sicurezza l’appartamento prima di uscire.",
-        "fr": "Sécurisez le logement avant de partir.",
-        "es": "Deje la vivienda bien cerrada antes de salir.",
-        "de": "Sichern Sie die Wohnung, bevor Sie gehen.",
-        "ar": "أمّنوا المسكن قبل مغادرتكم."
+        "en": "**Secure the property** before you leave.",
+        "it": "**Mettete in sicurezza l’appartamento** prima di uscire.",
+        "fr": "**Sécurisez le logement** avant de partir.",
+        "es": "**Deje la vivienda bien cerrada** antes de salir.",
+        "de": "**Sichern Sie die Wohnung**, bevor Sie gehen.",
+        "ar": "**أمّنوا المسكن** قبل مغادرتكم."
        }
       },
       {
@@ -2182,12 +2152,12 @@
         "ar": "سلّموا المفاتيح"
        },
        "text": {
-        "en": "Place them in the secure box.",
-        "it": "Riponetele nella cassetta di sicurezza.",
-        "fr": "Placez-les dans la boîte sécurisée.",
-        "es": "Déjelas en la caja de seguridad.",
-        "de": "Legen Sie sie in den Schlüsselsafe.",
-        "ar": "ضعوها في الصندوق الآمن."
+        "en": "**Place them in the secure box.**",
+        "it": "**Riponetele nella cassetta di sicurezza.**",
+        "fr": "**Placez-les dans la boîte sécurisée.**",
+        "es": "**Déjelas en la caja de seguridad.**",
+        "de": "**Legen Sie sie in den Schlüsselsafe.**",
+        "ar": "**ضعوها في الصندوق الآمن.**"
        }
       }
      ]
@@ -2197,12 +2167,12 @@
      "tone": "info",
      "icon": "euro",
      "text": {
-      "en": "In case of self check-in, the tourist tax of €6 per person per night must be paid at check-out. You can leave the fee on the table.",
-      "it": "In caso di self check-in, la tassa di soggiorno di 6 € a persona a notte deve essere pagata al check-out. Potete lasciare l’importo sul tavolo.",
-      "fr": "En cas de self check-in, la taxe de séjour de 6 € par personne et par nuit doit être réglée au départ. Vous pouvez laisser le montant sur la table.",
-      "es": "En caso de self check-in, la tasa turística de 6 € por persona y noche debe abonarse al hacer el check-out. Puede dejar el importe sobre la mesa.",
-      "de": "Beim Self-Check-in ist die Kurtaxe von 6 € pro Person und Nacht beim Check-out zu zahlen. Sie können den Betrag auf dem Tisch hinterlassen.",
-      "ar": "في حال تسجيل الوصول الذاتي، تُدفع ضريبة السياحة البالغة 6 يورو للشخص الواحد في الليلة عند المغادرة. يمكنكم ترك المبلغ على الطاولة."
+      "en": "In case of self check-in, the tourist tax of **€6 per person per night** must be paid at check-out. You can leave the fee **on the table**.",
+      "it": "In caso di self check-in, la tassa di soggiorno di **6 € a persona a notte** deve essere pagata al check-out. Potete lasciare l’importo **sul tavolo**.",
+      "fr": "En cas de self check-in, la taxe de séjour de **6 € par personne et par nuit** doit être réglée au départ. Vous pouvez laisser le montant **sur la table**.",
+      "es": "En caso de self check-in, la tasa turística de **6 € por persona y noche** debe abonarse al hacer el check-out. Puede dejar el importe **sobre la mesa**.",
+      "de": "Beim Self-Check-in ist die Kurtaxe von **6 € pro Person und Nacht** beim Check-out zu zahlen. Sie können den Betrag **auf dem Tisch** hinterlassen.",
+      "ar": "في حال تسجيل الوصول الذاتي، تُدفع ضريبة السياحة البالغة **6 يورو للشخص الواحد في الليلة** عند المغادرة. يمكنكم ترك المبلغ **على الطاولة**."
      }
     },
     {
