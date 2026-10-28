@@ -1,0 +1,154 @@
+{
+ "spanish-steps": {
+  "src": "rome/spanish-steps",
+  "title": "Spanish Steps and Trinità dei Monti church - Rome.JPG",
+  "author": "John Chapman",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Spanish_Steps_and_Trinit%C3%A0_dei_Monti_church_-_Rome.JPG"
+ },
+ "trevi-fountain": {
+  "src": "rome/trevi-fountain",
+  "title": "Fontaine Trevi - Rome.jpg",
+  "author": "Wilfredor",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Fontaine_Trevi_-_Rome.jpg"
+ },
+ "villa-borghese": {
+  "src": "rome/villa-borghese",
+  "title": "Piazza di Siena Villa Borghese Roma 2012.JPG",
+  "author": "Felix König",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Piazza_di_Siena_Villa_Borghese_Roma_2012.JPG"
+ },
+ "villa-borghese-lake": {
+  "src": "rome/villa-borghese-lake",
+  "title": "Laghetto and Tempio di Esculapio in Villa Borghese 02.jpg",
+  "author": "Krzysztof Golik",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Laghetto_and_Tempio_di_Esculapio_in_Villa_Borghese_02.jpg"
+ },
+ "gianicolo": {
+  "src": "rome/gianicolo",
+  "title": "Roma Gianicolo (52380663708).jpg",
+  "author": "Jorge Franganillo",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Roma_Gianicolo_(52380663708).jpg"
+ },
+ "piazza-venezia": {
+  "src": "rome/piazza-venezia",
+  "title": "Piazza Venezia - Il Vittoriano (cropped).jpg",
+  "author": "Paolo Costa Baldi",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Piazza_Venezia_-_Il_Vittoriano_(cropped).jpg"
+ },
+ "via-del-lavatore": {
+  "src": "rome/via-del-lavatore",
+  "title": "Via del Lavatore al Quirinale - Il mercato 0511-01.JPG",
+  "author": "Lalupa",
+  "license": "Public domain",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/File:Via_del_Lavatore_al_Quirinale_-_Il_mercato_0511-01.JPG",
+  "source": "https://commons.wikimedia.org/wiki/File:Via_del_Lavatore_al_Quirinale_-_Il_mercato_0511-01.JPG"
+ },
+ "via-della-scrofa": {
+  "src": "rome/via-della-scrofa",
+  "title": "Campo Marzio - palazzo Aragonia Gonzaga a via della Scrofa 1080145.JPG",
+  "author": "Lalupa",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_palazzo_Aragonia_Gonzaga_a_via_della_Scrofa_1080145.JPG"
+ },
+ "piazza-trilussa": {
+  "src": "rome/piazza-trilussa",
+  "title": "Trastevere - Fontanone dei cento preti a piazza Trilussa 1527.JPG",
+  "author": "Lalupa",
+  "license": "Public domain",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/File:Trastevere_-_Fontanone_dei_cento_preti_a_piazza_Trilussa_1527.JPG",
+  "source": "https://commons.wikimedia.org/wiki/File:Trastevere_-_Fontanone_dei_cento_preti_a_piazza_Trilussa_1527.JPG"
+ },
+ "piazza-del-popolo": {
+  "src": "rome/piazza-del-popolo",
+  "title": "Piazza del Popolo 3 in Rome.jpg",
+  "author": "Krzysztof Golik",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Piazza_del_Popolo_3_in_Rome.jpg"
+ },
+ "pantheon": {
+  "src": "rome/pantheon",
+  "title": "Pantheon Rom 1 cropped.jpg",
+  "author": "Rabax63",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg"
+ },
+ "via-dell-arancio": {
+  "src": "rome/via-dell-arancio",
+  "title": "Campo Marzio - Palazzo Borghese verso Ripetta 1000167.JPG",
+  "author": "Lalupa",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_Palazzo_Borghese_verso_Ripetta_1000167.JPG"
+ },
+ "via-poli": {
+  "src": "rome/via-poli",
+  "title": "Via Poli - fontana di Trevi - panoramio.jpg",
+  "author": "Dora Dragoni",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Via_Poli_-_fontana_di_Trevi_-_panoramio.jpg"
+ },
+ "via-della-panetteria": {
+  "src": "rome/via-della-panetteria",
+  "title": "Trevi - via della panetteria - portale del Quirinale (Flaminio Ponzio) 00970.JPG",
+  "author": "Lalupa",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Trevi_-_via_della_panetteria_-_portale_del_Quirinale_(Flaminio_Ponzio)_00970.JPG"
+ },
+ "via-della-maddalena": {
+  "src": "rome/via-della-maddalena",
+  "title": "S Eustachio - v d Maddalena 1020622.JPG",
+  "author": "Lalupa",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:S_Eustachio_-_v_d_Maddalena_1020622.JPG"
+ },
+ "san-lorenzo-in-lucina": {
+  "src": "rome/san-lorenzo-in-lucina",
+  "title": "Pza San Lorenzo in Lucina - panoramio.jpg",
+  "author": "Dora Dragoni",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pza_San_Lorenzo_in_Lucina_-_panoramio.jpg"
+ },
+ "via-vittoria": {
+  "src": "rome/via-vittoria",
+  "title": "Via Vittoria - panoramio.jpg",
+  "author": "Dora Dragoni",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Via_Vittoria_-_panoramio.jpg"
+ },
+ "via-del-tritone": {
+  "src": "rome/via-del-tritone",
+  "title": "Roma Via del Tritone.jpg",
+  "author": "Girolamus",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Roma_Via_del_Tritone.jpg"
+ },
+ "campo-de-fiori": {
+  "src": "rome/campo-de-fiori",
+  "title": "Campo dei Fiori.jpg",
+  "author": "Myrabella",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Campo_dei_Fiori.jpg"
+ }
+}
