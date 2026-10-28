@@ -98,5 +98,10 @@ window.RDH_ICONS={
 "instagram": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><circle cx=\"17.3\" cy=\"6.7\" r=\".6\" fill=\"currentColor\"/>",
 "coin": "<circle cx=\"12\" cy=\"12\" r=\"8.5\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><path d=\"M10 9.5h3a1.5 1.5 0 0 1 0 3h-2.5a1.5 1.5 0 0 0 0 3H14\"/>",
 "picnic": "<path d=\"M4 10h16l-1.5 9.5a1 1 0 0 1-1 .8h-11a1 1 0 0 1-1-.8z\"/><path d=\"M8 10a4 4 0 0 1 8 0\"/><path d=\"M5 14h14M9.5 10v10M14.5 10v10\"/>",
-"share": "<circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><path d=\"M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98\"/>"
+"share": "<circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><path d=\"M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98\"/>",
+"save-phone": "<rect x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><path d=\"M12 7v7M9 11.5l3 3 3-3M10.5 18.5h3\"/>",
+"ios-share": "<path d=\"M12 3v12M8 7l4-4 4 4\"/><path d=\"M8 10H6a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1h-2\"/>",
+"plus-square": "<rect x=\"3.5\" y=\"3.5\" width=\"17\" height=\"17\" rx=\"3\"/><path d=\"M12 8v8M8 12h8\"/>",
+"dots": "<circle cx=\"12\" cy=\"5\" r=\"1.3\"/><circle cx=\"12\" cy=\"12\" r=\"1.3\"/><circle cx=\"12\" cy=\"19\" r=\"1.3\"/>",
+"offline": "<path d=\"M2 2l20 20\"/><path d=\"M8.5 16.5a5 5 0 0 1 7 0M5 12.86a10 10 0 0 1 5.17-2.69M19 12.86a10 10 0 0 0-2.01-1.52M2 8.82a15 15 0 0 1 4.18-2.65M22 8.82a15 15 0 0 0-11.29-3.76\"/><circle cx=\"12\" cy=\"20\" r=\".6\"/>"
 };

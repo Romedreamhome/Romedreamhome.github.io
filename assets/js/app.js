@@ -11,6 +11,10 @@
   var state = { lang: "en", open: null };
   var root = document.documentElement;
   var ASSETS = (document.querySelector('meta[name="rdh-assets"]') || {}).content || "../assets/";
+  var VERSION = (document.querySelector('meta[name="rdh-version"]') || {}).content || "";
+  /* Install prompt (Android/Chrome): keep the event for our own "Save to phone" button. */
+  var installEvt = null;
+  window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); installEvt = e; });
 
   /* ---------- helpers ---------- */
   function isLang(c) { return LANGS.some(function (l) { return l.code === c; }); }
@@ -77,9 +81,9 @@
 
   /* ---------- toast + clipboard ---------- */
   var toastTimer;
-  function toast(msg) {
+  function toast(msg, cls) {
     var el = document.getElementById("toast");
-    el.textContent = msg; el.classList.add("show");
+    el.textContent = msg; el.className = "toast show" + (cls ? " " + cls : "");
     document.getElementById("live").textContent = msg;
     clearTimeout(toastTimer); toastTimer = setTimeout(function () { el.classList.remove("show"); }, 1900);
   }
@@ -137,7 +141,7 @@
   }
   function loadArabicFont() {
     if (document.getElementById("font-ar")) return;
-    document.head.appendChild(h("link", { id: "font-ar", rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600&display=swap" }));
+    document.head.appendChild(h("link", { id: "font-ar", rel: "stylesheet", href: ASSETS + "fonts/fonts-ar.css" + (VERSION ? "?v=" + VERSION : "") }));
   }
   function applyLang() {
     var info = langInfo(state.lang);
@@ -149,6 +153,7 @@
     state.lang = code;
     try { localStorage.setItem(STORE, code); } catch (e) {}
     applyLang(); renderAll(); if (state.open) renderSheet();
+    if (document.getElementById("offline-badge")) offlineBadge();
     document.getElementById("live").textContent = langInfo(code).name;
   }
   function detectLang() {
@@ -447,6 +452,8 @@
     times.appendChild(h("div", { class: "ht" }, [h("span", { text: t("checkin") }), h("strong", null, ltr(D.checkin))]));
     times.appendChild(h("span", { class: "ht-sep", "aria-hidden": "true" }));
     times.appendChild(h("div", { class: "ht" }, [h("span", { text: t("checkout") }), h("strong", null, ltr(D.checkout))]));
+    var old = document.getElementById("save-app"); if (old) old.remove();
+    var sb = saveBtn("save-app"); sb.id = "save-app"; times.parentNode.insertBefore(sb, times.nextSibling);
   }
   function renderQuick() {
     var q = document.getElementById("quick");
@@ -507,7 +514,8 @@
       ext(h("a", { href: H.website, "aria-label": t("website") }, icon("globe"))),
       ext(h("a", { href: "https://www.instagram.com/" + H.instagram + "/", "aria-label": "Instagram" }, icon("instagram")))
     ]));
-    f.appendChild(shareBtn("f-share", true));
+    var fs = h("div", { class: "f-acts" }, [shareBtn("f-share", true)]);
+    fs.appendChild(saveBtn("f-share f-save", true)); f.appendChild(fs);
     f.appendChild(ext(h("a", { class: "f-addr", href: mapsUrl(D.address.maps || fullAddress()) }, [icon("pin"), addrNode(D.name + " · ")])));
     if (D.music) {
       var parts = t("musicCredit").split("{license}");
@@ -706,6 +714,98 @@
     bindMusic();
   }
 
+
+  /* ---------- offline + "Save to phone" (PWA) ---------- */
+  function isStandalone() {
+    try { return navigator.standalone === true || matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: fullscreen)").matches; } catch (e) { return false; }
+  }
+  function isIOS() {
+    var ua = navigator.userAgent || "";
+    return /iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  }
+  function saveBtn(cls, compact) {
+    var label = t("saveApp") + " – " + t("saveAppSub");
+    var b = h("button", { type: "button", class: cls + " js-save", "aria-label": label },
+      compact ? [icon("save-phone"), h("span", { text: t("saveApp") })]
+              : [icon("save-phone", "sa-ico"), h("span", { class: "sa-txt" }, [h("strong", { text: t("saveApp") }), h("small", { text: t("saveAppSub") })])]);
+    if (isStandalone()) b.hidden = true;
+    b.addEventListener("click", saveToPhone);
+    return b;
+  }
+  function hideSaveButtons() { document.querySelectorAll(".js-save").forEach(function (b) { b.hidden = true; }); }
+  function saveToPhone() {
+    if (installEvt) {
+      var ev = installEvt; installEvt = null;
+      ev.prompt();
+      (ev.userChoice || Promise.resolve({})).then(function (c) { if (c && c.outcome === "accepted") hideSaveButtons(); });
+      return;
+    }
+    showSaveHelp();
+  }
+  function stepLine(n, key, ic) {
+    var parts = t(key).split("{icon}");
+    var p = h("p", null, [parts[0]]);
+    if (ic) { var i = icon(ic, "sh-ico"); p.appendChild(i); }
+    if (parts[1]) p.appendChild(document.createTextNode(parts[1]));
+    return h("li", null, [h("span", { class: "step-n", "aria-hidden": "true", text: String(n) }), p]);
+  }
+  function showSaveHelp() {
+    var dlg = document.getElementById("save-help");
+    if (dlg) dlg.remove();
+    var ios = isIOS();
+    var steps = ios ? [stepLine(1, "iosStep1", "ios-share"), stepLine(2, "iosStep2", "plus-square"), stepLine(3, "iosStep3")]
+                    : [stepLine(1, "genStep1", "dots"), stepLine(2, "genStep2")];
+    var close = h("button", { type: "button", class: "btn btn-primary sh-ok", text: t("gotIt") });
+    dlg = h("dialog", { id: "save-help", class: "save-help", "aria-labelledby": "sh-title" }, [
+      h("div", { class: "sh-panel" }, [
+        icon("save-phone", "sh-top"),
+        h("h3", { id: "sh-title", text: t("saveApp") }),
+        h("p", { class: "sh-sub", text: t("saveAppSub") }),
+        h("ol", { class: "steps sh-steps" }, steps),
+        offlineCached ? h("p", { class: "sh-note", text: t("savedNote") }) : null,
+        close
+      ])
+    ]);
+    close.addEventListener("click", function () { dlg.close(); });
+    dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener("close", function () { dlg.remove(); });
+    document.body.appendChild(dlg);
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", "");
+  }
+  var offlineCached = false;
+  function markCached(announce) {
+    var key = "rdh-offline-" + D.slug, seen = null;
+    offlineCached = true; root.classList.add("is-cached");
+    try { seen = localStorage.getItem(key); localStorage.setItem(key, "1"); } catch (e) {}
+    if (announce && !seen) setTimeout(function () { toast(t("offlineReady"), "no-tick"); }, 1200);
+  }
+  function offlineBadge() {
+    /* one badge on the page, one inside the section dialog (which sits in the top layer) */
+    [["offline-badge", document.body, ""], ["offline-badge-sheet", document.querySelector("#sheet .sheet-panel"), " in-sheet"]].forEach(function (x) {
+      if (!x[1]) return;
+      var b = document.getElementById(x[0]);
+      if (!b) { b = h("div", { id: x[0], class: "offline-badge" + x[2], role: x[2] ? null : "status" }); x[1].appendChild(b); }
+      b.innerHTML = ""; b.appendChild(icon("offline")); b.appendChild(h("span", { text: t("offlineBadge") }));
+      b.classList.toggle("show", navigator.onLine === false);
+    });
+    root.classList.toggle("is-offline", navigator.onLine === false);
+  }
+  function initOffline() {
+    offlineBadge();
+    window.addEventListener("online", offlineBadge);
+    window.addEventListener("offline", offlineBadge);
+    window.addEventListener("appinstalled", function () { hideSaveButtons(); });
+    if (!("serviceWorker" in navigator) || !/^https?:$/.test(location.protocol)) return;
+    navigator.serviceWorker.addEventListener("message", function (e) {
+      if (e.data && e.data.type === "rdh-cached") markCached(true);
+    });
+    navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(function () {});
+    navigator.serviceWorker.ready.then(function (reg) {
+      var sw = navigator.serviceWorker.controller || reg.active;
+      if (sw) sw.postMessage("rdh-status");
+    });
+  }
+
   function start(data) {
     D = data;
     state.lang = isLang(root.dataset.lang) ? root.dataset.lang : detectLang();
@@ -718,6 +818,7 @@
       try { if (history.state || location.hash) history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
       window.scrollTo(0, 0);
     }
+    initOffline();
     window.addEventListener("pageshow", function (e) {
       if (e.persisted && !location.hash.slice(1)) { var d = document.getElementById("sheet"); if (d.open) d.close(); window.scrollTo(0, 0); }
     });

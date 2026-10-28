@@ -634,3 +634,46 @@ html[lang="ar"] #sheet p strong, html[lang="ar"] #sheet .cl-txt span strong { fo
 .f-share { display: inline-flex; align-items: center; gap: 8px; margin: 18px auto 4px; padding: 9px 18px; border-radius: 999px; border: 1px solid rgba(214, 186, 128, .5); color: var(--gold-3); background: rgba(255, 255, 255, .04); font: 500 13px/1 var(--sans); letter-spacing: .06em; cursor: pointer; }
 .f-share:hover, .f-share:focus-visible { background: rgba(255, 255, 255, .1); }
 .f-share .ico { width: 16px; height: 16px; }
+
+/* ---------- offline / Save to phone (PWA) ---------- */
+.save-app { margin-top: 18px; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px 10px 14px; border-radius: 999px; border: 1px solid rgba(207, 178, 126, .55); background: linear-gradient(180deg, rgba(255, 255, 255, .09), rgba(255, 255, 255, .03)); color: var(--ivory); cursor: pointer; text-align: start; box-shadow: 0 10px 30px -18px rgba(0, 0, 0, .6); backdrop-filter: blur(4px); transition: background .2s, transform .2s var(--ease); }
+.save-app:hover, .save-app:focus-visible { background: rgba(255, 255, 255, .14); }
+.save-app:active { transform: scale(.98); }
+.save-app[hidden], .f-save[hidden] { display: none; }
+.save-app .sa-ico { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: var(--gold-2); color: var(--b); flex: none; }
+.save-app .sa-ico svg { width: 19px; height: 19px; }
+.save-app .sa-txt { display: grid; gap: 3px; }
+.save-app strong { font: 500 13px/1.1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--gold-3); }
+.save-app small { font: italic 400 15px/1.1 var(--serif); color: rgba(251, 248, 242, .82); letter-spacing: .01em; }
+html[lang="ar"] .save-app strong { letter-spacing: 0; font-family: "Noto Kufi Arabic", var(--sans); }
+html[lang="ar"] .save-app small { font-style: normal; font-family: "Noto Naskh Arabic", serif; }
+.f-acts { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 18px auto 4px; }
+.f-acts .f-share { margin: 0; }
+
+.save-help { border: 0; padding: 0; margin: auto auto 0; width: min(100%, 460px); max-width: 100%; background: transparent; color: var(--ink); }
+@media (min-width: 560px) { .save-help { margin: auto; } }
+.save-help::backdrop { background: rgba(30, 6, 4, .55); backdrop-filter: blur(3px); }
+.save-help[open] .sh-panel { animation: sh-up .35s var(--ease); }
+@keyframes sh-up { from { transform: translateY(30px); opacity: 0; } }
+.sh-panel { position: relative; display: grid; justify-items: center; gap: 6px; padding: 26px 20px calc(22px + var(--safe-b)); background: var(--ivory) var(--travertine); border-radius: 24px 24px 0 0; border-top: 3px solid var(--gold); box-shadow: var(--shadow-lg); text-align: center; }
+@media (min-width: 560px) { .sh-panel { border-radius: 24px; } }
+.sh-top { width: 52px; height: 52px; display: grid; place-items: center; border-radius: 26px 26px 6px 6px; background: var(--b); color: var(--gold-3); margin-bottom: 4px; }
+.sh-top svg { width: 26px; height: 26px; }
+.sh-panel h3 { font: 500 26px/1.15 var(--serif); color: var(--b); }
+.sh-sub { font: italic 400 17px/1.3 var(--serif); color: var(--muted); margin-bottom: 8px; }
+html[lang="ar"] .sh-sub { font-style: normal; font-family: "Noto Naskh Arabic", serif; }
+.sh-steps { width: 100%; text-align: start; }
+.sh-ico { display: inline-grid; vertical-align: -5px; width: 24px; height: 24px; place-items: center; margin-inline: 4px; border-radius: 6px; background: var(--stone); color: var(--b); }
+.sh-ico svg { width: 16px; height: 16px; }
+.sh-note { font-size: 14px; color: var(--ok); margin-top: 6px; }
+.sh-ok { margin-top: 12px; min-width: 160px; justify-content: center; }
+
+.toast.no-tick::before { content: none; }
+.offline-badge { position: fixed; top: calc(10px + env(safe-area-inset-top, 0px)); left: 50%; z-index: 130; transform: translate(-50%, -14px); opacity: 0; pointer-events: none; display: inline-flex; align-items: center; gap: 7px; padding: 6px 13px 6px 10px; border-radius: 999px; background: rgba(42, 23, 20, .86); color: var(--gold-3); border: 1px solid rgba(207, 178, 126, .45); font: 400 12px/1 var(--sans); letter-spacing: .05em; backdrop-filter: blur(6px); box-shadow: 0 8px 24px -12px rgba(0, 0, 0, .5); transition: opacity .3s, transform .3s var(--ease); white-space: nowrap; }
+.offline-badge.show { opacity: 1; transform: translate(-50%, 0); }
+.offline-badge .ico { width: 14px; height: 14px; }
+.offline-badge .ico svg { width: 14px; height: 14px; }
+.offline-badge.in-sheet { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 66px); z-index: 7; }
+.offline-badge:not(.in-sheet) { top: auto; bottom: calc(22px + var(--safe-b)); transform: translate(-50%, 14px); }
+.offline-badge.show:not(.in-sheet) { transform: translate(-50%, 0); }
+html.is-offline .toast { bottom: calc(64px + var(--safe-b)); }
