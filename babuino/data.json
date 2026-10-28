@@ -1713,16 +1713,8 @@
        "phone": "+39 06 687 6119",
        "icon": "dining",
        "photo": {
-        "src": "rome/via-dell-arancio",
-        "place": "Via dell’Arancio",
-        "area": true,
-        "credit": {
-         "title": "Campo Marzio - Palazzo Borghese verso Ripetta 1000167.JPG",
-         "author": "Lalupa",
-         "license": "CC BY-SA 3.0",
-         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-         "source": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_Palazzo_Borghese_verso_Ripetta_1000167.JPG"
-        }
+        "src": "img/venue-da-settimio",
+        "own": true
        }
       }
      ]
