@@ -1918,7 +1918,11 @@
         "de": "Mo–Do & Sa: 7:00 – 14:00 Uhr · Fr: 7:00 – 19:00 Uhr · So: geschlossen",
         "ar": "الإثنين–الخميس والسبت: 7:00 – 14:00 · الجمعة: 7:00 – 19:00 · الأحد: مغلق"
        },
-       "icon": "basket"
+       "icon": "basket",
+       "photo": {
+        "src": "img/venue-mercato-trionfale",
+        "own": true
+       }
       }
      ]
     }
