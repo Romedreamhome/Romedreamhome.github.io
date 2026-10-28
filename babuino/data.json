@@ -1805,16 +1805,8 @@
        },
        "icon": "handbag",
        "photo": {
-        "src": "rome/via-del-tritone",
-        "place": "Via del Tritone",
-        "area": true,
-        "credit": {
-         "title": "Roma Via del Tritone.jpg",
-         "author": "Girolamus",
-         "license": "CC BY-SA 4.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Roma_Via_del_Tritone.jpg"
-        }
+        "src": "img/venue-la-rinascente",
+        "own": true
        }
       }
      ]
