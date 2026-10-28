@@ -1556,8 +1556,9 @@
        "web": "www.ciampini.com",
        "icon": "coffee",
        "photo": {
-        "src": "img/venue-ciampini",
-        "own": true
+        "src": "img/venue-bar-ciampini",
+        "own": true,
+        "pos": "50% 0%"
        },
        "phone": "+39 06 6876606"
       }
