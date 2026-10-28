@@ -1638,16 +1638,8 @@
        "web": "www.alfredoallascrofa.com",
        "icon": "dining",
        "photo": {
-        "src": "rome/via-della-scrofa",
-        "place": "Via della Scrofa",
-        "area": true,
-        "credit": {
-         "title": "Campo Marzio - palazzo Aragonia Gonzaga a via della Scrofa 1080145.JPG",
-         "author": "Lalupa",
-         "license": "CC BY-SA 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_palazzo_Aragonia_Gonzaga_a_via_della_Scrofa_1080145.JPG"
-        }
+        "src": "img/venue-alfredo-alla-scrofa",
+        "own": true
        }
       },
       {
