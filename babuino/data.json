@@ -1695,16 +1695,8 @@
        "phone": "+39 06 6793842",
        "icon": "wine",
        "photo": {
-        "src": "rome/pantheon",
-        "place": "Pantheon",
-        "area": true,
-        "credit": {
-         "title": "Pantheon Rom 1 cropped.jpg",
-         "author": "Rabax63",
-         "license": "CC BY-SA 4.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg"
-        }
+        "src": "img/venue-osteria-del-sostegno",
+        "own": true
        }
       },
       {
