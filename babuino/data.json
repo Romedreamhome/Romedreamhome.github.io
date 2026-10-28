@@ -1677,16 +1677,8 @@
        "web": "www.roma.dalbolognese.it",
        "icon": "dining",
        "photo": {
-        "src": "rome/piazza-del-popolo",
-        "place": "Piazza del Popolo",
-        "area": true,
-        "credit": {
-         "title": "Piazza del Popolo 3 in Rome.jpg",
-         "author": "Krzysztof Golik",
-         "license": "CC BY-SA 4.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Piazza_del_Popolo_3_in_Rome.jpg"
-        }
+        "src": "img/venue-dal-bolognese",
+        "own": true
        }
       },
       {
