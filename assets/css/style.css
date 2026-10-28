@@ -677,3 +677,8 @@ html[lang="ar"] .sh-sub { font-style: normal; font-family: "Noto Naskh Arabic", 
 .offline-badge:not(.in-sheet) { top: auto; bottom: calc(22px + var(--safe-b)); transform: translate(-50%, 14px); }
 .offline-badge.show:not(.in-sheet) { transform: translate(-50%, 0); }
 html.is-offline .toast { bottom: calc(64px + var(--safe-b)); }
+/* Contact: host + customer service cards */
+.contact-cards { display: grid; gap: 16px; }
+.sup-ico { display: grid; place-items: center; background: var(--b); color: var(--gold-3); }
+.sup-ico svg { width: 30px; height: 30px; }
+html[lang="ar"] .support-card .host-name { font-family: "Noto Naskh Arabic", serif; font-style: normal; font-weight: 600; }

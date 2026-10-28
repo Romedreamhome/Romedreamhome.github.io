@@ -18,13 +18,17 @@
   "name": "Federico",
   "phone": "+39 331 278 6108",
   "tel": "+393312786108",
-  "whatsapp": "393522827301",
-  "whatsappLabel": "+39 352 282 7301",
+  "whatsapp": "393312786108",
   "email": "romedreamhome@gmail.com",
   "website": "https://www.romedreamhome.it",
   "websiteLabel": "www.romedreamhome.it",
   "instagram": "romedreamhome",
   "photo": "img/host-federico.webp"
+ },
+ "support": {
+  "phone": "+39 352 282 7301",
+  "tel": "+393522827301",
+  "whatsapp": "393522827301"
  },
  "wifi": {
   "ssid": "FASTWEB-DQPRCQ",

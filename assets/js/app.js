@@ -64,7 +64,8 @@
     return "https://www.google.com/maps/dir/?api=1" + (origin ? "&origin=" + encodeURIComponent(origin) : "") +
       "&destination=" + encodeURIComponent(dest) + "&travelmode=" + (mode || "transit");
   }
-  function waUrl(msg) { return "https://wa.me/" + D.host.whatsapp + (msg ? "?text=" + encodeURIComponent(msg) : ""); }
+  /* "Message us", arrival and transfer messages go to customer service when the apartment defines one. */
+  function waUrl(msg, num) { return "https://wa.me/" + (num || (D.support || D.host).whatsapp) + (msg ? "?text=" + encodeURIComponent(msg) : ""); }
   function telUrl(n) { return "tel:" + String(n).replace(/[^\d+]/g, ""); }
   function webUrl(w) { return /^https?:/.test(w) ? w : "https://" + w; }
   function fullAddress() { return D.address.line1 + (state.lang === "ar" ? "، " : ", ") + tx(D.address.line2); }
@@ -419,7 +420,7 @@
       if (copyVal) row.appendChild(copyBtn(copyVal, label));
       return row;
     }
-    return h("section", { class: "host-card" }, [
+    var hostCard = h("section", { class: "host-card" }, [
       h("div", { class: "host-top" }, [
         H.photo ? h("img", { class: "host-photo", src: H.photo, alt: H.name, width: "120", height: "120", loading: "lazy" }) : icon("users", "host-photo"),
         h("div", null, [h("p", { class: "eyebrow", text: t("hostTitle") }), h("h4", { class: "host-name", text: H.name })])
@@ -427,12 +428,25 @@
       h("p", { class: "host-text", text: tx(b.text) }),
       h("ul", { class: "c-links" }, [
         link("phone", t("call"), H.phone, telUrl(H.tel), H.tel),
-        link("whatsapp", t("whatsapp"), H.whatsappLabel || H.phone, waUrl()),
+        link("whatsapp", t("whatsapp"), H.phone, waUrl(null, H.whatsapp)),
         link("mail", t("email"), H.email, "mailto:" + H.email, H.email),
         link("globe", t("website"), H.websiteLabel, H.website),
         link("instagram", t("instagram"), "@" + H.instagram, "https://www.instagram.com/" + H.instagram + "/")
       ])
     ]);
+    var S = D.support;
+    if (!S) return hostCard;
+    var supCard = h("section", { class: "host-card support-card" }, [
+      h("div", { class: "host-top" }, [
+        icon("headset", "host-photo sup-ico"),
+        h("div", null, [h("p", { class: "eyebrow", text: "Rome Dream Home" }), h("h4", { class: "host-name", text: t("customerService") })])
+      ]),
+      h("ul", { class: "c-links" }, [
+        link("phone", t("call"), S.phone, telUrl(S.tel), S.tel),
+        link("whatsapp", t("whatsapp"), S.phone, waUrl(null, S.whatsapp))
+      ])
+    ]);
+    return h("div", { class: "contact-cards" }, [hostCard, supCard]);
   };
   R.review = function (b) {
     var stars = h("div", { class: "stars", "aria-hidden": "true" });
