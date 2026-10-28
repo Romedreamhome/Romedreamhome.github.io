@@ -427,7 +427,7 @@
       h("p", { class: "host-text", text: tx(b.text) }),
       h("ul", { class: "c-links" }, [
         link("phone", t("call"), H.phone, telUrl(H.tel), H.tel),
-        link("whatsapp", t("whatsapp"), H.phone, waUrl()),
+        link("whatsapp", t("whatsapp"), H.whatsappLabel || H.phone, waUrl()),
         link("mail", t("email"), H.email, "mailto:" + H.email, H.email),
         link("globe", t("website"), H.websiteLabel, H.website),
         link("instagram", t("instagram"), "@" + H.instagram, "https://www.instagram.com/" + H.instagram + "/")
