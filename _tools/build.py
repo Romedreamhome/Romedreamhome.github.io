@@ -93,7 +93,7 @@ def build_apartment(folder, cfg, version):
     base = cfg.get("baseUrl", "").rstrip("/")
     if base:
         out = out.replace('content="../assets/img/og-image.jpg"', f'content="{base}/assets/img/og-image.jpg"')
-        out = out.replace('<meta property="og:type"', f'<meta property="og:url" content="{base}/{folder}/" />\n  <meta property="og:type"')
+        out = out.replace('<meta property="og:type"', f'<meta property="og:url" content="{base}/{folder}/" />\n  <link rel="canonical" href="{base}/{folder}/" />\n  <meta property="og:type"')
     open(os.path.join(ROOT, folder, "index.html"), "w", encoding="utf-8").write(out)
     return data, problems
 

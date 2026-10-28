@@ -627,3 +627,10 @@ html[dir="rtl"] .ph-arch.is-area .ph-cr { right: auto; left: 10px; }
 .notice.tone-warning p strong, .notice.tone-important p strong { color: var(--b-deep); }
 #sheet p strong, #sheet .cl-txt span strong { display: inline; font: inherit; font-weight: 600; letter-spacing: inherit; text-transform: none; margin: 0; color: var(--b); text-decoration: none; }
 html[lang="ar"] #sheet p strong, html[lang="ar"] #sheet .cl-txt span strong { font-weight: 600; }
+
+/* share buttons */
+.hb-right { display: flex; align-items: center; gap: 8px; }
+.share-top .ico { width: 17px; height: 17px; }
+.f-share { display: inline-flex; align-items: center; gap: 8px; margin: 18px auto 4px; padding: 9px 18px; border-radius: 999px; border: 1px solid rgba(214, 186, 128, .5); color: var(--gold-3); background: rgba(255, 255, 255, .04); font: 500 13px/1 var(--sans); letter-spacing: .06em; cursor: pointer; }
+.f-share:hover, .f-share:focus-visible { background: rgba(255, 255, 255, .1); }
+.f-share .ico { width: 16px; height: 16px; }

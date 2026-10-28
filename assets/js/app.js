@@ -289,6 +289,21 @@
       qr, h("p", { class: "hint", text: t("wifiHint") })
     ]);
   };
+  /* ---------- share: always the clean guide URL (no #section) ---------- */
+  function guideUrl() {
+    var c = document.querySelector('link[rel="canonical"]');
+    return (c && c.href) || (location.origin + location.pathname);
+  }
+  function shareGuide(el) {
+    var url = guideUrl(), title = t("pageTitle", { name: D.name });
+    if (navigator.share) { navigator.share({ title: title, url: url }).catch(function () {}); return; }
+    copy(url, t("shareLink"), el);
+  }
+  function shareBtn(cls, withLabel) {
+    var b = h("button", { type: "button", class: cls, "aria-label": t("shareGuide"), title: t("shareGuide") }, [icon("share"), withLabel ? h("span", { text: t("shareGuide") }) : null]);
+    b.addEventListener("click", function () { shareGuide(b); });
+    return b;
+  }
   /* ---------- Rome photos (freely licensed, credited) ---------- */
   function photoArch(ph, name, cls) {
     if (!ph) return null;
@@ -492,6 +507,7 @@
       ext(h("a", { href: H.website, "aria-label": t("website") }, icon("globe"))),
       ext(h("a", { href: "https://www.instagram.com/" + H.instagram + "/", "aria-label": "Instagram" }, icon("instagram")))
     ]));
+    f.appendChild(shareBtn("f-share", true));
     f.appendChild(ext(h("a", { class: "f-addr", href: mapsUrl(D.address.maps || fullAddress()) }, [icon("pin"), addrNode(D.name + " · ")])));
     if (D.music) {
       var parts = t("musicCredit").split("{license}");
@@ -516,6 +532,11 @@
     var md = document.querySelector('meta[name="description"]'); if (md) md.content = t("metaDescription", { name: D.name, address: fullAddress() });
     document.getElementById("skip").textContent = t("skip");
     document.getElementById("to-top").setAttribute("aria-label", t("toTop"));
+    var hb = document.querySelector(".hero-bar"), old = document.getElementById("share-top");
+    if (old) old.remove();
+    if (hb) { var sb = shareBtn("music share-top", false); sb.id = "share-top"; var right = document.getElementById("hb-right");
+      if (!right) { right = h("div", { id: "hb-right", class: "hb-right" }); hb.appendChild(right); var mu = document.getElementById("music"); if (mu) right.appendChild(mu); }
+      right.insertBefore(sb, right.firstChild); }
     var m = document.getElementById("music"); if (m) { m.setAttribute("aria-label", t("music")); m.title = t("music"); m.hidden = !D.music; }
     document.getElementById("sheet-back-label").textContent = t("back");
     document.getElementById("lb-close").setAttribute("aria-label", t("close"));
@@ -689,8 +710,17 @@
     D = data;
     state.lang = isLang(root.dataset.lang) ? root.dataset.lang : detectLang();
     applyLang(); bind(); renderAll(); playIntro();
+    try { if ("scrollRestoration" in history) history.scrollRestoration = "manual"; } catch (e) {}
     var id = location.hash.slice(1);
     if (id && sectionIndex(id) > -1) { try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {} openSection(id); }
+    else {
+      /* No explicit #section: always start on the home page, at the top. */
+      try { if (history.state || location.hash) history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
+      window.scrollTo(0, 0);
+    }
+    window.addEventListener("pageshow", function (e) {
+      if (e.persisted && !location.hash.slice(1)) { var d = document.getElementById("sheet"); if (d.open) d.close(); window.scrollTo(0, 0); }
+    });
   }
   if (window.RDH_DATA) start(window.RDH_DATA);
   else fetch("data.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(start).catch(function () {
