@@ -1657,16 +1657,8 @@
        "web": "www.tavernatrilussa.com",
        "icon": "dining",
        "photo": {
-        "src": "rome/piazza-trilussa",
-        "place": "Piazza Trilussa",
-        "area": true,
-        "credit": {
-         "title": "Trastevere - Fontanone dei cento preti a piazza Trilussa 1527.JPG",
-         "author": "Lalupa",
-         "license": "Public domain",
-         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Trastevere_-_Fontanone_dei_cento_preti_a_piazza_Trilussa_1527.JPG",
-         "source": "https://commons.wikimedia.org/wiki/File:Trastevere_-_Fontanone_dei_cento_preti_a_piazza_Trilussa_1527.JPG"
-        }
+        "src": "img/venue-taverna-trilussa",
+        "own": true
        }
       },
       {
