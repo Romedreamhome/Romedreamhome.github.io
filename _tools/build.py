@@ -107,6 +107,9 @@ def build_landing(apts, cfg, version):
                 f'<p>{addr}</p></div><span class="go" aria-hidden="true"><span class="ico flip">'
                 f'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></span></a>')
     out = tpl.replace("{{CARDS}}", "\n      ".join(cards)).replace("{{VERSION}}", version)
+    if not cards:  # private mode: guests reach a guide only through its direct link
+        out = out.replace('data-i18n="landingLead">Choose your apartment to open its digital guide.',
+                          'data-i18n="landingPrivate">Please open your apartment guide with the link sent by your host.')
     base = cfg.get("baseUrl", "").rstrip("/")
     if base:
         out = out.replace('content="assets/img/og-image.jpg"', f'content="{base}/assets/img/og-image.jpg"')
