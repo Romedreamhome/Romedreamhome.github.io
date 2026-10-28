@@ -1747,12 +1747,12 @@
        },
        "address": "Via Vittoria 22A, 00187 Roma RM",
        "walk": {
-        "en": "13-minute walk",
-        "it": "13 minuti a piedi",
-        "fr": "13 minutes à pied",
-        "es": "13 minutos a pie",
-        "de": "13 Minuten zu Fuß",
-        "ar": "13 دقيقة سيرًا على الأقدام"
+        "en": "3–5 minute walk",
+        "it": "3–5 minuti a piedi",
+        "fr": "3–5 minutes à pied",
+        "es": "3–5 minutos a pie",
+        "de": "3–5 Minuten zu Fuß",
+        "ar": "3–5 دقائق سيرًا على الأقدام"
        },
        "hours": {
         "en": "Mon–Sat 7:00 AM – midnight · Sun 8:00 AM – midnight",
