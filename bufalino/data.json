@@ -156,12 +156,12 @@
     {
      "type": "text",
      "text": {
-      "en": "**Bufalino** is an apartment for up to **4 guests**, with **1 double bedroom**, a **bright living room** with a **sofa bed**, a **kitchen** and **1 bathroom**, in an elegant **historic palazzo d’epoca** in the heart of Rome, a few steps from the **Trevi Fountain** and about **5 minutes** from **Piazza di Spagna**.",
-      "it": "**Bufalino** è un appartamento per un massimo di **4 ospiti**, con **1 camera matrimoniale**, un **luminoso soggiorno** con **divano letto**, **cucina** e **1 bagno**, in un elegante **palazzo d’epoca** nel cuore di Roma, a pochi passi dalla **Fontana di Trevi** e a circa **5 minuti** da **Piazza di Spagna**.",
-      "fr": "**Bufalino** est un appartement pour **4 personnes** maximum, avec **1 chambre double**, un **salon lumineux** avec **canapé-lit**, une **cuisine** et **1 salle de bains**, dans un élégant **palazzo d’epoca** au cœur de Rome, à deux pas de la **fontaine de Trevi** et à environ **5 minutes** de la **place d’Espagne**.",
-      "es": "**Bufalino** es un apartamento para un máximo de **4 huéspedes**, con **1 dormitorio doble**, un **luminoso salón** con **sofá cama**, **cocina** y **1 baño**, en un elegante **palazzo d’epoca** en el corazón de Roma, a pocos pasos de la **Fontana de Trevi** y a unos **5 minutos** de la **Plaza de España**.",
-      "de": "**Bufalino** ist eine Wohnung für bis zu **4 Gäste** mit **1 Doppelzimmer**, einem **hellen Wohnzimmer** mit **Schlafsofa**, einer **Küche** und **1 Bad** in einem eleganten **historischen Palazzo d’epoca** im Herzen Roms, nur wenige Schritte vom **Trevi-Brunnen** und etwa **5 Minuten** von der **Spanischen Treppe** entfernt.",
-      "ar": "**Bufalino** شقة تتسع لما يصل إلى **4 ضيوف**، تضم **غرفة نوم مزدوجة واحدة**، و**صالة جلوس مضيئة** مع **أريكة سرير**، و**مطبخاً** و**حمّاماً واحداً**، في **قصر تاريخي** أنيق (palazzo d’epoca) في قلب روما، على بُعد خطوات من **نافورة تريفي** وحوالي **5 دقائق** من **ساحة إسبانيا**."
+      "en": "**Bufalino** is an apartment for up to **4 guests**, with **1 double bedroom**, a **bright living room** with a **sofa bed**, a **kitchen** and **1 bathroom**, on the **2nd floor** of an elegant **historic palazzo d’epoca** in the heart of Rome, a few steps from the **Trevi Fountain** and about **5 minutes** from **Piazza di Spagna**.",
+      "it": "**Bufalino** è un appartamento per un massimo di **4 ospiti**, con **1 camera matrimoniale**, un **luminoso soggiorno** con **divano letto**, **cucina** e **1 bagno**, al **secondo piano** di un elegante **palazzo d’epoca** nel cuore di Roma, a pochi passi dalla **Fontana di Trevi** e a circa **5 minuti** da **Piazza di Spagna**.",
+      "fr": "**Bufalino** est un appartement pour **4 personnes** maximum, avec **1 chambre double**, un **salon lumineux** avec **canapé-lit**, une **cuisine** et **1 salle de bains**, au **2e étage** d’un élégant **palazzo d’epoca** au cœur de Rome, à deux pas de la **fontaine de Trevi** et à environ **5 minutes** de la **place d’Espagne**.",
+      "es": "**Bufalino** es un apartamento para un máximo de **4 huéspedes**, con **1 dormitorio doble**, un **luminoso salón** con **sofá cama**, **cocina** y **1 baño**, en la **2ª planta** de un elegante **palazzo d’epoca** en el corazón de Roma, a pocos pasos de la **Fontana de Trevi** y a unos **5 minutos** de la **Plaza de España**.",
+      "de": "**Bufalino** ist eine Wohnung für bis zu **4 Gäste** mit **1 Doppelzimmer**, einem **hellen Wohnzimmer** mit **Schlafsofa**, einer **Küche** und **1 Bad** im **2. Stock** eines eleganten **historischen Palazzo d’epoca** im Herzen Roms, nur wenige Schritte vom **Trevi-Brunnen** und etwa **5 Minuten** von der **Spanischen Treppe** entfernt.",
+      "ar": "**Bufalino** شقة تتسع لما يصل إلى **4 ضيوف**، تضم **غرفة نوم مزدوجة واحدة**، و**صالة جلوس مضيئة** مع **أريكة سرير**، و**مطبخاً** و**حمّاماً واحداً**، في **الطابق الثاني** من **قصر تاريخي** أنيق (palazzo d’epoca) في قلب روما، على بُعد خطوات من **نافورة تريفي** وحوالي **5 دقائق** من **ساحة إسبانيا**."
      }
     },
     {
@@ -298,12 +298,12 @@
        "ar": "عند وصولكم إلى **Via del Bufalo 138A**، اكتبوا **21219** ثم اضغطوا **#** على **لوحة أرقام باب المبنى**: سيُفتح **باب المبنى**."
       },
       {
-       "en": "Go to the **---- floor**.",
-       "it": "Andate al **---- piano**.",
-       "fr": "Rendez-vous au **---- étage**.",
-       "es": "Vaya a la **---- planta**.",
-       "de": "Gehen Sie in den **---- Stock**.",
-       "ar": "توجّهوا إلى **الطابق ----**."
+       "en": "Go to the **2nd floor**.",
+       "it": "Andate al **secondo piano**.",
+       "fr": "Rendez-vous au **2e étage**.",
+       "es": "Vaya a la **2ª planta**.",
+       "de": "Gehen Sie in den **2. Stock**.",
+       "ar": "توجّهوا إلى **الطابق الثاني**."
       },
       {
        "en": "The **lockbox is on the apartment door**: enter the code **5253**, open it and **take the keys**.",
@@ -2727,12 +2727,12 @@
     "ar": "عند وصولكم إلى **Via del Bufalo 138A**، اكتبوا **21219** ثم اضغطوا **#** على **لوحة أرقام باب المبنى**: سيُفتح **باب المبنى**."
    },
    {
-    "en": "Go to the **---- floor**.",
-    "it": "Andate al **---- piano**.",
-    "fr": "Rendez-vous au **---- étage**.",
-    "es": "Vaya a la **---- planta**.",
-    "de": "Gehen Sie in den **---- Stock**.",
-    "ar": "توجّهوا إلى **الطابق ----**."
+    "en": "Go to the **2nd floor**.",
+    "it": "Andate al **secondo piano**.",
+    "fr": "Rendez-vous au **2e étage**.",
+    "es": "Vaya a la **2ª planta**.",
+    "de": "Gehen Sie in den **2. Stock**.",
+    "ar": "توجّهوا إلى **الطابق الثاني**."
    },
    {
     "en": "The **lockbox is on the apartment door**: enter the code **5253**, open it and **take the keys**.",
