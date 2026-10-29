@@ -180,12 +180,12 @@ html.js:not(.intro-seen) .hero-logo { visibility: hidden; }
 
 /* Guide grid — arch-shaped tiles */
 .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px 10px; }
-.tile { width: 100%; display: grid; justify-items: center; align-content: start; gap: 9px; padding: 0 0 12px; border-radius: 999px 999px var(--r-sm) var(--r-sm); text-align: center; transition: transform .28s var(--ease); }
+.tile { width: 100%; display: grid; justify-items: center; align-content: start; gap: 10px; padding: 0 0 14px; border-radius: 999px 999px var(--r-sm) var(--r-sm); text-align: center; transition: transform .28s var(--ease); }
 .tile-arch { position: relative; width: 100%; aspect-ratio: 1 / 1.08; display: grid; place-items: center; border-radius: 999px 999px 10px 10px; background: linear-gradient(180deg, #fff 0%, var(--stone) 100%); border: 1px solid var(--line-gold); box-shadow: var(--shadow); overflow: hidden; transition: background .3s, box-shadow .3s, border-color .3s; }
 .tile-arch::before { content: ""; position: absolute; inset: 6px 6px 6px; border-radius: 999px 999px 7px 7px; border: 1px solid rgba(176, 141, 87, .28); pointer-events: none; }
 .tile-ico { width: min(40%, 50px); height: min(40%, 50px); color: var(--b); transition: transform .35s var(--ease), color .3s; }
 .tile-ico svg { stroke-width: 1.2; }
-.tile-label { font: 400 11px/1.25 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); max-width: 100%; overflow-wrap: anywhere; hyphens: auto; }
+.tile-label { font: 400 11px/1.25 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); max-width: 100%; overflow-wrap: anywhere; hyphens: auto; min-height: 2.5em; }
 .tile-num { font: italic 400 13px/1 var(--serif); color: var(--gold); margin-top: -4px; }
 .tile:hover .tile-arch, .tile:focus-visible .tile-arch { background: linear-gradient(180deg, var(--b-soft) 0%, var(--b) 100%); border-color: var(--b); }
 .tile:hover .tile-arch::before, .tile:focus-visible .tile-arch::before { border-color: rgba(207, 178, 126, .5); }
@@ -396,9 +396,9 @@ html.js .tile.in, html.js .q.in, html.js .g-item.in, html.js .sec-head.in { opac
 .link .ico { width: 15px; height: 15px; color: var(--gold); }
 
 .rules { display: grid; gap: 10px; }
-.rules li { display: grid; grid-template-columns: 38px 34px 1fr; gap: 10px; align-items: center; padding: 14px 16px; border-radius: var(--r); background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow); }
+.rules li { display: grid; grid-template-columns: 34px 1fr; gap: 14px; align-items: center; padding: 14px 16px; border-radius: var(--r); background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow); }
 .rn { font: italic 500 22px/1 var(--serif); color: var(--gold); text-align: center; }
-.r-ico { width: 30px; height: 30px; color: var(--b); }
+.r-ico { width: 30px; height: 30px; color: var(--b); justify-self: center; }
 .rules p { font-size: 15px; }
 
 .amen { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }

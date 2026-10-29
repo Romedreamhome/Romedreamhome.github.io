@@ -415,7 +415,7 @@
   };
   R.rules = function (b) {
     return h("ol", { class: "rules" }, b.items.map(function (it, i) {
-      return h("li", null, [h("span", { class: "rn", "aria-hidden": "true", text: ROMAN[i] }), icon(it.icon, "r-ico"), h("p", { text: tx(it.text) })]);
+      return h("li", null, [icon(it.icon, "r-ico"), h("p", { text: tx(it.text) })]);
     }));
   };
   R.amenities = function (b) {
@@ -616,8 +616,7 @@
     D.sections.forEach(function (s, i) {
       var b = h("button", { type: "button", class: "tile", "data-section": s.id, "aria-haspopup": "dialog", "aria-controls": "sheet", style: "--d:" + (i * 35) + "ms" }, [
         h("span", { class: "tile-arch" }, icon(s.icon, "tile-ico")),
-        h("span", { class: "tile-label", text: tx(s.title) }),
-        h("span", { class: "tile-num", "aria-hidden": "true", text: ROMAN[i] })
+        h("span", { class: "tile-label", text: tx(s.title) })
       ]);
       b.onclick = function () { openSection(s.id); };
       ul.appendChild(h("li", null, b));
