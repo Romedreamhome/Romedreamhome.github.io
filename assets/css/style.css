@@ -762,3 +762,10 @@ html[lang="ar"] .pb-sub { letter-spacing: 0; }
 .ah-code-v.long, .code-value.long { white-space: nowrap; letter-spacing: .08em; }
 .ah-code-v.long { font-size: clamp(28px, 9vw, 40px); }
 .code-value.long { font-size: clamp(28px, 9vw, 38px); }
+
+/* tab ink: positioned from the active tab's measured box (works for 2, 3+ tabs and RTL) */
+.tab { min-width: 0; }
+.tab span { overflow-wrap: anywhere; }
+.tab-ink { inset-inline-start: auto; left: 0; width: calc((100% - 8px) / var(--n, 2)); transform: translateX(calc(4px + var(--ix) * 100%)); }
+[dir="rtl"] .tab-ink { left: auto; right: 0; transform: translateX(calc(-4px + var(--ix) * -100%)); }
+.tablist.ink-ready .tab-ink, [dir="rtl"] .tablist.ink-ready .tab-ink { left: 0; right: auto; width: var(--ink-w); transform: translateX(var(--ink-x)); transition: transform .35s var(--ease), width .35s var(--ease); }

@@ -52,28 +52,6 @@
    }
   },
   {
-   "src": "img/terrace-1",
-   "alt": {
-    "en": "Terrace over the rooftops",
-    "it": "Terrazza sui tetti",
-    "fr": "Terrasse sur les toits",
-    "es": "Terraza sobre los tejados",
-    "de": "Terrasse über den Dächern",
-    "ar": "شرفة تطل على الأسطح"
-   }
-  },
-  {
-   "src": "img/bedroom-1",
-   "alt": {
-    "en": "Double bedroom",
-    "it": "Camera matrimoniale",
-    "fr": "Chambre double",
-    "es": "Dormitorio doble",
-    "de": "Doppelzimmer",
-    "ar": "غرفة نوم مزدوجة"
-   }
-  },
-  {
    "src": "img/dining",
    "alt": {
     "en": "Dining area in the living room",
@@ -82,28 +60,6 @@
     "es": "Comedor en el salón",
     "de": "Essbereich im Wohnzimmer",
     "ar": "منطقة الطعام في الصالة"
-   }
-  },
-  {
-   "src": "img/terrace-2",
-   "alt": {
-    "en": "Terrace with outdoor dining table",
-    "it": "Terrazza con tavolo da pranzo all’aperto",
-    "fr": "Terrasse avec table à manger extérieure",
-    "es": "Terraza con mesa de comedor exterior",
-    "de": "Terrasse mit Esstisch im Freien",
-    "ar": "شرفة مع طاولة طعام خارجية"
-   }
-  },
-  {
-   "src": "img/bedroom-2",
-   "alt": {
-    "en": "Double bedroom",
-    "it": "Camera matrimoniale",
-    "fr": "Chambre double",
-    "es": "Dormitorio doble",
-    "de": "Doppelzimmer",
-    "ar": "غرفة نوم مزدوجة"
    }
   },
   {
@@ -118,7 +74,18 @@
    }
   },
   {
-   "src": "img/bedroom-3",
+   "src": "img/fireplace",
+   "alt": {
+    "en": "Marble fireplace",
+    "it": "Camino in marmo",
+    "fr": "Cheminée en marbre",
+    "es": "Chimenea de mármol",
+    "de": "Marmorkamin",
+    "ar": "مدفأة رخامية"
+   }
+  },
+  {
+   "src": "img/bedroom-1",
    "alt": {
     "en": "Double bedroom",
     "it": "Camera matrimoniale",
@@ -129,14 +96,25 @@
    }
   },
   {
-   "src": "img/fireplace",
+   "src": "img/bedroom-2",
    "alt": {
-    "en": "Marble fireplace",
-    "it": "Camino in marmo",
-    "fr": "Cheminée en marbre",
-    "es": "Chimenea de mármol",
-    "de": "Marmorkamin",
-    "ar": "مدفأة رخامية"
+    "en": "Double bedroom",
+    "it": "Camera matrimoniale",
+    "fr": "Chambre double",
+    "es": "Dormitorio doble",
+    "de": "Doppelzimmer",
+    "ar": "غرفة نوم مزدوجة"
+   }
+  },
+  {
+   "src": "img/bedroom-3",
+   "alt": {
+    "en": "Double bedroom",
+    "it": "Camera matrimoniale",
+    "fr": "Chambre double",
+    "es": "Dormitorio doble",
+    "de": "Doppelzimmer",
+    "ar": "غرفة نوم مزدوجة"
    }
   },
   {
@@ -151,36 +129,14 @@
    }
   },
   {
-   "src": "img/kitchen",
+   "src": "img/terrace-2",
    "alt": {
-    "en": "Equipped kitchen",
-    "it": "Cucina attrezzata",
-    "fr": "Cuisine équipée",
-    "es": "Cocina equipada",
-    "de": "Ausgestattete Küche",
-    "ar": "مطبخ مجهّز"
-   }
-  },
-  {
-   "src": "img/bathroom-1",
-   "alt": {
-    "en": "Bathroom",
-    "it": "Bagno",
-    "fr": "Salle de bains",
-    "es": "Baño",
-    "de": "Badezimmer",
-    "ar": "الحمّام"
-   }
-  },
-  {
-   "src": "img/bathroom-2",
-   "alt": {
-    "en": "Second bathroom",
-    "it": "Secondo bagno",
-    "fr": "Deuxième salle de bains",
-    "es": "Segundo baño",
-    "de": "Zweites Badezimmer",
-    "ar": "الحمّام الثاني"
+    "en": "Terrace with outdoor dining table",
+    "it": "Terrazza con tavolo da pranzo all’aperto",
+    "fr": "Terrasse avec table à manger extérieure",
+    "es": "Terraza con mesa de comedor exterior",
+    "de": "Terrasse mit Esstisch im Freien",
+    "ar": "شرفة مع طاولة طعام خارجية"
    }
   }
  ],
@@ -233,18 +189,6 @@
     },
     {
      "type": "photo",
-     "src": "img/terrace-1",
-     "alt": {
-      "en": "Terrace over the rooftops",
-      "it": "Terrazza sui tetti",
-      "fr": "Terrasse sur les toits",
-      "es": "Terraza sobre los tejados",
-      "de": "Terrasse über den Dächern",
-      "ar": "شرفة تطل على الأسطح"
-     }
-    },
-    {
-     "type": "photo",
      "src": "img/bedroom-1",
      "alt": {
       "en": "Double bedroom",
@@ -253,6 +197,18 @@
       "es": "Dormitorio doble",
       "de": "Doppelzimmer",
       "ar": "غرفة نوم مزدوجة"
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/dining",
+     "alt": {
+      "en": "Dining area in the living room",
+      "it": "Zona pranzo nel salone",
+      "fr": "Coin repas dans le salon",
+      "es": "Comedor en el salón",
+      "de": "Essbereich im Wohnzimmer",
+      "ar": "منطقة الطعام في الصالة"
      }
     },
     {
@@ -795,85 +751,6 @@
           "ar": "لرحلة سهلة ومريحة وخالية من التوتر، اختاروا **خدمة النقل الحصرية** لدينا مباشرةً من Ciampino. يعتمد السعر على اليوم والوقت وعدد الركاب."
          },
          "transfer": "Ciampino"
-        }
-       ]
-      },
-      {
-       "label": {
-        "en": "Roma Termini station",
-        "it": "Stazione Roma Termini",
-        "fr": "Gare Roma Termini",
-        "es": "Estación Roma Termini",
-        "de": "Bahnhof Roma Termini",
-        "ar": "محطة روما تيرميني"
-       },
-       "icon": "train",
-       "origin": "Roma Termini, Rome",
-       "routes": [
-        {
-         "icon": "metro",
-         "title": {
-          "en": "Metro line A",
-          "it": "Metro linea A",
-          "fr": "Métro ligne A",
-          "es": "Metro línea A",
-          "de": "Metrolinie A",
-          "ar": "خط المترو A"
-         },
-         "text": {
-          "en": "Take **metro line A** towards Battistini and get off at **Barberini** (2 stops, **about 5 minutes**). Then walk about **9 minutes** to Via del Bufalo.",
-          "it": "Prendete la **metro linea A** direzione Battistini e scendete a **Barberini** (2 fermate, **circa 5 minuti**). Poi circa **9 minuti** a piedi fino a Via del Bufalo.",
-          "fr": "Prenez la **ligne A du métro** direction Battistini et descendez à **Barberini** (2 arrêts, **environ 5 minutes**). Puis environ **9 minutes** à pied jusqu’à la Via del Bufalo.",
-          "es": "Tome la **línea A del metro** dirección Battistini y bájese en **Barberini** (2 paradas, **unos 5 minutos**). Después, unos **9 minutos** a pie hasta Via del Bufalo.",
-          "de": "Nehmen Sie die **Metrolinie A** Richtung Battistini bis **Barberini** (2 Stationen, **ca. 5 Minuten**). Dann etwa **9 Minuten** zu Fuß bis zur Via del Bufalo.",
-          "ar": "استقلوا **خط المترو A** باتجاه باتيستيني وانزلوا في محطة **باربيريني** (محطتان، **حوالي 5 دقائق**). ثم حوالي **9 دقائق** سيراً حتى Via del Bufalo."
-         },
-         "price": {
-          "en": "Ticket: **€1.50**.",
-          "it": "Biglietto: **1,50 €**.",
-          "fr": "Billet : **1,50 €**.",
-          "es": "Billete: **1,50 €**.",
-          "de": "Fahrschein: **1,50 €**.",
-          "ar": "التذكرة: **1.50 يورو**."
-         }
-        },
-        {
-         "icon": "taxi",
-         "title": {
-          "en": "Taxi",
-          "it": "Taxi",
-          "fr": "Taxi",
-          "es": "Taxi",
-          "de": "Taxi",
-          "ar": "سيارة أجرة"
-         },
-         "text": {
-          "en": "From the **taxi rank** in front of Termini, the ride takes **about 10 minutes** (metered fare). Drop-off right in front of **Via del Bufalo 138A**.",
-          "it": "Dalla **stazione dei taxi** davanti a Termini, la corsa dura **circa 10 minuti** (tariffa a tassametro). Il taxi vi lascia proprio davanti a **Via del Bufalo 138A**.",
-          "fr": "Depuis la **station de taxis** devant Termini, le trajet dure **environ 10 minutes** (tarif au compteur). Dépose juste devant le **Via del Bufalo 138A**.",
-          "es": "Desde la **parada de taxis** frente a Termini, el trayecto dura **unos 10 minutos** (tarifa con taxímetro). Le deja justo delante de **Via del Bufalo 138A**.",
-          "de": "Vom **Taxistand** vor Termini dauert die Fahrt **ca. 10 Minuten** (Taxameterpreis). Ausstieg direkt vor der **Via del Bufalo 138A**.",
-          "ar": "من **موقف سيارات الأجرة** أمام تيرميني تستغرق الرحلة **حوالي 10 دقائق** (حسب العدّاد). النزول أمام **Via del Bufalo 138A** مباشرةً."
-         }
-        },
-        {
-         "icon": "walk",
-         "title": {
-          "en": "On foot",
-          "it": "A piedi",
-          "fr": "À pied",
-          "es": "A pie",
-          "de": "Zu Fuß",
-          "ar": "سيراً على الأقدام"
-         },
-         "text": {
-          "en": "About **25 minutes** (1.9 km) via **Via Nazionale** or **Via Barberini** and **Via del Tritone**.",
-          "it": "Circa **25 minuti** (1,9 km) passando da **Via Nazionale** o **Via Barberini** e **Via del Tritone**.",
-          "fr": "Environ **25 minutes** (1,9 km) par la **Via Nazionale** ou la **Via Barberini** puis la **Via del Tritone**.",
-          "es": "Unos **25 minutos** (1,9 km) por **Via Nazionale** o **Via Barberini** y **Via del Tritone**.",
-          "de": "Etwa **25 Minuten** (1,9 km) über die **Via Nazionale** oder **Via Barberini** und die **Via del Tritone**.",
-          "ar": "حوالي **25 دقيقة** (1.9 كم) عبر **Via Nazionale** أو **Via Barberini** ثم **Via del Tritone**."
-         }
         }
        ]
       }

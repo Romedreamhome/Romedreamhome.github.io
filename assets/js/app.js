@@ -293,12 +293,28 @@
       });
       list.appendChild(tb); panels.push(panel);
     });
+    var cur = 0;
+    function tabsEls() { return [].filter.call(list.children, function (c) { return c.getAttribute("role") === "tab"; }); }
+    /* the ink is placed from the active tab's real box (any number of tabs, LTR/RTL, wrapping labels, resize) */
+    function placeInk() {
+      var t = tabsEls()[cur]; if (!t || !t.offsetWidth) return;
+      list.style.setProperty("--ink-x", t.offsetLeft + "px");
+      list.style.setProperty("--ink-w", t.offsetWidth + "px");
+      list.classList.add("ink-ready");
+    }
     function select(i) {
-      [].forEach.call(list.children, function (c, j) { c.setAttribute("aria-selected", i === j ? "true" : "false"); c.tabIndex = i === j ? 0 : -1; });
+      cur = i;
+      tabsEls().forEach(function (c, j) { c.setAttribute("aria-selected", i === j ? "true" : "false"); c.tabIndex = i === j ? 0 : -1; });
       panels.forEach(function (p, j) { p.hidden = i !== j; });
       list.style.setProperty("--ix", i);
+      placeInk();
+      var t = tabsEls()[i]; if (t && list.scrollWidth > list.clientWidth && t.scrollIntoView) t.scrollIntoView({ block: "nearest", inline: "nearest" });
     }
+    list.style.setProperty("--n", b.tabs.length);
     list.appendChild(h("span", { class: "tab-ink", "aria-hidden": "true" }));
+    if (window.ResizeObserver) new ResizeObserver(placeInk).observe(list);
+    window.addEventListener("resize", placeInk);
+    setTimeout(placeInk, 0);
     wrap.appendChild(list); panels.forEach(function (p) { wrap.appendChild(p); });
     return wrap;
   };
