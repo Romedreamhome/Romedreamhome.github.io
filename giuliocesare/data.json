@@ -74,17 +74,6 @@
    }
   },
   {
-   "src": "img/sofa-beds",
-   "alt": {
-    "en": "Living room",
-    "it": "Soggiorno",
-    "fr": "Salon",
-    "es": "Salón",
-    "de": "Wohnzimmer",
-    "ar": "غرفة المعيشة"
-   }
-  },
-  {
    "src": "img/bedroom-1",
    "alt": {
     "en": "Double bedroom",
@@ -191,7 +180,7 @@
     },
     {
      "type": "photo",
-     "src": "img/sofa-beds",
+     "src": "img/living-2",
      "alt": {
       "en": "Living room",
       "it": "Soggiorno",
