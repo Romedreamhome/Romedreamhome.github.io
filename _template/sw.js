@@ -46,7 +46,7 @@ function isHome(url) {
 
 /* HTML: network first (edits reach guests online), cached copy when offline. */
 function page(req) {
-  var net = fetch(req).then(function (r) {
+  var net = fetch(req.url, { cache: "no-cache", credentials: "same-origin" }).then(function (r) {   /* revalidate: never a stale page from the HTTP cache */
     if (r.ok && isHome(req.url)) { var copy = r.clone(); caches.open(CACHE).then(function (c) { c.put(HOME, copy); }); }
     return r;
   });

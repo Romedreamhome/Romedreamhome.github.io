@@ -34,6 +34,7 @@
       else if (k === "text") { if (String(v).indexOf("**") > -1) el.appendChild(rich(v)); else el.textContent = v; }
       else if (k === "html") el.innerHTML = v;
       else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), v);
+      else if (k === "src" || k === "srcset") el.setAttribute(k, vurls(v));
       else el.setAttribute(k, v === true ? "" : v);
     });
     (Array.isArray(kids) ? kids : kids != null ? [kids] : []).forEach(function (c) {
@@ -42,6 +43,14 @@
     });
     return el;
   }
+  /* Image cache-buster: build.py inlines D.imgv = {"img/x-sm.webp": "<content hash>"}, so a changed photo
+     always gets a new URL (no stale copy from the HTTP cache or an older service-worker cache). */
+  function vurl(u) {
+    var v = D && D.imgv && D.imgv[u];
+    return v && u.indexOf("?") < 0 ? u + "?v=" + v : u;
+  }
+  function vurls(v) { return String(v).split(/(\s*,\s*)/).map(function (part) {
+    return part.replace(/^(\S+)/, function (u) { return vurl(u); }); }).join(""); }
   /* Inline emphasis: **bold** in content strings -> <strong>. Text nodes only, so content stays escaped. */
   function rich(str) {
     var frag = document.createDocumentFragment();
@@ -722,7 +731,7 @@
   function showLb() {
     var p = D.photos[lbIndex];
     var img = document.getElementById("lb-img");
-    img.classList.remove("in"); img.src = p.src + ".webp"; img.alt = tx(p.alt);
+    img.classList.remove("in"); img.src = vurl(p.src + ".webp"); img.alt = tx(p.alt);
     img.onload = function () { img.classList.add("in"); };
     document.getElementById("lb-cap").textContent = tx(p.alt) + " · " + t("photoOf", { i: lbIndex + 1, n: D.photos.length });
   }

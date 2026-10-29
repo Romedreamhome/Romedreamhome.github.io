@@ -85,11 +85,33 @@ def check(data, folder):
                     problems.append(f"photo {ph['src']}: credit lacks {', '.join(miss)}")
     return problems
 
+def file_hash(fp):
+    return hashlib.sha1(open(fp, "rb").read()).hexdigest()[:10]
+
+def image_versions(folder, data):
+    """URL (as written by app.js) -> content hash, for every apartment and shared Rome image."""
+    out = {}
+    d = os.path.join(ROOT, folder, "img")
+    if os.path.isdir(d):
+        for f in sorted(os.listdir(d)):
+            if not f.startswith("."): out[f"img/{f}"] = file_hash(os.path.join(d, f))
+    A = os.path.join(ROOT, "assets")
+    for s in sorted(set(re.findall(r'"src":\s*"(rome/[\w.-]+)"', json.dumps(data)))):
+        for suf in ("-sm.webp", ".webp"):
+            fp = os.path.join(A, s + suf)
+            if os.path.exists(fp): out[f"../assets/{s}{suf}"] = file_hash(fp)
+    return out
+
+def with_v(u, folder):
+    fp = os.path.normpath(os.path.join(ROOT, folder, u))
+    return f"{u}?v={file_hash(fp)}" if os.path.isfile(fp) else u
+
 def build_apartment(folder, cfg, version):
     data = json.load(open(os.path.join(ROOT, folder, "data.json"), encoding="utf-8"))
     problems = check(data, folder)
     tpl = open(os.path.join(ROOT, "_template", "index.html"), encoding="utf-8").read()
     addr = data["address"]["line1"] + ", " + data["address"]["line2"]["en"]
+    data = dict(data, imgv=image_versions(folder, data))
     payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     out = (tpl.replace("{{DATA}}", payload)
               .replace("{{NAME}}", html.escape(data["name"]))
@@ -128,6 +150,7 @@ def write_pwa(folder, data, version):
     media += sorted(f"img/{f}" for f in os.listdir(os.path.join(ROOT, folder, "img")) if not f.startswith("."))
     shared = sorted(set(re.findall(r'"src":\s*"(rome/[\w.-]+)"', json.dumps(data))))
     media += [f"../assets/{s}{suf}" for s in shared for suf in ("-sm.webp", ".webp") if os.path.exists(os.path.join(A, s + suf))]
+    media = [with_v(u, folder) for u in media]   # same hashed URLs the page requests
     h = hashlib.sha1()
     for u in core[1:] + media:
         fp = os.path.normpath(os.path.join(ROOT, folder, u.split("?")[0]))
@@ -145,7 +168,7 @@ def build_landing(apts, cfg, version):
     if cfg.get("listOnLanding", True):
         for d in apts:
             cover = (d.get("photos") or [{}])[0].get("src")
-            img = f'<img src="{d["slug"]}/{cover}-sm.webp" alt="" loading="lazy" width="96" height="108" />' if cover else ""
+            img = f'<img src="{with_v(d["slug"] + "/" + cover + "-sm.webp", ".")}" alt="" loading="lazy" width="96" height="108" />' if cover else ""
             addr = html.escape(d["address"]["line1"])
             cards.append(
                 f'<a class="apt-card" href="{d["slug"]}/">{img}<div><h3>{html.escape(d["name"])}</h3>'
