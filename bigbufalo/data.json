@@ -322,12 +322,12 @@
     {
      "type": "text",
      "text": {
-      "en": "Please respect the check-in times. If you would like to arrive earlier, **contact us** and we will check what is possible.",
-      "it": "Vi preghiamo di rispettare gli orari di check-in. Se desiderate arrivare prima, **contattateci** e verificheremo cosa è possibile fare.",
-      "fr": "Merci de respecter les horaires d’arrivée. Si vous souhaitez arriver plus tôt, **contactez-nous** et nous verrons ce qui est possible.",
-      "es": "Le rogamos que respete los horarios de check-in. Si desea llegar antes, **contáctenos** y comprobaremos qué es posible.",
-      "de": "Bitte halten Sie die Check-in-Zeiten ein. Wenn Sie früher ankommen möchten, **kontaktieren Sie uns** und wir prüfen, was möglich ist.",
-      "ar": "يُرجى الالتزام بمواعيد تسجيل الوصول. إذا رغبتم في الوصول مبكراً، **تواصلوا معنا** وسنتحقق مما هو ممكن."
+      "en": "Please respect the check-in times. If you would like to arrive earlier, no problem at all: you can **drop off your luggage from 11:00** and take the keys, then **come back at 15:00** when the apartment will be ready.",
+      "it": "Vi preghiamo di rispettare gli orari di check-in. Se desiderate arrivare prima, nessun problema: potete **lasciare i bagagli a partire dalle 11:00** e ritirare le chiavi, per poi **tornare alle 15:00**, quando l’appartamento sarà pronto.",
+      "fr": "Merci de respecter les horaires d’arrivée. Si vous souhaitez arriver plus tôt, aucun problème : vous pouvez **déposer vos bagages à partir de 11h00** et récupérer les clés, puis **revenir à 15h00**, lorsque l’appartement sera prêt.",
+      "es": "Le rogamos que respete los horarios de check-in. Si desea llegar antes, no hay ningún problema: puede **dejar su equipaje a partir de las 11:00** y recoger las llaves, y luego **volver a las 15:00**, cuando el apartamento esté listo.",
+      "de": "Bitte halten Sie die Check-in-Zeiten ein. Wenn Sie früher ankommen möchten, ist das kein Problem: Sie können Ihr **Gepäck ab 11:00 Uhr abstellen** und die Schlüssel abholen und dann **um 15:00 Uhr zurückkommen**, wenn die Wohnung bereit ist.",
+      "ar": "يُرجى الالتزام بمواعيد تسجيل الوصول. إذا رغبتم في الوصول مبكراً فلا مشكلة إطلاقاً: يمكنكم **ترك أمتعتكم ابتداءً من الساعة 11:00** واستلام المفاتيح، ثم **العودة في الساعة 15:00** عندما تكون الشقة جاهزة."
      }
     },
     {
@@ -403,6 +403,27 @@
      },
      "value": "4207",
      "icon": "lock"
+    },
+    {
+     "type": "notice",
+     "tone": "info",
+     "icon": "luggage",
+     "title": {
+      "en": "Luggage assistance",
+      "it": "Assistenza bagagli",
+      "fr": "Aide pour les bagages",
+      "es": "Ayuda con el equipaje",
+      "de": "Gepäckservice",
+      "ar": "المساعدة في الأمتعة"
+     },
+     "text": {
+      "en": "**On request**, an **operator can carry your luggage** up to the apartment: contact **customer service** at **+39 352 282 7301**.",
+      "it": "**Su richiesta**, un **operatore può portare i vostri bagagli** fino all’appartamento: contattate il **servizio clienti** al **+39 352 282 7301**.",
+      "fr": "**Sur demande**, un **opérateur peut monter vos bagages** jusqu’à l’appartement : contactez le **service client** au **+39 352 282 7301**.",
+      "es": "**Bajo petición**, un **operario puede subir su equipaje** hasta el apartamento: contacte con el **servicio de atención al cliente** en el **+39 352 282 7301**.",
+      "de": "**Auf Anfrage** kann ein **Mitarbeiter Ihr Gepäck** bis in die Wohnung bringen: Kontaktieren Sie den **Kundenservice** unter **+39 352 282 7301**.",
+      "ar": "**عند الطلب**، يمكن **لعامل أن يحمل أمتعتكم** حتى الشقة: تواصلوا مع **خدمة العملاء** على الرقم **+39 352 282 7301**."
+     }
     },
     {
      "type": "arrival"
@@ -625,12 +646,12 @@
           "ar": "سيارة أجرة"
          },
          "text": {
-          "en": "Official white taxis charge a **fixed fare of €55** from Fiumicino to the city centre (inside the Aurelian Walls). Drop-off: **Via del Bufalo 138A**, or **Via del Tritone** at the corner with **Via del Nazareno** (1 minute on foot).",
-          "it": "I taxi ufficiali bianchi applicano una **tariffa fissa di 55 €** da Fiumicino al centro città (entro le Mura Aureliane). Discesa: **Via del Bufalo 138A**, oppure **Via del Tritone** all’angolo con **Via del Nazareno** (1 minuto a piedi).",
-          "fr": "Les taxis officiels blancs appliquent un **tarif fixe de 55 €** de Fiumicino au centre-ville (à l’intérieur du mur d’Aurélien). Dépose : **Via del Bufalo 138A**, ou **Via del Tritone** à l’angle de la **Via del Nazareno** (1 minute à pied).",
-          "es": "Los taxis oficiales blancos aplican una **tarifa fija de 55 €** desde Fiumicino hasta el centro de la ciudad (dentro de las Murallas Aurelianas). Bajada: **Via del Bufalo 138A**, o **Via del Tritone** en la esquina con **Via del Nazareno** (1 minuto a pie).",
-          "de": "Offizielle weiße Taxis berechnen von Fiumicino ins Stadtzentrum (innerhalb der Aurelianischen Mauer) einen **Festpreis von 55 €**. Ausstieg: **Via del Bufalo 138A** oder **Via del Tritone**, Ecke **Via del Nazareno** (1 Minute zu Fuß).",
-          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء **تعرفة ثابتة قدرها 55 يورو** من فيوميتشينو إلى وسط المدينة (داخل الأسوار الأوريليانية). مكان النزول: **Via del Bufalo 138A**، أو **Via del Tritone** عند الزاوية مع **Via del Nazareno** (دقيقة واحدة سيراً)."
+          "en": "Official white taxis charge a **fixed fare of €55** from Fiumicino to the city centre (inside the Aurelian Walls), luggage included.",
+          "it": "I taxi ufficiali bianchi applicano una **tariffa fissa di 55 €** da Fiumicino al centro città (entro le Mura Aureliane), bagagli inclusi.",
+          "fr": "Les taxis officiels blancs appliquent un **tarif fixe de 55 €** de Fiumicino au centre-ville (à l’intérieur du mur d’Aurélien), bagages compris.",
+          "es": "Los taxis oficiales blancos aplican una **tarifa fija de 55 €** desde Fiumicino hasta el centro de la ciudad (dentro de las Murallas Aurelianas), equipaje incluido.",
+          "de": "Offizielle weiße Taxis berechnen von Fiumicino ins Stadtzentrum (innerhalb der Aurelianischen Mauer) einen **Festpreis von 55 €**, Gepäck inklusive.",
+          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء **تعرفة ثابتة قدرها 55 يورو** من فيوميتشينو إلى وسط المدينة (داخل الأسوار الأوريليانية)، شاملة الأمتعة."
          },
          "warn": {
           "en": "Please note: during busy periods, there may be **long lines** at the airport taxi station.",
@@ -739,12 +760,12 @@
           "ar": "سيارة أجرة"
          },
          "text": {
-          "en": "Official white taxis from Ciampino charge a **fixed fare of €40** to the centre of Rome (inside the Aurelian Walls). Drop-off: **Via del Bufalo 138A**, or **Via del Tritone** at the corner with **Via del Nazareno** (1 minute on foot).",
-          "it": "I taxi ufficiali bianchi da Ciampino applicano una **tariffa fissa di 40 €** per il centro di Roma (entro le Mura Aureliane). Discesa: **Via del Bufalo 138A**, oppure **Via del Tritone** all’angolo con **Via del Nazareno** (1 minuto a piedi).",
-          "fr": "Les taxis officiels blancs au départ de Ciampino appliquent un **tarif fixe de 40 €** jusqu’au centre de Rome (à l’intérieur du mur d’Aurélien). Dépose : **Via del Bufalo 138A**, ou **Via del Tritone** à l’angle de la **Via del Nazareno** (1 minute à pied).",
-          "es": "Los taxis oficiales blancos desde Ciampino aplican una **tarifa fija de 40 €** hasta el centro de Roma (dentro de las Murallas Aurelianas). Bajada: **Via del Bufalo 138A**, o **Via del Tritone** en la esquina con **Via del Nazareno** (1 minuto a pie).",
-          "de": "Offizielle weiße Taxis ab Ciampino berechnen ins Zentrum von Rom (innerhalb der Aurelianischen Mauer) einen **Festpreis von 40 €**. Ausstieg: **Via del Bufalo 138A** oder **Via del Tritone**, Ecke **Via del Nazareno** (1 Minute zu Fuß).",
-          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء من تشامبينو **تعرفة ثابتة قدرها 40 يورو** إلى وسط روما (داخل الأسوار الأوريليانية). مكان النزول: **Via del Bufalo 138A**، أو **Via del Tritone** عند الزاوية مع **Via del Nazareno** (دقيقة واحدة سيراً)."
+          "en": "Official white taxis from Ciampino charge a **fixed fare of €40** to the centre of Rome (inside the Aurelian Walls), luggage included.",
+          "it": "I taxi ufficiali bianchi da Ciampino applicano una **tariffa fissa di 40 €** per il centro di Roma (entro le Mura Aureliane), bagagli inclusi.",
+          "fr": "Les taxis officiels blancs au départ de Ciampino appliquent un **tarif fixe de 40 €** jusqu’au centre de Rome (à l’intérieur du mur d’Aurélien), bagages compris.",
+          "es": "Los taxis oficiales blancos desde Ciampino aplican una **tarifa fija de 40 €** hasta el centro de Roma (dentro de las Murallas Aurelianas), equipaje incluido.",
+          "de": "Offizielle weiße Taxis ab Ciampino berechnen ins Zentrum von Rom (innerhalb der Aurelianischen Mauer) einen **Festpreis von 40 €**, Gepäck inklusive.",
+          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء من تشامبينو **تعرفة ثابتة قدرها 40 يورو** إلى وسط روما (داخل الأسوار الأوريليانية)، شاملة الأمتعة."
          },
          "warn": {
           "en": "Please note: during busy times, there may be **long queues** at the airport taxi rank.",
@@ -827,12 +848,12 @@
           "ar": "سيارة أجرة"
          },
          "text": {
-          "en": "From the **taxi rank** in front of Termini, the ride takes **about 10 minutes** (metered fare). Drop-off: **Via del Bufalo 138A**, or **Via del Tritone** at the corner with **Via del Nazareno** (1 minute on foot).",
-          "it": "Dalla **stazione dei taxi** davanti a Termini, la corsa dura **circa 10 minuti** (tariffa a tassametro). Discesa: **Via del Bufalo 138A**, oppure **Via del Tritone** all’angolo con **Via del Nazareno** (1 minuto a piedi).",
-          "fr": "Depuis la **station de taxis** devant Termini, le trajet dure **environ 10 minutes** (tarif au compteur). Dépose : **Via del Bufalo 138A**, ou **Via del Tritone** à l’angle de la **Via del Nazareno** (1 minute à pied).",
-          "es": "Desde la **parada de taxis** frente a Termini, el trayecto dura **unos 10 minutos** (tarifa con taxímetro). Bajada: **Via del Bufalo 138A**, o **Via del Tritone** en la esquina con **Via del Nazareno** (1 minuto a pie).",
-          "de": "Vom **Taxistand** vor Termini dauert die Fahrt **ca. 10 Minuten** (Taxameterpreis). Ausstieg: **Via del Bufalo 138A** oder **Via del Tritone**, Ecke **Via del Nazareno** (1 Minute zu Fuß).",
-          "ar": "من **موقف سيارات الأجرة** أمام تيرميني تستغرق الرحلة **حوالي 10 دقائق** (حسب العدّاد). مكان النزول: **Via del Bufalo 138A**، أو **Via del Tritone** عند الزاوية مع **Via del Nazareno** (دقيقة واحدة سيراً)."
+          "en": "From the **taxi rank** in front of Termini, the ride takes **about 10 minutes** (metered fare). Drop-off right in front of **Via del Bufalo 138A**.",
+          "it": "Dalla **stazione dei taxi** davanti a Termini, la corsa dura **circa 10 minuti** (tariffa a tassametro). Il taxi vi lascia proprio davanti a **Via del Bufalo 138A**.",
+          "fr": "Depuis la **station de taxis** devant Termini, le trajet dure **environ 10 minutes** (tarif au compteur). Dépose juste devant le **Via del Bufalo 138A**.",
+          "es": "Desde la **parada de taxis** frente a Termini, el trayecto dura **unos 10 minutos** (tarifa con taxímetro). Le deja justo delante de **Via del Bufalo 138A**.",
+          "de": "Vom **Taxistand** vor Termini dauert die Fahrt **ca. 10 Minuten** (Taxameterpreis). Ausstieg direkt vor der **Via del Bufalo 138A**.",
+          "ar": "من **موقف سيارات الأجرة** أمام تيرميني تستغرق الرحلة **حوالي 10 دقائق** (حسب العدّاد). النزول أمام **Via del Bufalo 138A** مباشرةً."
          }
         },
         {
@@ -912,12 +933,12 @@
     {
      "type": "text",
      "text": {
-      "en": "Give the driver the address **Via del Bufalo 138A** (Largo del Nazareno, near **Via del Tritone**). If the car cannot enter the narrow street, get off on **Via del Tritone** at the corner with **Via del Nazareno**: the door is about **1 minute** away on foot.",
-      "it": "Indicate al tassista l’indirizzo **Via del Bufalo 138A** (Largo del Nazareno, vicino a **Via del Tritone**). Se l’auto non può entrare nella stradina, scendete in **Via del Tritone** all’angolo con **Via del Nazareno**: il portone è a circa **1 minuto** a piedi.",
-      "fr": "Donnez au chauffeur l’adresse **Via del Bufalo 138A** (Largo del Nazareno, près de la **Via del Tritone**). Si la voiture ne peut pas entrer dans la petite rue, descendez **Via del Tritone** à l’angle de la **Via del Nazareno** : la porte est à environ **1 minute** à pied.",
-      "es": "Dé al taxista la dirección **Via del Bufalo 138A** (Largo del Nazareno, cerca de **Via del Tritone**). Si el coche no puede entrar en la callejuela, bájese en **Via del Tritone**, en la esquina con **Via del Nazareno**: el portal está a **1 minuto** a pie.",
-      "de": "Nennen Sie dem Fahrer die Adresse **Via del Bufalo 138A** (Largo del Nazareno, nahe der **Via del Tritone**). Kann das Auto nicht in die enge Gasse fahren, steigen Sie in der **Via del Tritone** an der Ecke **Via del Nazareno** aus: Die Haustür ist etwa **1 Minute** zu Fuß entfernt.",
-      "ar": "أعطوا السائق العنوان **Via del Bufalo 138A** (Largo del Nazareno، قرب **Via del Tritone**). إذا لم تتمكن السيارة من دخول الشارع الضيق، انزلوا في **Via del Tritone** عند الزاوية مع **Via del Nazareno**: الباب على بُعد **دقيقة واحدة** تقريباً سيراً على الأقدام."
+      "en": "Give the driver the address **Via del Bufalo 138A**: the taxi drops you **right in front of the door**.",
+      "it": "Indicate al tassista l’indirizzo **Via del Bufalo 138A**: il taxi vi lascia **proprio davanti al portone**.",
+      "fr": "Donnez au chauffeur l’adresse **Via del Bufalo 138A** : le taxi vous dépose **juste devant la porte**.",
+      "es": "Dé al taxista la dirección **Via del Bufalo 138A**: el taxi le deja **justo delante del portal**.",
+      "de": "Nennen Sie dem Fahrer die Adresse **Via del Bufalo 138A**: Das Taxi setzt Sie **direkt vor der Haustür** ab.",
+      "ar": "أعطوا السائق العنوان **Via del Bufalo 138A**: ستوصلكم سيارة الأجرة **أمام الباب مباشرةً**."
      }
     }
    ]
@@ -2650,12 +2671,12 @@
     {
      "type": "text",
      "text": {
-      "en": "If you wish to **depart later**, please contact us and we will check availability and confirm according to our schedule.",
-      "it": "Se desiderate **partire più tardi**, contattateci: verificheremo la disponibilità e ve la confermeremo in base alla nostra programmazione.",
-      "fr": "Si vous souhaitez **partir plus tard**, contactez-nous : nous vérifierons la disponibilité et vous confirmerons selon notre planning.",
-      "es": "Si desea **salir más tarde**, contáctenos y comprobaremos la disponibilidad y se la confirmaremos según nuestra programación.",
-      "de": "Wenn Sie **später abreisen** möchten, kontaktieren Sie uns bitte – wir prüfen die Verfügbarkeit und bestätigen sie entsprechend unserem Zeitplan.",
-      "ar": "إذا رغبتم في **المغادرة في وقت لاحق**، يُرجى التواصل معنا وسنتحقق من التوفر ونؤكد لكم ذلك حسب جدولنا."
+      "en": "If you wish to **depart later**, please contact us and we will check availability and confirm according to our schedule. You may also leave your luggage with us **until 1:00 PM**, provided it is properly closed.",
+      "it": "Se desiderate **partire più tardi**, contattateci: verificheremo la disponibilità e ve la confermeremo in base alla nostra programmazione. Potete anche lasciare i bagagli da noi **fino alle 13:00**, purché ben chiusi.",
+      "fr": "Si vous souhaitez **partir plus tard**, contactez-nous : nous vérifierons la disponibilité et vous confirmerons selon notre planning. Vous pouvez également nous laisser vos bagages **jusqu’à 13h00**, à condition qu’ils soient bien fermés.",
+      "es": "Si desea **salir más tarde**, contáctenos y comprobaremos la disponibilidad y se la confirmaremos según nuestra programación. También puede dejarnos su equipaje **hasta las 13:00**, siempre que esté bien cerrado.",
+      "de": "Wenn Sie **später abreisen** möchten, kontaktieren Sie uns bitte – wir prüfen die Verfügbarkeit und bestätigen sie entsprechend unserem Zeitplan. Sie können Ihr Gepäck auch **bis 13:00 Uhr** bei uns lassen, sofern es gut verschlossen ist.",
+      "ar": "إذا رغبتم في **المغادرة في وقت لاحق**، يُرجى التواصل معنا وسنتحقق من التوفر ونؤكد لكم ذلك حسب جدولنا. يمكنكم أيضاً ترك أمتعتكم لدينا **حتى الساعة 13:00**، بشرط أن تكون مغلقة بإحكام."
      }
     },
     {
