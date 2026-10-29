@@ -1,0 +1,2901 @@
+{
+ "slug": "shabby",
+ "name": "Shabby",
+ "brand": "Rome Dream Home",
+ "address": {
+  "line1": "Via del Tritone 53",
+  "line2": {
+   "en": "Rome, Italy",
+   "it": "Roma, Italia",
+   "fr": "Rome, Italie",
+   "es": "Roma, Italia",
+   "de": "Rom, Italien",
+   "ar": "روما، إيطاليا"
+  },
+  "maps": "Via del Tritone 53, 00187 Roma RM, Italy"
+ },
+ "host": {
+  "name": "Federico",
+  "phone": "+39 331 278 6108",
+  "tel": "+393312786108",
+  "whatsapp": "393312786108",
+  "email": "romedreamhome@gmail.com",
+  "website": "https://www.romedreamhome.it",
+  "websiteLabel": "www.romedreamhome.it",
+  "instagram": "romedreamhome",
+  "photo": "img/host-federico.webp"
+ },
+ "support": {
+  "phone": "+39 352 282 7301",
+  "tel": "+393522827301",
+  "whatsapp": "393522827301"
+ },
+ "wifi": {
+  "ssid": "----",
+  "password": "----"
+ },
+ "lockboxCode": "2027",
+ "checkin": "15:00",
+ "checkout": "10:00",
+ "touristTax": 6,
+ "music": true,
+ "photos": [
+  {
+   "src": "img/living-1",
+   "alt": {
+    "en": "Living room",
+    "it": "Soggiorno",
+    "fr": "Salon",
+    "es": "Salón",
+    "de": "Wohnzimmer",
+    "ar": "غرفة المعيشة"
+   }
+  },
+  {
+   "src": "img/living-2",
+   "alt": {
+    "en": "Living room",
+    "it": "Soggiorno",
+    "fr": "Salon",
+    "es": "Salón",
+    "de": "Wohnzimmer",
+    "ar": "غرفة المعيشة"
+   }
+  },
+  {
+   "src": "img/living-3",
+   "alt": {
+    "en": "Living room",
+    "it": "Soggiorno",
+    "fr": "Salon",
+    "es": "Salón",
+    "de": "Wohnzimmer",
+    "ar": "غرفة المعيشة"
+   }
+  },
+  {
+   "src": "img/bedroom-1",
+   "alt": {
+    "en": "Double bedroom",
+    "it": "Camera matrimoniale",
+    "fr": "Chambre double",
+    "es": "Dormitorio doble",
+    "de": "Doppelzimmer",
+    "ar": "غرفة نوم مزدوجة"
+   }
+  },
+  {
+   "src": "img/bedroom-2",
+   "alt": {
+    "en": "Double bedroom",
+    "it": "Camera matrimoniale",
+    "fr": "Chambre double",
+    "es": "Dormitorio doble",
+    "de": "Doppelzimmer",
+    "ar": "غرفة نوم مزدوجة"
+   }
+  },
+  {
+   "src": "img/bedroom-3",
+   "alt": {
+    "en": "Double bedroom",
+    "it": "Camera matrimoniale",
+    "fr": "Chambre double",
+    "es": "Dormitorio doble",
+    "de": "Doppelzimmer",
+    "ar": "غرفة نوم مزدوجة"
+   }
+  },
+  {
+   "src": "img/bedroom-4",
+   "alt": {
+    "en": "Double bedroom",
+    "it": "Camera matrimoniale",
+    "fr": "Chambre double",
+    "es": "Dormitorio doble",
+    "de": "Doppelzimmer",
+    "ar": "غرفة نوم مزدوجة"
+   }
+  }
+ ],
+ "sections": [
+  {
+   "id": "welcome",
+   "icon": "column",
+   "title": {
+    "en": "Welcome",
+    "it": "Benvenuti",
+    "fr": "Bienvenue",
+    "es": "Bienvenida",
+    "de": "Willkommen",
+    "ar": "مرحباً بكم"
+   },
+   "blocks": [
+    {
+     "type": "lead",
+     "text": {
+      "en": "We are pleased to welcome you to our accommodation and we hope you will have an **unforgettable stay**.",
+      "it": "Siamo lieti di accogliervi nella nostra struttura e speriamo che il vostro soggiorno sia **indimenticabile**.",
+      "fr": "Nous sommes ravis de vous accueillir dans notre logement et espérons que votre séjour sera **inoubliable**.",
+      "es": "Nos complace darle la bienvenida a nuestro alojamiento y esperamos que disfrute de una **estancia inolvidable**.",
+      "de": "Wir freuen uns, Sie in unserer Unterkunft willkommen zu heißen, und wünschen Ihnen einen **unvergesslichen Aufenthalt**.",
+      "ar": "يسعدنا أن نرحب بكم في مسكننا، ونتمنى لكم **إقامة لا تُنسى**."
+     }
+    },
+    {
+     "type": "text",
+     "text": {
+      "en": "**Shabby** is a **brand-new apartment** for up to **5 guests**, with **1 double bedroom**, a **living room** with a **single bed** and a **sofa bed**, a **kitchen** and **1 bathroom**, on the **1st floor** of an elegant **historic palazzo** with **elevator**, just **2 minutes** from the **Trevi Fountain** and about **5 minutes** from **Piazza di Spagna**.",
+      "it": "**Shabby** è un **appartamento nuovissimo** per un massimo di **5 ospiti**, con **1 camera matrimoniale**, un **soggiorno** con **letto singolo** e **divano letto**, **cucina** e **1 bagno**, al **primo piano** di un elegante **palazzo storico** con **ascensore**, a soli **2 minuti** dalla **Fontana di Trevi** e a circa **5 minuti** da **Piazza di Spagna**.",
+      "fr": "**Shabby** est un **appartement tout neuf** pour **5 personnes** maximum, avec **1 chambre double**, un **salon** avec **lit simple** et **canapé-lit**, une **cuisine** et **1 salle de bains**, au **1er étage** d’un élégant **palais historique** avec **ascenseur**, à seulement **2 minutes** de la **fontaine de Trevi** et à environ **5 minutes** de la **place d’Espagne**.",
+      "es": "**Shabby** es un **apartamento a estrenar** para un máximo de **5 huéspedes**, con **1 dormitorio doble**, un **salón** con **cama individual** y **sofá cama**, **cocina** y **1 baño**, en la **1ª planta** de un elegante **palacio histórico** con **ascensor**, a solo **2 minutos** de la **Fontana de Trevi** y a unos **5 minutos** de la **Plaza de España**.",
+      "de": "**Shabby** ist eine **brandneue Wohnung** für bis zu **5 Gäste** mit **1 Doppelzimmer**, einem **Wohnzimmer** mit **Einzelbett** und **Schlafsofa**, einer **Küche** und **1 Bad** im **1. Stock** eines eleganten **historischen Palazzo** mit **Aufzug**, nur **2 Minuten** vom **Trevi-Brunnen** und etwa **5 Minuten** von der **Spanischen Treppe** entfernt.",
+      "ar": "**Shabby** شقة **جديدة كلياً** تتسع لما يصل إلى **5 ضيوف**، تضم **غرفة نوم مزدوجة واحدة**، و**صالة جلوس** مع **سرير مفرد** و**أريكة سرير**، و**مطبخاً** و**حمّاماً واحداً**، في **الطابق الأول** من **قصر تاريخي** أنيق مع **مصعد**، على بُعد **دقيقتين** فقط من **نافورة تريفي** وحوالي **5 دقائق** من **ساحة إسبانيا**."
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/living-1",
+     "alt": {
+      "en": "Living room",
+      "it": "Soggiorno",
+      "fr": "Salon",
+      "es": "Salón",
+      "de": "Wohnzimmer",
+      "ar": "غرفة المعيشة"
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/living-3",
+     "alt": {
+      "en": "Living room",
+      "it": "Soggiorno",
+      "fr": "Salon",
+      "es": "Salón",
+      "de": "Wohnzimmer",
+      "ar": "غرفة المعيشة"
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/bedroom-1",
+     "alt": {
+      "en": "Double bedroom",
+      "it": "Camera matrimoniale",
+      "fr": "Chambre double",
+      "es": "Dormitorio doble",
+      "de": "Doppelzimmer",
+      "ar": "غرفة نوم مزدوجة"
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/living-2",
+     "alt": {
+      "en": "Living room",
+      "it": "Soggiorno",
+      "fr": "Salon",
+      "es": "Salón",
+      "de": "Wohnzimmer",
+      "ar": "غرفة المعيشة"
+     }
+    },
+    {
+     "type": "text",
+     "text": {
+      "en": "We wish you an **excellent stay** in our beautiful city and hope to **see you again soon**!",
+      "it": "Vi auguriamo un **ottimo soggiorno** nella nostra splendida città e speriamo di **rivedervi presto**!",
+      "fr": "Nous vous souhaitons un **excellent séjour** dans notre belle ville et espérons **vous revoir très bientôt** !",
+      "es": "¡Le deseamos una **excelente estancia** en nuestra hermosa ciudad y esperamos **volver a verle pronto**!",
+      "de": "Wir wünschen Ihnen einen **wunderbaren Aufenthalt** in unserer schönen Stadt und hoffen, Sie **bald wiederzusehen**!",
+      "ar": "نتمنى لكم **إقامة ممتعة** في مدينتنا الجميلة، ونأمل أن **نراكم مجدداً قريباً**!"
+     }
+    },
+    {
+     "type": "signature",
+     "text": "Rome Dream Home"
+    }
+   ]
+  },
+  {
+   "id": "checkin",
+   "icon": "key",
+   "title": {
+    "en": "Check-in",
+    "it": "Check-in",
+    "fr": "Arrivée",
+    "es": "Check-in",
+    "de": "Check-in",
+    "ar": "تسجيل الوصول"
+   },
+   "blocks": [
+    {
+     "type": "time",
+     "value": "15:00",
+     "label": {
+      "en": "Self check-in",
+      "it": "Self check-in",
+      "fr": "Self check-in",
+      "es": "Self check-in",
+      "de": "Self-Check-in",
+      "ar": "تسجيل الوصول الذاتي"
+     }
+    },
+    {
+     "type": "text",
+     "text": {
+      "en": "You can arrive **at any time**, even late at night: just **message us** when you are at the street door.",
+      "it": "Potete arrivare **a qualsiasi ora**, anche a tarda notte: basta **scriverci** quando siete davanti al portone.",
+      "fr": "Vous pouvez arriver **à toute heure**, même tard le soir : il suffit de **nous écrire** quand vous êtes devant la porte de l’immeuble.",
+      "es": "Puede llegar **a cualquier hora**, incluso de madrugada: solo tiene que **escribirnos** cuando esté en el portal.",
+      "de": "Sie können **jederzeit** anreisen, auch spät in der Nacht: **Schreiben Sie uns** einfach, wenn Sie vor der Haustür stehen.",
+      "ar": "يمكنكم الوصول **في أي وقت**، حتى في ساعة متأخرة من الليل: يكفي أن **تراسلونا** عندما تكونون أمام باب المبنى."
+     }
+    },
+    {
+     "type": "text",
+     "text": {
+      "en": "Please respect the check-in times. If you would like to arrive earlier, no problem at all: you can **drop off your luggage from 11:00** and take the keys, then **come back at 15:00** when the apartment will be ready.",
+      "it": "Vi preghiamo di rispettare gli orari di check-in. Se desiderate arrivare prima, nessun problema: potete **lasciare i bagagli a partire dalle 11:00** e ritirare le chiavi, per poi **tornare alle 15:00**, quando l’appartamento sarà pronto.",
+      "fr": "Merci de respecter les horaires d’arrivée. Si vous souhaitez arriver plus tôt, aucun problème : vous pouvez **déposer vos bagages à partir de 11h00** et récupérer les clés, puis **revenir à 15h00**, lorsque l’appartement sera prêt.",
+      "es": "Le rogamos que respete los horarios de check-in. Si desea llegar antes, no hay ningún problema: puede **dejar su equipaje a partir de las 11:00** y recoger las llaves, y luego **volver a las 15:00**, cuando el apartamento esté listo.",
+      "de": "Bitte halten Sie die Check-in-Zeiten ein. Wenn Sie früher ankommen möchten, ist das kein Problem: Sie können Ihr **Gepäck ab 11:00 Uhr abstellen** und die Schlüssel abholen und dann **um 15:00 Uhr zurückkommen**, wenn die Wohnung bereit ist.",
+      "ar": "يُرجى الالتزام بمواعيد تسجيل الوصول. إذا رغبتم في الوصول مبكراً فلا مشكلة إطلاقاً: يمكنكم **ترك أمتعتكم ابتداءً من الساعة 11:00** واستلام المفاتيح، ثم **العودة في الساعة 15:00** عندما تكون الشقة جاهزة."
+     }
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "House access",
+      "it": "Accesso alla casa",
+      "fr": "Accès au logement",
+      "es": "Acceso a la vivienda",
+      "de": "Zugang zur Wohnung",
+      "ar": "الدخول إلى المنزل"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "text": {
+        "en": "At **Via del Tritone 53**, **message us** as soon as you arrive: we open the **main entrance door** remotely with our device.",
+        "it": "Arrivati in **Via del Tritone 53**, **scriveteci** appena arrivate: vi apriamo il **portone d’ingresso** a distanza con il nostro dispositivo.",
+        "fr": "Arrivés au **Via del Tritone 53**, **écrivez-nous** dès votre arrivée : nous ouvrons la **porte de l’immeuble** à distance avec notre appareil.",
+        "es": "Al llegar a **Via del Tritone 53**, **escríbanos** en cuanto llegue: le abrimos el **portal de entrada** a distancia con nuestro dispositivo.",
+        "de": "In der **Via del Tritone 53** angekommen, **schreiben Sie uns** sofort: Wir öffnen die **Haustür** mit unserem Gerät aus der Ferne.",
+        "ar": "عند وصولكم إلى **Via del Tritone 53**، **راسلونا** فور وصولكم: سنفتح لكم **باب المبنى الرئيسي** عن بُعد بجهازنا."
+       },
+       "photos": [
+        {
+         "src": "img/step-entrance",
+         "alt": {
+          "en": "Main entrance door, Via del Tritone 53",
+          "it": "Portone d’ingresso, Via del Tritone 53",
+          "fr": "Porte d’entrée de l’immeuble, Via del Tritone 53",
+          "es": "Portal de entrada, Via del Tritone 53",
+          "de": "Haustür, Via del Tritone 53",
+          "ar": "باب المبنى الرئيسي، Via del Tritone 53"
+         }
+        }
+       ]
+      },
+      {
+       "text": {
+        "en": "In the lobby, go through the **big door on the left** and go up to the **1st floor**, by **elevator** or by the **stairs**.",
+        "it": "Nell’androne, entrate dal **grande portone a sinistra** e salite al **primo piano**, con l’**ascensore** o a piedi per le **scale**.",
+        "fr": "Dans le hall, passez la **grande porte à gauche** et montez au **1er étage**, par l’**ascenseur** ou par l’**escalier**.",
+        "es": "En el vestíbulo, entre por la **puerta grande de la izquierda** y suba a la **1ª planta**, en **ascensor** o por la **escalera**.",
+        "de": "Gehen Sie in der Eingangshalle durch die **große Tür links** und in den **1. Stock** – mit dem **Aufzug** oder über die **Treppe**.",
+        "ar": "في الردهة، ادخلوا من **الباب الكبير على اليسار** واصعدوا إلى **الطابق الأول** بـ**المصعد** أو عبر **الدرج**."
+       },
+       "photos": [
+        {
+         "src": "img/step-lobby",
+         "alt": {
+          "en": "The big door on the left in the lobby",
+          "it": "Il grande portone a sinistra nell’androne",
+          "fr": "La grande porte à gauche dans le hall",
+          "es": "La puerta grande a la izquierda en el vestíbulo",
+          "de": "Die große Tür links in der Eingangshalle",
+          "ar": "الباب الكبير على اليسار في الردهة"
+         }
+        },
+        {
+         "src": "img/step-elevator",
+         "alt": {
+          "en": "Elevator and stairs to the 1st floor",
+          "it": "Ascensore e scale per il primo piano",
+          "fr": "Ascenseur et escalier vers le 1er étage",
+          "es": "Ascensor y escalera a la 1ª planta",
+          "de": "Aufzug und Treppe in den 1. Stock",
+          "ar": "المصعد والدرج إلى الطابق الأول"
+         }
+        }
+       ]
+      },
+      {
+       "text": {
+        "en": "On the 1st floor there are **other B&Bs**: look for the door with the **ROME DREAM HOME doormat** and go in.",
+        "it": "Al primo piano ci sono **altri B&B**: cercate la porta con lo **zerbino ROME DREAM HOME** ed entrate.",
+        "fr": "Au 1er étage, il y a **d’autres B&B** : cherchez la porte avec le **paillasson ROME DREAM HOME** et entrez.",
+        "es": "En la 1ª planta hay **otros B&B**: busque la puerta con el **felpudo ROME DREAM HOME** y entre.",
+        "de": "Im 1. Stock gibt es **weitere B&Bs**: Suchen Sie die Tür mit der **ROME-DREAM-HOME-Fußmatte** und gehen Sie hinein.",
+        "ar": "في الطابق الأول توجد **بيوت ضيافة أخرى**: ابحثوا عن الباب الذي أمامه **سجادة ROME DREAM HOME** وادخلوا."
+       },
+       "photos": [
+        {
+         "src": "img/step-doormat",
+         "alt": {
+          "en": "The door with the Rome Dream Home doormat",
+          "it": "La porta con lo zerbino Rome Dream Home",
+          "fr": "La porte avec le paillasson Rome Dream Home",
+          "es": "La puerta con el felpudo Rome Dream Home",
+          "de": "Die Tür mit der Rome-Dream-Home-Fußmatte",
+          "ar": "الباب الذي أمامه سجادة Rome Dream Home"
+         }
+        }
+       ],
+       "tall": true
+      },
+      {
+       "text": {
+        "en": "**Shabby is the door on the LEFT** (Crystal is the one in front). The **lockbox is on the door**: enter the code **2027** and take the **2 keys**: the **biggest key** opens the **apartment**, the **smallest** opens the **main entrance door**.",
+        "it": "**Shabby è la porta a SINISTRA** (Crystal è quella di fronte). La **cassetta è sulla porta**: inserite il codice **2027** e prendete le **2 chiavi**: la **chiave più grande** apre l’**appartamento**, la **più piccola** apre il **portone d’ingresso**.",
+        "fr": "**Shabby est la porte de GAUCHE** (Crystal est celle d’en face). La **boîte à clés est sur la porte** : saisissez le code **2027** et prenez les **2 clés** : la **plus grande** ouvre l’**appartement**, la **plus petite** ouvre la **porte de l’immeuble**.",
+        "es": "**Shabby es la puerta de la IZQUIERDA** (Crystal es la de enfrente). La **caja de llaves está en la puerta**: introduzca el código **2027** y coja las **2 llaves**: la **más grande** abre el **apartamento**, la **más pequeña** abre el **portal de entrada**.",
+        "de": "**Shabby ist die Tür LINKS** (Crystal ist die gegenüber). Der **Schlüsselsafe hängt an der Tür**: Geben Sie den Code **2027** ein und nehmen Sie die **2 Schlüssel**: Der **größte** öffnet die **Wohnung**, der **kleinste** die **Haustür**.",
+        "ar": "**Shabby هو الباب على اليسار** (Crystal هو الباب المقابل). **صندوق المفاتيح على الباب**: أدخلوا الرمز **2027** وخذوا **المفتاحين**: **المفتاح الأكبر** يفتح **الشقة**، و**الأصغر** يفتح **باب المبنى الرئيسي**."
+       },
+       "photos": [
+        {
+         "src": "img/step-door",
+         "alt": {
+          "en": "Shabby is the door on the left",
+          "it": "Shabby è la porta a sinistra",
+          "fr": "Shabby est la porte de gauche",
+          "es": "Shabby es la puerta de la izquierda",
+          "de": "Shabby ist die Tür links",
+          "ar": "Shabby هو الباب على اليسار"
+         }
+        }
+       ]
+      },
+      {
+       "en": "Go inside and **close the door** behind you. **Welcome!**",
+       "it": "Entrate e **chiudete la porta** alle vostre spalle. **Benvenuti!**",
+       "fr": "Entrez et **refermez la porte** derrière vous. **Bienvenue !**",
+       "es": "Entre y **cierre la puerta** detrás de usted. **¡Bienvenidos!**",
+       "de": "Treten Sie ein und **schließen Sie die Tür** hinter sich. **Willkommen!**",
+       "ar": "ادخلوا و**أغلقوا الباب** خلفكم. **أهلاً وسهلاً!**"
+      }
+     ]
+    },
+    {
+     "type": "code",
+     "label": {
+      "en": "Lockbox code · on the Shabby door (left)",
+      "it": "Codice cassetta · sulla porta di Shabby (a sinistra)",
+      "fr": "Code de la boîte à clés · sur la porte de Shabby (à gauche)",
+      "es": "Código de la caja · en la puerta de Shabby (izquierda)",
+      "de": "Schlüsselsafe-Code · an der Shabby-Tür (links)",
+      "ar": "رمز صندوق المفاتيح · على باب Shabby (اليسار)"
+     },
+     "value": "2027",
+     "icon": "lock"
+    },
+    {
+     "type": "notice",
+     "tone": "warning",
+     "icon": "elevator",
+     "title": {
+      "en": "Important to know",
+      "it": "Importante da sapere",
+      "fr": "À savoir",
+      "es": "Importante",
+      "de": "Wichtig zu wissen",
+      "ar": "من المهم معرفته"
+     },
+     "text": {
+      "en": "**Lights**: like in hotels, when you **open the apartment door** the lights **turn off automatically**; **close the door** and **press the switch** to turn them back on. **Elevator**: always **close its doors properly**, otherwise it **stops working**: **elderly neighbours** live in the building and need it – please **respect the neighbours**. You **don’t need to lock yourself in** when you are at home or at night: the building is **very safe**.",
+      "it": "**Luci**: come negli hotel, quando **aprite la porta di casa** le luci **si spengono automaticamente**; **chiudete la porta** e **premete l’interruttore** per riaccenderle. **Ascensore**: **chiudete sempre bene le porte**, altrimenti **smette di funzionare**: nel palazzo vivono **persone anziane** che ne hanno bisogno – **rispettate i vicini**. **Non serve chiudervi dentro a chiave** quando siete in casa o di notte: il palazzo è **molto sicuro**.",
+      "fr": "**Lumières** : comme à l’hôtel, quand vous **ouvrez la porte de l’appartement**, les lumières **s’éteignent automatiquement** ; **fermez la porte** et **appuyez sur l’interrupteur** pour les rallumer. **Ascenseur** : **refermez toujours bien ses portes**, sinon il **ne fonctionne plus** : des **personnes âgées** vivent dans l’immeuble et en ont besoin – merci de **respecter les voisins**. **Inutile de vous enfermer à clé** quand vous êtes à la maison ou la nuit : l’immeuble est **très sûr**.",
+      "es": "**Luces**: como en los hoteles, al **abrir la puerta del apartamento** las luces **se apagan automáticamente**; **cierre la puerta** y **pulse el interruptor** para volver a encenderlas. **Ascensor**: **cierre siempre bien sus puertas**, si no **deja de funcionar**: en el edificio viven **personas mayores** que lo necesitan – por favor, **respete a los vecinos**. **No hace falta cerrar con llave** por dentro cuando esté en casa o de noche: el edificio es **muy seguro**.",
+      "de": "**Licht**: Wie im Hotel **geht das Licht automatisch aus**, wenn Sie **die Wohnungstür öffnen**; **schließen Sie die Tür** und **drücken Sie den Schalter**, um es wieder einzuschalten. **Aufzug**: Schließen Sie **seine Türen immer richtig**, sonst **funktioniert er nicht mehr**: Im Haus wohnen **ältere Menschen**, die ihn brauchen – bitte **nehmen Sie Rücksicht auf die Nachbarn**. Sie **müssen sich nicht einschließen**, wenn Sie zu Hause sind oder nachts: Das Gebäude ist **sehr sicher**.",
+      "ar": "**الإضاءة**: كما في الفنادق، عندما **تفتحون باب الشقة** **تنطفئ الأضواء تلقائياً**؛ **أغلقوا الباب** و**اضغطوا على المفتاح** لإعادة تشغيلها. **المصعد**: **أغلقوا أبوابه جيداً دائماً**، وإلا **سيتوقف عن العمل**: يعيش في المبنى **أشخاص مسنّون** يحتاجون إليه – يُرجى **احترام الجيران**. **لا داعي لإقفال الباب عليكم من الداخل** عندما تكونون في المنزل أو ليلاً: المبنى **آمن جداً**."
+     }
+    },
+    {
+     "type": "arrival"
+    },
+    {
+     "type": "tax",
+     "text": {
+      "en": "Rome **tourist tax**: **€6 per person per night**. Please leave it **in cash** on the table before you leave.",
+      "it": "**Tassa di soggiorno** di Roma: **6 € a persona a notte**. Lasciatela **in contanti** sul tavolo prima di partire.",
+      "fr": "**Taxe de séjour** de Rome : **6 € par personne et par nuit**. Merci de la laisser **en espèces** sur la table avant votre départ.",
+      "es": "**Tasa turística** de Roma: **6 € por persona y noche**. Déjela **en efectivo** sobre la mesa antes de marcharse.",
+      "de": "Römische **Kurtaxe**: **6 € pro Person und Nacht**. Bitte lassen Sie sie vor der Abreise **in bar** auf dem Tisch.",
+      "ar": "**ضريبة السياحة** في روما: **6 يورو للشخص في الليلة**. يُرجى تركها **نقدًا** على الطاولة قبل المغادرة."
+     }
+    },
+    {
+     "type": "problems",
+     "items": [
+      {
+       "icon": "door",
+       "q": {
+        "en": "The street door doesn’t open?",
+        "it": "Il portone non si apre?",
+        "fr": "La porte de l’immeuble ne s’ouvre pas ?",
+        "es": "¿El portal no se abre?",
+        "de": "Die Haustür geht nicht auf?",
+        "ar": "باب المبنى لا يُفتح؟"
+       },
+       "a": {
+        "en": "**Message** or **call us** again: we open it **remotely**.",
+        "it": "**Riscriveteci** o **chiamateci**: lo apriamo **a distanza**.",
+        "fr": "**Réécrivez-nous** ou **appelez-nous** : nous l’ouvrons **à distance**.",
+        "es": "**Vuelva a escribirnos** o **llámenos**: lo abrimos **a distancia**.",
+        "de": "**Schreiben** oder **rufen Sie uns** erneut an: Wir öffnen sie **aus der Ferne**.",
+        "ar": "**راسلونا** أو **اتصلوا بنا** مجدداً: سنفتحه **عن بُعد**."
+       }
+      },
+      {
+       "icon": "lock",
+       "q": {
+        "en": "The lockbox won’t open?",
+        "it": "La cassetta non si apre?",
+        "fr": "La boîte à clés ne s’ouvre pas ?",
+        "es": "¿La caja de llaves no se abre?",
+        "de": "Der Schlüsselsafe geht nicht auf?",
+        "ar": "صندوق المفاتيح لا يُفتح؟"
+       },
+       "a": {
+        "en": "Check that **each digit** is set to **2027**, then try again. Still closed? **Call us**.",
+        "it": "Controllate che **ogni cifra** sia su **2027** e riprovate. Ancora chiusa? **Chiamateci**.",
+        "fr": "Vérifiez que **chaque chiffre** est bien sur **2027**, puis réessayez. Toujours fermée ? **Appelez-nous**.",
+        "es": "Compruebe que **cada dígito** esté en **2027** e inténtelo de nuevo. ¿Sigue cerrada? **Llámenos**.",
+        "de": "Prüfen Sie, ob **jede Ziffer** auf **2027** steht, und versuchen Sie es erneut. Immer noch zu? **Rufen Sie uns an**.",
+        "ar": "تأكّدوا من أن **كل رقم** مضبوط على **2027** ثم حاولوا مجدداً. ما زال مغلقاً؟ **اتصلوا بنا**."
+       }
+      },
+      {
+       "icon": "clock",
+       "q": {
+        "en": "Arriving late?",
+        "it": "Arrivate tardi?",
+        "fr": "Vous arrivez tard ?",
+        "es": "¿Llega tarde?",
+        "de": "Späte Ankunft?",
+        "ar": "ستصلون متأخرين؟"
+       },
+       "a": {
+        "en": "**No time limit**: just **call us** at the door.",
+        "it": "**Nessun limite di orario**: basta **chiamarci** davanti al portone.",
+        "fr": "**Aucune limite d’horaire** : il suffit de **nous appeler** devant la porte.",
+        "es": "**Sin límite de horario**: solo tiene que **llamarnos** desde el portal.",
+        "de": "**Keine Zeitbegrenzung**: **Rufen Sie uns** einfach an der Tür **an**.",
+        "ar": "**لا يوجد حدّ زمني**: يكفي أن **تتصلوا بنا** عند الباب."
+       }
+      },
+      {
+       "icon": "wifi",
+       "q": {
+        "en": "No Wi-Fi?",
+        "it": "Il Wi-Fi non funziona?",
+        "fr": "Pas de Wi-Fi ?",
+        "es": "¿No hay Wi-Fi?",
+        "de": "Kein WLAN?",
+        "ar": "لا يوجد واي فاي؟"
+       },
+       "a": {
+        "en": "**Message us** and we will help you right away.",
+        "it": "**Scriveteci** e vi aiutiamo subito.",
+        "fr": "**Écrivez-nous** et nous vous aiderons tout de suite.",
+        "es": "**Escríbanos** y le ayudaremos enseguida.",
+        "de": "**Schreiben Sie uns**, wir helfen Ihnen sofort.",
+        "ar": "**راسلونا** وسنساعدكم فوراً."
+       }
+      }
+     ]
+    },
+    {
+     "type": "closing",
+     "text": {
+      "en": "Thank you very much for your **understanding and cooperation**.",
+      "it": "Grazie mille per la vostra **comprensione e collaborazione**.",
+      "fr": "Merci beaucoup pour votre **compréhension et votre coopération**.",
+      "es": "Muchas gracias por su **comprensión y colaboración**.",
+      "de": "Vielen Dank für Ihr **Verständnis und Ihre Mitarbeit**.",
+      "ar": "شكراً جزيلاً **لتفهمكم وتعاونكم**."
+     }
+    }
+   ]
+  },
+  {
+   "id": "location",
+   "icon": "pin",
+   "title": {
+    "en": "Location",
+    "it": "Posizione",
+    "fr": "Accès",
+    "es": "Ubicación",
+    "de": "Anreise",
+    "ar": "الموقع"
+   },
+   "blocks": [
+    {
+     "type": "address"
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "How to arrive?",
+      "it": "Come arrivare?",
+      "fr": "Comment arriver ?",
+      "es": "¿Cómo llegar?",
+      "de": "Wie komme ich hin?",
+      "ar": "كيف تصلون إلينا؟"
+     }
+    },
+    {
+     "type": "tabs",
+     "label": {
+      "en": "Arrive from",
+      "it": "Arrivo da",
+      "fr": "Arriver depuis",
+      "es": "Llegar desde",
+      "de": "Anreise von",
+      "ar": "الوصول من"
+     },
+     "tabs": [
+      {
+       "label": {
+        "en": "Fiumicino Airport",
+        "it": "Aeroporto di Fiumicino",
+        "fr": "Aéroport de Fiumicino",
+        "es": "Aeropuerto de Fiumicino",
+        "de": "Flughafen Fiumicino",
+        "ar": "مطار فيوميتشينو"
+       },
+       "origin": "Fiumicino Airport (FCO), Rome",
+       "routes": [
+        {
+         "icon": "train",
+         "title": {
+          "en": "Train (Leonardo Express)",
+          "it": "Treno (Leonardo Express)",
+          "fr": "Train (Leonardo Express)",
+          "es": "Tren (Leonardo Express)",
+          "de": "Zug (Leonardo Express)",
+          "ar": "القطار (ليوناردو إكسبريس)"
+         },
+         "text": {
+          "en": "Take the **Leonardo Express** from Fiumicino Airport to Roma Termini Station (direct trip, **about 32 minutes**). Then take **metro line A** towards Battistini and get off at **Barberini** (2 stops). Walk about **7 minutes** to Via del Tritone 53.",
+          "it": "Prendete il **Leonardo Express** dall’aeroporto di Fiumicino alla stazione Roma Termini (corsa diretta, **circa 32 minuti**). Poi prendete la **metro linea A** direzione Battistini e scendete a **Barberini** (2 fermate). Proseguite a piedi per circa **7 minuti** fino a Via del Tritone 53.",
+          "fr": "Prenez le **Leonardo Express** de l’aéroport de Fiumicino jusqu’à la gare Roma Termini (trajet direct, **environ 32 minutes**). Prenez ensuite la **ligne A du métro** direction Battistini et descendez à **Barberini** (2 arrêts). Marchez environ **7 minutes** jusqu’au Via del Tritone 53.",
+          "es": "Tome el **Leonardo Express** desde el aeropuerto de Fiumicino hasta la estación Roma Termini (trayecto directo, **unos 32 minutos**). Después tome la **línea A del metro** dirección Battistini y bájese en **Barberini** (2 paradas). Camine unos **7 minutos** hasta Via del Tritone 53.",
+          "de": "Nehmen Sie den **Leonardo Express** vom Flughafen Fiumicino zum Bahnhof Roma Termini (Direktfahrt, **ca. 32 Minuten**). Fahren Sie dann mit der **Metrolinie A** Richtung Battistini bis **Barberini** (2 Stationen). Von dort sind es etwa **7 Minuten** zu Fuß bis zur Via del Tritone 53.",
+          "ar": "استقلوا قطار **ليوناردو إكسبريس** من مطار فيوميتشينو إلى محطة روما تيرميني (رحلة مباشرة، **حوالي 32 دقيقة**). ثم استقلوا **خط المترو A** باتجاه باتيستيني وانزلوا في محطة **باربيريني** (محطتان). سيروا حوالي **7 دقائق** حتى Via del Tritone 53."
+         },
+         "price": {
+          "en": "Total price: **around €15.50** (€14 for the train + €1.50 for the metro).",
+          "it": "Prezzo totale: **circa 15,50 €** (14 € il treno + 1,50 € la metro).",
+          "fr": "Prix total : **environ 15,50 €** (14 € pour le train + 1,50 € pour le métro).",
+          "es": "Precio total: **unos 15,50 €** (14 € el tren + 1,50 € el metro).",
+          "de": "Gesamtpreis: **ca. 15,50 €** (14 € für den Zug + 1,50 € für die Metro).",
+          "ar": "السعر الإجمالي: **حوالي 15.50 يورو** (14 يورو للقطار + 1.50 يورو للمترو)."
+         }
+        },
+        {
+         "icon": "bus",
+         "title": {
+          "en": "Bus + Metro",
+          "it": "Bus + Metro",
+          "fr": "Bus + Métro",
+          "es": "Autobús + Metro",
+          "de": "Bus + Metro",
+          "ar": "حافلة + مترو"
+         },
+         "text": {
+          "en": "Take a **Terravision** bus to Roma Termini (approx. 50 minutes), then **metro line A** towards Battistini to **Barberini** and walk about **7 minutes**.",
+          "it": "Prendete un autobus **Terravision** fino a Roma Termini (circa 50 minuti), poi la **metro linea A** direzione Battistini fino a **Barberini** e circa **7 minuti** a piedi.",
+          "fr": "Prenez un bus **Terravision** jusqu’à Roma Termini (environ 50 minutes), puis la **ligne A du métro** direction Battistini jusqu’à **Barberini** et environ **7 minutes** à pied.",
+          "es": "Tome un autobús **Terravision** hasta Roma Termini (aprox. 50 minutos), después la **línea A del metro** dirección Battistini hasta **Barberini** y unos **7 minutos** a pie.",
+          "de": "Nehmen Sie einen **Terravision**-Bus nach Roma Termini (ca. 50 Minuten), dann die **Metrolinie A** Richtung Battistini bis **Barberini** und etwa **7 Minuten** zu Fuß.",
+          "ar": "استقلوا حافلة **تيرافيجن** إلى روما تيرميني (حوالي 50 دقيقة)، ثم **خط المترو A** باتجاه باتيستيني حتى محطة **باربيريني**، ثم حوالي **7 دقائق** سيراً على الأقدام."
+         },
+         "price": {
+          "en": "Total price: **from about €5.50** (Terravision bus from €4 + €1.50 metro).",
+          "it": "Prezzo totale: **da circa 5,50 €** (bus Terravision da 4 € + 1,50 € metro).",
+          "fr": "Prix total : **à partir d’environ 5,50 €** (bus Terravision dès 4 € + 1,50 € le métro).",
+          "es": "Precio total: **desde unos 5,50 €** (autobús Terravision desde 4 € + 1,50 € el metro).",
+          "de": "Gesamtpreis: **ab ca. 5,50 €** (Terravision-Bus ab 4 € + 1,50 € Metro).",
+          "ar": "السعر الإجمالي: **ابتداءً من حوالي 5.50 يورو** (حافلة تيرافيجن ابتداءً من 4 يورو + 1.50 يورو للمترو)."
+         }
+        },
+        {
+         "icon": "taxi",
+         "title": {
+          "en": "Taxi",
+          "it": "Taxi",
+          "fr": "Taxi",
+          "es": "Taxi",
+          "de": "Taxi",
+          "ar": "سيارة أجرة"
+         },
+         "text": {
+          "en": "Official white taxis charge a **fixed fare of €55** from Fiumicino to the city centre (inside the Aurelian Walls), luggage included.",
+          "it": "I taxi ufficiali bianchi applicano una **tariffa fissa di 55 €** da Fiumicino al centro città (entro le Mura Aureliane), bagagli inclusi.",
+          "fr": "Les taxis officiels blancs appliquent un **tarif fixe de 55 €** de Fiumicino au centre-ville (à l’intérieur du mur d’Aurélien), bagages compris.",
+          "es": "Los taxis oficiales blancos aplican una **tarifa fija de 55 €** desde Fiumicino hasta el centro de la ciudad (dentro de las Murallas Aurelianas), equipaje incluido.",
+          "de": "Offizielle weiße Taxis berechnen von Fiumicino ins Stadtzentrum (innerhalb der Aurelianischen Mauer) einen **Festpreis von 55 €**, Gepäck inklusive.",
+          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء **تعرفة ثابتة قدرها 55 يورو** من فيوميتشينو إلى وسط المدينة (داخل الأسوار الأوريليانية)، شاملة الأمتعة."
+         },
+         "warn": {
+          "en": "Please note: during busy periods, there may be **long lines** at the airport taxi station.",
+          "it": "Attenzione: nei periodi di maggiore affluenza potrebbero esserci **lunghe code** alla stazione dei taxi dell’aeroporto.",
+          "fr": "Attention : en période d’affluence, il peut y avoir de **longues files d’attente** à la station de taxis de l’aéroport.",
+          "es": "Atención: en periodos de mucha afluencia puede haber **largas colas** en la parada de taxis del aeropuerto.",
+          "de": "Bitte beachten: Zu Stoßzeiten kann es am Taxistand des Flughafens **lange Warteschlangen** geben.",
+          "ar": "يُرجى الانتباه: خلال فترات الازدحام قد تكون هناك **طوابير طويلة** عند موقف سيارات الأجرة في المطار."
+         }
+        },
+        {
+         "icon": "car",
+         "title": {
+          "en": "Private transfer",
+          "it": "Transfer privato",
+          "fr": "Transfert privé",
+          "es": "Traslado privado",
+          "de": "Privater Transfer",
+          "ar": "نقل خاص"
+         },
+         "text": {
+          "en": "For a simple, comfortable and stress-free journey, choose our **exclusive transfer service** directly from Fiumicino. The price depends on the day, time and number of passengers.",
+          "it": "Per un viaggio semplice, comodo e senza stress, scegliete il nostro **servizio esclusivo di transfer** direttamente da Fiumicino. Il prezzo dipende dal giorno, dall’orario e dal numero di passeggeri.",
+          "fr": "Pour un trajet simple, confortable et sans stress, choisissez notre **service de transfert exclusif** directement depuis Fiumicino. Le prix dépend du jour, de l’heure et du nombre de passagers.",
+          "es": "Para un viaje sencillo, cómodo y sin estrés, elija nuestro **servicio exclusivo de traslado** directamente desde Fiumicino. El precio depende del día, la hora y el número de pasajeros.",
+          "de": "Für eine einfache, bequeme und stressfreie Anreise wählen Sie unseren **exklusiven Transferservice** direkt ab Fiumicino. Der Preis hängt von Tag, Uhrzeit und Anzahl der Fahrgäste ab.",
+          "ar": "لرحلة سهلة ومريحة وخالية من التوتر، اختاروا **خدمة النقل الحصرية** لدينا مباشرةً من Fiumicino. يعتمد السعر على اليوم والوقت وعدد الركاب."
+         },
+         "transfer": "Fiumicino"
+        }
+       ]
+      },
+      {
+       "label": {
+        "en": "Ciampino Airport",
+        "it": "Aeroporto di Ciampino",
+        "fr": "Aéroport de Ciampino",
+        "es": "Aeropuerto de Ciampino",
+        "de": "Flughafen Ciampino",
+        "ar": "مطار تشامبينو"
+       },
+       "origin": "Ciampino Airport (CIA), Rome",
+       "routes": [
+        {
+         "icon": "train",
+         "title": {
+          "en": "Train + Metro",
+          "it": "Treno + Metro",
+          "fr": "Train + Métro",
+          "es": "Tren + Metro",
+          "de": "Zug + Metro",
+          "ar": "قطار + مترو"
+         },
+         "text": {
+          "en": "Take the **Ciampino Airlink** shuttle bus to Ciampino station (about 10 minutes). Then take a **regional train** to Roma Termini (about 15 minutes). From Termini, take **metro line A** towards Battistini and get off at **Barberini** (2 stops), then walk about **7 minutes**.",
+          "it": "Prendete la navetta **Ciampino Airlink** fino alla stazione di Ciampino (circa 10 minuti). Poi un **treno regionale** fino a Roma Termini (circa 15 minuti). Da Termini, prendete la **metro linea A** direzione Battistini e scendete a **Barberini** (2 fermate), poi circa **7 minuti** a piedi.",
+          "fr": "Prenez la navette **Ciampino Airlink** jusqu’à la gare de Ciampino (environ 10 minutes). Prenez ensuite un **train régional** jusqu’à Roma Termini (environ 15 minutes). À Termini, prenez la **ligne A du métro** direction Battistini et descendez à **Barberini** (2 arrêts), puis environ **7 minutes** à pied.",
+          "es": "Tome el autobús lanzadera **Ciampino Airlink** hasta la estación de Ciampino (unos 10 minutos). Después tome un **tren regional** hasta Roma Termini (unos 15 minutos). Desde Termini, tome la **línea A del metro** dirección Battistini y bájese en **Barberini** (2 paradas); luego, unos **7 minutos** a pie.",
+          "de": "Nehmen Sie den Shuttlebus **Ciampino Airlink** zum Bahnhof Ciampino (ca. 10 Minuten). Fahren Sie dann mit einem **Regionalzug** nach Roma Termini (ca. 15 Minuten). Ab Termini nehmen Sie die **Metrolinie A** Richtung Battistini bis **Barberini** (2 Stationen), danach etwa **7 Minuten** zu Fuß.",
+          "ar": "استقلوا حافلة **Ciampino Airlink** المكوكية إلى محطة تشامبينو (حوالي 10 دقائق). ثم استقلوا **قطاراً إقليمياً** إلى روما تيرميني (حوالي 15 دقيقة). ومن تيرميني، استقلوا **خط المترو A** باتجاه باتيستيني وانزلوا في محطة **باربيريني** (محطتان)، ثم حوالي **7 دقائق** سيراً على الأقدام."
+         },
+         "price": {
+          "en": "Total price: **about €4.20** (€2.70 for the ‘Ciampino Airlink’ bus + train + €1.50 for the metro).",
+          "it": "Prezzo totale: **circa 4,20 €** (2,70 € per bus ‘Ciampino Airlink’ + treno + 1,50 € per la metro).",
+          "fr": "Prix total : **environ 4,20 €** (2,70 € pour le bus « Ciampino Airlink » + train + 1,50 € pour le métro).",
+          "es": "Precio total: **unos 4,20 €** (2,70 € el autobús ‘Ciampino Airlink’ + tren + 1,50 € el metro).",
+          "de": "Gesamtpreis: **ca. 4,20 €** (2,70 € für Bus „Ciampino Airlink“ + Zug + 1,50 € für die Metro).",
+          "ar": "السعر الإجمالي: **حوالي 4.20 يورو** (2.70 يورو لحافلة «Ciampino Airlink» + القطار + 1.50 يورو للمترو)."
+         }
+        },
+        {
+         "icon": "bus",
+         "title": {
+          "en": "Bus + Metro",
+          "it": "Bus + Metro",
+          "fr": "Bus + Métro",
+          "es": "Autobús + Metro",
+          "de": "Bus + Metro",
+          "ar": "حافلة + مترو"
+         },
+         "text": {
+          "en": "Take a **Terravision** bus to Roma Termini (approx. 40–50 minutes), then **metro line A** towards Battistini to **Barberini** and walk about **7 minutes**.",
+          "it": "Prendete un autobus **Terravision** fino a Roma Termini (circa 40–50 minuti), poi la **metro linea A** direzione Battistini fino a **Barberini** e circa **7 minuti** a piedi.",
+          "fr": "Prenez un bus **Terravision** jusqu’à Roma Termini (environ 40–50 minutes), puis la **ligne A du métro** direction Battistini jusqu’à **Barberini** et environ **7 minutes** à pied.",
+          "es": "Tome un autobús **Terravision** hasta Roma Termini (aprox. 40–50 minutos), después la **línea A del metro** dirección Battistini hasta **Barberini** y unos **7 minutos** a pie.",
+          "de": "Nehmen Sie einen **Terravision**-Bus nach Roma Termini (ca. 40–50 Minuten), dann die **Metrolinie A** Richtung Battistini bis **Barberini** und etwa **7 Minuten** zu Fuß.",
+          "ar": "استقلوا حافلة **تيرافيجن** إلى روما تيرميني (حوالي 40–50 دقيقة)، ثم **خط المترو A** باتجاه باتيستيني حتى محطة **باربيريني**، ثم حوالي **7 دقائق** سيراً على الأقدام."
+         },
+         "price": {
+          "en": "Total price: **about €8** (Terravision bus from €6.50 + €1.50 metro).",
+          "it": "Prezzo totale: **circa 8 €** (bus Terravision da 6,50 € + 1,50 € metro).",
+          "fr": "Prix total : **environ 8 €** (bus Terravision dès 6,50 € + 1,50 € le métro).",
+          "es": "Precio total: **unos 8 €** (autobús Terravision desde 6,50 € + 1,50 € el metro).",
+          "de": "Gesamtpreis: **ca. 8 €** (Terravision-Bus ab 6,50 € + 1,50 € Metro).",
+          "ar": "السعر الإجمالي: **حوالي 8 يورو** (حافلة تيرافيجن ابتداءً من 6.50 يورو + 1.50 يورو للمترو)."
+         }
+        },
+        {
+         "icon": "taxi",
+         "title": {
+          "en": "Taxi",
+          "it": "Taxi",
+          "fr": "Taxi",
+          "es": "Taxi",
+          "de": "Taxi",
+          "ar": "سيارة أجرة"
+         },
+         "text": {
+          "en": "Official white taxis from Ciampino charge a **fixed fare of €40** to the centre of Rome (inside the Aurelian Walls), luggage included.",
+          "it": "I taxi ufficiali bianchi da Ciampino applicano una **tariffa fissa di 40 €** per il centro di Roma (entro le Mura Aureliane), bagagli inclusi.",
+          "fr": "Les taxis officiels blancs au départ de Ciampino appliquent un **tarif fixe de 40 €** jusqu’au centre de Rome (à l’intérieur du mur d’Aurélien), bagages compris.",
+          "es": "Los taxis oficiales blancos desde Ciampino aplican una **tarifa fija de 40 €** hasta el centro de Roma (dentro de las Murallas Aurelianas), equipaje incluido.",
+          "de": "Offizielle weiße Taxis ab Ciampino berechnen ins Zentrum von Rom (innerhalb der Aurelianischen Mauer) einen **Festpreis von 40 €**, Gepäck inklusive.",
+          "ar": "تتقاضى سيارات الأجرة الرسمية البيضاء من تشامبينو **تعرفة ثابتة قدرها 40 يورو** إلى وسط روما (داخل الأسوار الأوريليانية)، شاملة الأمتعة."
+         },
+         "warn": {
+          "en": "Please note: during busy times, there may be **long queues** at the airport taxi rank.",
+          "it": "Attenzione: negli orari di punta potrebbero esserci **lunghe code** alla fermata dei taxi dell’aeroporto.",
+          "fr": "Attention : aux heures d’affluence, il peut y avoir de **longues files d’attente** à la station de taxis de l’aéroport.",
+          "es": "Atención: en las horas de mayor afluencia puede haber **largas colas** en la parada de taxis del aeropuerto.",
+          "de": "Bitte beachten: Zu Stoßzeiten kann es am Taxistand des Flughafens **lange Warteschlangen** geben.",
+          "ar": "يُرجى الانتباه: في أوقات الذروة قد تكون هناك **طوابير طويلة** عند موقف سيارات الأجرة في المطار."
+         }
+        },
+        {
+         "icon": "car",
+         "title": {
+          "en": "Private transfer",
+          "it": "Transfer privato",
+          "fr": "Transfert privé",
+          "es": "Traslado privado",
+          "de": "Privater Transfer",
+          "ar": "نقل خاص"
+         },
+         "text": {
+          "en": "For a simple, comfortable and stress-free journey, choose our **exclusive transfer service** directly from Ciampino. The price depends on the day, time and number of passengers.",
+          "it": "Per un viaggio semplice, comodo e senza stress, scegliete il nostro **servizio esclusivo di transfer** direttamente da Ciampino. Il prezzo dipende dal giorno, dall’orario e dal numero di passeggeri.",
+          "fr": "Pour un trajet simple, confortable et sans stress, choisissez notre **service de transfert exclusif** directement depuis Ciampino. Le prix dépend du jour, de l’heure et du nombre de passagers.",
+          "es": "Para un viaje sencillo, cómodo y sin estrés, elija nuestro **servicio exclusivo de traslado** directamente desde Ciampino. El precio depende del día, la hora y el número de pasajeros.",
+          "de": "Für eine einfache, bequeme und stressfreie Anreise wählen Sie unseren **exklusiven Transferservice** direkt ab Ciampino. Der Preis hängt von Tag, Uhrzeit und Anzahl der Fahrgäste ab.",
+          "ar": "لرحلة سهلة ومريحة وخالية من التوتر، اختاروا **خدمة النقل الحصرية** لدينا مباشرةً من Ciampino. يعتمد السعر على اليوم والوقت وعدد الركاب."
+         },
+         "transfer": "Ciampino"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "From Barberini metro on foot",
+      "it": "Dalla metro Barberini a piedi",
+      "fr": "Du métro Barberini à pied",
+      "es": "Desde el metro Barberini a pie",
+      "de": "Von der Metro Barberini zu Fuß",
+      "ar": "من مترو باربيريني سيراً على الأقدام"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Exit **Barberini** station onto **Piazza Barberini**, with Bernini’s **Triton Fountain**.",
+       "it": "Uscite dalla stazione **Barberini** in **Piazza Barberini**, con la **Fontana del Tritone** del Bernini.",
+       "fr": "Sortez de la station **Barberini** sur la **Piazza Barberini**, avec la **fontaine du Triton** du Bernin.",
+       "es": "Salga de la estación **Barberini** a la **Piazza Barberini**, con la **Fuente del Tritón** de Bernini.",
+       "de": "Verlassen Sie die Station **Barberini** auf die **Piazza Barberini** mit Berninis **Tritonenbrunnen**.",
+       "ar": "اخرجوا من محطة **باربيريني** إلى **ساحة باربيريني** حيث **نافورة تريتون** لبرنيني."
+      },
+      {
+       "en": "Walk **downhill along Via del Tritone** towards Via del Corso for about **6 minutes**: number **53** is on this street, near the **La Rinascente** department store.",
+       "it": "Scendete lungo **Via del Tritone** in direzione Via del Corso per circa **6 minuti**: il numero **53** è su questa strada, vicino ai grandi magazzini **La Rinascente**.",
+       "fr": "Descendez la **Via del Tritone** en direction de la Via del Corso pendant environ **6 minutes** : le numéro **53** se trouve dans cette rue, près des grands magasins **La Rinascente**.",
+       "es": "Baje por **Via del Tritone** en dirección a Via del Corso durante unos **6 minutos**: el número **53** está en esta calle, cerca de los grandes almacenes **La Rinascente**.",
+       "de": "Gehen Sie die **Via del Tritone** etwa **6 Minuten** bergab in Richtung Via del Corso: Die Nummer **53** liegt in dieser Straße, nahe dem Kaufhaus **La Rinascente**.",
+       "ar": "انزلوا على طول **Via del Tritone** باتجاه Via del Corso لمدة **6 دقائق** تقريباً: الرقم **53** في هذا الشارع، قرب متجر **لا ريناشينتي**."
+      },
+      {
+       "en": "**Message us** at the main entrance door: we open it remotely.",
+       "it": "Davanti al portone **scriveteci**: vi apriamo a distanza.",
+       "fr": "Devant la porte de l’immeuble, **écrivez-nous** : nous ouvrons à distance.",
+       "es": "Delante del portal, **escríbanos**: le abrimos a distancia.",
+       "de": "**Schreiben Sie uns** vor der Haustür: Wir öffnen aus der Ferne.",
+       "ar": "أمام باب المبنى **راسلونا**: سنفتح لكم عن بُعد."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "By taxi",
+      "it": "In taxi",
+      "fr": "En taxi",
+      "es": "En taxi",
+      "de": "Mit dem Taxi",
+      "ar": "بسيارة الأجرة"
+     }
+    },
+    {
+     "type": "text",
+     "text": {
+      "en": "Give the driver the address **Via del Tritone 53**: the taxi drops you **right in front of the door**.",
+      "it": "Indicate al tassista l’indirizzo **Via del Tritone 53**: il taxi vi lascia **proprio davanti al portone**.",
+      "fr": "Donnez au chauffeur l’adresse **Via del Tritone 53** : le taxi vous dépose **juste devant la porte**.",
+      "es": "Dé al taxista la dirección **Via del Tritone 53**: el taxi le deja **justo delante del portal**.",
+      "de": "Nennen Sie dem Fahrer die Adresse **Via del Tritone 53**: Das Taxi setzt Sie **direkt vor der Haustür** ab.",
+      "ar": "أعطوا السائق العنوان **Via del Tritone 53**: ستوصلكم سيارة الأجرة **أمام الباب مباشرةً**."
+     }
+    }
+   ]
+  },
+  {
+   "id": "wifi",
+   "icon": "wifi",
+   "title": {
+    "en": "Wi-Fi",
+    "it": "Wi-Fi",
+    "fr": "Wi-Fi",
+    "es": "Wi-Fi",
+    "de": "WLAN",
+    "ar": "الواي فاي"
+   },
+   "blocks": [
+    {
+     "type": "wifi"
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "Quick internet tips",
+      "it": "Consigli rapidi per internet",
+      "fr": "Astuces internet",
+      "es": "Consejos rápidos de internet",
+      "de": "Schnelle Internet-Tipps",
+      "ar": "نصائح سريعة للإنترنت"
+     }
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "icon": "cable",
+       "title": {
+        "en": "Check the connection",
+        "it": "Controllate la connessione",
+        "fr": "Vérifiez la connexion",
+        "es": "Compruebe la conexión",
+        "de": "Verbindung prüfen",
+        "ar": "تحقّقوا من الاتصال"
+       },
+       "text": {
+        "en": "Ensure that **all cables** are properly connected to the internet box.",
+        "it": "Assicuratevi che **tutti i cavi** siano collegati correttamente al modem.",
+        "fr": "Assurez-vous que **tous les câbles** sont bien branchés sur la box internet.",
+        "es": "Asegúrese de que **todos los cables** estén bien conectados al router.",
+        "de": "Stellen Sie sicher, dass **alle Kabel** richtig mit dem Router verbunden sind.",
+        "ar": "تأكّدوا من توصيل **جميع الكابلات** بجهاز الإنترنت بشكل صحيح."
+       }
+      },
+      {
+       "icon": "rotate",
+       "title": {
+        "en": "Restart the box",
+        "it": "Riavviate il modem",
+        "fr": "Redémarrez la box",
+        "es": "Reinicie el router",
+        "de": "Router neu starten",
+        "ar": "أعيدوا تشغيل الجهاز"
+       },
+       "text": {
+        "en": "**Switch off the box**, wait a few seconds, then **switch it back on**.",
+        "it": "**Spegnete il modem**, attendete qualche secondo, poi **riaccendetelo**.",
+        "fr": "**Éteignez la box**, attendez quelques secondes, puis **rallumez-la**.",
+        "es": "**Apague el router**, espere unos segundos y **vuelva a encenderlo**.",
+        "de": "**Schalten Sie den Router aus**, warten Sie einige Sekunden und schalten Sie ihn dann **wieder ein**.",
+        "ar": "**أطفئوا الجهاز**، وانتظروا بضع ثوانٍ، ثم **أعيدوا تشغيله**."
+       }
+      }
+     ]
+    },
+    {
+     "type": "problems",
+     "items": [
+      {
+       "icon": "wifi",
+       "q": {
+        "en": "No Wi-Fi?",
+        "it": "Il Wi-Fi non funziona?",
+        "fr": "Pas de Wi-Fi ?",
+        "es": "¿No hay Wi-Fi?",
+        "de": "Kein WLAN?",
+        "ar": "لا يوجد واي فاي؟"
+       },
+       "a": {
+        "en": "**Message us** and we will help you right away.",
+        "it": "**Scriveteci** e vi aiutiamo subito.",
+        "fr": "**Écrivez-nous** et nous vous aiderons tout de suite.",
+        "es": "**Escríbanos** y le ayudaremos enseguida.",
+        "de": "**Schreiben Sie uns**, wir helfen Ihnen sofort.",
+        "ar": "**راسلونا** وسنساعدكم فوراً."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "icon": "rules",
+   "title": {
+    "en": "House rules",
+    "it": "Regole della casa",
+    "fr": "Règlement intérieur",
+    "es": "Normas de la casa",
+    "de": "Hausregeln",
+    "ar": "قواعد المنزل"
+   },
+   "blocks": [
+    {
+     "type": "lead",
+     "text": {
+      "en": "The apartment is in a **historic residential building** (palazzo d’epoca) where **families live**. Thank you for respecting the **house rules**.",
+      "it": "L’appartamento si trova in un **palazzo d’epoca residenziale**, dove **vivono famiglie**. Grazie per il rispetto delle **regole della casa**.",
+      "fr": "L’appartement se trouve dans un **immeuble résidentiel historique** (palazzo d’epoca) où **vivent des familles**. Merci de respecter le **règlement intérieur**.",
+      "es": "El apartamento está en un **edificio residencial histórico** (palazzo d’epoca) donde **viven familias**. Gracias por respetar las **normas de la casa**.",
+      "de": "Die Wohnung liegt in einem **historischen Wohnhaus** (Palazzo d’epoca), in dem **Familien wohnen**. Danke, dass Sie die **Hausregeln** einhalten.",
+      "ar": "تقع الشقة في **مبنى سكني تاريخي** (palazzo d’epoca) **تسكنه عائلات**. نشكركم على احترام **قواعد المنزل**."
+     }
+    },
+    {
+     "type": "rules",
+     "items": [
+      {
+       "icon": "column",
+       "text": {
+        "en": "This is a **historic residential building**: keep **quiet** in the **common areas**, out of respect for the residents.",
+        "it": "È un **palazzo d’epoca residenziale**: mantenete il **silenzio** negli **spazi comuni**, per rispetto dei residenti.",
+        "fr": "C’est un **immeuble résidentiel historique** : restez **silencieux** dans les **parties communes**, par respect pour les résidents.",
+        "es": "Es un **edificio residencial histórico**: guarde **silencio** en las **zonas comunes**, por respeto a los vecinos.",
+        "de": "Dies ist ein **historisches Wohnhaus**: Bitte seien Sie in den **Gemeinschaftsbereichen** **leise** – aus Rücksicht auf die Bewohner.",
+        "ar": "هذا **مبنى سكني تاريخي**: التزموا **الهدوء** في **الأماكن المشتركة** احتراماً للسكان."
+       }
+      },
+      {
+       "icon": "nosmoke",
+       "text": {
+        "en": "Please **do not smoke** inside the house.",
+        "it": "Vi preghiamo di **non fumare** all’interno della casa.",
+        "fr": "Merci de **ne pas fumer** à l’intérieur du logement.",
+        "es": "Le rogamos que **no fume** dentro de la vivienda.",
+        "de": "Bitte **rauchen Sie nicht** in der Wohnung.",
+        "ar": "يُرجى **عدم التدخين** داخل المنزل."
+       }
+      },
+      {
+       "icon": "sparkles",
+       "text": {
+        "en": "Take care of the house, **keep the common areas clean** and leave things tidy after you use them.",
+        "it": "Abbiate cura della casa, **mantenete puliti gli spazi comuni** e lasciate tutto in ordine dopo l’uso.",
+        "fr": "Prenez soin du logement, **gardez les parties communes propres** et laissez tout en ordre après utilisation.",
+        "es": "Cuide la vivienda, **mantenga limpias las zonas comunes** y deje todo ordenado después de usarlo.",
+        "de": "Gehen Sie sorgsam mit der Wohnung um, halten Sie die **Gemeinschaftsbereiche sauber** und hinterlassen Sie alles ordentlich.",
+        "ar": "اعتنوا بالمنزل، و**حافظوا على نظافة الأماكن المشتركة**، واتركوا الأشياء مرتبة بعد استخدامها."
+       }
+      },
+      {
+       "icon": "mute",
+       "text": {
+        "en": "Respect the peace and privacy of other occupants by **minimizing noise**.",
+        "it": "Rispettate la tranquillità e la privacy degli altri residenti **limitando i rumori**.",
+        "fr": "Respectez la tranquillité et l’intimité des autres occupants **en limitant le bruit**.",
+        "es": "Respete la tranquilidad y la privacidad de los demás ocupantes **reduciendo el ruido**.",
+        "de": "Respektieren Sie die Ruhe und Privatsphäre der anderen Bewohner, indem Sie **Lärm vermeiden**.",
+        "ar": "احترموا هدوء وخصوصية السكان الآخرين **بالتقليل من الضوضاء**."
+       }
+      },
+      {
+       "icon": "users",
+       "text": {
+        "en": "Avoid inviting additional people **without prior authorization**.",
+        "it": "Evitate di invitare altre persone **senza previa autorizzazione**.",
+        "fr": "Évitez d’inviter d’autres personnes **sans autorisation préalable**.",
+        "es": "Evite invitar a otras personas **sin autorización previa**.",
+        "de": "Laden Sie keine weiteren Personen **ohne vorherige Genehmigung** ein.",
+        "ar": "تجنّبوا دعوة أشخاص إضافيين **دون إذن مسبق**."
+       }
+      },
+      {
+       "icon": "zap",
+       "text": {
+        "en": "Follow **safety instructions** and avoid using dangerous or unauthorised electrical equipment.",
+        "it": "Seguite le **istruzioni di sicurezza** ed evitate di usare apparecchi elettrici pericolosi o non autorizzati.",
+        "fr": "Suivez les **consignes de sécurité** et évitez d’utiliser des appareils électriques dangereux ou non autorisés.",
+        "es": "Siga las **instrucciones de seguridad** y evite utilizar aparatos eléctricos peligrosos o no autorizados.",
+        "de": "Befolgen Sie die **Sicherheitshinweise** und verwenden Sie keine gefährlichen oder nicht zugelassenen Elektrogeräte.",
+        "ar": "اتبعوا **تعليمات السلامة** وتجنّبوا استخدام الأجهزة الكهربائية الخطرة أو غير المصرّح بها."
+       }
+      },
+      {
+       "icon": "alert",
+       "text": {
+        "en": "Please report any problems or damage that occur during your stay **as soon as possible**.",
+        "it": "Segnalateci **il prima possibile** eventuali problemi o danni che si verifichino durante il soggiorno.",
+        "fr": "Signalez-nous **au plus vite** tout problème ou dommage survenu pendant votre séjour.",
+        "es": "Comuníquenos **lo antes posible** cualquier problema o daño que se produzca durante su estancia.",
+        "de": "Bitte melden Sie uns Probleme oder Schäden während Ihres Aufenthalts **so schnell wie möglich**.",
+        "ar": "يُرجى إبلاغنا **في أقرب وقت ممكن** بأي مشكلة أو ضرر يحدث خلال إقامتكم."
+       }
+      }
+     ]
+    },
+    {
+     "type": "closing",
+     "text": {
+      "en": "Thank you",
+      "it": "Grazie",
+      "fr": "Merci",
+      "es": "Gracias",
+      "de": "Danke",
+      "ar": "شكراً لكم"
+     }
+    }
+   ]
+  },
+  {
+   "id": "transport",
+   "icon": "metro",
+   "title": {
+    "en": "Transport",
+    "it": "Trasporti",
+    "fr": "Transports",
+    "es": "Transporte",
+    "de": "Verkehrsmittel",
+    "ar": "المواصلات"
+   },
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "icon": "metro",
+       "title": {
+        "en": "Metro – Line A",
+        "it": "Metro – Linea A",
+        "fr": "Métro – Ligne A",
+        "es": "Metro – Línea A",
+        "de": "Metro – Linie A",
+        "ar": "المترو – الخط A"
+       },
+       "text": {
+        "en": "Stop: **Barberini** · about **7 minutes** on foot (or **Spagna**, about 9 minutes)",
+        "it": "Fermata: **Barberini** · circa **7 minuti** a piedi (oppure **Spagna**, a circa 9 minuti)",
+        "fr": "Arrêt : **Barberini** · environ **7 minutes** à pied (ou **Spagna**, à environ 9 minutes)",
+        "es": "Parada: **Barberini** · unos **7 minutos** a pie (o **Spagna**, a unos 9 minutos)",
+        "de": "Haltestelle: **Barberini** · ca. **7 Minuten** zu Fuß (oder **Spagna**, ca. 9 Minuten)",
+        "ar": "المحطة: **باربيريني** · حوالي **7 دقائق** سيراً (أو **سبانيا**، حوالي 9 دقائق)"
+       },
+       "maps": "Barberini Metro Station, Roma"
+      },
+      {
+       "icon": "bus",
+       "title": {
+        "en": "Bus",
+        "it": "Autobus",
+        "fr": "Bus",
+        "es": "Autobús",
+        "de": "Bus",
+        "ar": "الحافلة"
+       },
+       "text": {
+        "en": "Stop: **Tritone/Fontana di Trevi** · **1 minute** on foot, many lines across the centre",
+        "it": "Fermata: **Tritone/Fontana di Trevi** · **1 minuto** a piedi, tante linee per tutto il centro",
+        "fr": "Arrêt : **Tritone/Fontana di Trevi** · **1 minute** à pied, nombreuses lignes dans tout le centre",
+        "es": "Parada: **Tritone/Fontana di Trevi** · **1 minuto** a pie, muchas líneas por todo el centro",
+        "de": "Haltestelle: **Tritone/Fontana di Trevi** · **1 Minute** zu Fuß, viele Linien durch das Zentrum",
+        "ar": "المحطة: **Tritone/Fontana di Trevi** · **دقيقة واحدة** سيراً، وخطوط كثيرة في أنحاء الوسط"
+       },
+       "maps": "Via del Tritone, Fontana di Trevi, fermata autobus, Roma"
+      },
+      {
+       "icon": "train",
+       "title": {
+        "en": "Train station",
+        "it": "Stazione ferroviaria",
+        "fr": "Gare ferroviaire",
+        "es": "Estación de tren",
+        "de": "Bahnhof",
+        "ar": "محطة القطارات"
+       },
+       "text": {
+        "en": "Termini Station · **2 stops** by underground (**line A**, Barberini → Termini) or **10 minutes** by taxi",
+        "it": "Stazione Termini · **2 fermate** in metropolitana (**linea A**, Barberini → Termini) o **10 minuti** in taxi",
+        "fr": "Gare Termini · **2 arrêts** en métro (**ligne A**, Barberini → Termini) ou **10 minutes** en taxi",
+        "es": "Estación Termini · **2 paradas** en metro (**línea A**, Barberini → Termini) o **10 minutos** en taxi",
+        "de": "Bahnhof Termini · **2 Stationen** mit der U-Bahn (**Linie A**, Barberini → Termini) oder **10 Minuten** mit dem Taxi",
+        "ar": "محطة تيرميني · **محطتان** بالمترو (**الخط A**، باربيريني ← تيرميني) أو **10 دقائق** بسيارة الأجرة"
+       },
+       "maps": "Roma Termini"
+      },
+      {
+       "icon": "plane",
+       "title": {
+        "en": "Fiumicino Airport",
+        "it": "Aeroporto di Fiumicino",
+        "fr": "Aéroport de Fiumicino",
+        "es": "Aeropuerto de Fiumicino",
+        "de": "Flughafen Fiumicino",
+        "ar": "مطار فيوميتشينو"
+       },
+       "text": {
+        "en": "50 minutes by car",
+        "it": "50 minuti in auto",
+        "fr": "50 minutes en voiture",
+        "es": "50 minutos en coche",
+        "de": "50 Minuten mit dem Auto",
+        "ar": "50 دقيقة بالسيارة"
+       },
+       "maps": "Fiumicino Airport"
+      },
+      {
+       "icon": "plane",
+       "title": {
+        "en": "Ciampino Airport",
+        "it": "Aeroporto di Ciampino",
+        "fr": "Aéroport de Ciampino",
+        "es": "Aeropuerto de Ciampino",
+        "de": "Flughafen Ciampino",
+        "ar": "مطار تشامبينو"
+       },
+       "text": {
+        "en": "45 minutes by car",
+        "it": "45 minuti in auto",
+        "fr": "45 minutes en voiture",
+        "es": "45 minutos en coche",
+        "de": "45 Minuten mit dem Auto",
+        "ar": "45 دقيقة بالسيارة"
+       },
+       "maps": "Ciampino Airport"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "amenities",
+   "icon": "sofa",
+   "title": {
+    "en": "Amenities",
+    "it": "Dotazioni",
+    "fr": "Équipements",
+    "es": "Equipamiento",
+    "de": "Ausstattung",
+    "ar": "المرافق"
+   },
+   "blocks": [
+    {
+     "type": "amenities",
+     "items": [
+      {
+       "icon": "bed2",
+       "label": {
+        "en": "Double bed",
+        "it": "Letto matrimoniale",
+        "fr": "Lit double",
+        "es": "Cama doble",
+        "de": "Doppelbett",
+        "ar": "سرير مزدوج"
+       }
+      },
+      {
+       "icon": "bed1",
+       "label": {
+        "en": "Single bed",
+        "it": "Letto singolo",
+        "fr": "Lit simple",
+        "es": "Cama individual",
+        "de": "Einzelbett",
+        "ar": "سرير مفرد"
+       }
+      },
+      {
+       "icon": "sofa",
+       "label": {
+        "en": "Sofa bed",
+        "it": "Divano letto",
+        "fr": "Canapé-lit",
+        "es": "Sofá cama",
+        "de": "Schlafsofa",
+        "ar": "أريكة سرير"
+       }
+      },
+      {
+       "icon": "baby",
+       "label": {
+        "en": "Cot & high chair",
+        "it": "Culla e seggiolone",
+        "fr": "Lit bébé et chaise haute",
+        "es": "Cuna y trona",
+        "de": "Babybett & Hochstuhl",
+        "ar": "سرير أطفال وكرسي مرتفع"
+       }
+      },
+      {
+       "icon": "elevator",
+       "label": {
+        "en": "Elevator",
+        "it": "Ascensore",
+        "fr": "Ascenseur",
+        "es": "Ascensor",
+        "de": "Aufzug",
+        "ar": "مصعد"
+       }
+      },
+      {
+       "icon": "tv",
+       "label": {
+        "en": "TV",
+        "it": "TV",
+        "fr": "TV",
+        "es": "TV",
+        "de": "TV",
+        "ar": "تلفزيون"
+       }
+      },
+      {
+       "icon": "wifi",
+       "label": {
+        "en": "Wi-Fi",
+        "it": "Wi-Fi",
+        "fr": "Wi-Fi",
+        "es": "Wi-Fi",
+        "de": "WLAN",
+        "ar": "واي فاي"
+       }
+      },
+      {
+       "icon": "snow",
+       "label": {
+        "en": "Air conditioning",
+        "it": "Aria condizionata",
+        "fr": "Climatisation",
+        "es": "Aire acondicionado",
+        "de": "Klimaanlage",
+        "ar": "تكييف الهواء"
+       }
+      },
+      {
+       "icon": "sun",
+       "label": {
+        "en": "Heating",
+        "it": "Riscaldamento",
+        "fr": "Chauffage",
+        "es": "Calefacción",
+        "de": "Heizung",
+        "ar": "تدفئة"
+       }
+      },
+      {
+       "icon": "washer",
+       "label": {
+        "en": "Washing machine",
+        "it": "Lavatrice",
+        "fr": "Lave-linge",
+        "es": "Lavadora",
+        "de": "Waschmaschine",
+        "ar": "غسالة ملابس"
+       }
+      },
+      {
+       "icon": "shirt",
+       "label": {
+        "en": "Iron",
+        "it": "Ferro da stiro",
+        "fr": "Fer à repasser",
+        "es": "Plancha",
+        "de": "Bügeleisen",
+        "ar": "مكواة"
+       }
+      },
+      {
+       "icon": "hob",
+       "label": {
+        "en": "Stove",
+        "it": "Fornello",
+        "fr": "Plaques de cuisson",
+        "es": "Placa de cocina",
+        "de": "Kochfeld",
+        "ar": "موقد طهي"
+       }
+      },
+      {
+       "icon": "oven",
+       "label": {
+        "en": "Oven",
+        "it": "Forno",
+        "fr": "Four",
+        "es": "Horno",
+        "de": "Backofen",
+        "ar": "فرن"
+       }
+      },
+      {
+       "icon": "fridge",
+       "label": {
+        "en": "Fridge & freezer",
+        "it": "Frigorifero e congelatore",
+        "fr": "Réfrigérateur et congélateur",
+        "es": "Frigorífico y congelador",
+        "de": "Kühlschrank & Gefrierfach",
+        "ar": "ثلاجة ومجمّد"
+       }
+      },
+      {
+       "icon": "microwave",
+       "label": {
+        "en": "Microwave",
+        "it": "Microonde",
+        "fr": "Micro-ondes",
+        "es": "Microondas",
+        "de": "Mikrowelle",
+        "ar": "ميكروويف"
+       }
+      },
+      {
+       "icon": "coffee",
+       "label": {
+        "en": "Coffee maker",
+        "it": "Macchina per il caffè",
+        "fr": "Machine à café",
+        "es": "Cafetera",
+        "de": "Kaffeemaschine",
+        "ar": "آلة القهوة"
+       }
+      },
+      {
+       "icon": "zap",
+       "label": {
+        "en": "Hair dryer",
+        "it": "Asciugacapelli",
+        "fr": "Sèche-cheveux",
+        "es": "Secador de pelo",
+        "de": "Haartrockner",
+        "ar": "مجفف شعر"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "activities",
+   "icon": "colosseum",
+   "title": {
+    "en": "Activities",
+    "it": "Attività",
+    "fr": "Activités",
+    "es": "Actividades",
+    "de": "Aktivitäten",
+    "ar": "الأنشطة"
+   },
+   "blocks": [
+    {
+     "type": "features",
+     "items": [
+      {
+       "icon": "coin",
+       "title": {
+        "en": "Trevi Fountain",
+        "it": "Fontana di Trevi",
+        "fr": "Fontaine de Trevi",
+        "es": "Fontana de Trevi",
+        "de": "Trevi-Brunnen",
+        "ar": "نافورة تريفي"
+       },
+       "text": {
+        "en": "Just a **3-minute walk** away, discover the famous Baroque fountain where it is traditional to **throw a coin** to ensure your return to Rome.",
+        "it": "A soli **3 minuti a piedi**, scoprite la celebre fontana barocca dove è tradizione **lanciare una moneta** per assicurarsi di tornare a Roma.",
+        "fr": "À seulement **3 minutes à pied**, découvrez la célèbre fontaine baroque où la tradition veut que l’on **lance une pièce** pour être sûr de revenir à Rome.",
+        "es": "A solo **3 minutos a pie**, descubra la famosa fuente barroca donde es tradición **lanzar una moneda** para asegurarse de volver a Roma.",
+        "de": "Nur **3 Gehminuten** entfernt: der berühmte Barockbrunnen, in den man traditionell **eine Münze wirft**, um sicher nach Rom zurückzukehren.",
+        "ar": "على بُعد **3 دقائق سيراً** فقط، اكتشفوا النافورة الباروكية الشهيرة حيث جرت العادة أن **ترموا قطعة نقدية** لتضمنوا العودة إلى روما."
+       },
+       "maps": "Fontana di Trevi, Roma",
+       "photo": {
+        "src": "img/trevi-fountain",
+        "own": true,
+        "pos": "50% 40%"
+       }
+      },
+      {
+       "icon": "arch",
+       "title": {
+        "en": "Piazza di Spagna and Trinità dei Monti",
+        "it": "Piazza di Spagna e Trinità dei Monti",
+        "fr": "Place d’Espagne et Trinité-des-Monts",
+        "es": "Plaza de España y Trinità dei Monti",
+        "de": "Spanische Treppe und Trinità dei Monti",
+        "ar": "ساحة إسبانيا وكنيسة ترينيتا دي مونتي"
+       },
+       "text": {
+        "en": "Discover one of Rome’s most iconic landmarks, just **6 minutes’ walk** from the house. Monumental staircases, the **Barcaccia fountain** and luxury boutiques line this elegant square.",
+        "it": "Scoprite uno dei luoghi più iconici di Roma, a soli **6 minuti a piedi** da casa. Scalinata monumentale, **Fontana della Barcaccia** e boutique di lusso animano questa elegante piazza.",
+        "fr": "Découvrez l’un des lieux les plus emblématiques de Rome, à seulement **6 minutes à pied** de la maison. L’église de la Trinité-des-Monts, la **fontaine de la Barcaccia** et les boutiques de luxe entourent cette élégante place.",
+        "es": "Descubra uno de los lugares más emblemáticos de Roma, a solo **6 minutos a pie** de casa. La escalinata monumental, la **Fuente de la Barcaccia** y tiendas de lujo rodean esta elegante plaza.",
+        "de": "Entdecken Sie eines der berühmtesten Wahrzeichen Roms, nur **6 Gehminuten** von der Wohnung entfernt. Die monumentale Treppe, der **Barcaccia-Brunnen** und Luxusboutiquen prägen diesen eleganten Platz.",
+        "ar": "اكتشفوا أحد أشهر معالم روما، على بُعد **6 دقائق سيراً** فقط من المنزل. الدرج الضخم و**نافورة باركاتشا** والمتاجر الفاخرة تزيّن هذه الساحة الأنيقة."
+       },
+       "maps": "Piazza di Spagna, Roma",
+       "photo": {
+        "src": "img/piazza-di-spagna",
+        "own": true,
+        "pos": "50% 0%"
+       }
+      },
+      {
+       "icon": "dome",
+       "title": {
+        "en": "Pantheon",
+        "it": "Pantheon",
+        "fr": "Panthéon",
+        "es": "Panteón",
+        "de": "Pantheon",
+        "ar": "البانثيون"
+       },
+       "text": {
+        "en": "About **12 minutes** on foot: the best-preserved temple of ancient Rome, with its huge **open dome** (the oculus) and Raphael’s tomb.",
+        "it": "A circa **12 minuti** a piedi: il tempio meglio conservato della Roma antica, con la sua immensa **cupola aperta** (l’oculo) e la tomba di Raffaello.",
+        "fr": "À environ **12 minutes** à pied : le temple le mieux conservé de la Rome antique, avec son immense **coupole ouverte** (l’oculus) et le tombeau de Raphaël.",
+        "es": "A unos **12 minutos** a pie: el templo mejor conservado de la Roma antigua, con su enorme **cúpula abierta** (el óculo) y la tumba de Rafael.",
+        "de": "Etwa **12 Minuten** zu Fuß: der am besten erhaltene Tempel des antiken Rom mit seiner riesigen **offenen Kuppel** (dem Oculus) und dem Grab Raffaels.",
+        "ar": "على بُعد **12 دقيقة** تقريباً سيراً: أفضل معابد روما القديمة حفظاً، بـ**قبّته المفتوحة** الضخمة (الأوكولوس) وقبر رافائيل."
+       },
+       "maps": "Pantheon, Roma",
+       "photo": {
+        "src": "rome/pantheon",
+        "place": "Pantheon",
+        "area": false,
+        "credit": {
+         "title": "Pantheon Rom 1 cropped.jpg",
+         "author": "Rabax63",
+         "license": "CC BY-SA 4.0",
+         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+         "source": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg"
+        }
+       }
+      },
+      {
+       "icon": "column",
+       "title": {
+        "en": "Piazza del Quirinale",
+        "it": "Piazza del Quirinale",
+        "fr": "Place du Quirinal",
+        "es": "Plaza del Quirinal",
+        "de": "Quirinalsplatz",
+        "ar": "ساحة الكويريناله"
+       },
+       "text": {
+        "en": "About **8 minutes** on foot, uphill: the square of the **President’s palace**, with the obelisk, the **Dioscuri statues** and a wonderful **view over the rooftops** of Rome.",
+        "it": "A circa **8 minuti** a piedi, in salita: la piazza del **Palazzo del Presidente della Repubblica**, con l’obelisco, le **statue dei Dioscuri** e una splendida **vista sui tetti** di Roma.",
+        "fr": "À environ **8 minutes** à pied, en montée : la place du **palais présidentiel**, avec l’obélisque, les **statues des Dioscures** et une superbe **vue sur les toits** de Rome.",
+        "es": "A unos **8 minutos** a pie, cuesta arriba: la plaza del **Palacio Presidencial**, con el obelisco, las **estatuas de los Dioscuros** y una preciosa **vista sobre los tejados** de Roma.",
+        "de": "Etwa **8 Minuten** zu Fuß, bergauf: der Platz vor dem **Präsidentenpalast** mit Obelisk, den **Dioskuren-Statuen** und einem herrlichen **Blick über die Dächer** Roms.",
+        "ar": "على بُعد **8 دقائق** تقريباً سيراً صعوداً: ساحة **قصر رئيس الجمهورية**، مع المسلّة و**تمثالي ديوسكوري** و**إطلالة رائعة على أسطح** روما."
+       },
+       "maps": "Piazza del Quirinale, Roma",
+       "photo": {
+        "src": "rome/quirinale",
+        "place": "Piazza del Quirinale",
+        "area": false,
+        "credit": {
+         "title": "Roma - Piazza del Quirinale (41068410090).jpg",
+         "author": "Fred Romero from Paris, France",
+         "license": "CC BY 2.0",
+         "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+         "source": "https://commons.wikimedia.org/wiki/File:Roma_-_Piazza_del_Quirinale_(41068410090).jpg"
+        }
+       }
+      },
+      {
+       "icon": "laurel",
+       "title": {
+        "en": "Piazza Barberini",
+        "it": "Piazza Barberini",
+        "fr": "Place Barberini",
+        "es": "Plaza Barberini",
+        "de": "Piazza Barberini",
+        "ar": "ساحة باربيريني"
+       },
+       "text": {
+        "en": "About **7 minutes** on foot along Via del Tritone: Bernini’s **Triton Fountain**, the start of **Via Veneto** and the **Palazzo Barberini** art gallery nearby.",
+        "it": "A circa **7 minuti** a piedi lungo Via del Tritone: la **Fontana del Tritone** del Bernini, l’inizio di **Via Veneto** e, poco distante, la galleria di **Palazzo Barberini**.",
+        "fr": "À environ **7 minutes** à pied par la Via del Tritone : la **fontaine du Triton** du Bernin, le début de la **Via Veneto** et, tout près, le musée du **Palazzo Barberini**.",
+        "es": "A unos **7 minutos** a pie por Via del Tritone: la **Fuente del Tritón** de Bernini, el inicio de **Via Veneto** y, muy cerca, la galería del **Palazzo Barberini**.",
+        "de": "Etwa **7 Minuten** zu Fuß über die Via del Tritone: Berninis **Tritonenbrunnen**, der Beginn der **Via Veneto** und ganz in der Nähe die Galerie im **Palazzo Barberini**.",
+        "ar": "على بُعد **7 دقائق** تقريباً سيراً عبر Via del Tritone: **نافورة تريتون** لبرنيني، وبداية **فيا فينيتو**، وعلى مقربة منها متحف **قصر باربيريني**."
+       },
+       "maps": "Piazza Barberini, Roma",
+       "photo": {
+        "src": "rome/piazza-barberini",
+        "place": "Piazza Barberini",
+        "area": false,
+        "credit": {
+         "title": "Fontana del Tritone(Triton Fountain), Rome, Italy (Ank Kumar, Infosys Limited) 05.jpg",
+         "author": "Ank Kumar",
+         "license": "CC BY-SA 4.0",
+         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+         "source": "https://commons.wikimedia.org/wiki/File:Fontana_del_Tritone(Triton_Fountain),_Rome,_Italy_(Ank_Kumar,_Infosys_Limited)_05.jpg"
+        }
+       }
+      },
+      {
+       "icon": "handbag",
+       "title": {
+        "en": "Via del Corso shopping",
+        "it": "Shopping in Via del Corso",
+        "fr": "Shopping Via del Corso",
+        "es": "Compras en Via del Corso",
+        "de": "Shopping in der Via del Corso",
+        "ar": "التسوّق في فيا ديل كورسو"
+       },
+       "text": {
+        "en": "Only **6 minutes** on foot: Rome’s main **shopping street**, from Piazza Venezia to Piazza del Popolo, and the luxury boutiques of **Via Condotti** near Piazza di Spagna.",
+        "it": "A soli **6 minuti** a piedi: la principale **via dello shopping** di Roma, da Piazza Venezia a Piazza del Popolo, e le boutique di lusso di **Via Condotti** vicino a Piazza di Spagna.",
+        "fr": "À seulement **6 minutes** à pied : la principale **rue commerçante** de Rome, de la Piazza Venezia à la Piazza del Popolo, et les boutiques de luxe de la **Via Condotti** près de la place d’Espagne.",
+        "es": "A solo **6 minutos** a pie: la principal **calle comercial** de Roma, de Piazza Venezia a Piazza del Popolo, y las tiendas de lujo de **Via Condotti**, junto a la Plaza de España.",
+        "de": "Nur **6 Minuten** zu Fuß: Roms wichtigste **Einkaufsstraße** von der Piazza Venezia bis zur Piazza del Popolo und die Luxusboutiquen der **Via Condotti** an der Spanischen Treppe.",
+        "ar": "على بُعد **6 دقائق** فقط سيراً: أهم **شارع للتسوّق** في روما، من ساحة فينيسيا إلى ساحة الشعب، ومتاجر **فيا كوندوتي** الفاخرة قرب ساحة إسبانيا."
+       },
+       "maps": "Via del Corso, Roma",
+       "photo": {
+        "src": "rome/via-del-corso",
+        "place": "Via del Corso",
+        "area": false,
+        "credit": {
+         "title": "Via del Corso à Roma (4999193609).jpg",
+         "author": "Citizen59 from Tunis, Tunisie",
+         "license": "CC BY-SA 2.0",
+         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+         "source": "https://commons.wikimedia.org/wiki/File:Via_del_Corso_%C3%A0_Roma_(4999193609).jpg"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "Local activities",
+      "it": "Attività in zona",
+      "fr": "Activités locales",
+      "es": "Actividades locales",
+      "de": "Aktivitäten vor Ort",
+      "ar": "أنشطة محلية"
+     }
+    },
+    {
+     "type": "list",
+     "grid": true,
+     "items": [
+      {
+       "icon": "bike",
+       "title": {
+        "en": "Cycling",
+        "it": "In bicicletta",
+        "fr": "Vélo",
+        "es": "En bicicleta",
+        "de": "Radfahren",
+        "ar": "ركوب الدراجات"
+       },
+       "text": {
+        "en": "Explore **Villa Borghese**, the Tiber, Trastevere, the Vatican and Monti.",
+        "it": "Esplorate **Villa Borghese**, il Tevere, Trastevere, il Vaticano e Monti.",
+        "fr": "Explorez la **Villa Borghèse**, le Tibre, le Trastevere, le Vatican et Monti.",
+        "es": "Explore **Villa Borghese**, el Tíber, Trastevere, el Vaticano y Monti.",
+        "de": "Erkunden Sie die **Villa Borghese**, den Tiber, Trastevere, den Vatikan und Monti.",
+        "ar": "استكشفوا **فيلا بورغيزي** ونهر التيبر وتراستيفيري والفاتيكان وحي مونتي."
+       },
+       "photo": {
+        "src": "rome/villa-borghese",
+        "place": "Villa Borghese",
+        "area": false,
+        "credit": {
+         "title": "Piazza di Siena Villa Borghese Roma 2012.JPG",
+         "author": "Felix König",
+         "license": "CC BY 3.0",
+         "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+         "source": "https://commons.wikimedia.org/wiki/File:Piazza_di_Siena_Villa_Borghese_Roma_2012.JPG"
+        }
+       }
+      },
+      {
+       "icon": "boat",
+       "title": {
+        "en": "Boating",
+        "it": "In barca",
+        "fr": "Balade en barque",
+        "es": "En barca",
+        "de": "Bootfahren",
+        "ar": "نزهة بالقارب"
+       },
+       "text": {
+        "en": "**Boat trip** on the lake at Villa Borghese.",
+        "it": "**Giro in barca** sul laghetto di Villa Borghese.",
+        "fr": "**Promenade en barque** sur le lac de la Villa Borghèse.",
+        "es": "**Paseo en barca** por el lago de Villa Borghese.",
+        "de": "**Bootsfahrt** auf dem See der Villa Borghese.",
+        "ar": "**جولة بالقارب** في بحيرة فيلا بورغيزي."
+       },
+       "maps": "Laghetto di Villa Borghese, Roma",
+       "photo": {
+        "src": "img/villa-borghese-lake",
+        "own": true,
+        "pos": "50% 30%"
+       }
+      },
+      {
+       "icon": "picnic",
+       "title": {
+        "en": "Picnic",
+        "it": "Picnic",
+        "fr": "Pique-nique",
+        "es": "Pícnic",
+        "de": "Picknick",
+        "ar": "نزهة في الهواء الطلق"
+       },
+       "text": {
+        "en": "Have lunch outdoors at **Villa Borghese** or on the **Gianicolo** Hill.",
+        "it": "Pranzate all’aperto a **Villa Borghese** o sul colle del **Gianicolo**.",
+        "fr": "Déjeunez en plein air à la **Villa Borghèse** ou sur la colline du **Janicule**.",
+        "es": "Almuerce al aire libre en **Villa Borghese** o en la colina del **Gianicolo**.",
+        "de": "Essen Sie im Freien in der **Villa Borghese** oder auf dem **Gianicolo**-Hügel.",
+        "ar": "تناولوا الغداء في الهواء الطلق في **فيلا بورغيزي** أو على تلة **جانيكولو**."
+       },
+       "photo": {
+        "src": "img/villa-borghese-pines",
+        "own": true
+       }
+      },
+      {
+       "icon": "walk",
+       "title": {
+        "en": "Walks",
+        "it": "Passeggiate",
+        "fr": "Promenades",
+        "es": "Paseos",
+        "de": "Spaziergänge",
+        "ar": "جولات سيراً على الأقدام"
+       },
+       "text": {
+        "en": "Stroll through the **historic centre**: Via del Corso, Piazza Venezia, Colosseum, Trastevere.",
+        "it": "Passeggiate nel **centro storico**: Via del Corso, Piazza Venezia, Colosseo, Trastevere.",
+        "fr": "Flânez dans le **centre historique** : Via del Corso, Piazza Venezia, Colisée, Trastevere.",
+        "es": "Pasee por el **centro histórico**: Via del Corso, Piazza Venezia, Coliseo, Trastevere.",
+        "de": "Bummeln Sie durch die **Altstadt**: Via del Corso, Piazza Venezia, Kolosseum, Trastevere.",
+        "ar": "تجوّلوا في **المركز التاريخي**: فيا ديل كورسو، ساحة فينيسيا، الكولوسيوم، تراستيفيري."
+       },
+       "photo": {
+        "src": "img/piazza-venezia",
+        "own": true,
+        "pos": "50% 35%"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infos",
+   "icon": "info",
+   "title": {
+    "en": "Useful info",
+    "it": "Info utili",
+    "fr": "Infos pratiques",
+    "es": "Información útil",
+    "de": "Nützliche Infos",
+    "ar": "معلومات مفيدة"
+   },
+   "blocks": [
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": {
+        "en": "Bank / ATM",
+        "it": "Banca / Bancomat",
+        "fr": "Banque / Distributeur",
+        "es": "Banco / Cajero automático",
+        "de": "Bank / Geldautomat",
+        "ar": "بنك / صراف آلي"
+       },
+       "address": "BNL, Via del Tritone 31, 00187 Roma",
+       "text": {
+        "en": "A bank with ATM is located **300 meters** away.",
+        "it": "C’è una banca con bancomat a **300 metri**.",
+        "fr": "Une banque avec distributeur se trouve à **300 mètres**.",
+        "es": "Hay un banco con cajero a **300 metros**.",
+        "de": "Eine Bank mit Geldautomat befindet sich **300 Meter** entfernt.",
+        "ar": "يوجد بنك مع صراف آلي على بُعد **300 متر**."
+       },
+       "icon": "bank",
+       "maps": "BNL, Via del Tritone 31, 00187 Roma RM, Italy"
+      },
+      {
+       "name": {
+        "en": "Pharmacy",
+        "it": "Farmacia",
+        "fr": "Pharmacie",
+        "es": "Farmacia",
+        "de": "Apotheke",
+        "ar": "صيدلية"
+       },
+       "address": "Piazza di Trevi 89, 00187 Roma",
+       "text": {
+        "en": "The historic **Antica Farmacia Pesci**, at the **Trevi Fountain**, is **200 meters** away.",
+        "it": "La storica **Antica Farmacia Pesci**, alla **Fontana di Trevi**, è a **200 metri**.",
+        "fr": "L’historique **Antica Farmacia Pesci**, à la **fontaine de Trevi**, est à **200 mètres**.",
+        "es": "La histórica **Antica Farmacia Pesci**, junto a la **Fontana de Trevi**, está a **200 metros**.",
+        "de": "Die historische **Antica Farmacia Pesci** am **Trevi-Brunnen** ist **200 Meter** entfernt.",
+        "ar": "تقع **صيدلية بيشي القديمة** التاريخية عند **نافورة تريفي** على بُعد **200 متر**."
+       },
+       "icon": "pharmacy",
+       "maps": "Antica Farmacia Pesci, Piazza di Trevi 89, 00187 Roma RM, Italy"
+      },
+      {
+       "name": {
+        "en": "Taxi rank",
+        "it": "Posteggio taxi",
+        "fr": "Station de taxis",
+        "es": "Parada de taxis",
+        "de": "Taxistand",
+        "ar": "موقف سيارات الأجرة"
+       },
+       "address": "Piazza di San Silvestro, 00187 Roma",
+       "text": {
+        "en": "A small **taxi rank** is on **Largo del Tritone**, a few steps away; the larger one in **Piazza San Silvestro** is **500 meters** away. You can also call **060609**.",
+        "it": "Un piccolo **posteggio taxi** si trova in **Largo del Tritone**, a pochi passi; quello più grande di **Piazza San Silvestro** è a **500 metri**. Potete anche chiamare lo **060609**.",
+        "fr": "Une petite **station de taxis** se trouve **Largo del Tritone**, à quelques pas ; la plus grande, **Piazza San Silvestro**, est à **500 mètres**. Vous pouvez aussi appeler le **060609**.",
+        "es": "Hay una pequeña **parada de taxis** en **Largo del Tritone**, a pocos pasos; la más grande, en **Piazza San Silvestro**, está a **500 metros**. También puede llamar al **060609**.",
+        "de": "Ein kleiner **Taxistand** befindet sich am **Largo del Tritone**, nur wenige Schritte entfernt; der größere an der **Piazza San Silvestro** ist **500 Meter** entfernt. Sie können auch die **060609** anrufen.",
+        "ar": "يوجد **موقف صغير لسيارات الأجرة** في **Largo del Tritone** على بُعد خطوات، والموقف الأكبر في **ساحة سان سيلفسترو** على بُعد **500 متر**. يمكنكم أيضاً الاتصال بالرقم **060609**."
+       },
+       "icon": "taxi",
+       "maps": "Taxi, Piazza di San Silvestro, 00187 Roma RM, Italy"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": {
+      "en": "National registration code (**CIN**): **IT058091C2YJM4NO6A**",
+      "it": "Codice identificativo nazionale (**CIN**): **IT058091C2YJM4NO6A**",
+      "fr": "Code d’identification national (**CIN**) : **IT058091C2YJM4NO6A**",
+      "es": "Código de identificación nacional (**CIN**): **IT058091C2YJM4NO6A**",
+      "de": "Nationale Registrierungsnummer (**CIN**): **IT058091C2YJM4NO6A**",
+      "ar": "رمز التسجيل الوطني (**CIN**): **IT058091C2YJM4NO6A**"
+     }
+    },
+    {
+     "type": "closing",
+     "text": {
+      "en": "Feel free to **ask** if you need anything else.",
+      "it": "Non esitate a **chiederci** qualsiasi altra cosa.",
+      "fr": "N’hésitez pas à **nous demander** si vous avez besoin d’autre chose.",
+      "es": "No dude en **preguntarnos** si necesita cualquier otra cosa.",
+      "de": "**Fragen Sie uns** gerne, wenn Sie noch etwas brauchen.",
+      "ar": "لا تترددوا في **السؤال** إذا احتجتم إلى أي شيء آخر."
+     }
+    }
+   ]
+  },
+  {
+   "id": "bars",
+   "icon": "coffee",
+   "title": {
+    "en": "Bars & breakfast",
+    "it": "Bar e colazione",
+    "fr": "Cafés & petit-déjeuner",
+    "es": "Bares y desayuno",
+    "de": "Cafés & Frühstück",
+    "ar": "المقاهي والإفطار"
+   },
+   "blocks": [
+    {
+     "type": "heading",
+     "text": {
+      "en": "For breakfast",
+      "it": "Per la colazione",
+      "fr": "Pour le petit-déjeuner",
+      "es": "Para desayunar",
+      "de": "Zum Frühstück",
+      "ar": "لتناول الإفطار"
+     },
+     "sub": {
+      "en": "Our best recommendations",
+      "it": "I nostri migliori consigli",
+      "fr": "Nos meilleures recommandations",
+      "es": "Nuestras mejores recomendaciones",
+      "de": "Unsere besten Empfehlungen",
+      "ar": "أفضل توصياتنا"
+     }
+    },
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": "Deroma",
+       "address": "Via Poli 27, 00187 Roma RM, Italy",
+       "walk": {
+        "en": "2-minute walk",
+        "it": "2 minuti a piedi",
+        "fr": "2 minutes à pied",
+        "es": "2 minutos a pie",
+        "de": "2 Minuten zu Fuß",
+        "ar": "دقيقتان سيرًا على الأقدام"
+       },
+       "phone": "+39 0669369190",
+       "web": "www.deromamor.com",
+       "icon": "croissant",
+       "photo": {
+        "src": "img/venue-deroma",
+        "own": true
+       }
+      },
+      {
+       "name": "La Panetteria",
+       "address": "Via della Panetteria 13, 00187 Roma RM, Italy",
+       "area": {
+        "en": "Trevi Fountain area",
+        "it": "Zona Fontana di Trevi",
+        "fr": "Quartier de la fontaine de Trevi",
+        "es": "Zona Fontana de Trevi",
+        "de": "Gegend Trevi-Brunnen",
+        "ar": "منطقة نافورة تريفي"
+       },
+       "walk": {
+        "en": "1-minute walk",
+        "it": "1 minuto a piedi",
+        "fr": "1 minute à pied",
+        "es": "1 minuto a pie",
+        "de": "1 Minute zu Fuß",
+        "ar": "دقيقة واحدة سيرًا على الأقدام"
+       },
+       "phone": "+39 06 6785595",
+       "icon": "croissant",
+       "photo": {
+        "src": "img/venue-la-panetteria",
+        "own": true
+       }
+      },
+      {
+       "name": "Emporio Sant’Eustachio",
+       "address": "Via della Maddalena 36, 00186 Roma RM, Italy",
+       "area": {
+        "en": "Pantheon area",
+        "it": "Zona Pantheon",
+        "fr": "Quartier du Panthéon",
+        "es": "Zona del Panteón",
+        "de": "Gegend Pantheon",
+        "ar": "منطقة البانثيون"
+       },
+       "walk": {
+        "en": "10-minute walk",
+        "it": "10 minuti a piedi",
+        "fr": "10 minutes à pied",
+        "es": "10 minutos a pie",
+        "de": "10 Minuten zu Fuß",
+        "ar": "10 دقائق سيرًا على الأقدام"
+       },
+       "phone": "+39 0677251018",
+       "web": "www.emporiosanteustachio.com",
+       "icon": "croissant",
+       "photo": {
+        "src": "img/venue-emporio-santeustachio",
+        "own": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "Un caffè?",
+      "it": "Un caffè?",
+      "fr": "Un café ?",
+      "es": "¿Un café?",
+      "de": "Un caffè?",
+      "ar": "فنجان قهوة؟"
+     }
+    },
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": "Bar Ciampini",
+       "address": "Piazza di San Lorenzo in Lucina 29, 00186 Roma RM, Italy",
+       "area": {
+        "en": "Via del Corso area",
+        "it": "Zona Via del Corso",
+        "fr": "Quartier de la Via del Corso",
+        "es": "Zona Via del Corso",
+        "de": "Gegend Via del Corso",
+        "ar": "منطقة فيا ديل كورسو"
+       },
+       "walk": {
+        "en": "9-minute walk",
+        "it": "9 minuti a piedi",
+        "fr": "9 minutes à pied",
+        "es": "9 minutos a pie",
+        "de": "9 Minuten zu Fuß",
+        "ar": "9 دقائق سيرًا على الأقدام"
+       },
+       "web": "www.ciampini.com",
+       "icon": "coffee",
+       "photo": {
+        "src": "img/venue-bar-ciampini",
+        "own": true
+       },
+       "phone": "+39 06 6876606"
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "Gelato",
+      "it": "Gelato",
+      "fr": "Glaces",
+      "es": "Helado",
+      "de": "Eis",
+      "ar": "الجيلاتو"
+     },
+     "sub": {
+      "en": "A few steps from the Trevi Fountain",
+      "it": "A due passi dalla Fontana di Trevi",
+      "fr": "À deux pas de la fontaine de Trevi",
+      "es": "A dos pasos de la Fontana de Trevi",
+      "de": "Wenige Schritte vom Trevi-Brunnen",
+      "ar": "على بُعد خطوات من نافورة تريفي"
+     }
+    },
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": "Il Gelato di San Crispino",
+       "address": "Via della Panetteria 42, 00187 Roma RM, Italy",
+       "area": {
+        "en": "Trevi Fountain area",
+        "it": "Zona Fontana di Trevi",
+        "fr": "Quartier de la fontaine de Trevi",
+        "es": "Zona Fontana de Trevi",
+        "de": "Gegend Trevi-Brunnen",
+        "ar": "منطقة نافورة تريفي"
+       },
+       "walk": {
+        "en": "3-minute walk",
+        "it": "3 minuti a piedi",
+        "fr": "3 minutes à pied",
+        "es": "3 minutos a pie",
+        "de": "3 Minuten zu Fuß",
+        "ar": "3 دقائق سيرًا على الأقدام"
+       },
+       "phone": "+39 06 6948 9518",
+       "icon": "gelato",
+       "text": {
+        "en": "Historic **artisanal gelato**, famous for its **honey** and **meringue** flavours.",
+        "it": "Storico **gelato artigianale**, famoso per i gusti al **miele** e alla **meringa**.",
+        "fr": "Glacier **artisanal** historique, célèbre pour ses parfums **miel** et **meringue**.",
+        "es": "Histórico **helado artesanal**, famoso por sus sabores de **miel** y **merengue**.",
+        "de": "Traditionsreiches **handwerkliches Eis**, berühmt für die Sorten **Honig** und **Baiser**.",
+        "ar": "**جيلاتو حرفي** عريق، مشهور بنكهتَي **العسل** و**المرينغ**."
+       },
+       "photo": {
+        "src": "rome/via-della-panetteria",
+        "place": "Via della Panetteria",
+        "area": true,
+        "credit": {
+         "title": "Trevi - via della panetteria - portale del Quirinale (Flaminio Ponzio) 00970.JPG",
+         "author": "Lalupa",
+         "license": "CC BY-SA 3.0",
+         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+         "source": "https://commons.wikimedia.org/wiki/File:Trevi_-_via_della_panetteria_-_portale_del_Quirinale_(Flaminio_Ponzio)_00970.JPG"
+        }
+       }
+      },
+      {
+       "name": "Gelateria Valentino",
+       "address": "Via del Lavatore 96, 00187 Roma RM, Italy",
+       "area": {
+        "en": "Trevi Fountain area",
+        "it": "Zona Fontana di Trevi",
+        "fr": "Quartier de la fontaine de Trevi",
+        "es": "Zona Fontana de Trevi",
+        "de": "Gegend Trevi-Brunnen",
+        "ar": "منطقة نافورة تريفي"
+       },
+       "walk": {
+        "en": "2-minute walk",
+        "it": "2 minuti a piedi",
+        "fr": "2 minutes à pied",
+        "es": "2 minutos a pie",
+        "de": "2 Minuten zu Fuß",
+        "ar": "دقيقتان سيرًا على الأقدام"
+       },
+       "phone": "+39 06 678 3219",
+       "web": "www.gelateriavalentino.it",
+       "icon": "gelato",
+       "hours": {
+        "en": "Open daily 11:00 AM – midnight",
+        "it": "Aperto tutti i giorni 11:00 – 24:00",
+        "fr": "Ouvert tous les jours de 11 h à minuit",
+        "es": "Abierto todos los días de 11:00 a 24:00",
+        "de": "Täglich 11:00 – 24:00 Uhr geöffnet",
+        "ar": "مفتوح يومياً من 11:00 حتى منتصف الليل"
+       },
+       "photo": {
+        "src": "rome/via-del-lavatore",
+        "place": "Via del Lavatore",
+        "area": true,
+        "credit": {
+         "title": "Via del Lavatore al Quirinale - Il mercato 0511-01.JPG",
+         "author": "Lalupa",
+         "license": "Public domain",
+         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Via_del_Lavatore_al_Quirinale_-_Il_mercato_0511-01.JPG",
+         "source": "https://commons.wikimedia.org/wiki/File:Via_del_Lavatore_al_Quirinale_-_Il_mercato_0511-01.JPG"
+        }
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "restaurants",
+   "icon": "dining",
+   "title": {
+    "en": "Restaurants",
+    "it": "Ristoranti",
+    "fr": "Restaurants",
+    "es": "Restaurantes",
+    "de": "Restaurants",
+    "ar": "المطاعم"
+   },
+   "blocks": [
+    {
+     "type": "heading",
+     "text": {
+      "en": "Our best recommendations",
+      "it": "I nostri migliori consigli",
+      "fr": "Nos meilleures recommandations",
+      "es": "Nuestras mejores recomendaciones",
+      "de": "Unsere besten Empfehlungen",
+      "ar": "أفضل توصياتنا"
+     }
+    },
+    {
+     "type": "notice",
+     "tone": "info",
+     "icon": "phone",
+     "text": {
+      "en": "We suggest **reserving these restaurants in advance**. If you have any issues, just let us know, we’ll call for you.",
+      "it": "Vi consigliamo di **prenotare questi ristoranti in anticipo**. In caso di difficoltà, fatecelo sapere: chiameremo noi per voi.",
+      "fr": "Nous vous conseillons de **réserver ces restaurants à l’avance**. En cas de difficulté, prévenez-nous : nous appellerons pour vous.",
+      "es": "Le recomendamos **reservar estos restaurantes con antelación**. Si tiene algún problema, avísenos y llamaremos por usted.",
+      "de": "Wir empfehlen, **diese Restaurants im Voraus zu reservieren**. Falls es Schwierigkeiten gibt, sagen Sie uns Bescheid – wir rufen für Sie an.",
+      "ar": "ننصحكم **بالحجز المسبق** في هذه المطاعم. إذا واجهتم أي مشكلة، أخبرونا فقط وسنتصل نيابةً عنكم."
+     }
+    },
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": "Il Chianti",
+       "address": "Via del Lavatore 81, 00187 Roma RM, Italy",
+       "area": {
+        "en": "Trevi Fountain area",
+        "it": "Zona Fontana di Trevi",
+        "fr": "Quartier de la fontaine de Trevi",
+        "es": "Zona Fontana de Trevi",
+        "de": "Gegend Trevi-Brunnen",
+        "ar": "منطقة نافورة تريفي"
+       },
+       "phone": "+39 066792470",
+       "web": "www.chiantiosteriatoscana.it",
+       "icon": "wine",
+       "photo": {
+        "src": "img/venue-il-chianti",
+        "own": true
+       },
+       "walk": {
+        "en": "3-minute walk",
+        "it": "3 minuti a piedi",
+        "fr": "3 minutes à pied",
+        "es": "3 minutos a pie",
+        "de": "3 Minuten zu Fuß",
+        "ar": "3 دقائق سيرًا على الأقدام"
+       }
+      },
+      {
+       "name": "Alfredo alla Scrofa",
+       "address": "Via della Scrofa 104A, 00186 Roma RM, Italy",
+       "area": {
+        "en": "Navona area",
+        "it": "Zona Piazza Navona",
+        "fr": "Quartier de la Piazza Navona",
+        "es": "Zona Piazza Navona",
+        "de": "Gegend Piazza Navona",
+        "ar": "منطقة ساحة نافونا"
+       },
+       "phone": "+39 0668806163",
+       "web": "www.alfredoallascrofa.com",
+       "icon": "dining",
+       "photo": {
+        "src": "img/venue-alfredo-alla-scrofa",
+        "own": true,
+        "pos": "50% 0%"
+       },
+       "walk": {
+        "en": "12-minute walk",
+        "it": "12 minuti a piedi",
+        "fr": "12 minutes à pied",
+        "es": "12 minutos a pie",
+        "de": "12 Minuten zu Fuß",
+        "ar": "12 دقيقة سيرًا على الأقدام"
+       }
+      },
+      {
+       "name": "Taverna Trilussa",
+       "address": "Via del Politeama 23, 00153 Roma RM, Italy",
+       "area": {
+        "en": "Trastevere area",
+        "it": "Zona Trastevere",
+        "fr": "Quartier du Trastevere",
+        "es": "Zona Trastevere",
+        "de": "Gegend Trastevere",
+        "ar": "منطقة تراستيفيري"
+       },
+       "phone": "+39 065818918",
+       "web": "www.tavernatrilussa.com",
+       "icon": "dining",
+       "photo": {
+        "src": "img/venue-taverna-trilussa",
+        "own": true,
+        "pos": "50% 25%"
+       },
+       "walk": {
+        "en": "30-minute walk",
+        "it": "30 minuti a piedi",
+        "fr": "30 minutes à pied",
+        "es": "30 minutos a pie",
+        "de": "30 Minuten zu Fuß",
+        "ar": "30 دقيقة سيرًا على الأقدام"
+       }
+      },
+      {
+       "name": "Dal Bolognese",
+       "address": "Piazza del Popolo 1, 00187 Roma RM, Italy",
+       "area": {
+        "en": "Piazza del Popolo area",
+        "it": "Zona Piazza del Popolo",
+        "fr": "Quartier de la Piazza del Popolo",
+        "es": "Zona Piazza del Popolo",
+        "de": "Gegend Piazza del Popolo",
+        "ar": "منطقة ساحة الشعب"
+       },
+       "phone": "+39 063222799",
+       "web": "www.roma.dalbolognese.it",
+       "icon": "dining",
+       "photo": {
+        "src": "img/venue-dal-bolognese",
+        "own": true
+       },
+       "walk": {
+        "en": "16-minute walk",
+        "it": "16 minuti a piedi",
+        "fr": "16 minutes à pied",
+        "es": "16 minutos a pie",
+        "de": "16 Minuten zu Fuß",
+        "ar": "16 دقيقة سيرًا على الأقدام"
+       }
+      },
+      {
+       "name": "Osteria del Sostegno",
+       "address": "Via delle Colonnelle 5, 00186 Roma RM, Italy",
+       "area": {
+        "en": "Pantheon area",
+        "it": "Zona Pantheon",
+        "fr": "Quartier du Panthéon",
+        "es": "Zona del Panteón",
+        "de": "Gegend Pantheon",
+        "ar": "منطقة البانثيون"
+       },
+       "phone": "+39 06 6793842",
+       "icon": "wine",
+       "photo": {
+        "src": "img/venue-osteria-del-sostegno",
+        "own": true
+       },
+       "walk": {
+        "en": "10-minute walk",
+        "it": "10 minuti a piedi",
+        "fr": "10 minutes à pied",
+        "es": "10 minutos a pie",
+        "de": "10 Minuten zu Fuß",
+        "ar": "10 دقائق سيرًا على الأقدام"
+       }
+      },
+      {
+       "name": "Da Settimio all’Arancio",
+       "address": "Via dell’Arancio 50, 00186 Roma RM, Italy",
+       "area": {
+        "en": "Spanish Steps area",
+        "it": "Zona Piazza di Spagna",
+        "fr": "Quartier de la place d’Espagne",
+        "es": "Zona Plaza de España",
+        "de": "Gegend Spanische Treppe",
+        "ar": "منطقة الدرج الإسباني"
+       },
+       "phone": "+39 06 687 6119",
+       "icon": "dining",
+       "photo": {
+        "src": "img/venue-da-settimio",
+        "own": true
+       },
+       "walk": {
+        "en": "11-minute walk",
+        "it": "11 minuti a piedi",
+        "fr": "11 minutes à pied",
+        "es": "11 minutos a pie",
+        "de": "11 Minuten zu Fuß",
+        "ar": "11 دقيقة سيرًا على الأقدام"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "icon": "bag",
+   "title": {
+    "en": "Shopping",
+    "it": "Shopping",
+    "fr": "Shopping",
+    "es": "Compras",
+    "de": "Einkaufen",
+    "ar": "التسوق"
+   },
+   "blocks": [
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": {
+        "en": "Minimarket – Carrefour Express",
+        "it": "Minimarket – Carrefour Express",
+        "fr": "Supérette – Carrefour Express",
+        "es": "Minimercado – Carrefour Express",
+        "de": "Minimarkt – Carrefour Express",
+        "ar": "متجر صغير – كارفور إكسبرس"
+       },
+       "address": "Largo del Nazareno 20, 00187 Roma RM",
+       "walk": {
+        "en": "2-minute walk",
+        "it": "2 minuti a piedi",
+        "fr": "2 minutes à pied",
+        "es": "2 minutos a pie",
+        "de": "2 Minuten zu Fuß",
+        "ar": "دقيقتان سيرًا على الأقدام"
+       },
+       "hours": {
+        "en": "Open daily 8:00 AM – 10:00 PM",
+        "it": "Aperto tutti i giorni 8:00 – 22:00",
+        "fr": "Ouvert tous les jours de 8 h à 22 h",
+        "es": "Abierto todos los días de 8:00 a 22:00",
+        "de": "Täglich 8:00 – 22:00 Uhr geöffnet",
+        "ar": "مفتوح يومياً من 8:00 حتى 22:00"
+       },
+       "icon": "cart",
+       "photo": {
+        "src": "rome/largo-del-nazareno",
+        "place": "Largo del Nazareno",
+        "area": true,
+        "credit": {
+         "title": "Trevi - l go d Nazareno pal d Bufalo P1040170.JPG",
+         "author": "Lalupa",
+         "license": "CC BY-SA 4.0",
+         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+         "source": "https://commons.wikimedia.org/wiki/File:Trevi_-_l_go_d_Nazareno_pal_d_Bufalo_P1040170.JPG"
+        }
+       },
+       "maps": "Carrefour Express, Via del Nazareno 20, 00187 Roma RM, Italy"
+      },
+      {
+       "name": "La Rinascente",
+       "address": "Via del Tritone 61, 00187 Roma RM",
+       "walk": {
+        "en": "1-minute walk",
+        "it": "1 minuto a piedi",
+        "fr": "1 minute à pied",
+        "es": "1 minuto a pie",
+        "de": "1 Minute zu Fuß",
+        "ar": "دقيقة واحدة سيرًا على الأقدام"
+       },
+       "text": {
+        "en": "Shopping center",
+        "it": "Centro commerciale",
+        "fr": "Grand magasin",
+        "es": "Centro comercial",
+        "de": "Kaufhaus",
+        "ar": "مركز تسوق"
+       },
+       "hours": {
+        "en": "Open daily from 10 a.m. to 9 p.m.",
+        "it": "Aperto tutti i giorni dalle 10:00 alle 21:00.",
+        "fr": "Ouvert tous les jours de 10h00 à 21h00.",
+        "es": "Abierto todos los días de 10:00 a 21:00.",
+        "de": "Täglich von 10:00 bis 21:00 Uhr geöffnet.",
+        "ar": "مفتوح يومياً من الساعة 10 صباحاً حتى 9 مساءً."
+       },
+       "icon": "handbag",
+       "photo": {
+        "src": "img/venue-la-rinascente",
+        "own": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "text": {
+      "en": "Local markets",
+      "it": "Mercati rionali",
+      "fr": "Marchés locaux",
+      "es": "Mercados locales",
+      "de": "Lokale Märkte",
+      "ar": "الأسواق المحلية"
+     }
+    },
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": {
+        "en": "Campo de’ Fiori Market",
+        "it": "Mercato di Campo de’ Fiori",
+        "fr": "Marché du Campo de’ Fiori",
+        "es": "Mercado de Campo de’ Fiori",
+        "de": "Markt auf dem Campo de’ Fiori",
+        "ar": "سوق كامبو دي فيوري"
+       },
+       "address": "Campo de’ Fiori, Roma",
+       "maps": "Campo de' Fiori, Roma",
+       "text": {
+        "en": "Rome’s most famous **open-air market**, lively and colorful, set in a historic square in the city center.",
+        "it": "Il **mercato all’aperto** più famoso di Roma, vivace e colorato, in una piazza storica del centro.",
+        "fr": "Le **marché en plein air** le plus célèbre de Rome, animé et coloré, sur une place historique du centre-ville.",
+        "es": "El **mercado al aire libre** más famoso de Roma, animado y colorido, en una plaza histórica del centro.",
+        "de": "Roms berühmtester **Freiluftmarkt** – lebhaft und farbenfroh, auf einem historischen Platz im Zentrum.",
+        "ar": "أشهر **سوق في الهواء الطلق** في روما، نابض بالحياة ومليء بالألوان، يقع في ساحة تاريخية وسط المدينة."
+       },
+       "hours": {
+        "en": "Mon to Sat: 7:00 AM – 2:00 PM",
+        "it": "Lun–sab: 7:00 – 14:00",
+        "fr": "Du lundi au samedi : 7h00 – 14h00",
+        "es": "De lunes a sábado: 7:00 – 14:00",
+        "de": "Mo–Sa: 7:00 – 14:00 Uhr",
+        "ar": "من الإثنين إلى السبت: 7:00 – 14:00"
+       },
+       "icon": "basket",
+       "photo": {
+        "src": "img/campo-de-fiori",
+        "own": true
+       },
+       "walk": {
+        "en": "21-minute walk",
+        "it": "21 minuti a piedi",
+        "fr": "21 minutes à pied",
+        "es": "21 minutos a pie",
+        "de": "21 Minuten zu Fuß",
+        "ar": "21 دقيقة سيرًا على الأقدام"
+       }
+      },
+      {
+       "name": "Mercato Trionfale",
+       "address": "Via Andrea Doria 41, 00192 Roma RM",
+       "maps": "Mercato Trionfale, Via Andrea Doria 41, 00192 Roma RM, Italy",
+       "text": {
+        "en": "One of Rome’s **largest and most authentic** food markets, located **near the Vatican**.",
+        "it": "Uno dei mercati alimentari **più grandi e autentici** di Roma, **vicino al Vaticano**.",
+        "fr": "L’un des marchés alimentaires **les plus grands et les plus authentiques** de Rome, **près du Vatican**.",
+        "es": "Uno de los mercados de alimentación **más grandes y auténticos** de Roma, **cerca del Vaticano**.",
+        "de": "Einer der **größten und ursprünglichsten** Lebensmittelmärkte Roms, **nahe dem Vatikan**.",
+        "ar": "أحد **أكبر أسواق الطعام وأكثرها أصالة** في روما، **بالقرب من الفاتيكان**."
+       },
+       "hours": {
+        "en": "Mon–Thu & Sat: 7:00 AM – 2:00 PM · Fri: 7:00 AM – 7:00 PM · Sun: closed",
+        "it": "Lun–gio e sab: 7:00 – 14:00 · Ven: 7:00 – 19:00 · Dom: chiuso",
+        "fr": "Lun–jeu et sam : 7h00 – 14h00 · Ven : 7h00 – 19h00 · Dim : fermé",
+        "es": "Lun–jue y sáb: 7:00 – 14:00 · Vie: 7:00 – 19:00 · Dom: cerrado",
+        "de": "Mo–Do & Sa: 7:00 – 14:00 Uhr · Fr: 7:00 – 19:00 Uhr · So: geschlossen",
+        "ar": "الإثنين–الخميس والسبت: 7:00 – 14:00 · الجمعة: 7:00 – 19:00 · الأحد: مغلق"
+       },
+       "icon": "basket",
+       "photo": {
+        "src": "img/venue-mercato-trionfale",
+        "own": true
+       },
+       "walk": {
+        "en": "About 15 minutes by taxi",
+        "it": "Circa 15 minuti in taxi",
+        "fr": "Environ 15 minutes en taxi",
+        "es": "Unos 15 minutos en taxi",
+        "de": "Ca. 15 Minuten mit dem Taxi",
+        "ar": "حوالي 15 دقيقة بسيارة الأجرة"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emergency",
+   "icon": "cross",
+   "title": {
+    "en": "Emergency",
+    "it": "Emergenze",
+    "fr": "Urgences",
+    "es": "Emergencias",
+    "de": "Notfall",
+    "ar": "الطوارئ"
+   },
+   "blocks": [
+    {
+     "type": "dial",
+     "items": [
+      {
+       "number": "118",
+       "label": {
+        "en": "Ambulance",
+        "it": "Ambulanza",
+        "fr": "Ambulance",
+        "es": "Ambulancia",
+        "de": "Rettungsdienst",
+        "ar": "الإسعاف"
+       },
+       "icon": "ambulance"
+      },
+      {
+       "number": "112",
+       "label": {
+        "en": "All emergencies",
+        "it": "Tutte le emergenze",
+        "fr": "Toutes urgences",
+        "es": "Todas las emergencias",
+        "de": "Alle Notfälle",
+        "ar": "جميع حالات الطوارئ"
+       },
+       "icon": "siren"
+      }
+     ]
+    },
+    {
+     "type": "places",
+     "items": [
+      {
+       "name": {
+        "en": "Police station",
+        "it": "Commissariato di Polizia",
+        "fr": "Commissariat de police",
+        "es": "Comisaría de policía",
+        "de": "Polizeiwache",
+        "ar": "مركز الشرطة"
+       },
+       "address": "Piazza del Collegio Romano 3, Roma",
+       "icon": "shield"
+      },
+      {
+       "name": {
+        "en": "Nearby hospital",
+        "it": "Ospedale più vicino",
+        "fr": "Hôpital le plus proche",
+        "es": "Hospital cercano",
+        "de": "Nächstes Krankenhaus",
+        "ar": "أقرب مستشفى"
+       },
+       "address": "Via di Ponte Quattro Capi 39, 00186 Roma RM, Italy",
+       "icon": "hospital"
+      },
+      {
+       "name": {
+        "en": "24-hour pharmacy – Gellini",
+        "it": "Farmacia 24h – Gellini",
+        "fr": "Pharmacie 24h/24 – Gellini",
+        "es": "Farmacia 24 h – Gellini",
+        "de": "24-Stunden-Apotheke – Gellini",
+        "ar": "صيدلية على مدار 24 ساعة – جيليني"
+       },
+       "address": "Corso d’Italia 100, 00198 Roma RM",
+       "maps": "Farmacia Gellini, Corso d'Italia 100, Roma",
+       "icon": "pharmacy"
+      }
+     ]
+    },
+    {
+     "type": "closing",
+     "text": {
+      "en": "For any need or question during your stay, Rome Dream Home is **always at your disposal**.",
+      "it": "Per qualsiasi necessità o domanda durante il soggiorno, Rome Dream Home è **sempre a vostra disposizione**.",
+      "fr": "Pour tout besoin ou toute question pendant votre séjour, Rome Dream Home reste **toujours à votre disposition**.",
+      "es": "Para cualquier necesidad o pregunta durante su estancia, Rome Dream Home está **siempre a su disposición**.",
+      "de": "Bei allen Anliegen oder Fragen während Ihres Aufenthalts ist Rome Dream Home **jederzeit für Sie da**.",
+      "ar": "لأي حاجة أو سؤال خلال إقامتكم، فريق Rome Dream Home **في خدمتكم دائماً**."
+     }
+    },
+    {
+     "type": "hostActions"
+    }
+   ]
+  },
+  {
+   "id": "checkout",
+   "icon": "door",
+   "title": {
+    "en": "Check-out",
+    "it": "Check-out",
+    "fr": "Départ",
+    "es": "Check-out",
+    "de": "Check-out",
+    "ar": "تسجيل المغادرة"
+   },
+   "blocks": [
+    {
+     "type": "time",
+     "value": "10:00",
+     "label": {
+      "en": "Check-out",
+      "it": "Check-out",
+      "fr": "Départ",
+      "es": "Check-out",
+      "de": "Check-out",
+      "ar": "تسجيل المغادرة"
+     }
+    },
+    {
+     "type": "text",
+     "text": {
+      "en": "If you wish to **depart later**, please contact us and we will check availability and confirm according to our schedule. You may also leave your luggage with us **until 1:00 PM**, provided it is properly closed.",
+      "it": "Se desiderate **partire più tardi**, contattateci: verificheremo la disponibilità e ve la confermeremo in base alla nostra programmazione. Potete anche lasciare i bagagli da noi **fino alle 13:00**, purché ben chiusi.",
+      "fr": "Si vous souhaitez **partir plus tard**, contactez-nous : nous vérifierons la disponibilité et vous confirmerons selon notre planning. Vous pouvez également nous laisser vos bagages **jusqu’à 13h00**, à condition qu’ils soient bien fermés.",
+      "es": "Si desea **salir más tarde**, contáctenos y comprobaremos la disponibilidad y se la confirmaremos según nuestra programación. También puede dejarnos su equipaje **hasta las 13:00**, siempre que esté bien cerrado.",
+      "de": "Wenn Sie **später abreisen** möchten, kontaktieren Sie uns bitte – wir prüfen die Verfügbarkeit und bestätigen sie entsprechend unserem Zeitplan. Sie können Ihr Gepäck auch **bis 13:00 Uhr** bei uns lassen, sofern es gut verschlossen ist.",
+      "ar": "إذا رغبتم في **المغادرة في وقت لاحق**، يُرجى التواصل معنا وسنتحقق من التوفر ونؤكد لكم ذلك حسب جدولنا. يمكنكم أيضاً ترك أمتعتكم لدينا **حتى الساعة 13:00**، بشرط أن تكون مغلقة بإحكام."
+     }
+    },
+    {
+     "type": "checklist",
+     "title": {
+      "en": "Before leaving – in this order",
+      "it": "Prima di partire – in quest’ordine",
+      "fr": "Avant de partir – dans cet ordre",
+      "es": "Antes de salir – en este orden",
+      "de": "Vor der Abreise – in dieser Reihenfolge",
+      "ar": "قبل المغادرة – بهذا الترتيب"
+     },
+     "items": [
+      {
+       "icon": "clock",
+       "title": {
+        "en": "Leave by 10:00",
+        "it": "Uscite entro le 10:00",
+        "fr": "Départ avant 10h00",
+        "es": "Salida antes de las 10:00",
+        "de": "Abreise bis 10:00 Uhr",
+        "ar": "المغادرة قبل 10:00"
+       },
+       "text": {
+        "en": "Check-out is by **10:00**. Make sure you **haven’t forgotten anything**.",
+        "it": "Il check-out è entro le **10:00**. Controllate di **non aver dimenticato nulla**.",
+        "fr": "Le départ se fait avant **10h00**. Vérifiez que vous **n’avez rien oublié**.",
+        "es": "El check-out es antes de las **10:00**. Compruebe que **no ha olvidado nada**.",
+        "de": "Check-out ist bis **10:00 Uhr**. Prüfen Sie, dass Sie **nichts vergessen** haben.",
+        "ar": "موعد المغادرة قبل **10:00**. تأكّدوا من أنكم **لم تنسوا شيئاً**."
+       }
+      },
+      {
+       "icon": "power",
+       "title": {
+        "en": "Lights and devices off",
+        "it": "Luci e apparecchi spenti",
+        "fr": "Lumières et appareils éteints",
+        "es": "Luces y aparatos apagados",
+        "de": "Licht und Geräte aus",
+        "ar": "إطفاء الأضواء والأجهزة"
+       },
+       "text": {
+        "en": "**Turn off** all lights and electrical devices.",
+        "it": "**Spegnete** tutte le luci e gli apparecchi elettrici.",
+        "fr": "**Éteignez** toutes les lumières et les appareils électriques.",
+        "es": "**Apague** todas las luces y los aparatos eléctricos.",
+        "de": "**Schalten Sie** alle Lichter und Elektrogeräte **aus**.",
+        "ar": "**أطفئوا** جميع الأضواء والأجهزة الكهربائية."
+       }
+      },
+      {
+       "icon": "house",
+       "title": {
+        "en": "Windows closed",
+        "it": "Finestre chiuse",
+        "fr": "Fenêtres fermées",
+        "es": "Ventanas cerradas",
+        "de": "Fenster geschlossen",
+        "ar": "النوافذ مغلقة"
+       },
+       "text": {
+        "en": "**Close all the windows.**",
+        "it": "**Chiudete tutte le finestre.**",
+        "fr": "**Fermez toutes les fenêtres.**",
+        "es": "**Cierre todas las ventanas.**",
+        "de": "**Schließen Sie alle Fenster.**",
+        "ar": "**أغلقوا جميع النوافذ.**"
+       }
+      },
+      {
+       "icon": "euro",
+       "title": {
+        "en": "Tourist tax",
+        "it": "Tassa di soggiorno",
+        "fr": "Taxe de séjour",
+        "es": "Tasa turística",
+        "de": "Kurtaxe",
+        "ar": "ضريبة السياحة"
+       },
+       "text": {
+        "en": "Leave it **in cash on the table** (€6 per person per night).",
+        "it": "Lasciatela **in contanti sul tavolo** (6 € a persona a notte).",
+        "fr": "Laissez-la **en espèces sur la table** (6 € par personne et par nuit).",
+        "es": "Déjela **en efectivo sobre la mesa** (6 € por persona y noche).",
+        "de": "Lassen Sie sie **in bar auf dem Tisch** (6 € pro Person und Nacht).",
+        "ar": "اتركوها **نقدًا على الطاولة** (6 يورو للشخص في الليلة)."
+       }
+      },
+      {
+       "icon": "door",
+       "title": {
+        "en": "Close the door",
+        "it": "Chiudete la porta",
+        "fr": "Fermez la porte",
+        "es": "Cierre la puerta",
+        "de": "Tür schließen",
+        "ar": "أغلقوا الباب"
+       },
+       "text": {
+        "en": "Go out and **close the apartment door**.",
+        "it": "Uscite e **chiudete la porta di casa**.",
+        "fr": "Sortez et **fermez la porte de l’appartement**.",
+        "es": "Salga y **cierre la puerta del apartamento**.",
+        "de": "Gehen Sie hinaus und **schließen Sie die Wohnungstür**.",
+        "ar": "اخرجوا و**أغلقوا باب الشقة**."
+       }
+      },
+      {
+       "icon": "key",
+       "title": {
+        "en": "Keys in the lockbox",
+        "it": "Chiavi nella cassetta",
+        "fr": "Clés dans la boîte",
+        "es": "Llaves en la caja",
+        "de": "Schlüssel in den Safe",
+        "ar": "المفاتيح في الصندوق"
+       },
+       "text": {
+        "en": "Put the keys back in the **lockbox on the door** and close it.",
+        "it": "Rimettete le chiavi nella **cassetta sulla porta** e chiudetela.",
+        "fr": "Remettez les clés dans la **boîte à clés sur la porte** et refermez-la.",
+        "es": "Vuelva a dejar las llaves en la **caja de la puerta** y ciérrela.",
+        "de": "Legen Sie die Schlüssel zurück in den **Schlüsselsafe an der Tür** und schließen Sie ihn.",
+        "ar": "أعيدوا المفاتيح إلى **الصندوق الموجود على الباب** وأغلقوه."
+       }
+      },
+      {
+       "icon": "rotate",
+       "title": {
+        "en": "Scramble the code",
+        "it": "Mescolate il codice",
+        "fr": "Brouillez le code",
+        "es": "Mezcle el código",
+        "de": "Code verstellen",
+        "ar": "غيّروا أرقام الرمز"
+       },
+       "text": {
+        "en": "**Scramble the code** on the lockbox, **otherwise it stays open**.",
+        "it": "**Mescolate le cifre** della cassetta, **altrimenti resta aperta**.",
+        "fr": "**Brouillez les chiffres** de la boîte, **sinon elle reste ouverte**.",
+        "es": "**Mezcle los dígitos** de la caja; **de lo contrario, se queda abierta**.",
+        "de": "**Verstellen Sie die Ziffern** am Safe, **sonst bleibt er offen**.",
+        "ar": "**غيّروا أرقام** الصندوق، **وإلا سيبقى مفتوحاً**."
+       }
+      }
+     ]
+    },
+    {
+     "type": "notice",
+     "tone": "important",
+     "icon": "key",
+     "title": {
+      "en": "Important",
+      "it": "Importante",
+      "fr": "Important",
+      "es": "Importante",
+      "de": "Wichtig",
+      "ar": "مهم"
+     },
+     "text": {
+      "en": "After putting the keys in the lockbox, always **scramble the code**: otherwise the box **stays open**.",
+      "it": "Dopo aver messo le chiavi nella cassetta, **mescolate sempre il codice**: altrimenti la cassetta **resta aperta**.",
+      "fr": "Après avoir remis les clés dans la boîte, **brouillez toujours le code** : sinon la boîte **reste ouverte**.",
+      "es": "Después de dejar las llaves en la caja, **mezcle siempre el código**: de lo contrario, la caja **se queda abierta**.",
+      "de": "Nachdem Sie die Schlüssel in den Safe gelegt haben, **verstellen Sie immer den Code**: sonst **bleibt der Safe offen**.",
+      "ar": "بعد وضع المفاتيح في الصندوق، **غيّروا أرقام الرمز دائماً**: وإلا **سيبقى الصندوق مفتوحاً**."
+     }
+    },
+    {
+     "type": "closing",
+     "text": {
+      "en": "Thank you!",
+      "it": "Grazie!",
+      "fr": "Merci !",
+      "es": "¡Gracias!",
+      "de": "Vielen Dank!",
+      "ar": "شكراً لكم!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "icon": "phone",
+   "title": {
+    "en": "Contact",
+    "it": "Contatti",
+    "fr": "Contact",
+    "es": "Contacto",
+    "de": "Kontakt",
+    "ar": "التواصل"
+   },
+   "blocks": [
+    {
+     "type": "host",
+     "text": {
+      "en": "Dear travelers, I am here to assist you whenever you need. If you encounter any issues or have any questions, please do not hesitate to contact me **by phone or email**. I am **always available** to help make your stay as pleasant and stress-free as possible.",
+      "it": "Cari viaggiatori, sono qui per assistervi ogni volta che ne avrete bisogno. Se incontrate qualche problema o avete domande, non esitate a contattarmi **per telefono o via email**. Sono **sempre disponibile** per rendere il vostro soggiorno il più piacevole e sereno possibile.",
+      "fr": "Chers voyageurs, je suis là pour vous aider à tout moment. Si vous rencontrez un problème ou avez des questions, n’hésitez pas à me contacter **par téléphone ou par e-mail**. Je suis **toujours disponible** pour rendre votre séjour aussi agréable et serein que possible.",
+      "es": "Queridos viajeros, estoy aquí para ayudarles siempre que lo necesiten. Si tienen algún problema o alguna pregunta, no duden en contactarme **por teléfono o por correo electrónico**. **Siempre estoy disponible** para que su estancia sea lo más agradable y tranquila posible.",
+      "de": "Liebe Reisende, ich bin jederzeit für Sie da. Wenn Probleme auftreten oder Sie Fragen haben, zögern Sie nicht, mich **telefonisch oder per E-Mail** zu kontaktieren. Ich helfe Ihnen **immer gern**, Ihren Aufenthalt so angenehm und entspannt wie möglich zu gestalten.",
+      "ar": "أعزاءنا المسافرين، أنا هنا لمساعدتكم متى احتجتم إلى ذلك. إذا واجهتم أي مشكلة أو كان لديكم أي سؤال، فلا تترددوا في التواصل معي **عبر الهاتف أو البريد الإلكتروني**. أنا **متاح دائماً** لأجعل إقامتكم ممتعة ومريحة قدر الإمكان."
+     }
+    },
+    {
+     "type": "review",
+     "text": {
+      "en": "We hope you had a pleasant stay in our home. If you could take a moment to share your feedback and leave us a **5-star review**, it would be greatly appreciated.",
+      "it": "Speriamo che abbiate trascorso un piacevole soggiorno nella nostra casa. Se poteste dedicarci un momento per condividere la vostra opinione e lasciarci una **recensione a 5 stelle**, ve ne saremmo davvero grati.",
+      "fr": "Nous espérons que vous avez passé un agréable séjour chez nous. Si vous pouviez prendre un instant pour partager votre avis et nous laisser un **commentaire 5 étoiles**, nous vous en serions très reconnaissants.",
+      "es": "Esperamos que haya disfrutado de una agradable estancia en nuestra casa. Si pudiera dedicar un momento a compartir su opinión y dejarnos una **reseña de 5 estrellas**, se lo agradeceríamos muchísimo.",
+      "de": "Wir hoffen, Sie hatten einen angenehmen Aufenthalt bei uns. Wenn Sie sich einen Moment Zeit nehmen könnten, um Ihre Eindrücke zu teilen und uns eine **5-Sterne-Bewertung** zu hinterlassen, würden wir uns sehr freuen.",
+      "ar": "نأمل أن تكونوا قد استمتعتم بإقامة طيبة في منزلنا. إذا تمكنتم من تخصيص لحظة لمشاركة رأيكم وترك **تقييم من 5 نجوم** لنا، فسنكون ممتنين جداً."
+     }
+    }
+   ]
+  }
+ ],
+ "arrival": {
+  "steps": [
+   {
+    "en": "At **Via del Tritone 53**, **message us** as soon as you arrive: we open the **main entrance door** remotely with our device.",
+    "it": "Arrivati in **Via del Tritone 53**, **scriveteci** appena arrivate: vi apriamo il **portone d’ingresso** a distanza con il nostro dispositivo.",
+    "fr": "Arrivés au **Via del Tritone 53**, **écrivez-nous** dès votre arrivée : nous ouvrons la **porte de l’immeuble** à distance avec notre appareil.",
+    "es": "Al llegar a **Via del Tritone 53**, **escríbanos** en cuanto llegue: le abrimos el **portal de entrada** a distancia con nuestro dispositivo.",
+    "de": "In der **Via del Tritone 53** angekommen, **schreiben Sie uns** sofort: Wir öffnen die **Haustür** mit unserem Gerät aus der Ferne.",
+    "ar": "عند وصولكم إلى **Via del Tritone 53**، **راسلونا** فور وصولكم: سنفتح لكم **باب المبنى الرئيسي** عن بُعد بجهازنا."
+   },
+   {
+    "en": "In the lobby, go through the **big door on the left** and go up to the **1st floor**, by **elevator** or by the **stairs**.",
+    "it": "Nell’androne, entrate dal **grande portone a sinistra** e salite al **primo piano**, con l’**ascensore** o a piedi per le **scale**.",
+    "fr": "Dans le hall, passez la **grande porte à gauche** et montez au **1er étage**, par l’**ascenseur** ou par l’**escalier**.",
+    "es": "En el vestíbulo, entre por la **puerta grande de la izquierda** y suba a la **1ª planta**, en **ascensor** o por la **escalera**.",
+    "de": "Gehen Sie in der Eingangshalle durch die **große Tür links** und in den **1. Stock** – mit dem **Aufzug** oder über die **Treppe**.",
+    "ar": "في الردهة، ادخلوا من **الباب الكبير على اليسار** واصعدوا إلى **الطابق الأول** بـ**المصعد** أو عبر **الدرج**."
+   },
+   {
+    "en": "On the 1st floor there are **other B&Bs**: look for the door with the **ROME DREAM HOME doormat** and go in.",
+    "it": "Al primo piano ci sono **altri B&B**: cercate la porta con lo **zerbino ROME DREAM HOME** ed entrate.",
+    "fr": "Au 1er étage, il y a **d’autres B&B** : cherchez la porte avec le **paillasson ROME DREAM HOME** et entrez.",
+    "es": "En la 1ª planta hay **otros B&B**: busque la puerta con el **felpudo ROME DREAM HOME** y entre.",
+    "de": "Im 1. Stock gibt es **weitere B&Bs**: Suchen Sie die Tür mit der **ROME-DREAM-HOME-Fußmatte** und gehen Sie hinein.",
+    "ar": "في الطابق الأول توجد **بيوت ضيافة أخرى**: ابحثوا عن الباب الذي أمامه **سجادة ROME DREAM HOME** وادخلوا."
+   },
+   {
+    "en": "**Shabby is the door on the LEFT** (Crystal is the one in front). The **lockbox is on the door**: enter the code **2027** and take the **2 keys**: the **biggest key** opens the **apartment**, the **smallest** opens the **main entrance door**.",
+    "it": "**Shabby è la porta a SINISTRA** (Crystal è quella di fronte). La **cassetta è sulla porta**: inserite il codice **2027** e prendete le **2 chiavi**: la **chiave più grande** apre l’**appartamento**, la **più piccola** apre il **portone d’ingresso**.",
+    "fr": "**Shabby est la porte de GAUCHE** (Crystal est celle d’en face). La **boîte à clés est sur la porte** : saisissez le code **2027** et prenez les **2 clés** : la **plus grande** ouvre l’**appartement**, la **plus petite** ouvre la **porte de l’immeuble**.",
+    "es": "**Shabby es la puerta de la IZQUIERDA** (Crystal es la de enfrente). La **caja de llaves está en la puerta**: introduzca el código **2027** y coja las **2 llaves**: la **más grande** abre el **apartamento**, la **más pequeña** abre el **portal de entrada**.",
+    "de": "**Shabby ist die Tür LINKS** (Crystal ist die gegenüber). Der **Schlüsselsafe hängt an der Tür**: Geben Sie den Code **2027** ein und nehmen Sie die **2 Schlüssel**: Der **größte** öffnet die **Wohnung**, der **kleinste** die **Haustür**.",
+    "ar": "**Shabby هو الباب على اليسار** (Crystal هو الباب المقابل). **صندوق المفاتيح على الباب**: أدخلوا الرمز **2027** وخذوا **المفتاحين**: **المفتاح الأكبر** يفتح **الشقة**، و**الأصغر** يفتح **باب المبنى الرئيسي**."
+   },
+   {
+    "en": "Go inside and **close the door** behind you. **Welcome!**",
+    "it": "Entrate e **chiudete la porta** alle vostre spalle. **Benvenuti!**",
+    "fr": "Entrez et **refermez la porte** derrière vous. **Bienvenue !**",
+    "es": "Entre y **cierre la puerta** detrás de usted. **¡Bienvenidos!**",
+    "de": "Treten Sie ein und **schließen Sie die Tür** hinter sich. **Willkommen!**",
+    "ar": "ادخلوا و**أغلقوا الباب** خلفكم. **أهلاً وسهلاً!**"
+   }
+  ]
+ },
+ "maxGuests": 5,
+ "registration": "IT058091C2YJM4NO6A",
+ "ui": {
+  "arrivalSub": {
+   "en": "Arrive at any time – message us at the street door",
+   "it": "Arrivate a qualsiasi ora – scriveteci davanti al portone",
+   "fr": "Arrivez à toute heure – écrivez-nous devant la porte",
+   "es": "Llegue a cualquier hora – escríbanos en el portal",
+   "de": "Ankunft jederzeit – schreiben Sie uns an der Haustür",
+   "ar": "يمكنكم الوصول في أي وقت – راسلونا عند باب المبنى"
+  },
+  "arrived": {
+   "en": "Message us: I’ve arrived",
+   "it": "Scriveteci: sono arrivato",
+   "fr": "Écrivez-nous : je suis arrivé",
+   "es": "Escríbanos: he llegado",
+   "de": "Schreiben Sie uns: Ich bin da",
+   "ar": "راسلونا: لقد وصلت"
+  },
+  "arrivedMsg": {
+   "en": "Hello! We have just arrived at {address} (Shabby). Could you please open the street door? Thank you!",
+   "it": "Buongiorno! Siamo appena arrivati in {address} (Shabby). Potete aprirci il portone? Grazie!",
+   "fr": "Bonjour ! Nous venons d’arriver au {address} (Shabby). Pouvez-vous nous ouvrir la porte de l’immeuble ? Merci !",
+   "es": "¡Hola! Acabamos de llegar a {address} (Shabby). ¿Nos pueden abrir el portal? ¡Gracias!",
+   "de": "Hallo! Wir sind gerade in der {address} (Shabby) angekommen. Könnten Sie uns bitte die Haustür öffnen? Danke!",
+   "ar": "مرحباً! لقد وصلنا للتو إلى {address} (Shabby). هل يمكنكم فتح باب المبنى لنا؟ شكراً!"
+  }
+ }
+}

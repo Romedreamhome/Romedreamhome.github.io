@@ -769,3 +769,12 @@ html[lang="ar"] .pb-sub { letter-spacing: 0; }
 .tab-ink { inset-inline-start: auto; left: 0; width: calc((100% - 8px) / var(--n, 2)); transform: translateX(calc(4px + var(--ix) * 100%)); }
 [dir="rtl"] .tab-ink { left: auto; right: 0; transform: translateX(calc(-4px + var(--ix) * -100%)); }
 .tablist.ink-ready .tab-ink, [dir="rtl"] .tablist.ink-ready .tab-ink { left: 0; right: auto; width: var(--ink-w); transform: translateX(var(--ink-x)); transition: transform .35s var(--ease), width .35s var(--ease); }
+
+/* check-in steps with photos (which door, which floor) */
+.steps .step-body { min-width: 0; flex: 1; }
+.steps .step-body > p { margin: 0; }
+.step-ph { margin-top: 12px; display: grid; gap: 8px; }
+.step-ph.two { grid-template-columns: 1fr 1fr; }
+.step-ph img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 14px; box-shadow: 0 6px 18px rgba(76, 3, 3, .12); background: #eee; }
+.step-ph.tall img { aspect-ratio: 3 / 4; max-height: 520px; }
+.step-ph.two img { aspect-ratio: 3 / 4; }

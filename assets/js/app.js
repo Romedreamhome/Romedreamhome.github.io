@@ -197,7 +197,19 @@
     return h("div", { class: "time-card" }, [h("span", { class: "time-label", text: tx(b.label) }), h("span", { class: "time-value" }, ltr(b.value)), h("span", { class: "time-rule", "aria-hidden": "true" })]);
   };
   R.steps = function (b) {
-    return h("ol", { class: "steps" }, b.items.map(function (s, i) { return h("li", null, [h("span", { class: "step-n", "aria-hidden": "true", text: String(i + 1) }), h("p", { text: tx(s) })]); }));
+    /* an item is a text, or {text, photo | photos: [{src, alt}], tall} to show where to go (e.g. the right door) */
+    return h("ol", { class: "steps" }, b.items.map(function (s, i) {
+      var rich = s && s.text && typeof s.text === "object", kids = [h("span", { class: "step-n", "aria-hidden": "true", text: String(i + 1) })];
+      var body = [h("p", { text: tx(rich ? s.text : s) })];
+      if (rich) {
+        var phs = s.photos || (s.photo ? [s.photo] : []);
+        if (phs.length) body.push(h("div", { class: "step-ph" + (phs.length > 1 ? " two" : "") + (s.tall ? " tall" : "") }, phs.map(function (p) {
+          return h("img", { src: p.src + "-sm.webp", srcset: p.src + "-sm.webp 800w, " + p.src + ".webp 1400w", sizes: "(min-width: 760px) 560px, 80vw", alt: tx(p.alt), loading: "lazy", decoding: "async" });
+        })));
+      }
+      kids.push(h("div", { class: "step-body" }, body));
+      return h("li", { class: rich ? "has-ph" : null }, kids);
+    }));
   };
   R.arrival = function () {
     return h("div", { class: "actions center" }, [
