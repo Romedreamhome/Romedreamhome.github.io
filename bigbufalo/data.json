@@ -52,39 +52,6 @@
    }
   },
   {
-   "src": "img/dining",
-   "alt": {
-    "en": "Dining area in the living room",
-    "it": "Zona pranzo nel salone",
-    "fr": "Coin repas dans le salon",
-    "es": "Comedor en el salón",
-    "de": "Essbereich im Wohnzimmer",
-    "ar": "منطقة الطعام في الصالة"
-   }
-  },
-  {
-   "src": "img/ping-pong",
-   "alt": {
-    "en": "Ping pong table",
-    "it": "Tavolo da ping pong",
-    "fr": "Table de ping-pong",
-    "es": "Mesa de ping-pong",
-    "de": "Tischtennisplatte",
-    "ar": "طاولة تنس الطاولة"
-   }
-  },
-  {
-   "src": "img/fireplace",
-   "alt": {
-    "en": "Marble fireplace",
-    "it": "Camino in marmo",
-    "fr": "Cheminée en marbre",
-    "es": "Chimenea de mármol",
-    "de": "Marmorkamin",
-    "ar": "مدفأة رخامية"
-   }
-  },
-  {
    "src": "img/terrace-1",
    "alt": {
     "en": "Terrace over the rooftops",
@@ -93,28 +60,6 @@
     "es": "Terraza sobre los tejados",
     "de": "Terrasse über den Dächern",
     "ar": "شرفة تطل على الأسطح"
-   }
-  },
-  {
-   "src": "img/terrace-2",
-   "alt": {
-    "en": "Terrace with outdoor dining table",
-    "it": "Terrazza con tavolo da pranzo all’aperto",
-    "fr": "Terrasse avec table à manger extérieure",
-    "es": "Terraza con mesa de comedor exterior",
-    "de": "Terrasse mit Esstisch im Freien",
-    "ar": "شرفة مع طاولة طعام خارجية"
-   }
-  },
-  {
-   "src": "img/kitchen",
-   "alt": {
-    "en": "Equipped kitchen",
-    "it": "Cucina attrezzata",
-    "fr": "Cuisine équipée",
-    "es": "Cocina equipada",
-    "de": "Ausgestattete Küche",
-    "ar": "مطبخ مجهّز"
    }
   },
   {
@@ -129,6 +74,28 @@
    }
   },
   {
+   "src": "img/dining",
+   "alt": {
+    "en": "Dining area in the living room",
+    "it": "Zona pranzo nel salone",
+    "fr": "Coin repas dans le salon",
+    "es": "Comedor en el salón",
+    "de": "Essbereich im Wohnzimmer",
+    "ar": "منطقة الطعام في الصالة"
+   }
+  },
+  {
+   "src": "img/terrace-2",
+   "alt": {
+    "en": "Terrace with outdoor dining table",
+    "it": "Terrazza con tavolo da pranzo all’aperto",
+    "fr": "Terrasse avec table à manger extérieure",
+    "es": "Terraza con mesa de comedor exterior",
+    "de": "Terrasse mit Esstisch im Freien",
+    "ar": "شرفة مع طاولة طعام خارجية"
+   }
+  },
+  {
    "src": "img/bedroom-2",
    "alt": {
     "en": "Double bedroom",
@@ -137,6 +104,17 @@
     "es": "Dormitorio doble",
     "de": "Doppelzimmer",
     "ar": "غرفة نوم مزدوجة"
+   }
+  },
+  {
+   "src": "img/ping-pong",
+   "alt": {
+    "en": "Ping pong table",
+    "it": "Tavolo da ping pong",
+    "fr": "Table de ping-pong",
+    "es": "Mesa de ping-pong",
+    "de": "Tischtennisplatte",
+    "ar": "طاولة تنس الطاولة"
    }
   },
   {
@@ -151,6 +129,17 @@
    }
   },
   {
+   "src": "img/fireplace",
+   "alt": {
+    "en": "Marble fireplace",
+    "it": "Camino in marmo",
+    "fr": "Cheminée en marbre",
+    "es": "Chimenea de mármol",
+    "de": "Marmorkamin",
+    "ar": "مدفأة رخامية"
+   }
+  },
+  {
    "src": "img/bedroom-4",
    "alt": {
     "en": "Double bedroom",
@@ -162,14 +151,14 @@
    }
   },
   {
-   "src": "img/hallway",
+   "src": "img/kitchen",
    "alt": {
-    "en": "Hallway",
-    "it": "Disimpegno",
-    "fr": "Couloir",
-    "es": "Pasillo",
-    "de": "Flur",
-    "ar": "الممر"
+    "en": "Equipped kitchen",
+    "it": "Cucina attrezzata",
+    "fr": "Cuisine équipée",
+    "es": "Cocina equipada",
+    "de": "Ausgestattete Küche",
+    "ar": "مطبخ مجهّز"
    }
   },
   {
@@ -240,6 +229,42 @@
       "es": "El apartamento",
       "de": "Die Wohnung",
       "ar": "الشقة"
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/terrace-1",
+     "alt": {
+      "en": "Terrace over the rooftops",
+      "it": "Terrazza sui tetti",
+      "fr": "Terrasse sur les toits",
+      "es": "Terraza sobre los tejados",
+      "de": "Terrasse über den Dächern",
+      "ar": "شرفة تطل على الأسطح"
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/bedroom-1",
+     "alt": {
+      "en": "Double bedroom",
+      "it": "Camera matrimoniale",
+      "fr": "Chambre double",
+      "es": "Dormitorio doble",
+      "de": "Doppelzimmer",
+      "ar": "غرفة نوم مزدوجة"
+     }
+    },
+    {
+     "type": "photo",
+     "src": "img/ping-pong",
+     "alt": {
+      "en": "Ping pong table",
+      "it": "Tavolo da ping pong",
+      "fr": "Table de ping-pong",
+      "es": "Mesa de ping-pong",
+      "de": "Tischtennisplatte",
+      "ar": "طاولة تنس الطاولة"
      }
     },
     {
