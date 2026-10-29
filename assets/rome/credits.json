@@ -150,5 +150,37 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Campo_dei_Fiori.jpg"
+ },
+ "quirinale": {
+  "src": "rome/quirinale",
+  "title": "Roma - Piazza del Quirinale (41068410090).jpg",
+  "author": "Fred Romero from Paris, France",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Roma_-_Piazza_del_Quirinale_(41068410090).jpg"
+ },
+ "piazza-barberini": {
+  "src": "rome/piazza-barberini",
+  "title": "Fontana del Tritone(Triton Fountain), Rome, Italy (Ank Kumar, Infosys Limited) 05.jpg",
+  "author": "Ank Kumar",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fontana_del_Tritone(Triton_Fountain),_Rome,_Italy_(Ank_Kumar,_Infosys_Limited)_05.jpg"
+ },
+ "via-del-corso": {
+  "src": "rome/via-del-corso",
+  "title": "Via del Corso à Roma (4999193609).jpg",
+  "author": "Citizen59 from Tunis, Tunisie",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Via_del_Corso_%C3%A0_Roma_(4999193609).jpg"
+ },
+ "largo-del-nazareno": {
+  "src": "rome/largo-del-nazareno",
+  "title": "Trevi - l go d Nazareno pal d Bufalo P1040170.JPG",
+  "author": "Lalupa",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Trevi_-_l_go_d_Nazareno_pal_d_Bufalo_P1040170.JPG"
  }
 }

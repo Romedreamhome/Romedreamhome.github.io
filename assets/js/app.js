@@ -21,7 +21,7 @@
   function langInfo(c) { return LANGS.filter(function (l) { return l.code === c; })[0] || LANGS[0]; }
   function tx(v) { if (v == null) return ""; if (typeof v === "string") return v; return v[state.lang] || v.en || ""; }
   function t(key, vars) {
-    var s = tx(UI[key]) || key;
+    var s = tx((D && D.ui && D.ui[key]) || UI[key]) || key; /* per-apartment overrides in data.json "ui" */
     if (vars) Object.keys(vars).forEach(function (k) { s = s.split("{" + k + "}").join(vars[k]); });
     return s;
   }
@@ -197,7 +197,7 @@
     ]);
   };
   R.code = function (b) {
-    var val = h("button", { type: "button", class: "code-value", "aria-label": t("copy") + " " + tx(b.label) + " " + b.value }, ltr(b.value.split("").join(" ")));
+    var val = h("button", { type: "button", class: "code-value" + (b.value.length > 5 ? " long" : ""), "aria-label": t("copy") + " " + tx(b.label) + " " + b.value }, ltr(b.value.split("").join(" ")));
     val.addEventListener("click", function () { copy(b.value, tx(b.label), card); });
     var card = h("div", { class: "code-card" }, [
       h("div", { class: "code-top" }, [icon(b.icon || "lock"), h("span", { text: tx(b.label) })]), val,
@@ -221,7 +221,7 @@
       plus.onclick = function () { set(Math.min(max, get() + 1)); upd(); };
       return { el: h("div", { class: "stp" }, [h("span", { class: "stp-l", text: label }), h("div", { class: "stp-c" }, [minus, v, plus])]), v: v };
     }
-    var sg = stepper(t("guests"), function () { return g; }, function (x) { g = x; }, 1, 12), gv = sg.v;
+    var sg = stepper(t("guests"), function () { return g; }, function (x) { g = x; }, 1, D.maxGuests || 12), gv = sg.v;
     var sn = stepper(t("nights"), function () { return n; }, function (x) { n = x; }, 1, 30), nv = sn.v;
     var el = h("section", { class: "tax-card" }, [
       h("div", { class: "tax-head" }, [icon("euro"), h("p", { text: tx(b.text) })]),
@@ -282,7 +282,7 @@
     var panels = [];
     b.tabs.forEach(function (tab, i) {
       var tid = sid + "-tab-" + i, pid = sid + "-panel-" + i;
-      var tb = h("button", { type: "button", role: "tab", id: tid, "aria-controls": pid, "aria-selected": i === 0 ? "true" : "false", tabindex: i === 0 ? "0" : "-1", class: "tab" }, [icon("plane"), h("span", { text: tx(tab.label) })]);
+      var tb = h("button", { type: "button", role: "tab", id: tid, "aria-controls": pid, "aria-selected": i === 0 ? "true" : "false", tabindex: i === 0 ? "0" : "-1", class: "tab" }, [icon(tab.icon || "plane"), h("span", { text: tx(tab.label) })]);
       var panel = h("div", { role: "tabpanel", id: pid, "aria-labelledby": tid, class: "tabpanel", tabindex: "0" });
       if (i) panel.hidden = true;
       panel.appendChild(h("ul", { class: "routes" }, tab.routes.map(function (r) { return renderRoute(r, tab.origin); })));
@@ -516,6 +516,16 @@
       h("span", { class: "ah-code-h" }, [icon("copy", "i-copy"), icon("check", "i-check"), h("span", { text: t("tapToCopy") })])
     ]);
     code.addEventListener("click", function () { copy(D.lockboxCode, t("quickCode"), code); });
+    /* optional street-door keypad code (data.json "doorCode"), shown above the lockbox code */
+    var door = null;
+    if (D.doorCode) {
+      door = h("button", { type: "button", class: "ah-code ah-door", "aria-label": t("copy") + " " + t("doorCode") + " " + D.doorCode }, [
+        h("span", { class: "ah-code-l" }, [icon("door"), h("span", { text: t("doorCode") })]),
+        h("span", { class: "ah-code-v" + (D.doorCode.length > 5 ? " long" : "") }, ltr(D.doorCode.split("").join(" "))),
+        h("span", { class: "ah-code-h" }, [icon("copy", "i-copy"), icon("check", "i-check"), h("span", { text: t("tapToCopy") })])
+      ]);
+      door.addEventListener("click", function () { copy(D.doorCode.replace(/#$/, ""), t("doorCode"), door); });
+    }
     var save = h("p", { class: "ah-save" }, [icon("save-phone"), h("span", { text: t("saveBeforeTrip") })]);
     save.classList.add("js-save"); if (isStandalone()) save.hidden = true;
     save.setAttribute("role", "button"); save.tabIndex = 0;
@@ -523,7 +533,7 @@
     save.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); saveToPhone(); } });
     var sec = h("section", { id: "arrival-home", class: "arrival-home", "aria-labelledby": "ah-title" }, [
       h("div", { class: "ah-head" }, [h("span", { class: "ah-arch" }, icon("key")), h("div", null, [h("h2", { id: "ah-title", text: t("arrivalTitle") }), h("p", { class: "ah-sub", text: t("arrivalSub") })])]),
-      code,
+      door, code,
       h("ol", { class: "steps ah-steps" }, D.arrival.steps.map(function (s, i) { return h("li", null, [h("span", { class: "step-n", "aria-hidden": "true", text: String(i + 1) }), h("p", { text: tx(s) })]); })),
       h("div", { class: "actions center ah-actions" }, [supCall(null, "btn-primary btn-wide"), supWa(t("whatsapp"))]),
       save

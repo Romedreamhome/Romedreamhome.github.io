@@ -757,3 +757,8 @@ html[lang="ar"] .pb-sub { letter-spacing: 0; }
 .cl-list { counter-reset: cl; }
 .cl-txt > strong::before { counter-increment: cl; content: counter(cl) ". "; color: var(--gold); }
 .cl-txt > strong { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
+
+/* long codes (e.g. street door keypad "21219#") stay on one line */
+.ah-code-v.long, .code-value.long { white-space: nowrap; letter-spacing: .08em; }
+.ah-code-v.long { font-size: clamp(28px, 9vw, 40px); }
+.code-value.long { font-size: clamp(28px, 9vw, 38px); }

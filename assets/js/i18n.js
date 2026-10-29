@@ -47,6 +47,7 @@ window.RDH_UI = {
   wifiHint: { en: "Tap the password to copy it, then select the network in your Wi-Fi settings.", it: "Toccate la password per copiarla, poi selezionate la rete nelle impostazioni Wi-Fi.", fr: "Touchez le mot de passe pour le copier, puis choisissez le réseau dans vos réglages Wi-Fi.", es: "Toque la contraseña para copiarla y luego elija la red en los ajustes de Wi-Fi.", de: "Tippen Sie auf das Passwort, um es zu kopieren, und wählen Sie dann das Netzwerk in den WLAN-Einstellungen.", ar: "اضغطوا على كلمة المرور لنسخها، ثم اختاروا الشبكة من إعدادات الواي فاي." },
   quickAccess: { en: "Essentials", it: "Essenziali", fr: "L’essentiel", es: "Lo esencial", de: "Das Wichtigste", ar: "الأساسيات" },
   quickWifi: { en: "Wi-Fi password", it: "Password Wi-Fi", fr: "Mot de passe Wi-Fi", es: "Contraseña Wi-Fi", de: "WLAN-Passwort", ar: "كلمة مرور الواي فاي" },
+  doorCode: { en: "Street door code", it: "Codice portone", fr: "Code de la porte d’entrée", es: "Código del portal", de: "Haustür-Code", ar: "رمز باب المبنى" },
   quickCode: { en: "Lockbox code", it: "Codice cassetta", fr: "Code boîte à clés", es: "Código de la caja", de: "Schlüsselsafe-Code", ar: "رمز صندوق المفاتيح" },
   tapToReveal: { en: "Tap to reveal", it: "Tocca per vedere", fr: "Touchez pour afficher", es: "Toque para ver", de: "Zum Anzeigen tippen", ar: "اضغطوا للعرض" },
   tapToCopy: { en: "Tap to copy", it: "Tocca per copiare", fr: "Touchez pour copier", es: "Toque para copiar", de: "Zum Kopieren tippen", ar: "اضغطوا للنسخ" },
