@@ -1225,16 +1225,9 @@
        },
        "maps": "Piazza di Spagna, Roma",
        "photo": {
-        "src": "rome/spanish-steps",
-        "place": "Piazza di Spagna – Trinità dei Monti",
-        "area": false,
-        "credit": {
-         "title": "Spanish Steps and Trinità dei Monti church - Rome.JPG",
-         "author": "John Chapman",
-         "license": "CC BY-SA 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Spanish_Steps_and_Trinit%C3%A0_dei_Monti_church_-_Rome.JPG"
-        }
+        "src": "img/piazza-di-spagna",
+        "own": true,
+        "pos": "50% 0%"
        }
       },
       {
@@ -1257,16 +1250,9 @@
        },
        "maps": "Fontana di Trevi, Roma",
        "photo": {
-        "src": "rome/trevi-fountain",
-        "place": "Fontana di Trevi",
-        "area": false,
-        "credit": {
-         "title": "Fontaine Trevi - Rome.jpg",
-         "author": "Wilfredor",
-         "license": "CC0",
-         "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-         "source": "https://commons.wikimedia.org/wiki/File:Fontaine_Trevi_-_Rome.jpg"
-        }
+        "src": "img/trevi-fountain",
+        "own": true,
+        "pos": "50% 40%"
        }
       }
      ]
@@ -1337,16 +1323,9 @@
        },
        "maps": "Laghetto di Villa Borghese, Roma",
        "photo": {
-        "src": "rome/villa-borghese-lake",
-        "place": "Laghetto di Villa Borghese",
-        "area": false,
-        "credit": {
-         "title": "Laghetto and Tempio di Esculapio in Villa Borghese 02.jpg",
-         "author": "Krzysztof Golik",
-         "license": "CC BY-SA 4.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Laghetto_and_Tempio_di_Esculapio_in_Villa_Borghese_02.jpg"
-        }
+        "src": "img/villa-borghese-lake",
+        "own": true,
+        "pos": "50% 30%"
        }
       },
       {
@@ -1368,16 +1347,8 @@
         "ar": "تناولوا الغداء في الهواء الطلق في **فيلا بورغيزي** أو على تلة **جانيكولو**."
        },
        "photo": {
-        "src": "rome/villa-borghese-pines",
-        "place": "Villa Borghese",
-        "area": false,
-        "credit": {
-         "title": "Roma I pini di Villa Borghese (52348438966).jpg",
-         "author": "Jorge Franganillo",
-         "license": "CC BY 2.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Roma_I_pini_di_Villa_Borghese_(52348438966).jpg"
-        }
+        "src": "img/villa-borghese-pines",
+        "own": true
        }
       },
       {
@@ -1399,16 +1370,9 @@
         "ar": "تجوّلوا في **المركز التاريخي**: فيا ديل كورسو، ساحة فينيسيا، الكولوسيوم، تراستيفيري."
        },
        "photo": {
-        "src": "rome/piazza-venezia",
-        "place": "Piazza Venezia",
-        "area": false,
-        "credit": {
-         "title": "Piazza Venezia - Il Vittoriano (cropped).jpg",
-         "author": "Paolo Costa Baldi",
-         "license": "CC BY-SA 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Piazza_Venezia_-_Il_Vittoriano_(cropped).jpg"
-        }
+        "src": "img/piazza-venezia",
+        "own": true,
+        "pos": "50% 35%"
        }
       }
      ]
@@ -1970,16 +1934,8 @@
        },
        "icon": "basket",
        "photo": {
-        "src": "rome/campo-de-fiori",
-        "place": "Campo de’ Fiori",
-        "area": false,
-        "credit": {
-         "title": "Campo dei Fiori.jpg",
-         "author": "Myrabella",
-         "license": "CC BY-SA 3.0",
-         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-         "source": "https://commons.wikimedia.org/wiki/File:Campo_dei_Fiori.jpg"
-        }
+        "src": "img/campo-de-fiori",
+        "own": true
        }
       },
       {
