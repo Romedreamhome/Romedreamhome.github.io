@@ -41,6 +41,17 @@
  "music": true,
  "photos": [
   {
+   "src": "img/dining",
+   "alt": {
+    "en": "Living room with the table laid",
+    "it": "Salone con la tavola apparecchiata",
+    "fr": "Salon avec la table dressée",
+    "es": "Salón con la mesa puesta",
+    "de": "Wohnzimmer mit gedecktem Tisch",
+    "ar": "الصالة مع مائدة مُعدّة"
+   }
+  },
+  {
    "src": "img/living-billiard",
    "alt": {
     "en": "Living room with billiard table",
@@ -49,39 +60,6 @@
     "es": "Salón con mesa de billar",
     "de": "Wohnzimmer mit Billardtisch",
     "ar": "صالة الجلوس مع طاولة البلياردو"
-   }
-  },
-  {
-   "src": "img/dining",
-   "alt": {
-    "en": "Dining area in the living room",
-    "it": "Zona pranzo nel salone",
-    "fr": "Coin repas dans le salon",
-    "es": "Comedor en el salón",
-    "de": "Essbereich im Wohnzimmer",
-    "ar": "منطقة الطعام في الصالة"
-   }
-  },
-  {
-   "src": "img/ping-pong",
-   "alt": {
-    "en": "Ping pong table",
-    "it": "Tavolo da ping pong",
-    "fr": "Table de ping-pong",
-    "es": "Mesa de ping-pong",
-    "de": "Tischtennisplatte",
-    "ar": "طاولة تنس الطاولة"
-   }
-  },
-  {
-   "src": "img/fireplace",
-   "alt": {
-    "en": "Marble fireplace",
-    "it": "Camino in marmo",
-    "fr": "Cheminée en marbre",
-    "es": "Chimenea de mármol",
-    "de": "Marmorkamin",
-    "ar": "مدفأة رخامية"
    }
   },
   {
@@ -98,12 +76,12 @@
   {
    "src": "img/bedroom-2",
    "alt": {
-    "en": "Double bedroom",
-    "it": "Camera matrimoniale",
-    "fr": "Chambre double",
-    "es": "Dormitorio doble",
-    "de": "Doppelzimmer",
-    "ar": "غرفة نوم مزدوجة"
+    "en": "Large double bedroom with sofa bed",
+    "it": "Ampia camera matrimoniale con divano letto",
+    "fr": "Grande chambre double avec canapé-lit",
+    "es": "Amplio dormitorio doble con sofá cama",
+    "de": "Großes Doppelzimmer mit Schlafsofa",
+    "ar": "غرفة نوم مزدوجة واسعة مع أريكة سرير"
    }
   },
   {
@@ -129,14 +107,25 @@
    }
   },
   {
-   "src": "img/terrace-2",
+   "src": "img/bedroom-5",
    "alt": {
-    "en": "Terrace with outdoor dining table",
-    "it": "Terrazza con tavolo da pranzo all’aperto",
-    "fr": "Terrasse avec table à manger extérieure",
-    "es": "Terraza con mesa de comedor exterior",
-    "de": "Terrasse mit Esstisch im Freien",
-    "ar": "شرفة مع طاولة طعام خارجية"
+    "en": "Bedroom",
+    "it": "Camera da letto",
+    "fr": "Chambre",
+    "es": "Dormitorio",
+    "de": "Schlafzimmer",
+    "ar": "غرفة نوم"
+   }
+  },
+  {
+   "src": "img/terrace",
+   "alt": {
+    "en": "Terrace over the rooftops",
+    "it": "Terrazza sui tetti",
+    "fr": "Terrasse sur les toits",
+    "es": "Terraza sobre los tejados",
+    "de": "Terrasse über den Dächern",
+    "ar": "شرفة تطل على الأسطح"
    }
   }
  ],
@@ -177,14 +166,26 @@
     },
     {
      "type": "photo",
+     "src": "img/dining",
+     "alt": {
+      "en": "Living room with the table laid",
+      "it": "Salone con la tavola apparecchiata",
+      "fr": "Salon avec la table dressée",
+      "es": "Salón con la mesa puesta",
+      "de": "Wohnzimmer mit gedecktem Tisch",
+      "ar": "الصالة مع مائدة مُعدّة"
+     }
+    },
+    {
+     "type": "photo",
      "src": "img/living-billiard",
      "alt": {
-      "en": "The apartment",
-      "it": "L’appartamento",
-      "fr": "L’appartement",
-      "es": "El apartamento",
-      "de": "Die Wohnung",
-      "ar": "الشقة"
+      "en": "Living room with billiard table",
+      "it": "Salone con tavolo da biliardo",
+      "fr": "Salon avec table de billard",
+      "es": "Salón con mesa de billar",
+      "de": "Wohnzimmer mit Billardtisch",
+      "ar": "صالة الجلوس مع طاولة البلياردو"
      }
     },
     {
@@ -201,26 +202,14 @@
     },
     {
      "type": "photo",
-     "src": "img/dining",
+     "src": "img/bedroom-2",
      "alt": {
-      "en": "Dining area in the living room",
-      "it": "Zona pranzo nel salone",
-      "fr": "Coin repas dans le salon",
-      "es": "Comedor en el salón",
-      "de": "Essbereich im Wohnzimmer",
-      "ar": "منطقة الطعام في الصالة"
-     }
-    },
-    {
-     "type": "photo",
-     "src": "img/ping-pong",
-     "alt": {
-      "en": "Ping pong table",
-      "it": "Tavolo da ping pong",
-      "fr": "Table de ping-pong",
-      "es": "Mesa de ping-pong",
-      "de": "Tischtennisplatte",
-      "ar": "طاولة تنس الطاولة"
+      "en": "Large double bedroom with sofa bed",
+      "it": "Ampia camera matrimoniale con divano letto",
+      "fr": "Grande chambre double avec canapé-lit",
+      "es": "Amplio dormitorio doble con sofá cama",
+      "de": "Großes Doppelzimmer mit Schlafsofa",
+      "ar": "غرفة نوم مزدوجة واسعة مع أريكة سرير"
      }
     },
     {
