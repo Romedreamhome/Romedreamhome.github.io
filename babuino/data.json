@@ -1679,8 +1679,7 @@
        "icon": "coffee",
        "photo": {
         "src": "img/venue-bar-ciampini",
-        "own": true,
-        "pos": "50% 0%"
+        "own": true
        },
        "phone": "+39 06 6876606"
       }
@@ -1762,7 +1761,8 @@
        "icon": "dining",
        "photo": {
         "src": "img/venue-alfredo-alla-scrofa",
-        "own": true
+        "own": true,
+        "pos": "50% 0%"
        }
       },
       {
@@ -1781,7 +1781,8 @@
        "icon": "dining",
        "photo": {
         "src": "img/venue-taverna-trilussa",
-        "own": true
+        "own": true,
+        "pos": "50% 25%"
        }
       },
       {
@@ -1887,7 +1888,8 @@
        "icon": "cart",
        "photo": {
         "src": "img/venue-carrefour-express",
-        "own": true
+        "own": true,
+        "pos": "50% 0%"
        }
       },
       {
