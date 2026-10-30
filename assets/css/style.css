@@ -278,6 +278,13 @@ html.js .tile.in, html.js .q.in, html.js .g-item.in, html.js .sec-head.in { opac
 .block-head .orn { width: 72px; margin-bottom: 10px; }
 .block-head h3 { font: 500 13px/1.3 var(--sans); letter-spacing: .3em; text-transform: uppercase; color: var(--b); padding-inline-start: .3em; }
 .block-head .sub { margin-top: 6px; font: italic 400 17px/1.3 var(--serif); color: var(--muted); }
+.sub-head { display: flex; align-items: center; gap: 12px; margin: 18px 0 2px; }
+.sub-head .sh-line { flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--gold-2)); }
+.sub-head .sh-line:last-child { background: linear-gradient(90deg, var(--gold-2), transparent); }
+.sub-head .sh-txt { display: inline-flex; align-items: center; gap: 7px; padding: 5px 14px; border: 1px solid var(--gold-3); border-radius: 999px; background: rgba(255, 255, 255, .6); font: italic 500 16px/1.2 var(--serif); color: var(--b); white-space: nowrap; }
+.sub-head .sbh-ico { display: inline-flex; width: 15px; height: 15px; color: var(--gold); }
+.sub-head .sbh-ico svg { width: 100%; height: 100%; }
+html[lang="ar"] .sub-head .sh-txt { font-style: normal; font-family: "Noto Naskh Arabic", serif; }
 
 .photo { margin: 0; border-radius: 160px 160px var(--r) var(--r); overflow: hidden; box-shadow: var(--shadow); border: 1px solid var(--line-gold); aspect-ratio: 3 / 2; }
 .photo img { width: 100%; height: 100%; object-fit: cover; }

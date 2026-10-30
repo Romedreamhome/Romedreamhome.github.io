@@ -180,6 +180,12 @@
   R.heading = function (b) {
     return h("div", { class: "block-head" }, [h("span", { class: "orn", "aria-hidden": "true" }), h("h3", { text: tx(b.text) }), b.sub ? h("p", { class: "sub", text: tx(b.sub) }) : null]);
   };
+  /* optional per-guide group label (used only by guides whose data has "subhead" blocks) */
+  R.subhead = function (b) {
+    return h("div", { class: "sub-head" }, [h("span", { class: "sh-line", "aria-hidden": "true" }),
+      h("span", { class: "sh-txt" }, [icon(b.icon || "pin", "sbh-ico"), h("span", { text: tx(b.text) })]),
+      h("span", { class: "sh-line", "aria-hidden": "true" })]);
+  };
   R.signature = function (b) { return h("p", { class: "signature" }, [h("span", { class: "dash", "aria-hidden": "true" }), b.text]); };
   R.closing = function (b) { return h("p", { class: "closing" }, [icon("laurel", "laurel"), h("span", { text: tx(b.text) })]); };
   R.photo = function (b) {

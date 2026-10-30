@@ -182,5 +182,29 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Trevi_-_l_go_d_Nazareno_pal_d_Bufalo_P1040170.JPG"
+ },
+ "piazza-navona": {
+  "src": "rome/piazza-navona",
+  "title": "Piazza Navona Sant'Agnese in Agone fontana dei Fiumi Roma.jpg",
+  "author": "Wolfgang Moroder",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Piazza_Navona_Sant%27Agnese_in_Agone_fontana_dei_Fiumi_Roma.jpg"
+ },
+ "castel-santangelo": {
+  "src": "rome/castel-santangelo",
+  "title": "Castel Sant'Angelo at dusk, Rome, Italy.jpg",
+  "author": "Jebulon",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Castel_Sant%27Angelo_at_dusk,_Rome,_Italy.jpg"
+ },
+ "st-peters-square": {
+  "src": "rome/st-peters-square",
+  "title": "Piazza San Pietro Panorama from basilica.jpg",
+  "author": "Till Niermann",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Piazza_San_Pietro_Panorama_from_basilica.jpg"
  }
 }
