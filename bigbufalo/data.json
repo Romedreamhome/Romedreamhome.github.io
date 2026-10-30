@@ -156,12 +156,12 @@
     {
      "type": "text",
      "text": {
-      "en": "**Big Bufalo** is a **180 m²** apartment with **2 terraces**, **5 bedrooms** and **2 bathrooms**, on the **3rd floor** of an elegant **historic palazzo d’epoca** in the heart of Rome, a few steps from the **Trevi Fountain** and about **5 minutes** from **Piazza di Spagna**.",
-      "it": "**Big Bufalo** è un appartamento di **180 m²** con **2 terrazze**, **5 camere** e **2 bagni**, al **terzo piano** di un elegante **palazzo d’epoca** nel cuore di Roma, a pochi passi dalla **Fontana di Trevi** e a circa **5 minuti** da **Piazza di Spagna**.",
-      "fr": "**Big Bufalo** est un appartement de **180 m²** avec **2 terrasses**, **5 chambres** et **2 salles de bains**, au **3e étage** d’un élégant **palazzo d’epoca** au cœur de Rome, à deux pas de la **fontaine de Trevi** et à environ **5 minutes** de la **place d’Espagne**.",
-      "es": "**Big Bufalo** es un apartamento de **180 m²** con **2 terrazas**, **5 dormitorios** y **2 baños**, en la **3ª planta** de un elegante **palazzo d’epoca** en el corazón de Roma, a pocos pasos de la **Fontana de Trevi** y a unos **5 minutos** de la **Plaza de España**.",
-      "de": "**Big Bufalo** ist eine **180 m²** große Wohnung mit **2 Terrassen**, **5 Schlafzimmern** und **2 Bädern** im **3. Stock** eines eleganten **historischen Palazzo d’epoca** im Herzen Roms, nur wenige Schritte vom **Trevi-Brunnen** und etwa **5 Minuten** von der **Spanischen Treppe** entfernt.",
-      "ar": "**Big Bufalo** شقة بمساحة **180 م²** مع **شرفتين** و**5 غرف نوم** و**حمّامين**، في **الطابق الثالث** من **قصر تاريخي** أنيق (palazzo d’epoca) في قلب روما، على بُعد خطوات من **نافورة تريفي** وحوالي **5 دقائق** من **ساحة إسبانيا**."
+      "en": "**Big Bufalo** is a **180 m²** apartment with **2 terraces**, **5 bedrooms** and **2 bathrooms**, on the **3rd floor** (**door on the left**) of an elegant **historic palazzo d’epoca** in the heart of Rome, a few steps from the **Trevi Fountain** and about **5 minutes** from **Piazza di Spagna**.",
+      "it": "**Big Bufalo** è un appartamento di **180 m²** con **2 terrazze**, **5 camere** e **2 bagni**, al **terzo piano** (**porta a sinistra**) di un elegante **palazzo d’epoca** nel cuore di Roma, a pochi passi dalla **Fontana di Trevi** e a circa **5 minuti** da **Piazza di Spagna**.",
+      "fr": "**Big Bufalo** est un appartement de **180 m²** avec **2 terrasses**, **5 chambres** et **2 salles de bains**, au **3e étage** (**porte de gauche**) d’un élégant **palazzo d’epoca** au cœur de Rome, à deux pas de la **fontaine de Trevi** et à environ **5 minutes** de la **place d’Espagne**.",
+      "es": "**Big Bufalo** es un apartamento de **180 m²** con **2 terrazas**, **5 dormitorios** y **2 baños**, en la **3ª planta** (**puerta de la izquierda**) de un elegante **palazzo d’epoca** en el corazón de Roma, a pocos pasos de la **Fontana de Trevi** y a unos **5 minutos** de la **Plaza de España**.",
+      "de": "**Big Bufalo** ist eine **180 m²** große Wohnung mit **2 Terrassen**, **5 Schlafzimmern** und **2 Bädern** im **3. Stock** (**linke Tür**) eines eleganten **historischen Palazzo d’epoca** im Herzen Roms, nur wenige Schritte vom **Trevi-Brunnen** und etwa **5 Minuten** von der **Spanischen Treppe** entfernt.",
+      "ar": "**Big Bufalo** شقة بمساحة **180 م²** مع **شرفتين** و**5 غرف نوم** و**حمّامين**، في **الطابق الثالث** (**الباب الأيسر**) من **قصر تاريخي** أنيق (palazzo d’epoca) في قلب روما، على بُعد خطوات من **نافورة تريفي** وحوالي **5 دقائق** من **ساحة إسبانيا**."
      }
     },
     {
@@ -298,12 +298,12 @@
        "ar": "عند وصولكم إلى **Via del Bufalo 138A**، اكتبوا **21219** ثم اضغطوا **#** على **لوحة أرقام باب المبنى**: سيُفتح **باب المبنى**."
       },
       {
-       "en": "Go to the **3rd floor**.",
-       "it": "Andate al **terzo piano**.",
-       "fr": "Rendez-vous au **3e étage**.",
-       "es": "Vaya a la **3ª planta**.",
-       "de": "Gehen Sie in den **3. Stock**.",
-       "ar": "توجّهوا إلى **الطابق الثالث**."
+       "en": "Go to the **3rd floor**: our apartment is the **door on the left**, with the **key lockbox** on the door.",
+       "it": "Andate al **terzo piano**: il nostro appartamento è la **porta a sinistra**, con la **cassetta delle chiavi** sulla porta.",
+       "fr": "Rendez-vous au **3e étage** : notre appartement est la **porte de gauche**, avec la **boîte à clés** sur la porte.",
+       "es": "Vaya a la **3ª planta**: nuestro apartamento es la **puerta de la izquierda**, con la **caja de llaves** en la puerta.",
+       "de": "Gehen Sie in den **3. Stock**: Unsere Wohnung ist die **linke Tür**, mit dem **Schlüsselkasten** an der Tür.",
+       "ar": "توجّهوا إلى **الطابق الثالث**: شقتنا هي **الباب الأيسر**، و**صندوق المفاتيح** على الباب."
       },
       {
        "en": "The **lockbox is on the apartment door**: enter the code **4207**, open it and **take the keys**.",
@@ -2773,12 +2773,12 @@
     "ar": "عند وصولكم إلى **Via del Bufalo 138A**، اكتبوا **21219** ثم اضغطوا **#** على **لوحة أرقام باب المبنى**: سيُفتح **باب المبنى**."
    },
    {
-    "en": "Go to the **3rd floor**.",
-    "it": "Andate al **terzo piano**.",
-    "fr": "Rendez-vous au **3e étage**.",
-    "es": "Vaya a la **3ª planta**.",
-    "de": "Gehen Sie in den **3. Stock**.",
-    "ar": "توجّهوا إلى **الطابق الثالث**."
+    "en": "Go to the **3rd floor**: our apartment is the **door on the left**, with the **key lockbox** on the door.",
+    "it": "Andate al **terzo piano**: il nostro appartamento è la **porta a sinistra**, con la **cassetta delle chiavi** sulla porta.",
+    "fr": "Rendez-vous au **3e étage** : notre appartement est la **porte de gauche**, avec la **boîte à clés** sur la porte.",
+    "es": "Vaya a la **3ª planta**: nuestro apartamento es la **puerta de la izquierda**, con la **caja de llaves** en la puerta.",
+    "de": "Gehen Sie in den **3. Stock**: Unsere Wohnung ist die **linke Tür**, mit dem **Schlüsselkasten** an der Tür.",
+    "ar": "توجّهوا إلى **الطابق الثالث**: شقتنا هي **الباب الأيسر**، و**صندوق المفاتيح** على الباب."
    },
    {
     "en": "The **lockbox is on the apartment door**: enter the code **4207**, open it and **take the keys**.",

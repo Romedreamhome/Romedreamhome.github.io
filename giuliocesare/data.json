@@ -134,12 +134,12 @@
     {
      "type": "text",
      "text": {
-      "en": "**Giulio Cesare** is an apartment for up to **6 guests**, with **1 double bedroom** with smart TV, a **large living room** with **2 double sofa beds** and smart TV, a **fully equipped kitchen** and **1 bathroom**, on the **3rd floor** of an elegant **historic palazzo d’epoca** in the heart of Rome, a few steps from the **Trevi Fountain** and about **5 minutes** from **Piazza di Spagna**.",
-      "it": "**Giulio Cesare** è un appartamento per un massimo di **6 ospiti**, con **1 camera matrimoniale** con smart TV, un **ampio soggiorno** con **2 divani letto matrimoniali** e smart TV, **cucina attrezzata** e **1 bagno**, al **terzo piano** di un elegante **palazzo d’epoca** nel cuore di Roma, a pochi passi dalla **Fontana di Trevi** e a circa **5 minuti** da **Piazza di Spagna**.",
-      "fr": "**Giulio Cesare** est un appartement pour **6 personnes** maximum, avec **1 chambre double** avec smart TV, un **grand salon** avec **2 canapés-lits doubles** et smart TV, une **cuisine entièrement équipée** et **1 salle de bains**, au **3e étage** d’un élégant **palazzo d’epoca** au cœur de Rome, à deux pas de la **fontaine de Trevi** et à environ **5 minutes** de la **place d’Espagne**.",
-      "es": "**Giulio Cesare** es un apartamento para un máximo de **6 huéspedes**, con **1 dormitorio doble** con smart TV, un **amplio salón** con **2 sofás cama dobles** y smart TV, **cocina totalmente equipada** y **1 baño**, en la **3ª planta** de un elegante **palazzo d’epoca** en el corazón de Roma, a pocos pasos de la **Fontana de Trevi** y a unos **5 minutos** de la **Plaza de España**.",
-      "de": "**Giulio Cesare** ist eine Wohnung für bis zu **6 Gäste** mit **1 Doppelzimmer** mit Smart-TV, einem **großen Wohnzimmer** mit **2 Doppel-Schlafsofas** und Smart-TV, einer **voll ausgestatteten Küche** und **1 Bad** im **3. Stock** eines eleganten **historischen Palazzo d’epoca** im Herzen Roms, nur wenige Schritte vom **Trevi-Brunnen** und etwa **5 Minuten** von der **Spanischen Treppe** entfernt.",
-      "ar": "**Giulio Cesare** شقة تتسع لما يصل إلى **6 ضيوف**، تضم **غرفة نوم مزدوجة واحدة** مع تلفزيون ذكي، و**صالة جلوس واسعة** مع **أريكتين سريرين مزدوجتين** وتلفزيون ذكي، و**مطبخاً مجهزاً بالكامل** و**حمّاماً واحداً**، في **الطابق الثالث** من **قصر تاريخي** أنيق (palazzo d’epoca) في قلب روما، على بُعد خطوات من **نافورة تريفي** وحوالي **5 دقائق** من **ساحة إسبانيا**."
+      "en": "**Giulio Cesare** is an apartment for up to **6 guests**, with **1 double bedroom** with smart TV, a **large living room** with **2 double sofa beds** and smart TV, a **fully equipped kitchen** and **1 bathroom**, on the **3rd floor** (**door on the right**) of an elegant **historic palazzo d’epoca** in the heart of Rome, a few steps from the **Trevi Fountain** and about **5 minutes** from **Piazza di Spagna**.",
+      "it": "**Giulio Cesare** è un appartamento per un massimo di **6 ospiti**, con **1 camera matrimoniale** con smart TV, un **ampio soggiorno** con **2 divani letto matrimoniali** e smart TV, **cucina attrezzata** e **1 bagno**, al **terzo piano** (**porta a destra**) di un elegante **palazzo d’epoca** nel cuore di Roma, a pochi passi dalla **Fontana di Trevi** e a circa **5 minuti** da **Piazza di Spagna**.",
+      "fr": "**Giulio Cesare** est un appartement pour **6 personnes** maximum, avec **1 chambre double** avec smart TV, un **grand salon** avec **2 canapés-lits doubles** et smart TV, une **cuisine entièrement équipée** et **1 salle de bains**, au **3e étage** (**porte de droite**) d’un élégant **palazzo d’epoca** au cœur de Rome, à deux pas de la **fontaine de Trevi** et à environ **5 minutes** de la **place d’Espagne**.",
+      "es": "**Giulio Cesare** es un apartamento para un máximo de **6 huéspedes**, con **1 dormitorio doble** con smart TV, un **amplio salón** con **2 sofás cama dobles** y smart TV, **cocina totalmente equipada** y **1 baño**, en la **3ª planta** (**puerta de la derecha**) de un elegante **palazzo d’epoca** en el corazón de Roma, a pocos pasos de la **Fontana de Trevi** y a unos **5 minutos** de la **Plaza de España**.",
+      "de": "**Giulio Cesare** ist eine Wohnung für bis zu **6 Gäste** mit **1 Doppelzimmer** mit Smart-TV, einem **großen Wohnzimmer** mit **2 Doppel-Schlafsofas** und Smart-TV, einer **voll ausgestatteten Küche** und **1 Bad** im **3. Stock** (**rechte Tür**) eines eleganten **historischen Palazzo d’epoca** im Herzen Roms, nur wenige Schritte vom **Trevi-Brunnen** und etwa **5 Minuten** von der **Spanischen Treppe** entfernt.",
+      "ar": "**Giulio Cesare** شقة تتسع لما يصل إلى **6 ضيوف**، تضم **غرفة نوم مزدوجة واحدة** مع تلفزيون ذكي، و**صالة جلوس واسعة** مع **أريكتين سريرين مزدوجتين** وتلفزيون ذكي، و**مطبخاً مجهزاً بالكامل** و**حمّاماً واحداً**، في **الطابق الثالث** (**الباب الأيمن**) من **قصر تاريخي** أنيق (palazzo d’epoca) في قلب روما، على بُعد خطوات من **نافورة تريفي** وحوالي **5 دقائق** من **ساحة إسبانيا**."
      }
     },
     {
@@ -276,12 +276,12 @@
        "ar": "عند وصولكم إلى **Via del Bufalo 138A**، اكتبوا **21219** ثم اضغطوا **#** على **لوحة أرقام باب المبنى**: سيُفتح **باب المبنى**."
       },
       {
-       "en": "Go to the **3rd floor**.",
-       "it": "Andate al **terzo piano**.",
-       "fr": "Rendez-vous au **3e étage**.",
-       "es": "Vaya a la **3ª planta**.",
-       "de": "Gehen Sie in den **3. Stock**.",
-       "ar": "توجّهوا إلى **الطابق الثالث**."
+       "en": "Go to the **3rd floor**: our apartment is the **door on the right**, with the **key lockbox** on the door.",
+       "it": "Andate al **terzo piano**: il nostro appartamento è la **porta a destra**, con la **cassetta delle chiavi** sulla porta.",
+       "fr": "Rendez-vous au **3e étage** : notre appartement est la **porte de droite**, avec la **boîte à clés** sur la porte.",
+       "es": "Vaya a la **3ª planta**: nuestro apartamento es la **puerta de la derecha**, con la **caja de llaves** en la puerta.",
+       "de": "Gehen Sie in den **3. Stock**: Unsere Wohnung ist die **rechte Tür**, mit dem **Schlüsselkasten** an der Tür.",
+       "ar": "توجّهوا إلى **الطابق الثالث**: شقتنا هي **الباب الأيمن**، و**صندوق المفاتيح** على الباب."
       },
       {
        "en": "The **lockbox is on the apartment door**: enter the code **3027**, open it and **take the keys**.",
@@ -2694,12 +2694,12 @@
     "ar": "عند وصولكم إلى **Via del Bufalo 138A**، اكتبوا **21219** ثم اضغطوا **#** على **لوحة أرقام باب المبنى**: سيُفتح **باب المبنى**."
    },
    {
-    "en": "Go to the **3rd floor**.",
-    "it": "Andate al **terzo piano**.",
-    "fr": "Rendez-vous au **3e étage**.",
-    "es": "Vaya a la **3ª planta**.",
-    "de": "Gehen Sie in den **3. Stock**.",
-    "ar": "توجّهوا إلى **الطابق الثالث**."
+    "en": "Go to the **3rd floor**: our apartment is the **door on the right**, with the **key lockbox** on the door.",
+    "it": "Andate al **terzo piano**: il nostro appartamento è la **porta a destra**, con la **cassetta delle chiavi** sulla porta.",
+    "fr": "Rendez-vous au **3e étage** : notre appartement est la **porte de droite**, avec la **boîte à clés** sur la porte.",
+    "es": "Vaya a la **3ª planta**: nuestro apartamento es la **puerta de la derecha**, con la **caja de llaves** en la puerta.",
+    "de": "Gehen Sie in den **3. Stock**: Unsere Wohnung ist die **rechte Tür**, mit dem **Schlüsselkasten** an der Tür.",
+    "ar": "توجّهوا إلى **الطابق الثالث**: شقتنا هي **الباب الأيمن**، و**صندوق المفاتيح** على الباب."
    },
    {
     "en": "The **lockbox is on the apartment door**: enter the code **3027**, open it and **take the keys**.",
