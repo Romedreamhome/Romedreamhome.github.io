@@ -52,36 +52,14 @@
    }
   },
   {
-   "src": "img/living-2",
+   "src": "img/dining",
    "alt": {
-    "en": "Living room",
-    "it": "Soggiorno",
-    "fr": "Salon",
-    "es": "Salón",
-    "de": "Wohnzimmer",
-    "ar": "غرفة المعيشة"
-   }
-  },
-  {
-   "src": "img/living-3",
-   "alt": {
-    "en": "Living room",
-    "it": "Soggiorno",
-    "fr": "Salon",
-    "es": "Salón",
-    "de": "Wohnzimmer",
-    "ar": "غرفة المعيشة"
-   }
-  },
-  {
-   "src": "img/living-4",
-   "alt": {
-    "en": "Living room",
-    "it": "Soggiorno",
-    "fr": "Salon",
-    "es": "Salón",
-    "de": "Wohnzimmer",
-    "ar": "غرفة المعيشة"
+    "en": "Dining area",
+    "it": "Zona pranzo",
+    "fr": "Coin repas",
+    "es": "Comedor",
+    "de": "Essbereich",
+    "ar": "منطقة الطعام"
    }
   },
   {
@@ -109,34 +87,23 @@
   {
    "src": "img/bedroom-3",
    "alt": {
-    "en": "Double bedroom",
-    "it": "Camera matrimoniale",
-    "fr": "Chambre double",
-    "es": "Dormitorio doble",
-    "de": "Doppelzimmer",
-    "ar": "غرفة نوم مزدوجة"
+    "en": "Second bedroom",
+    "it": "Seconda camera",
+    "fr": "Deuxième chambre",
+    "es": "Segundo dormitorio",
+    "de": "Zweites Schlafzimmer",
+    "ar": "غرفة النوم الثانية"
    }
   },
   {
-   "src": "img/bedroom-4",
+   "src": "img/palazzo",
    "alt": {
-    "en": "Double bedroom",
-    "it": "Camera matrimoniale",
-    "fr": "Chambre double",
-    "es": "Dormitorio doble",
-    "de": "Doppelzimmer",
-    "ar": "غرفة نوم مزدوجة"
-   }
-  },
-  {
-   "src": "img/bedroom-5",
-   "alt": {
-    "en": "Double bedroom",
-    "it": "Camera matrimoniale",
-    "fr": "Chambre double",
-    "es": "Dormitorio doble",
-    "de": "Doppelzimmer",
-    "ar": "غرفة نوم مزدوجة"
+    "en": "The palazzo",
+    "it": "Il palazzo",
+    "fr": "Le palais",
+    "es": "El palacio",
+    "de": "Der Palazzo",
+    "ar": "المبنى"
    }
   },
   {
@@ -212,26 +179,26 @@
     },
     {
      "type": "photo",
-     "src": "img/living-4",
+     "src": "img/dining",
      "alt": {
-      "en": "Living room",
-      "it": "Soggiorno",
-      "fr": "Salon",
-      "es": "Salón",
-      "de": "Wohnzimmer",
-      "ar": "غرفة المعيشة"
+      "en": "Dining area",
+      "it": "Zona pranzo",
+      "fr": "Coin repas",
+      "es": "Comedor",
+      "de": "Essbereich",
+      "ar": "منطقة الطعام"
      }
     },
     {
      "type": "photo",
-     "src": "img/bedroom-4",
+     "src": "img/bedroom-3",
      "alt": {
-      "en": "Double bedroom",
-      "it": "Camera matrimoniale",
-      "fr": "Chambre double",
-      "es": "Dormitorio doble",
-      "de": "Doppelzimmer",
-      "ar": "غرفة نوم مزدوجة"
+      "en": "Second bedroom",
+      "it": "Seconda camera",
+      "fr": "Deuxième chambre",
+      "es": "Segundo dormitorio",
+      "de": "Zweites Schlafzimmer",
+      "ar": "غرفة النوم الثانية"
      }
     },
     {
