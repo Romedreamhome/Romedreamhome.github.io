@@ -325,12 +325,12 @@
       },
       {
        "text": {
-        "en": "At the door you’ll see a **keypad**: enter **1379A** and **keep the A pressed** until the street door **opens**.",
-        "it": "Al portone trovate un **tastierino**: digitate **1379A** e **tenete premuta la A** finché il portone **non si apre**.",
-        "fr": "À la porte, vous verrez un **clavier à code** : tapez **1379A** et **maintenez le A appuyé** jusqu’à ce que la porte **s’ouvre**.",
-        "es": "En el portal verá un **teclado**: marque **1379A** y **mantenga pulsada la A** hasta que el portal **se abra**.",
-        "de": "An der Tür sehen Sie ein **Tastenfeld**: Geben Sie **1379A** ein und **halten Sie das A gedrückt**, bis die Haustür **aufgeht**.",
-        "ar": "عند الباب سترون **لوحة مفاتيح**: أدخلوا **1379A** و**استمروا بالضغط على A** حتى **يُفتح** باب المبنى."
+        "en": "At the door you’ll see a **keypad**: enter the code **1379**, then **press and hold the letter A** until the street door **opens**.",
+        "it": "Al portone trovate un **tastierino**: digitate il codice **1379**, poi **premete e tenete premuta la lettera A** finché il portone **non si apre**.",
+        "fr": "À la porte, vous verrez un **clavier à code** : tapez le code **1379**, puis **appuyez sur la lettre A et maintenez-la** jusqu’à ce que la porte **s’ouvre**.",
+        "es": "En el portal verá un **teclado**: marque el código **1379** y luego **pulse y mantenga pulsada la letra A** hasta que el portal **se abra**.",
+        "de": "An der Tür sehen Sie ein **Tastenfeld**: Geben Sie den Code **1379** ein, dann **drücken und halten Sie den Buchstaben A**, bis die Haustür **aufgeht**.",
+        "ar": "عند الباب سترون **لوحة مفاتيح**: أدخلوا الرمز **1379**، ثم **اضغطوا مع الاستمرار على الحرف A** حتى **يُفتح** باب المبنى."
        },
        "photos": [
         {
@@ -407,14 +407,14 @@
     {
      "type": "code",
      "label": {
-      "en": "Street door code · keep the A pressed",
-      "it": "Codice portone · tenete premuta la A",
-      "fr": "Code de la porte · maintenez le A appuyé",
-      "es": "Código del portal · mantenga pulsada la A",
-      "de": "Haustür-Code · A gedrückt halten",
-      "ar": "رمز باب المبنى · استمروا بالضغط على A"
+      "en": "Street door code · then press and hold A",
+      "it": "Codice portone · poi tenete premuta la A",
+      "fr": "Code de la porte · puis maintenez le A appuyé",
+      "es": "Código del portal · luego mantenga pulsada la A",
+      "de": "Haustür-Code · dann A gedrückt halten",
+      "ar": "رمز باب المبنى · ثم اضغطوا مع الاستمرار على A"
      },
-     "value": "1379A",
+     "value": "1379",
      "icon": "door"
     },
     {
@@ -479,12 +479,12 @@
         "ar": "باب المبنى لا يُفتح؟"
        },
        "a": {
-        "en": "Enter **1379A** again and **keep the A pressed** until it opens. Still closed? **Call us**.",
-        "it": "Digitate di nuovo **1379A** e **tenete premuta la A** finché si apre. Ancora chiuso? **Chiamateci**.",
-        "fr": "Tapez à nouveau **1379A** et **maintenez le A appuyé** jusqu’à l’ouverture. Toujours fermée ? **Appelez-nous**.",
-        "es": "Marque otra vez **1379A** y **mantenga pulsada la A** hasta que se abra. ¿Sigue cerrado? **Llámenos**.",
-        "de": "Geben Sie **1379A** erneut ein und **halten Sie das A gedrückt**, bis sie aufgeht. Immer noch zu? **Rufen Sie uns an**.",
-        "ar": "أدخلوا **1379A** مجدداً و**استمروا بالضغط على A** حتى يُفتح. ما زال مغلقاً؟ **اتصلوا بنا**."
+        "en": "Enter **1379** again, then **press and hold the letter A** until it opens. Still closed? **Call us**.",
+        "it": "Digitate di nuovo **1379**, poi **premete e tenete premuta la lettera A** finché si apre. Ancora chiuso? **Chiamateci**.",
+        "fr": "Tapez à nouveau **1379**, puis **appuyez sur la lettre A et maintenez-la** jusqu’à l’ouverture. Toujours fermée ? **Appelez-nous**.",
+        "es": "Marque otra vez **1379** y luego **pulse y mantenga pulsada la letra A** hasta que se abra. ¿Sigue cerrado? **Llámenos**.",
+        "de": "Geben Sie **1379** erneut ein, dann **drücken und halten Sie den Buchstaben A**, bis sie aufgeht. Immer noch zu? **Rufen Sie uns an**.",
+        "ar": "أدخلوا **1379** مجدداً، ثم **اضغطوا مع الاستمرار على الحرف A** حتى يُفتح. ما زال مغلقاً؟ **اتصلوا بنا**."
        }
       },
       {
@@ -857,12 +857,12 @@
        "ar": "**Vicolo della Palomba** زقاق صغير على بُعد **دقيقتين** سيراً تقريباً: الرقم **4** هو **الباب الأخضر**."
       },
       {
-       "en": "Enter **1379A** on the keypad and **keep the A pressed** until the door opens.",
-       "it": "Digitate **1379A** sul tastierino e **tenete premuta la A** finché il portone si apre.",
-       "fr": "Tapez **1379A** sur le clavier et **maintenez le A appuyé** jusqu’à l’ouverture de la porte.",
-       "es": "Marque **1379A** en el teclado y **mantenga pulsada la A** hasta que se abra el portal.",
-       "de": "Geben Sie **1379A** am Tastenfeld ein und **halten Sie das A gedrückt**, bis die Tür aufgeht.",
-       "ar": "أدخلوا **1379A** على لوحة المفاتيح و**استمروا بالضغط على A** حتى يُفتح الباب."
+       "en": "Enter the code **1379** on the keypad, then **press and hold the letter A** until the door opens.",
+       "it": "Digitate il codice **1379** sul tastierino, poi **premete e tenete premuta la lettera A** finché il portone si apre.",
+       "fr": "Tapez le code **1379** sur le clavier, puis **appuyez sur la lettre A et maintenez-la** jusqu’à l’ouverture de la porte.",
+       "es": "Marque el código **1379** en el teclado y luego **pulse y mantenga pulsada la letra A** hasta que se abra el portal.",
+       "de": "Geben Sie den Code **1379** am Tastenfeld ein, dann **drücken und halten Sie den Buchstaben A**, bis die Tür aufgeht.",
+       "ar": "أدخلوا الرمز **1379** على لوحة المفاتيح، ثم **اضغطوا مع الاستمرار على الحرف A** حتى يُفتح الباب."
       }
      ]
     },
@@ -2959,12 +2959,12 @@
     "ar": "عند وصولكم إلى **Vicolo della Palomba 4**: **باب المبنى الأخضر** الظاهر في الصورة."
    },
    {
-    "en": "At the door you’ll see a **keypad**: enter **1379A** and **keep the A pressed** until the street door **opens**.",
-    "it": "Al portone trovate un **tastierino**: digitate **1379A** e **tenete premuta la A** finché il portone **non si apre**.",
-    "fr": "À la porte, vous verrez un **clavier à code** : tapez **1379A** et **maintenez le A appuyé** jusqu’à ce que la porte **s’ouvre**.",
-    "es": "En el portal verá un **teclado**: marque **1379A** y **mantenga pulsada la A** hasta que el portal **se abra**.",
-    "de": "An der Tür sehen Sie ein **Tastenfeld**: Geben Sie **1379A** ein und **halten Sie das A gedrückt**, bis die Haustür **aufgeht**.",
-    "ar": "عند الباب سترون **لوحة مفاتيح**: أدخلوا **1379A** و**استمروا بالضغط على A** حتى **يُفتح** باب المبنى."
+    "en": "At the door you’ll see a **keypad**: enter the code **1379**, then **press and hold the letter A** until the street door **opens**.",
+    "it": "Al portone trovate un **tastierino**: digitate il codice **1379**, poi **premete e tenete premuta la lettera A** finché il portone **non si apre**.",
+    "fr": "À la porte, vous verrez un **clavier à code** : tapez le code **1379**, puis **appuyez sur la lettre A et maintenez-la** jusqu’à ce que la porte **s’ouvre**.",
+    "es": "En el portal verá un **teclado**: marque el código **1379** y luego **pulse y mantenga pulsada la letra A** hasta que el portal **se abra**.",
+    "de": "An der Tür sehen Sie ein **Tastenfeld**: Geben Sie den Code **1379** ein, dann **drücken und halten Sie den Buchstaben A**, bis die Haustür **aufgeht**.",
+    "ar": "عند الباب سترون **لوحة مفاتيح**: أدخلوا الرمز **1379**، ثم **اضغطوا مع الاستمرار على الحرف A** حتى **يُفتح** باب المبنى."
    },
    {
     "en": "Take the **elevator** to the **3rd floor**. When you exit, **in front of you** there is the **key box**: enter the code **109** and take the **apartment keys**.",
@@ -2992,10 +2992,18 @@
    }
   ]
  },
- "doorCode": "1379A",
+ "doorCode": "1379",
  "maxGuests": 9,
  "registration": "IT058091C28DO5YUYZ",
  "ui": {
+  "doorCode": {
+   "en": "Street door code · then hold A",
+   "it": "Codice portone · poi tenete premuta la A",
+   "fr": "Code de la porte · puis maintenez A",
+   "es": "Código del portal · luego mantenga A",
+   "de": "Haustür-Code · dann A halten",
+   "ar": "رمز الباب · ثم اضغطوا على A مطوّلاً"
+  },
   "arrivalTitle": {
    "en": "Arrival in 5 steps",
    "it": "Arrivo in 5 passi",
