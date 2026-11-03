@@ -457,12 +457,12 @@
     {
      "type": "tax",
      "text": {
-      "en": "Rome **tourist tax**: **€6 per person per night** (**children under 10** are exempt). With self check-in it is paid on the **check-out day**: leave it **in cash on the table next to the keys** and close the door. Please make sure you have already sent us a **photo of your passport** for the registration of your stay.",
-      "it": "**Tassa di soggiorno** di Roma: **6 € a persona a notte** (esenti i **bambini sotto i 10 anni**). Con il self check-in si paga il **giorno del check-out**: lasciatela **in contanti sul tavolo accanto alle chiavi** e chiudete la porta. Assicuratevi di averci già inviato la **foto del passaporto** per la registrazione del soggiorno.",
-      "fr": "**Taxe de séjour** de Rome : **6 € par personne et par nuit** (les **enfants de moins de 10 ans** en sont exemptés). Avec le self check-in, elle se paie le **jour du départ** : laissez-la **en espèces sur la table à côté des clés** et fermez la porte. Assurez-vous de nous avoir déjà envoyé la **photo de votre passeport** pour l’enregistrement de votre séjour.",
-      "es": "**Tasa turística** de Roma: **6 € por persona y noche** (exentos los **niños menores de 10 años**). Con el self check-in se paga el **día del check-out**: déjela **en efectivo sobre la mesa junto a las llaves** y cierre la puerta. Asegúrese de habernos enviado ya la **foto de su pasaporte** para el registro de su estancia.",
-      "de": "Römische **Kurtaxe**: **6 € pro Person und Nacht** (**Kinder unter 10 Jahren** sind befreit). Beim Self-Check-in wird sie am **Abreisetag** bezahlt: Lassen Sie sie **in bar auf dem Tisch neben den Schlüsseln** und schließen Sie die Tür. Bitte stellen Sie sicher, dass Sie uns bereits ein **Foto Ihres Reisepasses** für die Anmeldung Ihres Aufenthalts geschickt haben.",
-      "ar": "**ضريبة السياحة** في روما: **6 يورو للشخص في الليلة** (يُعفى منها **الأطفال دون 10 سنوات**). مع تسجيل الدخول الذاتي تُدفع **يوم المغادرة**: اتركوها **نقداً على الطاولة بجانب المفاتيح** وأغلقوا الباب. يُرجى التأكد من أنكم أرسلتم إلينا **صورة جواز السفر** لتسجيل إقامتكم."
+      "en": "Rome **tourist tax**: **€6 per person per night** (**children under 10** are exempt). With self check-in it is paid on the **check-out day**: leave it **in cash on the table** and close the door. Please make sure you have already sent us a **photo of your passport** for the registration of your stay.",
+      "it": "**Tassa di soggiorno** di Roma: **6 € a persona a notte** (esenti i **bambini sotto i 10 anni**). Con il self check-in si paga il **giorno del check-out**: lasciatela **in contanti sul tavolo** e chiudete la porta. Assicuratevi di averci già inviato la **foto del passaporto** per la registrazione del soggiorno.",
+      "fr": "**Taxe de séjour** de Rome : **6 € par personne et par nuit** (les **enfants de moins de 10 ans** en sont exemptés). Avec le self check-in, elle se paie le **jour du départ** : laissez-la **en espèces sur la table** et fermez la porte. Assurez-vous de nous avoir déjà envoyé la **photo de votre passeport** pour l’enregistrement de votre séjour.",
+      "es": "**Tasa turística** de Roma: **6 € por persona y noche** (exentos los **niños menores de 10 años**). Con el self check-in se paga el **día del check-out**: déjela **en efectivo sobre la mesa** y cierre la puerta. Asegúrese de habernos enviado ya la **foto de su pasaporte** para el registro de su estancia.",
+      "de": "Römische **Kurtaxe**: **6 € pro Person und Nacht** (**Kinder unter 10 Jahren** sind befreit). Beim Self-Check-in wird sie am **Abreisetag** bezahlt: Lassen Sie sie **in bar auf dem Tisch** und schließen Sie die Tür. Bitte stellen Sie sicher, dass Sie uns bereits ein **Foto Ihres Reisepasses** für die Anmeldung Ihres Aufenthalts geschickt haben.",
+      "ar": "**ضريبة السياحة** في روما: **6 يورو للشخص في الليلة** (يُعفى منها **الأطفال دون 10 سنوات**). مع تسجيل الدخول الذاتي تُدفع **يوم المغادرة**: اتركوها **نقداً على الطاولة** وأغلقوا الباب. يُرجى التأكد من أنكم أرسلتم إلينا **صورة جواز السفر** لتسجيل إقامتكم."
      }
     },
     {
@@ -2850,31 +2850,12 @@
         "ar": "ضريبة السياحة"
        },
        "text": {
-        "en": "Leave it **in cash on the table next to the keys** (€6 per person per night, not for children under 10).",
-        "it": "Lasciatela **in contanti sul tavolo accanto alle chiavi** (6 € a persona a notte, esenti i bambini sotto i 10 anni).",
-        "fr": "Laissez-la **en espèces sur la table à côté des clés** (6 € par personne et par nuit, sauf enfants de moins de 10 ans).",
-        "es": "Déjela **en efectivo sobre la mesa junto a las llaves** (6 € por persona y noche, exentos los menores de 10 años).",
-        "de": "Lassen Sie sie **in bar auf dem Tisch neben den Schlüsseln** (6 € pro Person und Nacht, Kinder unter 10 befreit).",
-        "ar": "اتركوها **نقداً على الطاولة بجانب المفاتيح** (6 يورو للشخص في الليلة، ويُعفى الأطفال دون 10 سنوات)."
-       }
-      },
-      {
-       "icon": "key",
-       "title": {
-        "en": "Keys on the table",
-        "it": "Chiavi sul tavolo",
-        "fr": "Clés sur la table",
-        "es": "Llaves sobre la mesa",
-        "de": "Schlüssel auf den Tisch",
-        "ar": "المفاتيح على الطاولة"
-       },
-       "text": {
-        "en": "Leave the **keys on the table**, next to the tourist tax.",
-        "it": "Lasciate le **chiavi sul tavolo**, accanto alla tassa di soggiorno.",
-        "fr": "Laissez les **clés sur la table**, à côté de la taxe de séjour.",
-        "es": "Deje las **llaves sobre la mesa**, junto a la tasa turística.",
-        "de": "Legen Sie die **Schlüssel auf den Tisch**, neben die Kurtaxe.",
-        "ar": "اتركوا **المفاتيح على الطاولة** بجانب ضريبة السياحة."
+        "en": "Leave it **in cash on the table** (€6 per person per night, not for children under 10).",
+        "it": "Lasciatela **in contanti sul tavolo** (6 € a persona a notte, esenti i bambini sotto i 10 anni).",
+        "fr": "Laissez-la **en espèces sur la table** (6 € par personne et par nuit, sauf enfants de moins de 10 ans).",
+        "es": "Déjela **en efectivo sobre la mesa** (6 € por persona y noche, exentos los menores de 10 años).",
+        "de": "Lassen Sie sie **in bar auf dem Tisch** (6 € pro Person und Nacht, Kinder unter 10 befreit).",
+        "ar": "اتركوها **نقداً على الطاولة** (6 يورو للشخص في الليلة، ويُعفى الأطفال دون 10 سنوات)."
        }
       },
       {
@@ -2888,15 +2869,74 @@
         "ar": "أغلقوا الباب"
        },
        "text": {
-        "en": "Go out and **close the apartment door** behind you.",
-        "it": "Uscite e **chiudete la porta di casa** alle vostre spalle.",
-        "fr": "Sortez et **refermez la porte de l’appartement** derrière vous.",
-        "es": "Salga y **cierre la puerta del apartamento** detrás de usted.",
-        "de": "Gehen Sie hinaus und **schließen Sie die Wohnungstür** hinter sich.",
-        "ar": "اخرجوا و**أغلقوا باب الشقة** خلفكم."
+        "en": "Go out and **close the apartment door**.",
+        "it": "Uscite e **chiudete la porta di casa**.",
+        "fr": "Sortez et **fermez la porte de l’appartement**.",
+        "es": "Salga y **cierre la puerta del apartamento**.",
+        "de": "Gehen Sie hinaus und **schließen Sie die Wohnungstür**.",
+        "ar": "اخرجوا و**أغلقوا باب الشقة**."
+       }
+      },
+      {
+       "icon": "key",
+       "title": {
+        "en": "Keys in the lockbox",
+        "it": "Chiavi nella cassetta",
+        "fr": "Clés dans la boîte",
+        "es": "Llaves en la caja",
+        "de": "Schlüssel in den Safe",
+        "ar": "المفاتيح في الصندوق"
+       },
+       "text": {
+        "en": "Put the keys back in the **key box in front of the elevator** (3rd floor, code **109**) and close it.",
+        "it": "Rimettete le chiavi nella **cassetta di fronte all’ascensore** (3° piano, codice **109**) e chiudetela.",
+        "fr": "Remettez les clés dans la **boîte à clés en face de l’ascenseur** (3e étage, code **109**) et refermez-la.",
+        "es": "Vuelva a dejar las llaves en la **caja frente al ascensor** (3ª planta, código **109**) y ciérrela.",
+        "de": "Legen Sie die Schlüssel zurück in den **Schlüsselsafe gegenüber dem Aufzug** (3. Stock, Code **109**) und schließen Sie ihn.",
+        "ar": "أعيدوا المفاتيح إلى **صندوق المفاتيح مقابل المصعد** (الطابق الثالث، الرمز **109**) وأغلقوه."
+       }
+      },
+      {
+       "icon": "rotate",
+       "title": {
+        "en": "Scramble the code",
+        "it": "Mescolate il codice",
+        "fr": "Brouillez le code",
+        "es": "Mezcle el código",
+        "de": "Code verstellen",
+        "ar": "غيّروا أرقام الرمز"
+       },
+       "text": {
+        "en": "**Scramble the code** on the lockbox, **otherwise it stays open**.",
+        "it": "**Mescolate le cifre** della cassetta, **altrimenti resta aperta**.",
+        "fr": "**Brouillez les chiffres** de la boîte, **sinon elle reste ouverte**.",
+        "es": "**Mezcle los dígitos** de la caja; **de lo contrario, se queda abierta**.",
+        "de": "**Verstellen Sie die Ziffern** am Safe, **sonst bleibt er offen**.",
+        "ar": "**غيّروا أرقام** الصندوق، **وإلا سيبقى مفتوحاً**."
        }
       }
      ]
+    },
+    {
+     "type": "notice",
+     "tone": "important",
+     "icon": "key",
+     "title": {
+      "en": "Important",
+      "it": "Importante",
+      "fr": "Important",
+      "es": "Importante",
+      "de": "Wichtig",
+      "ar": "مهم"
+     },
+     "text": {
+      "en": "After putting the keys in the lockbox, always **scramble the code**: otherwise the box **stays open**.",
+      "it": "Dopo aver messo le chiavi nella cassetta, **mescolate sempre il codice**: altrimenti la cassetta **resta aperta**.",
+      "fr": "Après avoir remis les clés dans la boîte, **brouillez toujours le code** : sinon la boîte **reste ouverte**.",
+      "es": "Después de dejar las llaves en la caja, **mezcle siempre el código**: de lo contrario, la caja **se queda abierta**.",
+      "de": "Nachdem Sie die Schlüssel in den Safe gelegt haben, **verstellen Sie immer den Code**: sonst **bleibt der Safe offen**.",
+      "ar": "بعد وضع المفاتيح في الصندوق، **غيّروا أرقام الرمز دائماً**: وإلا **سيبقى الصندوق مفتوحاً**."
+     }
     },
     {
      "type": "closing",
