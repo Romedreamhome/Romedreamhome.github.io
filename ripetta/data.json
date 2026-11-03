@@ -918,6 +918,30 @@
        }
       },
       {
+       "icon": "mute",
+       "rid": "courtyard",
+       "text": {
+        "en": "It is **forbidden to linger in the courtyard**: please walk through it **quietly**, **without talking or making noise**, out of respect for the residents.",
+        "it": "È **vietato sostare nel cortile**: attraversatelo in **silenzio**, **senza parlare né fare rumore**, per rispetto dei residenti.",
+        "fr": "Il est **interdit de s’attarder dans la cour** : traversez-la en **silence**, **sans parler ni faire de bruit**, par respect pour les résidents.",
+        "es": "Está **prohibido detenerse en el patio**: atraviéselo en **silencio**, **sin hablar ni hacer ruido**, por respeto a los vecinos.",
+        "de": "Es ist **verboten, sich im Innenhof aufzuhalten**: Gehen Sie **leise** hindurch, **ohne zu reden oder Lärm zu machen**, aus Rücksicht auf die Bewohner.",
+        "ar": "**يُمنع التوقف في الفناء**: اعبروه **بهدوء** و**دون كلام أو ضجيج**، احتراماً للسكان."
+       }
+      },
+      {
+       "icon": "toilet",
+       "rid": "toilet",
+       "text": {
+        "en": "Flush **only toilet paper**: do **not** throw **wipes, sanitary products, cotton buds, paper towels, nappies** or **any other items** down the toilet.",
+        "it": "Gettate nel WC **solo carta igienica**: **non** gettate **salviette, assorbenti, cotton fioc, carta, pannolini** o **altri oggetti**.",
+        "fr": "Ne jetez dans les toilettes **que du papier toilette** : **pas** de **lingettes, protections hygiéniques, cotons-tiges, essuie-tout, couches** ni **aucun autre objet**.",
+        "es": "Tire al inodoro **solo papel higiénico**: **no** tire **toallitas, compresas, bastoncillos, papel de cocina, pañales** ni **ningún otro objeto**.",
+        "de": "Werfen Sie **nur Toilettenpapier** in die Toilette: **keine Feuchttücher, Hygieneartikel, Wattestäbchen, Papiertücher, Windeln** oder **andere Gegenstände**.",
+        "ar": "ارموا في المرحاض **ورق التواليت فقط**: **لا** ترموا **المناديل المبللة أو الفوط الصحية أو أعواد القطن أو المناشف الورقية أو الحفاضات** أو **أي أشياء أخرى**."
+       }
+      },
+      {
        "icon": "sparkles",
        "text": {
         "en": "Take care of the house, **keep the common areas clean** and leave things tidy after you use them.",
