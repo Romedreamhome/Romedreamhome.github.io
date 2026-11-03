@@ -230,5 +230,21 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:20110327_Roma_-_Gianicolo_006.jpg"
+ },
+ "foro-italico": {
+  "title": "Stadio dei Marmi e Palazzo della Farnesina (34393342414).jpg",
+  "author": "Simone Ramella from Roma, Italy",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Stadio_dei_Marmi_e_Palazzo_della_Farnesina_(34393342414).jpg",
+  "src": "rome/foro-italico"
+ },
+ "ponte-milvio": {
+  "title": "Ponte Milvio Roma DSC00400.JPG",
+  "author": "Gianni o O",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ponte_Milvio_Roma_DSC00400.JPG",
+  "src": "rome/ponte-milvio"
  }
 }
