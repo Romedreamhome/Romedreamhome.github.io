@@ -361,7 +361,8 @@
     ]);
   }
   R.wifi = function (b) {
-    var w = D.wifi;
+    /* optional per-block network (data.json wifi block "ssid"/"password"/"title"): several networks in one guide */
+    var w = b.ssid ? { ssid: b.ssid, password: b.password || D.wifi.password } : D.wifi;
     function row(label, value, ico, big) {
       var v = h("button", { type: "button", class: "wifi-val" + (big ? " big" : ""), "aria-label": t("copy") + " " + label + ": " + value }, ltr(value));
       var r = h("div", { class: "wifi-row" }, [h("span", { class: "wifi-lbl" }, [icon(ico), label]), v,
@@ -371,9 +372,10 @@
     }
     var qr = null;
     if (b.qr) { qr = h("figure", { class: "wifi-qr" }); qr.innerHTML = b.qr; qr.appendChild(h("figcaption", { text: t("scanToConnect") })); }
-    return h("div", { class: "wifi-card" }, [
+    return h("div", { class: "wifi-card" + (b.title ? " multi" : "") }, [
+      b.title ? h("p", { class: "wifi-title", text: tx(b.title) }) : null,
       h("div", { class: "wifi-rows" }, [row(t("network"), w.ssid, "router"), row(t("password"), w.password, "lock", true)]),
-      qr, h("p", { class: "hint", text: t("wifiHint") })
+      qr, b.hint === false ? null : h("p", { class: "hint", text: t("wifiHint") })
     ]);
   };
   /* ---------- share: always the clean guide URL (no #section) ---------- */
