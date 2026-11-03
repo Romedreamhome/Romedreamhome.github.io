@@ -2536,6 +2536,68 @@
     },
     {
      "type": "heading",
+     "shopStreets": true,
+     "text": {
+      "en": "Shopping streets",
+      "it": "Vie dello shopping",
+      "fr": "Rues commerçantes",
+      "es": "Calles comerciales",
+      "de": "Einkaufsstraßen",
+      "ar": "شوارع التسوق"
+     }
+    },
+    {
+     "type": "places",
+     "shopStreets": true,
+     "items": [
+      {
+       "name": "Via Cola di Rienzo",
+       "address": "Via Cola di Rienzo, 00192 Roma RM",
+       "maps": "Via Cola di Rienzo, Roma",
+       "walk": {
+        "en": "6-minute walk",
+        "it": "6 minuti a piedi",
+        "fr": "6 minutes à pied",
+        "es": "6 minutos a pie",
+        "de": "6 Minuten zu Fuß",
+        "ar": "6 دقائق سيرًا على الأقدام"
+       },
+       "icon": "handbag",
+       "text": {
+        "en": "The main shopping street of **Prati**: fashion, shoes and Italian brands, the **COIN** department store and the historic food shop **Castroni** (no. 196).",
+        "it": "La via dello shopping di **Prati**: moda, scarpe e marchi italiani, i grandi magazzini **COIN** e la storica drogheria **Castroni** (civico 196).",
+        "fr": "La grande rue commerçante de **Prati** : mode, chaussures et marques italiennes, le grand magasin **COIN** et l’épicerie historique **Castroni** (n° 196).",
+        "es": "La gran calle comercial de **Prati**: moda, zapatos y marcas italianas, los grandes almacenes **COIN** y la histórica tienda **Castroni** (n.º 196).",
+        "de": "Die Haupteinkaufsstraße von **Prati**: Mode, Schuhe und italienische Marken, das Kaufhaus **COIN** und der traditionsreiche Feinkostladen **Castroni** (Nr. 196).",
+        "ar": "شارع التسوق الرئيسي في **براتي**: أزياء وأحذية وماركات إيطالية، ومتجر **COIN** الكبير، ومتجر الأطعمة التاريخي **كاستروني** (رقم 196)."
+       }
+      },
+      {
+       "name": "Via Ottaviano",
+       "address": "Via Ottaviano, 00192 Roma RM",
+       "maps": "Via Ottaviano, Roma",
+       "walk": {
+        "en": "8-minute walk",
+        "it": "8 minuti a piedi",
+        "fr": "8 minutes à pied",
+        "es": "8 minutos a pie",
+        "de": "8 Minuten zu Fuß",
+        "ar": "8 دقائق سيرًا على الأقدام"
+       },
+       "icon": "bag",
+       "text": {
+        "en": "The lively street between **Piazza del Risorgimento** and the **Ottaviano** metro: clothing and shoe shops, high-street chains, souvenirs, cafés and gelaterias.",
+        "it": "La vivace via tra **Piazza del Risorgimento** e la metro **Ottaviano**: negozi di abbigliamento e scarpe, grandi catene, souvenir, bar e gelaterie.",
+        "fr": "La rue animée entre la **Piazza del Risorgimento** et le métro **Ottaviano** : vêtements et chaussures, grandes enseignes, souvenirs, cafés et glaciers.",
+        "es": "La animada calle entre **Piazza del Risorgimento** y el metro **Ottaviano**: tiendas de ropa y zapatos, grandes cadenas, recuerdos, cafés y heladerías.",
+        "de": "Die lebhafte Straße zwischen der **Piazza del Risorgimento** und der Metro **Ottaviano**: Mode- und Schuhgeschäfte, große Ketten, Souvenirs, Cafés und Eisdielen.",
+        "ar": "الشارع النابض بالحياة بين **ساحة ريزورجيمنتو** ومترو **أوتافيانو**: متاجر ملابس وأحذية وسلاسل كبرى وتذكارات ومقاهٍ ومحلات جيلاتو."
+       }
+      }
+     ]
+    },
+    {
+     "type": "heading",
      "text": {
       "en": "Local markets",
       "it": "Mercati rionali",
