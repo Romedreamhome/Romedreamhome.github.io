@@ -19,6 +19,7 @@
   /* ---------- helpers ---------- */
   function isLang(c) { return LANGS.some(function (l) { return l.code === c; }); }
   function langInfo(c) { return LANGS.filter(function (l) { return l.code === c; })[0] || LANGS[0]; }
+  function nm() { return D.names ? tx(D.names) : D.name; }   // optional per-language apartment name
   function tx(v) { if (v == null) return ""; if (typeof v === "string") return v; return v[state.lang] || v.en || ""; }
   function t(key, vars) {
     var s = tx((D && D.ui && D.ui[key]) || UI[key]) || key; /* per-apartment overrides in data.json "ui" */
@@ -384,7 +385,7 @@
     return (c && c.href) || (location.origin + location.pathname);
   }
   function shareGuide(el) {
-    var url = guideUrl(), title = t("pageTitle", { name: D.name });
+    var url = guideUrl(), title = t("pageTitle", { name: nm() });
     if (navigator.share) { navigator.share({ title: title, url: url }).catch(function () {}); return; }
     copy(url, t("shareLink"), el);
   }
@@ -540,7 +541,7 @@
   /* ---------- home ---------- */
   function renderHero() {
     document.getElementById("hero-eyebrow").textContent = t("welcomeBook");
-    document.getElementById("hero-name").textContent = D.name;
+    document.getElementById("hero-name").textContent = nm();
     var a = document.getElementById("hero-address");
     a.href = mapsUrl(D.address.maps || fullAddress()); ext(a);
     a.innerHTML = ""; a.appendChild(icon("pin")); a.appendChild(addrNode());
@@ -645,7 +646,7 @@
     ]));
     var fs = h("div", { class: "f-acts" }, [shareBtn("f-share", true)]);
     fs.appendChild(saveBtn("f-share f-save", true)); f.appendChild(fs);
-    f.appendChild(ext(h("a", { class: "f-addr", href: mapsUrl(D.address.maps || fullAddress()) }, [icon("pin"), addrNode(D.name + " · ")])));
+    f.appendChild(ext(h("a", { class: "f-addr", href: mapsUrl(D.address.maps || fullAddress()) }, [icon("pin"), addrNode(nm() + " · ")])));
     if (D.music) {
       var parts = t("musicCredit").split("{license}");
       f.appendChild(h("p", { class: "f-credit" }, [parts[0], ext(h("a", { href: "https://creativecommons.org/licenses/by/4.0/", text: "CC BY 4.0" })), parts[1] || ""]));
@@ -665,8 +666,8 @@
     f.appendChild(h("p", { class: "f-copy", text: "© " + new Date().getFullYear() + " Rome Dream Home · " + t("rights") }));
   }
   function renderChrome() {
-    document.title = t("pageTitle", { name: D.name });
-    var md = document.querySelector('meta[name="description"]'); if (md) md.content = t("metaDescription", { name: D.name, address: fullAddress() });
+    document.title = t("pageTitle", { name: nm() });
+    var md = document.querySelector('meta[name="description"]'); if (md) md.content = t("metaDescription", { name: nm(), address: fullAddress() });
     document.getElementById("skip").textContent = t("skip");
     document.getElementById("to-top").setAttribute("aria-label", t("toTop"));
     var hb = document.querySelector(".hero-bar"), old = document.getElementById("share-top");
@@ -787,7 +788,7 @@
     var ov = document.getElementById("intro");
     if (!ov) return;
     var title = document.getElementById("intro-title"); title.textContent = t("welcomeBook");
-    var sub = document.getElementById("intro-name"); sub.textContent = D.name;
+    var sub = document.getElementById("intro-name"); sub.textContent = nm();
     if (root.classList.contains("intro-seen") || location.hash) { ov.remove(); root.classList.add("intro-seen"); return; }
     try { sessionStorage.setItem("rdh-intro", "1"); } catch (e) {}
     var logo = document.getElementById("intro-logo"), target = document.querySelector(".hero-logo");
