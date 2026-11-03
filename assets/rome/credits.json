@@ -206,5 +206,29 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Piazza_San_Pietro_Panorama_from_basilica.jpg"
+ },
+ "vatican-museums": {
+  "src": "rome/vatican-museums",
+  "title": "Circular staircase of the Vatican Museums 02.jpg",
+  "author": "Wilfredor",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Circular_staircase_of_the_Vatican_Museums_02.jpg"
+ },
+ "borgo-pio": {
+  "src": "rome/borgo-pio",
+  "title": "Roma Borgo Pio (52985588231).jpg",
+  "author": "Jorge Franganillo",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Roma_Borgo_Pio_(52985588231).jpg"
+ },
+ "gianicolo": {
+  "src": "rome/gianicolo",
+  "title": "20110327 Roma - Gianicolo 006.jpg",
+  "author": "Amaunet",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:20110327_Roma_-_Gianicolo_006.jpg"
  }
 }
